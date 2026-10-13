@@ -1,0 +1,17 @@
+{
+  "id": "p1-delivery-packaging-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/seal_delivery.py"
+  ],
+  "wall_seconds": 1.075015125097707,
+  "cpu_seconds": 0.9499169999999999,
+  "gpu_seconds": 0,
+  "maxrss_raw": 18628608,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 629.63649
+}

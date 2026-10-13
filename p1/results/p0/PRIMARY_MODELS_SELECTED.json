@@ -1,0 +1,80 @@
+{
+  "status": "SELECTED_BEFORE_FRESH_U0_PANEL",
+  "configurations": [
+    {
+      "method": "diag_joint",
+      "seed": 2610131,
+      "condition": "measurement",
+      "checkpoint": 250
+    },
+    {
+      "method": "full_joint",
+      "seed": 2610131,
+      "condition": "measurement",
+      "checkpoint": 250
+    },
+    {
+      "method": "diag_distill",
+      "seed": 2610131,
+      "condition": "measurement",
+      "checkpoint": 3000
+    },
+    {
+      "method": "full_distill",
+      "seed": 2610131,
+      "condition": "measurement",
+      "checkpoint": 3000
+    },
+    {
+      "method": "diag_joint",
+      "seed": 2610132,
+      "condition": "measurement",
+      "checkpoint": 250
+    },
+    {
+      "method": "full_joint",
+      "seed": 2610132,
+      "condition": "measurement",
+      "checkpoint": 250
+    },
+    {
+      "method": "diag_distill",
+      "seed": 2610132,
+      "condition": "measurement",
+      "checkpoint": 3000
+    },
+    {
+      "method": "full_distill",
+      "seed": 2610132,
+      "condition": "measurement",
+      "checkpoint": 3000
+    },
+    {
+      "method": "diag_joint",
+      "seed": 2610133,
+      "condition": "measurement",
+      "checkpoint": 250
+    },
+    {
+      "method": "full_joint",
+      "seed": 2610133,
+      "condition": "measurement",
+      "checkpoint": 250
+    },
+    {
+      "method": "diag_distill",
+      "seed": 2610133,
+      "condition": "measurement",
+      "checkpoint": 2750
+    },
+    {
+      "method": "full_distill",
+      "seed": 2610133,
+      "condition": "measurement",
+      "checkpoint": 2750
+    }
+  ],
+  "old_tests": "exposed regression only",
+  "new_Maxwell": 0,
+  "new_B1": 0
+}

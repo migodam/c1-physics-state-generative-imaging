@@ -1,0 +1,6 @@
+{"problem": "p0", "panel": "exposed", "method": "full_distill", "condition": "state", "seed": 2610131, "KL": 0.13142418504211334, "KL_refined": 0.1317222959328337, "event_MAE": 0.016608192059444388, "coverage90": 0.859375}
+{"problem": "p0", "panel": "exposed", "method": "full_distill", "condition": "state", "seed": 2610132, "KL": 0.13387151266520375, "KL_refined": 0.1357302598653778, "event_MAE": 0.01294639211834546, "coverage90": 0.8515625}
+{"problem": "p0", "panel": "exposed", "method": "full_distill", "condition": "state", "seed": 2610133, "KL": 0.15608490242200396, "KL_refined": 0.15768672205611167, "event_MAE": 0.016977758680157058, "coverage90": 0.8515625}
+{"problem": "p0", "panel": "exposed", "method": "full_distill", "condition": "memory", "seed": 2610131, "KL": 0.1360979364943044, "KL_refined": 0.13650501452531705, "event_MAE": 0.013379201665158498, "coverage90": 0.8515625}
+{"problem": "p0", "panel": "exposed", "method": "full_distill", "condition": "memory", "seed": 2610132, "KL": 0.11439034585068408, "KL_refined": 0.1162371409906033, "event_MAE": 0.015101634217058783, "coverage90": 0.84375}
+{"problem": "p0", "panel": "exposed", "method": "full_distill", "condition": "memory", "seed": 2610133, "KL": 0.13230085628955776, "KL_refined": 0.132620551683454, "event_MAE": 0.016301836545367515, "coverage90": 0.8515625}

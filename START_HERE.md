@@ -1,5 +1,7 @@
 # C1 阅读入口
 
+最新：[C1-P1 密度修复报告](p1/C1_P1_RESEARCH_REPORT_ZH.md)，[决定](p1/C1_P1_DECISION.md)，[结果](p1/C1_P1_RESULTS.csv)。旧C1报告与失败证据保留。
+
 这是 2026-10-13 完成的研究与最小实验公开记录。无需预定义 topology 类别，直接生成连续材料分布；当前 physics-state/memory 未显示稳定增益。
 
 建议阅读顺序：

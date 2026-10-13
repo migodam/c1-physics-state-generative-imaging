@@ -1,0 +1,273 @@
+{
+  "rows": [
+    {
+      "problem": "u0",
+      "model": "mdn",
+      "seed": 2610131,
+      "draws": 262144,
+      "old_boundary_draws": 37,
+      "float64_boundary_draws": 3,
+      "max_abs_latent": 43.690067291259766,
+      "max_coordinate_decode_change": 3.7930517216011594e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "measurement",
+      "seed": 2610131,
+      "draws": 262144,
+      "old_boundary_draws": 14,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 22.28976058959961,
+      "max_coordinate_decode_change": 3.818015583689771e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "state",
+      "seed": 2610131,
+      "draws": 262144,
+      "old_boundary_draws": 4,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 21.57757568359375,
+      "max_coordinate_decode_change": 3.8324334017403316e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "memory",
+      "seed": 2610131,
+      "draws": 262144,
+      "old_boundary_draws": 1,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 18.293529510498047,
+      "max_coordinate_decode_change": 3.8099499555244165e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "mdn",
+      "seed": 2610132,
+      "draws": 262144,
+      "old_boundary_draws": 3,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 20.30803108215332,
+      "max_coordinate_decode_change": 3.7784180584310434e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "measurement",
+      "seed": 2610132,
+      "draws": 262144,
+      "old_boundary_draws": 1,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 17.24540901184082,
+      "max_coordinate_decode_change": 3.7930775942385253e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "state",
+      "seed": 2610132,
+      "draws": 262144,
+      "old_boundary_draws": 6,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 22.516555786132812,
+      "max_coordinate_decode_change": 3.8048820405478523e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "memory",
+      "seed": 2610132,
+      "draws": 262144,
+      "old_boundary_draws": 36,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 29.712182998657227,
+      "max_coordinate_decode_change": 3.748632160238685e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "mdn",
+      "seed": 2610133,
+      "draws": 262144,
+      "old_boundary_draws": 18,
+      "float64_boundary_draws": 4,
+      "max_abs_latent": 45.380638122558594,
+      "max_coordinate_decode_change": 3.7614656767104293e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "measurement",
+      "seed": 2610133,
+      "draws": 262144,
+      "old_boundary_draws": 1,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 16.82293701171875,
+      "max_coordinate_decode_change": 3.7862509483233e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "state",
+      "seed": 2610133,
+      "draws": 262144,
+      "old_boundary_draws": 0,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 16.167789459228516,
+      "max_coordinate_decode_change": 3.787537004029673e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "u0",
+      "model": "memory",
+      "seed": 2610133,
+      "draws": 262144,
+      "old_boundary_draws": 0,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 16.01535415649414,
+      "max_coordinate_decode_change": 3.7601698643641157e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn",
+      "seed": 2610131,
+      "draws": 65536,
+      "old_boundary_draws": 5,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 23.292709350585938,
+      "max_coordinate_decode_change": 3.721841030923656e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "measurement",
+      "seed": 2610131,
+      "draws": 65536,
+      "old_boundary_draws": 1,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 18.039737701416016,
+      "max_coordinate_decode_change": 3.6862718033603414e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn_state",
+      "seed": 2610131,
+      "draws": 65536,
+      "old_boundary_draws": 8,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 21.971372604370117,
+      "max_coordinate_decode_change": 3.726640356305211e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn_memory",
+      "seed": 2610131,
+      "draws": 65536,
+      "old_boundary_draws": 3,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 32.6245002746582,
+      "max_coordinate_decode_change": 3.738184948254286e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn",
+      "seed": 2610132,
+      "draws": 65536,
+      "old_boundary_draws": 2,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 20.632383346557617,
+      "max_coordinate_decode_change": 3.7233824112803404e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "measurement",
+      "seed": 2610132,
+      "draws": 65536,
+      "old_boundary_draws": 0,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 14.791698455810547,
+      "max_coordinate_decode_change": 3.826751493463121e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn_state",
+      "seed": 2610132,
+      "draws": 65536,
+      "old_boundary_draws": 2,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 19.142475128173828,
+      "max_coordinate_decode_change": 3.680380213921808e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn_memory",
+      "seed": 2610132,
+      "draws": 65536,
+      "old_boundary_draws": 7,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 22.71758460998535,
+      "max_coordinate_decode_change": 3.7216721082700133e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn",
+      "seed": 2610133,
+      "draws": 65536,
+      "old_boundary_draws": 3,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 36.183319091796875,
+      "max_coordinate_decode_change": 3.7095161875555505e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "measurement",
+      "seed": 2610133,
+      "draws": 65536,
+      "old_boundary_draws": 3,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 29.483196258544922,
+      "max_coordinate_decode_change": 3.739146872128174e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn_state",
+      "seed": 2610133,
+      "draws": 65536,
+      "old_boundary_draws": 0,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 14.26595401763916,
+      "max_coordinate_decode_change": 3.6659256608118085e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    },
+    {
+      "problem": "p0",
+      "model": "mdn_memory",
+      "seed": 2610133,
+      "draws": 65536,
+      "old_boundary_draws": 1,
+      "float64_boundary_draws": 0,
+      "max_abs_latent": 18.264299392700195,
+      "max_coordinate_decode_change": 3.7497358595928176e-07,
+      "scope": "same frozen weights, same latent RNG; primary samples/physical receipts preserved"
+    }
+  ],
+  "physical_evaluations": 0,
+  "training_runs": 0,
+  "numerical_fix": "future decoding casts latent to float64; original frozen results not reranked or overwritten",
+  "point_mass": "continuous mathematical q, finite precision image coordinates; no exact-image probability claim",
+  "original_gallery_and_physical_samples": "kept at their verified original coordinates"
+}

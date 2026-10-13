@@ -1,0 +1,11 @@
+problem,method,condition,training_runs,training_validation_save_cpu,optimizer_updates,new_Maxwell,new_B1,new_GPU,cold_uncached_candidate_setup_mf,cold_uncached_candidate_setup_RHS
+u0,diag_joint,measurement,3,5.729086000000001,4500,0,0,0,0,0
+u0,full_joint,measurement,3,6.215147000000002,4500,0,0,0,0,0
+u0,diag_distill,measurement,3,7.741381000000003,4500,0,0,0,0,0
+u0,full_distill,measurement,3,8.002626000000001,4500,0,0,0,0,0
+p0,diag_joint,measurement,3,6.796578,9000,0,0,0,0,0
+p0,full_joint,measurement,3,7.551935,9000,0,0,0,0,0
+p0,diag_distill,measurement,3,10.670532999999999,9000,0,0,0,0,0
+p0,full_distill,measurement,3,11.462110999999997,9000,0,0,0,0,0
+p0,full_distill,state,3,10.712356999999999,9000,0,0,0,2,12
+p0,full_distill,memory,3,13.001238999999998,9000,0,0,0,2,12

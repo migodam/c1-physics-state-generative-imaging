@@ -1,0 +1,4 @@
+{"problem": "u0", "covariance": "diagonal", "non_amortized_KL": 0.007330469070769255, "amortized_KL": 0.18424487980501394}
+{"problem": "u0", "covariance": "full", "non_amortized_KL": 0.007146747048090736, "amortized_KL": 0.20741594843872835}
+{"problem": "p0", "covariance": "diagonal", "non_amortized_KL": 0.37609958556092243, "amortized_KL": 0.4564828227009364}
+{"problem": "p0", "covariance": "full", "non_amortized_KL": 0.07401015631192388, "amortized_KL": 0.1543434043337204}

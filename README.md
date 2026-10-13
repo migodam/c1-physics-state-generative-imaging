@@ -1,5 +1,8 @@
 # C1 — Physics-State Probabilistic Generative Imaging
 
+
+**最新研究：[C1-P1 密度修复报告](p1/C1_P1_RESEARCH_REPORT_ZH.md) · [逐模型/seed结果](p1/C1_P1_RESULTS.csv) · [下一步决定](p1/C1_P1_DECISION.md) · [完整下载](https://github.com/migodam/c1-physics-state-generative-imaging/releases/tag/c1-p1-2026-10-13)。** P0事件MAE约.0124、KL约.132；新U0仍约.0424/.166，state/memory无稳定优势。新增Maxwell/B1/GPU为0，继续小型density修复并等待匹配B1资产。
+
 2026-10-13，统一、无预定义拓扑类别的材料概率生成研究与最小 CPU 实验。
 
 **当前结果：生成器可以保留多个受限材料参数区域；事件概率误差约 5 个百分点；候选物理状态及记忆没有跨三个训练 seed 的稳定优势。保留统一材料生成方向，停止扩大当前 state/GRU 模型。**

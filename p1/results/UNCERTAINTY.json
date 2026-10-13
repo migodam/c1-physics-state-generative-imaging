@@ -1,0 +1,4898 @@
+[
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 1.0806178373089486,
+    "ci95": [
+      0.9577313334987352,
+      1.2134521378232208
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.050439882886860736,
+    "ci95": [
+      0.045185308254923305,
+      0.056543826746041324
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.8203125,
+    "ci95": [
+      0.75,
+      0.890625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.06512370879903337,
+    "ci95": [
+      0.05562699803732113,
+      0.07448331311290649
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.05279669636224437,
+    "ci95": [
+      0.04657353914729017,
+      0.06000314527844173
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.03246124814522448,
+    "ci95": [
+      0.02456746614590291,
+      0.0416934057539581
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.6928750019526049,
+    "ci95": [
+      0.6050860166200009,
+      0.7845568908937544
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.03590104708255146,
+    "ci95": [
+      0.03122725008231608,
+      0.04075005716293359
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.8203125,
+    "ci95": [
+      0.75,
+      0.890625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.041337768413591075,
+    "ci95": [
+      0.033411561066861044,
+      0.04965500077649966
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.036682808718930704,
+    "ci95": [
+      0.03077661839825078,
+      0.04323361730250571
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.02252983088953908,
+    "ci95": [
+      0.017374376445194982,
+      0.0284755232938211
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.3805934844972315,
+    "ci95": [
+      0.31124782154352043,
+      0.4539815713039773
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.01367243985660048,
+    "ci95": [
+      0.01149735878319073,
+      0.01608543780526929
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.8671875,
+    "ci95": [
+      0.8046875,
+      0.921875
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.011097517965210666,
+    "ci95": [
+      0.009725155229552451,
+      0.012549932591190707
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.013047803415419008,
+    "ci95": [
+      0.01101699667940506,
+      0.015245407325098837
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.008567437448802074,
+    "ci95": [
+      0.006900750777816451,
+      0.010411553494701397
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.11241276167471609,
+    "ci95": [
+      0.09139007921826435,
+      0.1343672107748668
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.010311146748907053,
+    "ci95": [
+      0.008702766465965274,
+      0.012195632281376677
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.859375,
+    "ci95": [
+      0.796875,
+      0.9140625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.007169818572450465,
+    "ci95": [
+      0.006048165685548513,
+      0.008332566817938663
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.009198422638222245,
+    "ci95": [
+      0.0071735362024903625,
+      0.011749349913754351
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.007628140417002428,
+    "ci95": [
+      0.0067080387439086816,
+      0.008657053515326252
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 1.0806178373089486,
+    "ci95": [
+      0.9577313334987352,
+      1.2134521378232208
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.050439882886860736,
+    "ci95": [
+      0.045185308254923305,
+      0.056543826746041324
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.8203125,
+    "ci95": [
+      0.75,
+      0.890625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.06512370879903337,
+    "ci95": [
+      0.05562699803732113,
+      0.07448331311290649
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.05279669636224437,
+    "ci95": [
+      0.04657353914729017,
+      0.06000314527844173
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.03246124814522448,
+    "ci95": [
+      0.02456746614590291,
+      0.0416934057539581
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 1.0172351808232842,
+    "ci95": [
+      0.8939673606239212,
+      1.1396233287895248
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.05301628978117561,
+    "ci95": [
+      0.04638411361601825,
+      0.05983255733587496
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.84375,
+    "ci95": [
+      0.7734375,
+      0.90625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04506200982480052,
+    "ci95": [
+      0.03870478117831961,
+      0.05175994957297163
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.04838372184387778,
+    "ci95": [
+      0.04232782362109252,
+      0.05521747462545455
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.033704402563846256,
+    "ci95": [
+      0.027008974485742687,
+      0.04162063166526538
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.9273876188438906,
+    "ci95": [
+      0.8451481843545399,
+      1.0141559041291086
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.03856695935919814,
+    "ci95": [
+      0.03470324705475431,
+      0.0425456727416704
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.8515625,
+    "ci95": [
+      0.7890625,
+      0.9140625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.05541582623551289,
+    "ci95": [
+      0.049084667301342276,
+      0.06253284409273788
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.038546953376474236,
+    "ci95": [
+      0.03362002122891494,
+      0.04448439216043589
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.01780370228139642,
+    "ci95": [
+      0.013284058816124137,
+      0.023308818256367277
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.39089121617995154,
+    "ci95": [
+      0.3250240296671835,
+      0.461170587783155
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.01673702068149891,
+    "ci95": [
+      0.01507250575035001,
+      0.018528099048582665
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.8828125,
+    "ci95": [
+      0.8203125,
+      0.9375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.012393697072331155,
+    "ci95": [
+      0.011243458324002474,
+      0.013590538711602065
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.014382574990645056,
+    "ci95": [
+      0.012827626446205418,
+      0.016012459405135397
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.00867853991692404,
+    "ci95": [
+      0.007586417088334193,
+      0.009914745793872304
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.1582663709123292,
+    "ci95": [
+      0.1254416645068605,
+      0.19234016606198226
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.014865309285297426,
+    "ci95": [
+      0.013124316526239936,
+      0.016779171980950212
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.8359375,
+    "ci95": [
+      0.7732421875,
+      0.8984375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.016825333980351114,
+    "ci95": [
+      0.01446036722232514,
+      0.01944088155473985
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.01259918846049415,
+    "ci95": [
+      0.011133461242559645,
+      0.014174386990531836
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.008862099627435881,
+    "ci95": [
+      0.007036133733404369,
+      0.010924139572514526
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 1.0172351808232842,
+    "ci95": [
+      0.8939673606239212,
+      1.1396233287895248
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.05301628978117561,
+    "ci95": [
+      0.04638411361601825,
+      0.05983255733587496
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.84375,
+    "ci95": [
+      0.7734375,
+      0.90625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04506200982480052,
+    "ci95": [
+      0.03870478117831961,
+      0.05175994957297163
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.04838372184387778,
+    "ci95": [
+      0.04232782362109252,
+      0.05521747462545455
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.033704402563846256,
+    "ci95": [
+      0.027008974485742687,
+      0.04162063166526538
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.8924774136124655,
+    "ci95": [
+      0.7361260257970463,
+      1.0434822898243374
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04875232739529474,
+    "ci95": [
+      0.04169910199125196,
+      0.05638257660636605
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.828125,
+    "ci95": [
+      0.7578125,
+      0.8984375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.05174657015328489,
+    "ci95": [
+      0.04625191099785889,
+      0.0572691919804552
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.042015369438825494,
+    "ci95": [
+      0.03691361038738051,
+      0.04723894302448386
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.023232591659330823,
+    "ci95": [
+      0.018747228370116584,
+      0.02860215947431863
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.7587457436528843,
+    "ci95": [
+      0.6728168024939131,
+      0.8506411676568357
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04528235913912192,
+    "ci95": [
+      0.04075574216338813,
+      0.05016775385400119
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.8359375,
+    "ci95": [
+      0.765625,
+      0.8984375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04294384996557553,
+    "ci95": [
+      0.03868756418004357,
+      0.04710272602969355
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.04230638075414639,
+    "ci95": [
+      0.036076661238305274,
+      0.04950045550543126
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.02648027453545274,
+    "ci95": [
+      0.019548600424180478,
+      0.034281893298462665
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.38129704300201406,
+    "ci95": [
+      0.3119601603240364,
+      0.4550441006783584
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.014858200598431166,
+    "ci95": [
+      0.012887641802249127,
+      0.016820434280075104
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.8828125,
+    "ci95": [
+      0.8203125,
+      0.9375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.01338317401792809,
+    "ci95": [
+      0.0118258131136098,
+      0.015025739116147548
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.011741442577950598,
+    "ci95": [
+      0.009778301856816973,
+      0.014034885215953329
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.00860146352967113,
+    "ci95": [
+      0.006853761463000369,
+      0.010638140642312645
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.12556002292860635,
+    "ci95": [
+      0.09997892520754083,
+      0.15150762357799574
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.012050125725469582,
+    "ci95": [
+      0.009963294075114471,
+      0.014280765143767154
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.875,
+    "ci95": [
+      0.8125,
+      0.9296875
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.008762832704931499,
+    "ci95": [
+      0.007436772335323726,
+      0.010202512260354691
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.010421187400144385,
+    "ci95": [
+      0.00852340098513585,
+      0.012446826972930218
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.005071137884277791,
+    "ci95": [
+      0.00374219787660698,
+      0.006639747873960883
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.8924774136124655,
+    "ci95": [
+      0.7361260257970463,
+      1.0434822898243374
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04875232739529474,
+    "ci95": [
+      0.04169910199125196,
+      0.05638257660636605
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.828125,
+    "ci95": [
+      0.7578125,
+      0.8984375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.05174657015328489,
+    "ci95": [
+      0.04625191099785889,
+      0.0572691919804552
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.042015369438825494,
+    "ci95": [
+      0.03691361038738051,
+      0.04723894302448386
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.023232591659330823,
+    "ci95": [
+      0.018747228370116584,
+      0.02860215947431863
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.1360979364943044,
+    "ci95": [
+      0.11063678413305873,
+      0.16239542112975475
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.013379201665158498,
+    "ci95": [
+      0.01066494527858141,
+      0.016129784019352444
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.8515625,
+    "ci95": [
+      0.7890625,
+      0.90625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.011297875367622383,
+    "ci95": [
+      0.009595170740836002,
+      0.0131543586081741
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.01301202259658575,
+    "ci95": [
+      0.010507715872909893,
+      0.01557840761989216
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.008106768269665443,
+    "ci95": [
+      0.006185511744944353,
+      0.010352572887839398
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.11439034585068408,
+    "ci95": [
+      0.0921106835308754,
+      0.13816212191871874
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.015101634217058783,
+    "ci95": [
+      0.013197502066297318,
+      0.017030332661823768
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.84375,
+    "ci95": [
+      0.78125,
+      0.8986328124999989
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.01033712374794913,
+    "ci95": [
+      0.008167404703452204,
+      0.012910765488988151
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.012773625191881037,
+    "ci95": [
+      0.01068814009026759,
+      0.015054478722677365
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.008379605041684885,
+    "ci95": [
+      0.006416339219678717,
+      0.01064777187889383
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.13230085628955776,
+    "ci95": [
+      0.10511267450045347,
+      0.16056196792032595
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.016301836545367515,
+    "ci95": [
+      0.01324777713847501,
+      0.01948604080125413
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.8515625,
+    "ci95": [
+      0.7890625,
+      0.90625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.013404243944995654,
+    "ci95": [
+      0.010577266127233436,
+      0.016432885211293734
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.01394671891646487,
+    "ci95": [
+      0.010910221951853545,
+      0.0171369883336869
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.008317506260403906,
+    "ci95": [
+      0.005756789790418564,
+      0.01154399668254591
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.13142418504211334,
+    "ci95": [
+      0.10941038189039831,
+      0.1542508629754938
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.016608192059444388,
+    "ci95": [
+      0.013946861899396364,
+      0.019272818822373205
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.859375,
+    "ci95": [
+      0.796875,
+      0.9140625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.013131383361863879,
+    "ci95": [
+      0.01107152244924932,
+      0.015302365903507231
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.014603792331360551,
+    "ci95": [
+      0.011799366920419265,
+      0.01761929160242306
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.007577524014930084,
+    "ci95": [
+      0.005746517378064514,
+      0.009838893227640297
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.13387151266520375,
+    "ci95": [
+      0.10577888558266212,
+      0.16283761971968524
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.01294639211834546,
+    "ci95": [
+      0.011055272881409933,
+      0.014926559358106281
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.8515625,
+    "ci95": [
+      0.7890625,
+      0.9064453124999989
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.01110309230039339,
+    "ci95": [
+      0.00885599766437099,
+      0.013529468153025147
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.012791107434064322,
+    "ci95": [
+      0.010818069785499318,
+      0.014874874840413178
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.0074988463319158325,
+    "ci95": [
+      0.005221155414851709,
+      0.010384727904889264
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.15608490242200396,
+    "ci95": [
+      0.12513401321126988,
+      0.1864857496988182
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.016977758680157058,
+    "ci95": [
+      0.014028982993367441,
+      0.020253340374270946
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.8515625,
+    "ci95": [
+      0.7890625,
+      0.90625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.010575806978932586,
+    "ci95": [
+      0.008545587137794226,
+      0.012863637500002268
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.013945695601399506,
+    "ci95": [
+      0.01094598023496747,
+      0.01715314081879227
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "p0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.008500648610680426,
+    "ci95": [
+      0.006144967466039222,
+      0.01138832279132588
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.2817564814959762,
+    "ci95": [
+      0.24554418237768036,
+      0.32299477967680423
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.05431797380967618,
+    "ci95": [
+      0.04895105941510868,
+      0.06053492412245204
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.890625,
+    "ci95": [
+      0.861328125,
+      0.91796875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04182098447906327,
+    "ci95": [
+      0.038286281273815934,
+      0.04576155365247155
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.04140588013067931,
+    "ci95": [
+      0.03658494467528493,
+      0.04683067773855137
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.014586127935004786,
+    "ci95": [
+      0.010470534567474484,
+      0.019162216935793046
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.2924618893825982,
+    "ci95": [
+      0.25308845539797586,
+      0.3348033240022738
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.05144840513029403,
+    "ci95": [
+      0.0466615726949672,
+      0.057335018877883455
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.888671875,
+    "ci95": [
+      0.857421875,
+      0.916015625
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03892705170782333,
+    "ci95": [
+      0.035363954487207916,
+      0.04260105958198974
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.03853268827823821,
+    "ci95": [
+      0.03430663203639715,
+      0.043499473982959766
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.012521605702412265,
+    "ci95": [
+      0.009202674316929822,
+      0.016285190343892864
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.18981763855984005,
+    "ci95": [
+      0.16702283350226194,
+      0.21623150321311604
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.04413968800099487,
+    "ci95": [
+      0.039404381040421474,
+      0.04947411515163935
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.921875,
+    "ci95": [
+      0.8984375,
+      0.943359375
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03586005137268092,
+    "ci95": [
+      0.03274557074234539,
+      0.03956054160343095
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.03423730558090249,
+    "ci95": [
+      0.02977516326113057,
+      0.039154055785074825
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.01047716971431539,
+    "ci95": [
+      0.007805725975254165,
+      0.013445799611842063
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.21394146279018622,
+    "ci95": [
+      0.18353866663379848,
+      0.25032743625718884
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.04791894172073094,
+    "ci95": [
+      0.043020487522281936,
+      0.053314687911043275
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.9140625,
+    "ci95": [
+      0.88671875,
+      0.9375
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03552512326817066,
+    "ci95": [
+      0.032128949336707555,
+      0.03960892048242025
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.035025708767793845,
+    "ci95": [
+      0.03055347184579407,
+      0.040004814488220984
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.012646219752854123,
+    "ci95": [
+      0.009180981278022294,
+      0.016560381885626183
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.2817564814959762,
+    "ci95": [
+      0.24554418237768036,
+      0.32299477967680423
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.05431797380967618,
+    "ci95": [
+      0.04895105941510868,
+      0.06053492412245204
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.890625,
+    "ci95": [
+      0.861328125,
+      0.91796875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04182098447906327,
+    "ci95": [
+      0.038286281273815934,
+      0.04576155365247155
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.04140588013067931,
+    "ci95": [
+      0.03658494467528493,
+      0.04683067773855137
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.014586127935004786,
+    "ci95": [
+      0.010470534567474484,
+      0.019162216935793046
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.289504314298792,
+    "ci95": [
+      0.25123044606793576,
+      0.3332269333683858
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.054780587946275064,
+    "ci95": [
+      0.04983327962521099,
+      0.06021757318454309
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.900390625,
+    "ci95": [
+      0.873046875,
+      0.927734375
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.0378463212695844,
+    "ci95": [
+      0.03375200347925627,
+      0.04242103390028428
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.04015256259550379,
+    "ci95": [
+      0.03589269003012966,
+      0.04503648014517307
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.014275751896364597,
+    "ci95": [
+      0.00999716075105573,
+      0.01913442316926893
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.31694855986906845,
+    "ci95": [
+      0.27447494323153254,
+      0.36637993856528767
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.05522518807248959,
+    "ci95": [
+      0.04962126124431268,
+      0.06117024516431187
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.875,
+    "ci95": [
+      0.845654296875,
+      0.904296875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04289397332982907,
+    "ci95": [
+      0.038899197063877795,
+      0.047208326767601935
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.04014117799191043,
+    "ci95": [
+      0.035337548724463534,
+      0.04575857026396628
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.017018709312962548,
+    "ci95": [
+      0.011769391607487122,
+      0.02286226064745419
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.18167102950667582,
+    "ci95": [
+      0.1593838060591882,
+      0.20610731685745656
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.043379016295774266,
+    "ci95": [
+      0.03894170035789708,
+      0.04812834893222457
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.91015625,
+    "ci95": [
+      0.8828125,
+      0.93359375
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03489868389349332,
+    "ci95": [
+      0.03219935490328085,
+      0.03769761338333078
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.03365673138577763,
+    "ci95": [
+      0.029850108768353808,
+      0.038102176209728535
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.010759602244017208,
+    "ci95": [
+      0.007652796377694395,
+      0.014120769053909452
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.18211336657448046,
+    "ci95": [
+      0.15898120262580148,
+      0.20697183514845696
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.03927776832031411,
+    "ci95": [
+      0.035218446498314154,
+      0.043816531202399985
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.90625,
+    "ci95": [
+      0.878857421875,
+      0.9296875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03504963852292183,
+    "ci95": [
+      0.03214137413181287,
+      0.037960438052723915
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.031200125629323828,
+    "ci95": [
+      0.027611771664883634,
+      0.03545570762777418
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.011836032893928459,
+    "ci95": [
+      0.008408754545388808,
+      0.015499959944548305
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.32485460326088794,
+    "ci95": [
+      0.28478945686054197,
+      0.37426649341146884
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.05014157858933492,
+    "ci95": [
+      0.04512613249222856,
+      0.05549044094905434
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.890625,
+    "ci95": [
+      0.859375,
+      0.91796875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.048304797878292366,
+    "ci95": [
+      0.04382148697015754,
+      0.05329374696844517
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.03543638451966635,
+    "ci95": [
+      0.03186001801825185,
+      0.03920878887721901
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.013304838158989151,
+    "ci95": [
+      0.009400606004297159,
+      0.01771817730408443
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.29346271256692097,
+    "ci95": [
+      0.25228377890670156,
+      0.33964408040339467
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.05175902561740299,
+    "ci95": [
+      0.04638498549832742,
+      0.05796097450029543
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.904296875,
+    "ci95": [
+      0.875,
+      0.9296875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.042927922800895996,
+    "ci95": [
+      0.038688387258208605,
+      0.047727561517481254
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.03902761601201186,
+    "ci95": [
+      0.03411162254932369,
+      0.04438525395382229
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.014558565154888101,
+    "ci95": [
+      0.010313806474292638,
+      0.01930287022157233
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.3084042164337344,
+    "ci95": [
+      0.2649665511487386,
+      0.35511148919639784
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04999291624435859,
+    "ci95": [
+      0.04541928400946387,
+      0.0550236220686544
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.904296875,
+    "ci95": [
+      0.873046875,
+      0.931640625
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.043093251087383835,
+    "ci95": [
+      0.03931720796582836,
+      0.047448747207933406
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.03832887549916479,
+    "ci95": [
+      0.034091001911700974,
+      0.04284984270995285
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.014359280269458815,
+    "ci95": [
+      0.010252181350375159,
+      0.018848694836011565
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.16664468626550888,
+    "ci95": [
+      0.1461191732659054,
+      0.18891930327798212
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04431622222694658,
+    "ci95": [
+      0.039489168949785144,
+      0.04966987910770144
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.927734375,
+    "ci95": [
+      0.904296875,
+      0.94921875
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.031846687185570426,
+    "ci95": [
+      0.02900559686681934,
+      0.03479839756579543
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.03524281418140864,
+    "ci95": [
+      0.030687679638549226,
+      0.04038254033070934
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.012080848600895101,
+    "ci95": [
+      0.008714340027595427,
+      0.01566162908330902
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.17288509827987875,
+    "ci95": [
+      0.15150027591656956,
+      0.19582082688930358
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04490884100923084,
+    "ci95": [
+      0.040750471962778076,
+      0.04975726300987919
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.90234375,
+    "ci95": [
+      0.876953125,
+      0.927734375
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.0316905034915488,
+    "ci95": [
+      0.02872827822761534,
+      0.03463651960250591
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.0346865815989297,
+    "ci95": [
+      0.030612048695665292,
+      0.03944279261035004
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.011398279648106618,
+    "ci95": [
+      0.008300036036025391,
+      0.014734386377803266
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.34019258142036657,
+    "ci95": [
+      0.2956172809182794,
+      0.3914659513244685
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.056397498252119704,
+    "ci95": [
+      0.05065220306824377,
+      0.06290376520906685
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.8828125,
+    "ci95": [
+      0.8515625,
+      0.912109375
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.043881378959934485,
+    "ci95": [
+      0.03963833585764538,
+      0.048669247896644424
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.04296433538846106,
+    "ci95": [
+      0.03815402865560741,
+      0.0485054943133057
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "exposed",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.014993404199581898,
+    "ci95": [
+      0.010488194512548323,
+      0.020181752433158996
+    ],
+    "parents": 128,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.27378722859615856,
+    "ci95": [
+      0.24619641597602526,
+      0.3034955787547258
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.05432644236410117,
+    "ci95": [
+      0.049658877766220286,
+      0.0593329960939993
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.880859375,
+    "ci95": [
+      0.8515625,
+      0.908203125
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.043619038309195224,
+    "ci95": [
+      0.03998758101051443,
+      0.04735335728115942
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.04027723598167228,
+    "ci95": [
+      0.03584225242763756,
+      0.04534922706132582
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.010180639292733403,
+    "ci95": [
+      0.007502361424630753,
+      0.013198887691432034
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.26269678209216457,
+    "ci95": [
+      0.23786558403609775,
+      0.290725930103493
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.05334271982084833,
+    "ci95": [
+      0.04840458061216788,
+      0.05839903190189615
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.888671875,
+    "ci95": [
+      0.859375,
+      0.916015625
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03853772619909536,
+    "ci95": [
+      0.035846050528363975,
+      0.04133381619197874
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.036853601887717996,
+    "ci95": [
+      0.03276206626479324,
+      0.041357559910195615
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.008959625336589297,
+    "ci95": [
+      0.00656935758260025,
+      0.011676551644137551
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.18001831191931852,
+    "ci95": [
+      0.16263318218968975,
+      0.19868228832204973
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.042558225835790026,
+    "ci95": [
+      0.03851094540819637,
+      0.046793490485093035
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.888671875,
+    "ci95": [
+      0.859375,
+      0.916015625
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03422085608010349,
+    "ci95": [
+      0.03181397932838495,
+      0.036626932527730756
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.03229808729163608,
+    "ci95": [
+      0.02859562740964639,
+      0.03655978329081121
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.0065579353459151585,
+    "ci95": [
+      0.004936862685655302,
+      0.008430014910020175
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.19524448248654663,
+    "ci95": [
+      0.17489874005540096,
+      0.21581246726150433
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.04492669931870592,
+    "ci95": [
+      0.04096238813273069,
+      0.04916359705061581
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.8984375,
+    "ci95": [
+      0.871044921875,
+      0.923828125
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03566448186577024,
+    "ci95": [
+      0.0328380432726387,
+      0.038650021382860285
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.032471118269898895,
+    "ci95": [
+      0.028815373077096387,
+      0.036877587808338434
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.008685766308764947,
+    "ci95": [
+      0.006437974883752422,
+      0.011275656081770986
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.27378722859615856,
+    "ci95": [
+      0.24619641597602526,
+      0.3034955787547258
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.05432644236410117,
+    "ci95": [
+      0.049658877766220286,
+      0.0593329960939993
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.880859375,
+    "ci95": [
+      0.8515625,
+      0.908203125
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "reference_CI_content_error",
+    "mean": 0.043619038309195224,
+    "ci95": [
+      0.03998758101051443,
+      0.04735335728115942
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.04027723598167228,
+    "ci95": [
+      0.03584225242763756,
+      0.04534922706132582
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.010180639292733403,
+    "ci95": [
+      0.007502361424630753,
+      0.013198887691432034
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.26850292341111465,
+    "ci95": [
+      0.23893464727681168,
+      0.30162939587559284
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.053321645537945224,
+    "ci95": [
+      0.0490755758945081,
+      0.057776337197312594
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.888671875,
+    "ci95": [
+      0.861328125,
+      0.916015625
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03904649044610257,
+    "ci95": [
+      0.0359612980431445,
+      0.0425966383027597
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.03760680541933358,
+    "ci95": [
+      0.03383005945859801,
+      0.04173243109244415
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.009395011937278274,
+    "ci95": [
+      0.006990299326995354,
+      0.012173681781198624
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.28599158084064424,
+    "ci95": [
+      0.25835195348983275,
+      0.3165153601618935
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.05233988039580352,
+    "ci95": [
+      0.04770099994186381,
+      0.05719812858568443
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.900390625,
+    "ci95": [
+      0.875,
+      0.92578125
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04231335631670642,
+    "ci95": [
+      0.038983363230647904,
+      0.04569712158756819
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.03699296838941979,
+    "ci95": [
+      0.032986675564229996,
+      0.04158055138272426
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.01094681046054001,
+    "ci95": [
+      0.007811608413635027,
+      0.014531504258186863
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.16109092331213695,
+    "ci95": [
+      0.14572271587018093,
+      0.17751044161971047
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.042112183311624043,
+    "ci95": [
+      0.03803072823142341,
+      0.04648014792371027
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.908203125,
+    "ci95": [
+      0.8828125,
+      0.93359375
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03364568777940246,
+    "ci95": [
+      0.03138909995909078,
+      0.03600292454465909
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.03212213195643606,
+    "ci95": [
+      0.028358968909531355,
+      0.03667342090289898
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.007354188822823491,
+    "ci95": [
+      0.005197905496681155,
+      0.009883160716982711
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.1645390248436761,
+    "ci95": [
+      0.14921721689935336,
+      0.18176093371741253
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.04026628960519303,
+    "ci95": [
+      0.03651452359275401,
+      0.04409879569454621
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.904296875,
+    "ci95": [
+      0.876953125,
+      0.9296875
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03225956853697856,
+    "ci95": [
+      0.030135212744561338,
+      0.03444492993666066
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.029615988948517837,
+    "ci95": [
+      0.02635800488122165,
+      0.03338422861352288
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.007880888099445243,
+    "ci95": [
+      0.005708040857690699,
+      0.010546820679165776
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": 0.3221596406559034,
+    "ci95": [
+      0.29087809147086674,
+      0.3563628656625781
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.049675179824377406,
+    "ci95": [
+      0.04576322044187263,
+      0.05375493180235727
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.859375,
+    "ci95": [
+      0.828125,
+      0.890625
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "reference_CI_content_error",
+    "mean": 0.05188295549959088,
+    "ci95": [
+      0.047045514694584074,
+      0.057014989485160435
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.03481995515547116,
+    "ci95": [
+      0.03149527774463662,
+      0.03846069592606711
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": 0.008888578415767224,
+    "ci95": [
+      0.006218784727032831,
+      0.012014168284201071
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.27784027681442336,
+    "ci95": [
+      0.24674660101068288,
+      0.31447858257349715
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.052853942802954676,
+    "ci95": [
+      0.04796879974340995,
+      0.05788507713352851
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.87890625,
+    "ci95": [
+      0.849609375,
+      0.90625
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04171193650707108,
+    "ci95": [
+      0.03825364895152634,
+      0.04564126069425826
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.03706690930791316,
+    "ci95": [
+      0.032903499590983334,
+      0.04168547041603708
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.00873396157145071,
+    "ci95": [
+      0.006364491502882599,
+      0.01155085626770779
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.2908681465261257,
+    "ci95": [
+      0.25509708119625385,
+      0.33369019688069446
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04913373850293137,
+    "ci95": [
+      0.044850116636632104,
+      0.05357070019936748
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.880859375,
+    "ci95": [
+      0.8515625,
+      0.908203125
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.04303697963590115,
+    "ci95": [
+      0.03945674467441281,
+      0.047300783855648565
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.03565096502291586,
+    "ci95": [
+      0.03171504734309689,
+      0.03998356657306443
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_joint",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.010064706606510598,
+    "ci95": [
+      0.00722562666772632,
+      0.013585813243298715
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.1559996480224208,
+    "ci95": [
+      0.14193438927970456,
+      0.17229035615225802
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.042647649477832957,
+    "ci95": [
+      0.03898191029319507,
+      0.04686765784875914
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.908203125,
+    "ci95": [
+      0.8828125,
+      0.93359375
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03322312560312094,
+    "ci95": [
+      0.03069124587304853,
+      0.03587751965026591
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.03160207658898803,
+    "ci95": [
+      0.028082866459823257,
+      0.03568876334636051
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "diag_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.0076246249280892174,
+    "ci95": [
+      0.005505654970912718,
+      0.010028198491786279
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.15422494857583036,
+    "ci95": [
+      0.14022721675732583,
+      0.17004257541883153
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.04288231716442772,
+    "ci95": [
+      0.03927282485958398,
+      0.04669152467678614
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.896484375,
+    "ci95": [
+      0.871044921875,
+      0.921875
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.03182079176489236,
+    "ci95": [
+      0.029586653132641222,
+      0.03403461685359074
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.030760798770628414,
+    "ci95": [
+      0.02779081587920068,
+      0.034192992391019146
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "full_distill",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.007353244982907296,
+    "ci95": [
+      0.005349699143846287,
+      0.009628184408675423
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.3136764623917693,
+    "ci95": [
+      0.2816951719674458,
+      0.34604980416959036
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.05534478904915678,
+    "ci95": [
+      0.05041525938514562,
+      0.06046915323746258
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": 0.8828125,
+    "ci95": [
+      0.85546875,
+      0.91015625
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "reference_CI_content_error",
+    "mean": 0.044360635365853975,
+    "ci95": [
+      0.04054806478877838,
+      0.048068989244403275
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.04060859259857294,
+    "ci95": [
+      0.03639632957208421,
+      0.045256214533443355
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "problem": "u0",
+    "panel": "fresh_final",
+    "method": "historical_diag",
+    "condition": "measurement",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.009709432850846795,
+    "ci95": [
+      0.007077471928576402,
+      0.01285690705868884
+    ],
+    "parents": 256,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  }
+]

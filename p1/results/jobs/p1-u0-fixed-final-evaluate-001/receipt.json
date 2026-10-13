@@ -1,0 +1,19 @@
+{
+  "id": "p1-u0-fixed-final-evaluate-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.evaluate",
+    "u0"
+  ],
+  "wall_seconds": 120.14789783291053,
+  "cpu_seconds": 117.845171,
+  "gpu_seconds": 0,
+  "maxrss_raw": 518258688,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 791.11686
+}

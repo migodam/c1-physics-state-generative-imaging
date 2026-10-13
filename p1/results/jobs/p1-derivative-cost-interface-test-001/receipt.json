@@ -1,0 +1,19 @@
+{
+  "id": "p1-derivative-cost-interface-test-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests/test_saved_adapter.py::test_interface_cost_keeps_derivative_rhs_separate",
+    "-q"
+  ],
+  "wall_seconds": 0.6419369999784976,
+  "cpu_seconds": 0.432192,
+  "gpu_seconds": 0,
+  "maxrss_raw": 69124096,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 630.0686820000001
+}

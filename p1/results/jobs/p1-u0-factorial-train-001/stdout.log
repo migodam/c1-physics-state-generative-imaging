@@ -1,0 +1,12 @@
+{"problem": "u0", "method": "diag_joint", "condition": "measurement", "seed": 2610131, "checkpoint": 1250, "validation_expected_NLL_x": -0.6578092588557358, "cpu_seconds": 1.9108190000000003}
+{"problem": "u0", "method": "full_joint", "condition": "measurement", "seed": 2610131, "checkpoint": 1250, "validation_expected_NLL_x": -0.6456867486584698, "cpu_seconds": 2.079836}
+{"problem": "u0", "method": "diag_distill", "condition": "measurement", "seed": 2610131, "checkpoint": 1500, "validation_expected_NLL_x": -0.7688001356836539, "cpu_seconds": 2.5426840000000004}
+{"problem": "u0", "method": "full_distill", "condition": "measurement", "seed": 2610131, "checkpoint": 1500, "validation_expected_NLL_x": -0.7502174296208088, "cpu_seconds": 2.6841430000000006}
+{"problem": "u0", "method": "diag_joint", "condition": "measurement", "seed": 2610132, "checkpoint": 1250, "validation_expected_NLL_x": -0.6514593394947069, "cpu_seconds": 1.8894350000000006}
+{"problem": "u0", "method": "full_joint", "condition": "measurement", "seed": 2610132, "checkpoint": 1250, "validation_expected_NLL_x": -0.6003741853910457, "cpu_seconds": 2.0447319999999998}
+{"problem": "u0", "method": "diag_distill", "condition": "measurement", "seed": 2610132, "checkpoint": 1500, "validation_expected_NLL_x": -0.7672769369542987, "cpu_seconds": 2.7050459999999994}
+{"problem": "u0", "method": "full_distill", "condition": "measurement", "seed": 2610132, "checkpoint": 1500, "validation_expected_NLL_x": -0.7743539886615025, "cpu_seconds": 2.6558379999999993}
+{"problem": "u0", "method": "diag_joint", "condition": "measurement", "seed": 2610133, "checkpoint": 1500, "validation_expected_NLL_x": -0.6392474864442409, "cpu_seconds": 1.9288319999999999}
+{"problem": "u0", "method": "full_joint", "condition": "measurement", "seed": 2610133, "checkpoint": 1500, "validation_expected_NLL_x": -0.6376562477548781, "cpu_seconds": 2.0905790000000017}
+{"problem": "u0", "method": "diag_distill", "condition": "measurement", "seed": 2610133, "checkpoint": 1500, "validation_expected_NLL_x": -0.7976624021253338, "cpu_seconds": 2.4936510000000034}
+{"problem": "u0", "method": "full_distill", "condition": "measurement", "seed": 2610133, "checkpoint": 1500, "validation_expected_NLL_x": -0.7923197311755696, "cpu_seconds": 2.6626450000000013}

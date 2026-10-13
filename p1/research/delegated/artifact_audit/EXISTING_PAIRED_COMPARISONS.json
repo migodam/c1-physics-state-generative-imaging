@@ -1,0 +1,782 @@
+{
+  "u0": {
+    "state-2610131": {
+      "mean": 0.6631157228288018,
+      "ci95": [
+        0.5707505610179243,
+        0.7617383716451409
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "mdn",
+      "relative_KL_improvement": -2.353506135668184,
+      "event_MAE_difference": 0.0023515040218070396,
+      "scope": "same frozen models, numerical reference refinement only"
+    },
+    "memory-2610131": {
+      "mean": 14.653467609856232,
+      "ci95": [
+        7.483288052047351,
+        23.967739280737714
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "mdn",
+      "relative_KL_improvement": -52.00755274131125,
+      "event_MAE_difference": -0.0050756487705819475,
+      "scope": "same frozen models, numerical reference refinement only"
+    },
+    "memory-vs-state-2610131": {
+      "mean": 13.990351887027431,
+      "ci95": [
+        6.864808319359121,
+        23.27009743951642
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "state-2610132": {
+      "mean": 0.5334595925638524,
+      "ci95": [
+        0.46175837194443586,
+        0.6091182443867023
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "mdn",
+      "relative_KL_improvement": -1.6421481546319543,
+      "event_MAE_difference": -0.002920052273454578,
+      "scope": "same frozen models, numerical reference refinement only"
+    },
+    "memory-2610132": {
+      "mean": 0.6760441579571344,
+      "ci95": [
+        0.5738249212162021,
+        0.7873482478312177
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "mdn",
+      "relative_KL_improvement": -2.081066086193099,
+      "event_MAE_difference": 0.00825207984109911,
+      "scope": "same frozen models, numerical reference refinement only"
+    },
+    "memory-vs-state-2610132": {
+      "mean": 0.1425845653932819,
+      "ci95": [
+        0.06222888225724491,
+        0.2434557492351954
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "state-2610133": {
+      "mean": 0.881519558957628,
+      "ci95": [
+        0.6258604345961963,
+        1.2087383387229378
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "mdn",
+      "relative_KL_improvement": -2.591235259163936,
+      "event_MAE_difference": -0.009774481075095598,
+      "scope": "same frozen models, numerical reference refinement only"
+    },
+    "memory-2610133": {
+      "mean": 2.1295120560487075,
+      "ci95": [
+        1.1869383118051633,
+        3.3689409239895585
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "mdn",
+      "relative_KL_improvement": -6.259721260153385,
+      "event_MAE_difference": -0.00013360543875215458,
+      "scope": "same frozen models, numerical reference refinement only"
+    },
+    "memory-vs-state-2610133": {
+      "mean": 1.2479924970910796,
+      "ci95": [
+        0.515123615891594,
+        2.2077878896239
+      ],
+      "parents": 128,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    }
+  },
+  "p0": {
+    "mdn_state-2610131": {
+      "mean": -0.5821220979418571,
+      "ci95": [
+        -0.7771966603204776,
+        -0.4015467816095653
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.3508073814091591,
+      "event_MAE_difference": 0.0010477787065170316,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "mdn_memory-2610131": {
+      "mean": -0.6558856264741311,
+      "ci95": [
+        -0.8457034714009305,
+        -0.4819362582301688
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.3952598946866941,
+      "event_MAE_difference": -0.006299134258240309,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "memory-vs-state-2610131": {
+      "mean": -0.07376352853227414,
+      "ci95": [
+        -0.1252781025158647,
+        -0.02322485978594496
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-2610132": {
+      "mean": -11.408911278984064,
+      "ci95": [
+        -18.039877893990024,
+        -5.7726409315639415
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9196504907244571,
+      "event_MAE_difference": 0.0009008653663814606,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "mdn_memory-2610132": {
+      "mean": -11.533341140190434,
+      "ci95": [
+        -18.14942206357496,
+        -5.908592412435084
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9296805435595602,
+      "event_MAE_difference": -0.0013193991490529633,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "memory-vs-state-2610132": {
+      "mean": -0.12442986120636843,
+      "ci95": [
+        -0.15454581958991317,
+        -0.09533481050425553
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-2610133": {
+      "mean": -11.345640233422964,
+      "ci95": [
+        -17.65360757246582,
+        -6.276916622514966
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9208625727378312,
+      "event_MAE_difference": -0.007558320469945756,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "mdn_memory-2610133": {
+      "mean": -11.324093092653111,
+      "ci95": [
+        -17.634727990716033,
+        -6.261640916321269
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9191137110538499,
+      "event_MAE_difference": -0.004966109054679084,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "memory-vs-state-2610133": {
+      "mean": 0.021547140769853354,
+      "ci95": [
+        -0.043506439141116106,
+        0.08802704214617309
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    }
+  },
+  "p0_diagnostics_same_family_and_proper_score": {
+    "mdn_state-vs-mdn-2610131-truth_log_score": {
+      "mean": -0.0914933574385941,
+      "ci95": [
+        -0.4308178804814815,
+        0.2028387456783092
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-truth_log_score": {
+      "mean": -0.15980240143835545,
+      "ci95": [
+        -1.0335193604929374,
+        0.5081214119214563
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610131-KL_reference": {
+      "mean": -0.0033617457982276855,
+      "ci95": [
+        -0.03889335078471486,
+        0.034534033246914154
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-KL_reference": {
+      "mean": -0.5821220979418571,
+      "ci95": [
+        -0.7771966603204776,
+        -0.4015467816095653
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610131-event_mass_MAE": {
+      "mean": 0.0038804139144083677,
+      "ci95": [
+        -0.001266274659294123,
+        0.009128000558782231
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-event_mass_MAE": {
+      "mean": 0.0010477787065170281,
+      "ci95": [
+        -0.004726247772076502,
+        0.006654834579664042
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610131-expected_Brier_excess": {
+      "mean": 0.003665766071921803,
+      "ci95": [
+        5.365418468143077e-05,
+        0.007529614162384335
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-expected_Brier_excess": {
+      "mean": -0.0009373882812872674,
+      "ci95": [
+        -0.005297716364796207,
+        0.003415173828247104
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-truth_log_score": {
+      "mean": -0.20996863534674048,
+      "ci95": [
+        -0.4602459236746654,
+        0.03823954670224338
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-truth_log_score": {
+      "mean": -0.2782776793465018,
+      "ci95": [
+        -1.169343623658642,
+        0.3876281583914533
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-KL_reference": {
+      "mean": -0.07712527433050183,
+      "ci95": [
+        -0.127676323281724,
+        -0.022480074245750183
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-KL_reference": {
+      "mean": -0.6558856264741311,
+      "ci95": [
+        -0.8457034714009305,
+        -0.4819362582301688
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-event_mass_MAE": {
+      "mean": -0.0034664990503489685,
+      "ci95": [
+        -0.009238692266761293,
+        0.002543860281455325
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-event_mass_MAE": {
+      "mean": -0.006299134258240308,
+      "ci95": [
+        -0.011957449913446857,
+        -0.0003706789466180596
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-expected_Brier_excess": {
+      "mean": 0.00031840379579195196,
+      "ci95": [
+        -0.0031749783883144134,
+        0.004362960643472378
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-expected_Brier_excess": {
+      "mean": -0.004284750557417118,
+      "ci95": [
+        -0.009097734865097167,
+        0.0005258816735901262
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-truth_log_score": {
+      "mean": -0.12994831055402756,
+      "ci95": [
+        -0.37334729672875255,
+        0.1208721121307462
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-truth_log_score": {
+      "mean": -4.126285957172513,
+      "ci95": [
+        -11.301837068749592,
+        0.09972531676758079
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-KL_reference": {
+      "mean": -0.02044288816672172,
+      "ci95": [
+        -0.06224465040479163,
+        0.020215257638785566
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-KL_reference": {
+      "mean": -11.408911278984064,
+      "ci95": [
+        -18.039877893990024,
+        -5.7726409315639415
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-event_mass_MAE": {
+      "mean": 0.0005689741778761931,
+      "ci95": [
+        -0.004846788061103007,
+        0.006456523319244792
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-event_mass_MAE": {
+      "mean": 0.0009008653663814602,
+      "ci95": [
+        -0.007065392274806742,
+        0.009027334710872203
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-expected_Brier_excess": {
+      "mean": -0.0004849600140437731,
+      "ci95": [
+        -0.004459300430892558,
+        0.0034176678669136248
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-expected_Brier_excess": {
+      "mean": -0.000829843805921676,
+      "ci95": [
+        -0.00581912833474144,
+        0.0043894876481835555
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-truth_log_score": {
+      "mean": -0.08050348050892353,
+      "ci95": [
+        -0.3062477570027113,
+        0.12929485947824992
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-truth_log_score": {
+      "mean": -4.076841127127409,
+      "ci95": [
+        -11.441579417954198,
+        0.20058990546967825
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-KL_reference": {
+      "mean": -0.14487274937309014,
+      "ci95": [
+        -0.17923932232571047,
+        -0.11442734312904587
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-KL_reference": {
+      "mean": -11.533341140190434,
+      "ci95": [
+        -18.14942206357496,
+        -5.908592412435084
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-event_mass_MAE": {
+      "mean": -0.0016512903375582283,
+      "ci95": [
+        -0.007699472357973466,
+        0.0041786058073750385
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-event_mass_MAE": {
+      "mean": -0.00131939914905296,
+      "ci95": [
+        -0.008072390757189147,
+        0.00610805080412337
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-expected_Brier_excess": {
+      "mean": -0.0014993741115261765,
+      "ci95": [
+        -0.005692569312915016,
+        0.002381517695395943
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-expected_Brier_excess": {
+      "mean": -0.0018442579034040792,
+      "ci95": [
+        -0.006761051446491355,
+        0.003737368038962724
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-truth_log_score": {
+      "mean": 0.005449801683425903,
+      "ci95": [
+        -0.29916904936544597,
+        0.3569073396502061
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-truth_log_score": {
+      "mean": -6.467188373208046,
+      "ci95": [
+        -16.44963684717659,
+        0.34468746632337505
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-KL_reference": {
+      "mean": 0.08254845685143797,
+      "ci95": [
+        0.003988433112757716,
+        0.16388621137902049
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-KL_reference": {
+      "mean": -11.345640233422964,
+      "ci95": [
+        -17.65360757246582,
+        -6.276916622514966
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-event_mass_MAE": {
+      "mean": -0.0007920590510470847,
+      "ci95": [
+        -0.00521705343028722,
+        0.003479189150243444
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-event_mass_MAE": {
+      "mean": -0.007558320469945753,
+      "ci95": [
+        -0.01635137129639264,
+        0.0004218022521810123
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-expected_Brier_excess": {
+      "mean": -0.002220943152381533,
+      "ci95": [
+        -0.005518174760481537,
+        0.0008645683547059618
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-expected_Brier_excess": {
+      "mean": -0.008329592899378081,
+      "ci95": [
+        -0.016084388694737595,
+        -0.0017312911719250545
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-truth_log_score": {
+      "mean": -0.008974213153123856,
+      "ci95": [
+        -0.45409772181883457,
+        0.4602132455445824
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-truth_log_score": {
+      "mean": -6.481612388044596,
+      "ci95": [
+        -16.652451548585667,
+        0.4313930270727722
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-KL_reference": {
+      "mean": 0.10409559762129131,
+      "ci95": [
+        0.014620213109545458,
+        0.194517461444934
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-KL_reference": {
+      "mean": -11.324093092653111,
+      "ci95": [
+        -17.634727990716033,
+        -6.261640916321269
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-event_mass_MAE": {
+      "mean": 0.001800152364219586,
+      "ci95": [
+        -0.004727676450876639,
+        0.00831617789128341
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-event_mass_MAE": {
+      "mean": -0.004966109054679081,
+      "ci95": [
+        -0.014082827751248125,
+        0.003881890789332072
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-expected_Brier_excess": {
+      "mean": 0.0004179860628710063,
+      "ci95": [
+        -0.003669140605814927,
+        0.004543274033605976
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-expected_Brier_excess": {
+      "mean": -0.005690663684125543,
+      "ci95": [
+        -0.013728809658525487,
+        0.0014959461435358873
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    }
+  }
+}

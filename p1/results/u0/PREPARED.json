@@ -1,0 +1,23 @@
+{
+  "problem": "u0",
+  "teacher_order": 64,
+  "training_observations": 4096,
+  "training_parents": 1024,
+  "validation_observations": 256,
+  "new_Maxwell": 0,
+  "new_B1": 0,
+  "new_GPU": 0,
+  "prior_measure": "Lebesgue material measure with exponential tilt density and Gauss volume weights",
+  "teacher_target": "continuous posterior quadrature approximation, not discrete material prior",
+  "reference_summary": {
+    "teacher_event_difference": 2.1046126115198405e-06,
+    "reference_event_difference": 4.9057979900624105e-12,
+    "evidence_difference": 1.2846612662542611e-11,
+    "cdf_difference": 3.506788332396926e-05,
+    "mean_difference": 4.348077453641963e-12,
+    "variance_difference": 2.6625368576560504e-12,
+    "quantile_difference": 1.4402992899231748e-05,
+    "tail_difference": 9.022312901230123e-06,
+    "fine_cdf_nonmonotone": 5.795114721429684e-08
+  }
+}

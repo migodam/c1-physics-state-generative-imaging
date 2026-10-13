@@ -1,0 +1,69 @@
+{
+  "problem": "u0",
+  "method": "diag_joint",
+  "seed": 2610131,
+  "condition": "measurement",
+  "y_dim": 5,
+  "state_dim": 18,
+  "target_parameters": 30000,
+  "parameters": 30042,
+  "updates": 1500,
+  "checkpoint": 1250,
+  "observed_selection_checkpoint": 1250,
+  "validation_expected_NLL_x": -0.6578092588557358,
+  "validation_best_observed_NLL_x": -0.820650041103363,
+  "history": [
+    {
+      "step": 250,
+      "training_batch_NLL_z": 1.5303014516830444,
+      "validation_expected_NLL_x": -0.32558650714721615,
+      "validation_observed_NLL_x": -0.47102677822113037,
+      "elapsed_cpu": 0.3396910000000002
+    },
+    {
+      "step": 500,
+      "training_batch_NLL_z": 1.33249831199646,
+      "validation_expected_NLL_x": -0.5488923224366744,
+      "validation_observed_NLL_x": -0.6635234355926514,
+      "elapsed_cpu": 0.652962
+    },
+    {
+      "step": 750,
+      "training_batch_NLL_z": 1.3558908700942993,
+      "validation_expected_NLL_x": -0.562146603632125,
+      "validation_observed_NLL_x": -0.6524072885513306,
+      "elapsed_cpu": 0.9664500000000003
+    },
+    {
+      "step": 1000,
+      "training_batch_NLL_z": 1.0766065120697021,
+      "validation_expected_NLL_x": -0.6389113474498674,
+      "validation_observed_NLL_x": -0.8047475814819336,
+      "elapsed_cpu": 1.278144
+    },
+    {
+      "step": 1250,
+      "training_batch_NLL_z": 1.346675157546997,
+      "validation_expected_NLL_x": -0.6578092588557358,
+      "validation_observed_NLL_x": -0.820650041103363,
+      "elapsed_cpu": 1.593657
+    },
+    {
+      "step": 1500,
+      "training_batch_NLL_z": 0.9611784219741821,
+      "validation_expected_NLL_x": -0.6491610131301659,
+      "validation_observed_NLL_x": -0.7578921914100647,
+      "elapsed_cpu": 1.907164
+    }
+  ],
+  "training_objective": "joint sample NLL",
+  "validation_selection": "shared expected posterior log score; historical observed selector retained separately",
+  "observations": 4096,
+  "parents": 1024,
+  "topology_input": false,
+  "reference_input_at_inference": false,
+  "physics_calls": 0,
+  "gpu_seconds": 0,
+  "cpu_seconds": 1.9108190000000003,
+  "wall_seconds": 1.972749166074209
+}

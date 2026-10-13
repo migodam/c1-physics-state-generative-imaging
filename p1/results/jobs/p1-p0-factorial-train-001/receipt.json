@@ -1,0 +1,19 @@
+{
+  "id": "p1-p0-factorial-train-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.train",
+    "p0"
+  ],
+  "wall_seconds": 40.94307070795912,
+  "cpu_seconds": 38.323805,
+  "gpu_seconds": 0,
+  "maxrss_raw": 334675968,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 842.946965
+}

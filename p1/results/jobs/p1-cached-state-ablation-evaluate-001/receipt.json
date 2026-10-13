@@ -1,0 +1,20 @@
+{
+  "id": "p1-cached-state-ablation-evaluate-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.evaluate",
+    "p0",
+    "--ablation"
+  ],
+  "wall_seconds": 7.892294749966823,
+  "cpu_seconds": 6.5088,
+  "gpu_seconds": 0,
+  "maxrss_raw": 290897920,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 640.768188
+}

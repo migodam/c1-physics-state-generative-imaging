@@ -1,0 +1,18 @@
+{
+  "id": "p1-scientific-figures-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.plots"
+  ],
+  "wall_seconds": 2.1938102920539677,
+  "cpu_seconds": 1.945214,
+  "gpu_seconds": 0,
+  "maxrss_raw": 226295808,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 632.047051
+}

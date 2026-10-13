@@ -1,0 +1,6 @@
+{"problem": "p0", "method": "full_distill", "condition": "state", "seed": 2610131, "checkpoint": 3000, "validation_expected_NLL_x": 0.8293715090350999, "cpu_seconds": 3.604483}
+{"problem": "p0", "method": "full_distill", "condition": "memory", "seed": 2610131, "checkpoint": 2250, "validation_expected_NLL_x": 0.8378322567343555, "cpu_seconds": 4.259272999999999}
+{"problem": "p0", "method": "full_distill", "condition": "state", "seed": 2610132, "checkpoint": 3000, "validation_expected_NLL_x": 0.8325274819186788, "cpu_seconds": 3.5462999999999987}
+{"problem": "p0", "method": "full_distill", "condition": "memory", "seed": 2610132, "checkpoint": 3000, "validation_expected_NLL_x": 0.816975799921771, "cpu_seconds": 4.385607999999998}
+{"problem": "p0", "method": "full_distill", "condition": "state", "seed": 2610133, "checkpoint": 3000, "validation_expected_NLL_x": 0.857550596618069, "cpu_seconds": 3.5615740000000002}
+{"problem": "p0", "method": "full_distill", "condition": "memory", "seed": 2610133, "checkpoint": 2750, "validation_expected_NLL_x": 0.8293272622022185, "cpu_seconds": 4.356358}

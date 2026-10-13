@@ -1,0 +1,111 @@
+{
+  "problem": "p0",
+  "method": "full_distill",
+  "seed": 2610131,
+  "condition": "measurement",
+  "y_dim": 5,
+  "state_dim": 38,
+  "target_parameters": 30000,
+  "parameters": 29966,
+  "updates": 3000,
+  "checkpoint": 3000,
+  "observed_selection_checkpoint": 2250,
+  "validation_expected_NLL_x": 0.813836299065449,
+  "validation_best_observed_NLL_x": 0.6623865365982056,
+  "history": [
+    {
+      "step": 250,
+      "training_batch_NLL_z": 2.9884207248687744,
+      "validation_expected_NLL_x": 1.0495216619374275,
+      "validation_observed_NLL_x": 0.9484213590621948,
+      "elapsed_cpu": 0.3138229999999993
+    },
+    {
+      "step": 500,
+      "training_batch_NLL_z": 2.510143518447876,
+      "validation_expected_NLL_x": 0.9557530567612263,
+      "validation_observed_NLL_x": 0.7698545455932617,
+      "elapsed_cpu": 0.6357979999999994
+    },
+    {
+      "step": 750,
+      "training_batch_NLL_z": 2.5742690563201904,
+      "validation_expected_NLL_x": 0.9004535135049994,
+      "validation_observed_NLL_x": 0.6987584829330444,
+      "elapsed_cpu": 0.9651700000000005
+    },
+    {
+      "step": 1000,
+      "training_batch_NLL_z": 2.8711652755737305,
+      "validation_expected_NLL_x": 0.9457168154912314,
+      "validation_observed_NLL_x": 0.8774210214614868,
+      "elapsed_cpu": 1.2869709999999994
+    },
+    {
+      "step": 1250,
+      "training_batch_NLL_z": 2.545795440673828,
+      "validation_expected_NLL_x": 0.8737726732552433,
+      "validation_observed_NLL_x": 0.7382171154022217,
+      "elapsed_cpu": 1.5909110000000002
+    },
+    {
+      "step": 1500,
+      "training_batch_NLL_z": 2.4548749923706055,
+      "validation_expected_NLL_x": 0.8656314857341096,
+      "validation_observed_NLL_x": 0.7056530714035034,
+      "elapsed_cpu": 1.8845899999999993
+    },
+    {
+      "step": 1750,
+      "training_batch_NLL_z": 2.630988836288452,
+      "validation_expected_NLL_x": 0.8625861446510039,
+      "validation_observed_NLL_x": 0.7510031461715698,
+      "elapsed_cpu": 2.1936789999999995
+    },
+    {
+      "step": 2000,
+      "training_batch_NLL_z": 2.7016024589538574,
+      "validation_expected_NLL_x": 0.8585154185890993,
+      "validation_observed_NLL_x": 0.724399745464325,
+      "elapsed_cpu": 2.5023169999999997
+    },
+    {
+      "step": 2250,
+      "training_batch_NLL_z": 2.560882329940796,
+      "validation_expected_NLL_x": 0.8528907271327111,
+      "validation_observed_NLL_x": 0.6623865365982056,
+      "elapsed_cpu": 2.812116999999999
+    },
+    {
+      "step": 2500,
+      "training_batch_NLL_z": 2.669956922531128,
+      "validation_expected_NLL_x": 0.8409855902469336,
+      "validation_observed_NLL_x": 0.6658700704574585,
+      "elapsed_cpu": 3.1157629999999994
+    },
+    {
+      "step": 2750,
+      "training_batch_NLL_z": 2.4601316452026367,
+      "validation_expected_NLL_x": 0.8652936339484794,
+      "validation_observed_NLL_x": 0.8080863356590271,
+      "elapsed_cpu": 3.4257600000000004
+    },
+    {
+      "step": 3000,
+      "training_batch_NLL_z": 2.511784076690674,
+      "validation_expected_NLL_x": 0.813836299065449,
+      "validation_observed_NLL_x": 0.7305879592895508,
+      "elapsed_cpu": 3.737883
+    }
+  ],
+  "training_objective": "continuous posterior quadrature weighted NLL (random nodes)",
+  "validation_selection": "shared expected posterior log score; historical observed selector retained separately",
+  "observations": 512,
+  "parents": 256,
+  "topology_input": false,
+  "reference_input_at_inference": false,
+  "physics_calls": 0,
+  "gpu_seconds": 0,
+  "cpu_seconds": 3.7392579999999995,
+  "wall_seconds": 3.8291603750549257
+}

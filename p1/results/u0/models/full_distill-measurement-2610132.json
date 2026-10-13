@@ -1,0 +1,69 @@
+{
+  "problem": "u0",
+  "method": "full_distill",
+  "seed": 2610132,
+  "condition": "measurement",
+  "y_dim": 5,
+  "state_dim": 18,
+  "target_parameters": 30000,
+  "parameters": 29966,
+  "updates": 1500,
+  "checkpoint": 1500,
+  "observed_selection_checkpoint": 1500,
+  "validation_expected_NLL_x": -0.7743539886615025,
+  "validation_best_observed_NLL_x": -0.8731371164321899,
+  "history": [
+    {
+      "step": 250,
+      "training_batch_NLL_z": 1.5858371257781982,
+      "validation_expected_NLL_x": -0.28383008046972386,
+      "validation_observed_NLL_x": -0.44287973642349243,
+      "elapsed_cpu": 0.4474820000000008
+    },
+    {
+      "step": 500,
+      "training_batch_NLL_z": 1.5804510116577148,
+      "validation_expected_NLL_x": -0.5656503352183482,
+      "validation_observed_NLL_x": -0.7463377118110657,
+      "elapsed_cpu": 0.8840029999999999
+    },
+    {
+      "step": 750,
+      "training_batch_NLL_z": 1.2770556211471558,
+      "validation_expected_NLL_x": -0.6627518834556667,
+      "validation_observed_NLL_x": -0.8052489757537842,
+      "elapsed_cpu": 1.3165590000000016
+    },
+    {
+      "step": 1000,
+      "training_batch_NLL_z": 1.4554822444915771,
+      "validation_expected_NLL_x": -0.7256871879800177,
+      "validation_observed_NLL_x": -0.8311029672622681,
+      "elapsed_cpu": 1.7499129999999994
+    },
+    {
+      "step": 1250,
+      "training_batch_NLL_z": 1.2009285688400269,
+      "validation_expected_NLL_x": -0.7432094981327494,
+      "validation_observed_NLL_x": -0.8352869749069214,
+      "elapsed_cpu": 2.2084420000000016
+    },
+    {
+      "step": 1500,
+      "training_batch_NLL_z": 1.1207131147384644,
+      "validation_expected_NLL_x": -0.7743539886615025,
+      "validation_observed_NLL_x": -0.8731371164321899,
+      "elapsed_cpu": 2.65334
+    }
+  ],
+  "training_objective": "continuous posterior quadrature weighted NLL (random nodes)",
+  "validation_selection": "shared expected posterior log score; historical observed selector retained separately",
+  "observations": 4096,
+  "parents": 1024,
+  "topology_input": false,
+  "reference_input_at_inference": false,
+  "physics_calls": 0,
+  "gpu_seconds": 0,
+  "cpu_seconds": 2.6558379999999993,
+  "wall_seconds": 2.6887328330194578
+}

@@ -1,0 +1,20 @@
+{
+  "id": "p1-cached-state-ablation-train-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.train",
+    "p0",
+    "--ablation"
+  ],
+  "wall_seconds": 26.268584458041005,
+  "cpu_seconds": 25.319636,
+  "gpu_seconds": 0,
+  "maxrss_raw": 332316672,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 666.087824
+}

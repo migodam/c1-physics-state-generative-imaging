@@ -1,0 +1,18 @@
+{
+  "id": "p1-report-finalization-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.finalize"
+  ],
+  "wall_seconds": 0.04908233298920095,
+  "cpu_seconds": 0.033155,
+  "gpu_seconds": 0,
+  "maxrss_raw": 18726912,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 630.1018369999999
+}

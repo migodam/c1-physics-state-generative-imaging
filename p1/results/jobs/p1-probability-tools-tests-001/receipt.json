@@ -1,0 +1,19 @@
+{
+  "id": "p1-probability-tools-tests-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests/test_probability_tools.py",
+    "-q"
+  ],
+  "wall_seconds": 0.8978478750213981,
+  "cpu_seconds": 0.609285,
+  "gpu_seconds": 0,
+  "maxrss_raw": 89751552,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 880.107573
+}

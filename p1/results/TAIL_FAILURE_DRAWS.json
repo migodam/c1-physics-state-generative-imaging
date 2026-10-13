@@ -1,0 +1,971 @@
+{
+  "scope": "same frozen models and exact original evaluation RNG, only already recorded failed observations",
+  "new_models": 0,
+  "new_data": 0,
+  "new_physics": 0,
+  "results_unchanged": true,
+  "records": [
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "observation": 47,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623778,
+      "draws": [
+        {
+          "index": 404,
+          "z": [
+            -43.6419066242914,
+            1.8361055339294514
+          ],
+          "decoded_x": [
+            -1.5,
+            1.087462393239003
+          ],
+          "log_density_z": -15.489821122916464,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "observation": 66,
+      "original_failed_count": 2,
+      "reproduced_failed_count": 2,
+      "generator_seed": 263623797,
+      "draws": [
+        {
+          "index": 1685,
+          "z": [
+            37.924236959875344,
+            -6.1792245843592015
+          ],
+          "decoded_x": [
+            1.5,
+            -1.4937967515829746
+          ],
+          "log_density_z": -12.283069164564516,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1945,
+          "z": [
+            63.50177408087913,
+            -28.975297580288398
+          ],
+          "decoded_x": [
+            1.5,
+            -1.4999999999992177
+          ],
+          "log_density_z": -19.23507227596919,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "observation": 250,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623981,
+      "draws": [
+        {
+          "index": 906,
+          "z": [
+            -1.9857598626672113,
+            38.718633737717724
+          ],
+          "decoded_x": [
+            -1.1378814863461697,
+            1.5
+          ],
+          "log_density_z": -15.894648052589854,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 46,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623778,
+      "draws": [
+        {
+          "index": 1457,
+          "z": [
+            12.003923771171188,
+            -38.09206650035892
+          ],
+          "decoded_x": [
+            1.4999816396590493,
+            -1.5
+          ],
+          "log_density_z": -16.338014332923112,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 46,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623778,
+      "draws": [
+        {
+          "index": 291,
+          "z": [
+            -50.732987230416875,
+            1.3563250452332962
+          ],
+          "decoded_x": [
+            -1.5,
+            0.8854853161905223
+          ],
+          "log_density_z": -16.876223259493077,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 46,
+      "original_failed_count": 3,
+      "reproduced_failed_count": 3,
+      "generator_seed": 263623778,
+      "draws": [
+        {
+          "index": 303,
+          "z": [
+            47.047703749900776,
+            -7.967640743314116
+          ],
+          "decoded_x": [
+            1.5,
+            -1.498960873570175
+          ],
+          "log_density_z": -14.011075537578716,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 517,
+          "z": [
+            -38.233063576879616,
+            -0.39492985079292797
+          ],
+          "decoded_x": [
+            -1.5,
+            -0.2924066852132605
+          ],
+          "log_density_z": -13.130701753473248,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1889,
+          "z": [
+            36.783135201644676,
+            -6.275118929323244
+          ],
+          "decoded_x": [
+            1.5,
+            -1.4943629107549397
+          ],
+          "log_density_z": -11.76528951937136,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 66,
+      "original_failed_count": 2,
+      "reproduced_failed_count": 2,
+      "generator_seed": 263623798,
+      "draws": [
+        {
+          "index": 1681,
+          "z": [
+            40.287165175669166,
+            0.2915758774163151
+          ],
+          "decoded_x": [
+            1.5,
+            0.21714566990366535
+          ],
+          "log_density_z": -13.384204372334272,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1886,
+          "z": [
+            37.685155233062055,
+            2.7876920971881787
+          ],
+          "decoded_x": [
+            1.5,
+            1.326021279472121
+          ],
+          "log_density_z": -13.04839672689189,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 150,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623882,
+      "draws": [
+        {
+          "index": 279,
+          "z": [
+            49.43952557661128,
+            -0.47606766533351497
+          ],
+          "decoded_x": [
+            1.5,
+            -0.3504566467550756
+          ],
+          "log_density_z": -14.102329220517445,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 47,
+      "original_failed_count": 2,
+      "reproduced_failed_count": 2,
+      "generator_seed": 263623780,
+      "draws": [
+        {
+          "index": 764,
+          "z": [
+            -72.61148612485327,
+            -2.146308594508746
+          ],
+          "decoded_x": [
+            -1.5,
+            -1.1859699744871943
+          ],
+          "log_density_z": -14.046828104344467,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1540,
+          "z": [
+            66.69556039263455,
+            -2.014172634151386
+          ],
+          "decoded_x": [
+            1.5,
+            -1.1468313040317284
+          ],
+          "log_density_z": -10.506160577428922,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 66,
+      "original_failed_count": 3,
+      "reproduced_failed_count": 3,
+      "generator_seed": 263623799,
+      "draws": [
+        {
+          "index": 1687,
+          "z": [
+            -40.2360745830245,
+            -2.833208739853274
+          ],
+          "decoded_x": [
+            -1.5,
+            -1.333332608596202
+          ],
+          "log_density_z": -10.659601689068982,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1966,
+          "z": [
+            83.51097584951586,
+            -2.94615136038613
+          ],
+          "decoded_x": [
+            1.5,
+            -1.3502438263785557
+          ],
+          "log_density_z": -12.154183749577074,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 2024,
+          "z": [
+            42.01603739768866,
+            -2.986891399953823
+          ],
+          "decoded_x": [
+            1.5,
+            -1.355935195087923
+          ],
+          "log_density_z": -8.849798599116113,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 90,
+      "original_failed_count": 3,
+      "reproduced_failed_count": 3,
+      "generator_seed": 263623823,
+      "draws": [
+        {
+          "index": 489,
+          "z": [
+            -1.9103520242542855,
+            -66.6186822252378
+          ],
+          "decoded_x": [
+            -1.1131760723410329,
+            -1.5
+          ],
+          "log_density_z": -12.55725237722638,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 655,
+          "z": [
+            -0.8205984735487071,
+            -58.4496443666827
+          ],
+          "decoded_x": [
+            -0.5830900939844927,
+            -1.5
+          ],
+          "log_density_z": -12.060473463938406,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1445,
+          "z": [
+            -0.02842709340836591,
+            -64.21864440365853
+          ],
+          "decoded_x": [
+            -0.02131888442704133,
+            -1.5
+          ],
+          "log_density_z": -13.168851624401109,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 91,
+      "original_failed_count": 3,
+      "reproduced_failed_count": 3,
+      "generator_seed": 263623824,
+      "draws": [
+        {
+          "index": 389,
+          "z": [
+            1.1070056424691657,
+            -44.084172074827904
+          ],
+          "decoded_x": [
+            0.7547113478518712,
+            -1.5
+          ],
+          "log_density_z": -12.181848758513766,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1457,
+          "z": [
+            1.2812204731594357,
+            -50.333881269589256
+          ],
+          "decoded_x": [
+            0.847972369015976,
+            -1.5
+          ],
+          "log_density_z": -12.785836924118854,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 2035,
+          "z": [
+            1.2878241826045327,
+            38.57406253484583
+          ],
+          "decoded_x": [
+            0.85133604547284,
+            1.5
+          ],
+          "log_density_z": -11.814929179145771,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 47,
+      "original_failed_count": 3,
+      "reproduced_failed_count": 3,
+      "generator_seed": 263623780,
+      "draws": [
+        {
+          "index": 764,
+          "z": [
+            -60.250492813895306,
+            -2.2684022667983372
+          ],
+          "decoded_x": [
+            -1.5,
+            -1.2186782997666976
+          ],
+          "log_density_z": -13.500652224279097,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1540,
+          "z": [
+            54.73822591452531,
+            -2.132573416511125
+          ],
+          "decoded_x": [
+            1.5,
+            -1.1820871918963072
+          ],
+          "log_density_z": -9.959984683052504,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1679,
+          "z": [
+            37.63981143174255,
+            -2.0141937377203636
+          ],
+          "decoded_x": [
+            1.5,
+            -1.1468378796957328
+          ],
+          "log_density_z": -10.022243965599865,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 66,
+      "original_failed_count": 3,
+      "reproduced_failed_count": 3,
+      "generator_seed": 263623799,
+      "draws": [
+        {
+          "index": 1687,
+          "z": [
+            -38.723328838664,
+            -2.860612555155488
+          ],
+          "decoded_x": [
+            -1.5,
+            -1.3375940213552988
+          ],
+          "log_density_z": -10.462891870328386,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1966,
+          "z": [
+            79.29438468983936,
+            -2.959373851533311
+          ],
+          "decoded_x": [
+            1.5,
+            -1.3521139726585565
+          ],
+          "log_density_z": -11.958407025780774,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 2024,
+          "z": [
+            39.720611076865424,
+            -2.9949984820156423
+          ],
+          "decoded_x": [
+            1.5,
+            -1.3570429884121333
+          ],
+          "log_density_z": -8.654006328283598,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "observation": 104,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623835,
+      "draws": [
+        {
+          "index": 286,
+          "z": [
+            -0.7305293779548409,
+            46.44943555499098
+          ],
+          "decoded_x": [
+            -0.5247642905367391,
+            1.5
+          ],
+          "log_density_z": -13.54417693707791,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "observation": 140,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623871,
+      "draws": [
+        {
+          "index": 884,
+          "z": [
+            -2.270348630417168,
+            -40.503985032623554
+          ],
+          "decoded_x": [
+            -1.2191741156047797,
+            -1.5
+          ],
+          "log_density_z": -16.086078989663285,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 123,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623855,
+      "draws": [
+        {
+          "index": 825,
+          "z": [
+            1.8869930521885574,
+            -43.474813128149606
+          ],
+          "decoded_x": [
+            1.1052368999254338,
+            -1.5
+          ],
+          "log_density_z": -19.530818562200896,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 104,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623836,
+      "draws": [
+        {
+          "index": 189,
+          "z": [
+            -0.5864804189434578,
+            36.79994668650084
+          ],
+          "decoded_x": [
+            -0.42767155054960626,
+            1.5
+          ],
+          "log_density_z": -13.608787528304106,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610132,
+      "observation": 123,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623855,
+      "draws": [
+        {
+          "index": 825,
+          "z": [
+            1.291205692405692,
+            -39.87887392955723
+          ],
+          "decoded_x": [
+            0.8530535856302626,
+            -1.5
+          ],
+          "log_density_z": -17.014191807135024,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 83,
+      "original_failed_count": 5,
+      "reproduced_failed_count": 5,
+      "generator_seed": 263623816,
+      "draws": [
+        {
+          "index": 31,
+          "z": [
+            -0.5321754673858328,
+            -53.87157895001786
+          ],
+          "decoded_x": [
+            -0.38997108633401245,
+            -1.5
+          ],
+          "log_density_z": -10.157285795362913,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 103,
+          "z": [
+            0.18315005909424203,
+            39.799303262844155
+          ],
+          "decoded_x": [
+            0.1369798545024874,
+            1.5
+          ],
+          "log_density_z": -9.252119806892257,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1275,
+          "z": [
+            0.528063653277242,
+            38.97419824295872
+          ],
+          "decoded_x": [
+            0.38709413014947147,
+            1.5
+          ],
+          "log_density_z": -9.98748359860183,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1632,
+          "z": [
+            -0.1892856722341335,
+            -46.84684339089193
+          ],
+          "decoded_x": [
+            -0.1415418968286788,
+            -1.5
+          ],
+          "log_density_z": -10.146418725376986,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1892,
+          "z": [
+            -0.40469098951143107,
+            -62.318662354994565
+          ],
+          "decoded_x": [
+            -0.29944259148815844,
+            -1.5
+          ],
+          "log_density_z": -10.933055698923079,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 104,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623837,
+      "draws": [
+        {
+          "index": 811,
+          "z": [
+            0.23230632040953392,
+            -48.44516180113651
+          ],
+          "decoded_x": [
+            0.17345040236085207,
+            -1.5
+          ],
+          "log_density_z": -10.952432083510223,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 123,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623856,
+      "draws": [
+        {
+          "index": 851,
+          "z": [
+            1.2582729646623514,
+            51.829636084978894
+          ],
+          "decoded_x": [
+            0.836185995011494,
+            1.5
+          ],
+          "log_density_z": -12.32398063225584,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 251,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623984,
+      "draws": [
+        {
+          "index": 342,
+          "z": [
+            1.3526900165792433,
+            51.294085031322126
+          ],
+          "decoded_x": [
+            0.8837071951063846,
+            1.5
+          ],
+          "log_density_z": -13.373860832951351,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 58,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623791,
+      "draws": [
+        {
+          "index": 1526,
+          "z": [
+            3.0164105566209596,
+            -38.94775592006851
+          ],
+          "decoded_x": [
+            1.3599300569214838,
+            -1.5
+          ],
+          "log_density_z": -18.333468840474524,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 104,
+      "original_failed_count": 2,
+      "reproduced_failed_count": 2,
+      "generator_seed": 263623837,
+      "draws": [
+        {
+          "index": 813,
+          "z": [
+            -1.2085239197037758,
+            -78.88060733460402
+          ],
+          "decoded_x": [
+            -0.8101130083401087,
+            -1.5
+          ],
+          "log_density_z": -14.599278717515938,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        },
+        {
+          "index": 1335,
+          "z": [
+            -0.8503590271042212,
+            71.13890567682283
+          ],
+          "decoded_x": [
+            -0.6019273535365606,
+            1.5
+          ],
+          "log_density_z": -13.723834098922266,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "observation": 183,
+      "original_failed_count": 1,
+      "reproduced_failed_count": 1,
+      "generator_seed": 263623916,
+      "draws": [
+        {
+          "index": 233,
+          "z": [
+            36.76582041717976,
+            -2.7022832087055266
+          ],
+          "decoded_x": [
+            1.5,
+            -1.311483709523425
+          ],
+          "log_density_z": -20.19070459749165,
+          "log_density_decoded_x": "-inf: rounded endpoint outside open support"
+        }
+      ],
+      "action": "preserve failed original law; no clipping/resampling or physical call"
+    }
+  ]
+}

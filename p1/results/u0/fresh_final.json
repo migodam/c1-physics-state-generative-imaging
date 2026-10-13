@@ -1,0 +1,9 @@
+{
+  "seed": 26101351,
+  "parents": 256,
+  "replicates": 1,
+  "role": "independent final U0 panel; generated after primary models selected",
+  "model_selection_use": false,
+  "new_physics": 0,
+  "exposure_after_evaluation": "now exposed; never reuse as a future blind test"
+}

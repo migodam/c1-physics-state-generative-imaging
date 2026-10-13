@@ -1,0 +1,1586 @@
+{
+  "scope": "Read existing C1 artifacts completely as saved; no numerical experiment.",
+  "time_utc": "2026-10-13T08:04:36.964307+00:00",
+  "files": [
+    {
+      "path": "C1_DELIVERY_RECEIPT.json",
+      "byte_count": 1705,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        49
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "C1_GATE_DECISION.json",
+      "byte_count": 1868,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        29
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "C1_IMPLEMENTATION_AUDIT.json",
+      "byte_count": 2426,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        30
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "C1_RESOURCE_LEDGER.json",
+      "byte_count": 2843,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        88
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "byte_count": 3442,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true
+    },
+    {
+      "path": "RUN_COMMANDS.md",
+      "byte_count": 5662,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        191
+      ],
+      "complete": true
+    },
+    {
+      "path": "configs/protocol_v2.json",
+      "byte_count": 1816,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        17
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/CALIBRATION_TABLES.csv",
+      "byte_count": 60925,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        374
+      ],
+      "complete": true,
+      "parse": "all CSV data rows",
+      "records": 373
+    },
+    {
+      "path": "results/JOB_LEDGER.jsonl",
+      "byte_count": 10020,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        23
+      ],
+      "complete": true,
+      "parse": "all JSONL records",
+      "records": 23
+    },
+    {
+      "path": "results/JOB_STARTS.jsonl",
+      "byte_count": 4428,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        17
+      ],
+      "complete": true,
+      "parse": "all JSONL records",
+      "records": 17
+    },
+    {
+      "path": "results/METHOD_MEANS.json",
+      "byte_count": 2653,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        73
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/PACKAGE_ALGEBRA_CHECKS.json",
+      "byte_count": 2433,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        89
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/PARENT_METRICS.csv",
+      "byte_count": 192564,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        2305
+      ],
+      "complete": true,
+      "parse": "all CSV data rows",
+      "records": 2304
+    },
+    {
+      "path": "results/PHYSICS_LEDGER.jsonl",
+      "byte_count": 2326148,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        15934
+      ],
+      "complete": true,
+      "parse": "all JSONL records",
+      "records": 15934
+    },
+    {
+      "path": "results/PHYSICS_SUMMARY.json",
+      "byte_count": 670,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        27
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/RESOURCE_RESERVES.json",
+      "byte_count": 628,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        17
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/SAMPLE_PRECISION.json",
+      "byte_count": 9462,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        273
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/SUMMARY_METRICS.csv",
+      "byte_count": 4316,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        25
+      ],
+      "complete": true,
+      "parse": "all CSV data rows",
+      "records": 24
+    },
+    {
+      "path": "results/jobs/corrected-query-timing-001/receipt.json",
+      "byte_count": 468,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/corrected-query-timing-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/corrected-query-timing-001/stdout.log",
+      "byte_count": 610,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/decode-precision-diagnostic-001/receipt.json",
+      "byte_count": 484,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        17
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/decode-precision-diagnostic-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/decode-precision-diagnostic-001/stdout.log",
+      "byte_count": 45,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/decode-precision-test-001/receipt.json",
+      "byte_count": 504,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/decode-precision-test-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/decode-precision-test-001/stdout.log",
+      "byte_count": 98,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/delivery-static-qa-001/receipt.json",
+      "byte_count": 470,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/delivery-static-qa-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/delivery-static-qa-001/stdout.log",
+      "byte_count": 144,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/density-revision-tests-001/receipt.json",
+      "byte_count": 504,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/density-revision-tests-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/density-revision-tests-001/stdout.log",
+      "byte_count": 99,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/documents-finalize-001/receipt.json",
+      "byte_count": 475,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/documents-finalize-001/stderr.log",
+      "byte_count": 729,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        10
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/documents-finalize-001/stdout.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/documents-finalize-002/receipt.json",
+      "byte_count": 464,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/documents-finalize-002/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/documents-finalize-002/stdout.log",
+      "byte_count": 93,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/final-invariants-001/receipt.json",
+      "byte_count": 492,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/final-invariants-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/final-invariants-001/stdout.log",
+      "byte_count": 179,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        3
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/invariants-001/receipt.json",
+      "byte_count": 469,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        20
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/invariants-001/stderr.log",
+      "byte_count": 105,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/invariants-001/stdout.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/invariants-002/receipt.json",
+      "byte_count": 466,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/invariants-002/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/invariants-002/stdout.log",
+      "byte_count": 99,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/mechanism-cost-diagnostics-001/receipt.json",
+      "byte_count": 480,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/mechanism-cost-diagnostics-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/mechanism-cost-diagnostics-001/stdout.log",
+      "byte_count": 3196,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/operator-actions-tests-001/receipt.json",
+      "byte_count": 514,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/operator-actions-tests-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/operator-actions-tests-001/stdout.log",
+      "byte_count": 98,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        2
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/p0-evaluation-001/receipt.json",
+      "byte_count": 470,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/p0-evaluation-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/p0-evaluation-001/stdout.log",
+      "byte_count": 1529,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        12
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/p0-prepare-001/receipt.json",
+      "byte_count": 455,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/p0-prepare-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/p0-prepare-001/stdout.log",
+      "byte_count": 41,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/p0-training-001/receipt.json",
+      "byte_count": 467,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/p0-training-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/p0-training-001/stdout.log",
+      "byte_count": 2031,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        13
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/result-plots-001/receipt.json",
+      "byte_count": 459,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        17
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/result-plots-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/result-plots-001/stdout.log",
+      "byte_count": 175,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/result-plots-reviewed-001/receipt.json",
+      "byte_count": 456,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        17
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/result-plots-reviewed-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/result-plots-reviewed-001/stdout.log",
+      "byte_count": 175,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/source-algebra-001/receipt.json",
+      "byte_count": 557,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/source-algebra-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/source-algebra-001/stdout.log",
+      "byte_count": 114,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/test-dependency-001/receipt.json",
+      "byte_count": 527,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        24
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/test-dependency-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/test-dependency-001/stdout.log",
+      "byte_count": 933,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-evaluation-001/receipt.json",
+      "byte_count": 464,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/u0-evaluation-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-evaluation-001/stdout.log",
+      "byte_count": 1697,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        12
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-prepare-001/receipt.json",
+      "byte_count": 454,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/u0-prepare-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-prepare-001/stdout.log",
+      "byte_count": 38,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-reference-refine-001/receipt.json",
+      "byte_count": 492,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        18
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/u0-reference-refine-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-reference-refine-001/stdout.log",
+      "byte_count": 1242,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        13
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-training-001/receipt.json",
+      "byte_count": 463,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        19
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/jobs/u0-training-001/stderr.log",
+      "byte_count": 0,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [],
+      "complete": true
+    },
+    {
+      "path": "results/jobs/u0-training-001/stdout.log",
+      "byte_count": 2017,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        13
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/p0/DIAGNOSTICS.json",
+      "byte_count": 27957,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        830
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/EVALUATION.json",
+      "byte_count": 17439,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        473
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/EVALUATION_DRAFT.json",
+      "byte_count": 17356,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        472
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/GALLERY_MANIFEST.json",
+      "byte_count": 16280,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        587
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/MODELS_FROZEN.json",
+      "byte_count": 896,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        35
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/OBSERVATION_METRICS.jsonl",
+      "byte_count": 899046,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        768
+      ],
+      "complete": true,
+      "parse": "all JSONL records",
+      "records": 768
+    },
+    {
+      "path": "results/p0/PARENT_SPLITS.json",
+      "byte_count": 9529,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        410
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/PHYSICAL_SAMPLE_CHECKS.json",
+      "byte_count": 160729,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        6684
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/PREPARED.json",
+      "byte_count": 1474,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        54
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/QUERY_TIMING_CORRECTED.json",
+      "byte_count": 5156,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        180
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/REFERENCE_AUDIT.json",
+      "byte_count": 22362,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        910
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn-2610131.json",
+      "byte_count": 2587,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn-2610132.json",
+      "byte_count": 2634,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn-2610133.json",
+      "byte_count": 2616,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn_memory-2610131.json",
+      "byte_count": 2587,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn_memory-2610132.json",
+      "byte_count": 2600,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn_memory-2610133.json",
+      "byte_count": 2596,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn_state-2610131.json",
+      "byte_count": 2636,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn_state-2610132.json",
+      "byte_count": 2642,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/mdn_state-2610133.json",
+      "byte_count": 2639,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/measurement-2610131.json",
+      "byte_count": 2564,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/measurement-2610132.json",
+      "byte_count": 2587,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/p0/models/measurement-2610133.json",
+      "byte_count": 2614,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        95
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/EVALUATION.json",
+      "byte_count": 17050,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        470
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/EVALUATION_INITIAL_REFERENCE.json",
+      "byte_count": 16976,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        468
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/INDEPENDENT_REFERENCE.json",
+      "byte_count": 1097,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        55
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/MODELS_FROZEN.json",
+      "byte_count": 840,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        35
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/OBSERVATION_METRICS.jsonl",
+      "byte_count": 2843823,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        3072
+      ],
+      "complete": true,
+      "parse": "all JSONL records",
+      "records": 3072
+    },
+    {
+      "path": "results/u0/OBSERVATION_METRICS_INITIAL_REFERENCE.jsonl",
+      "byte_count": 2320372,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        3072
+      ],
+      "complete": true,
+      "parse": "all JSONL records",
+      "records": 3072
+    },
+    {
+      "path": "results/u0/PARENT_SPLITS.json",
+      "byte_count": 30399,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1306
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/PREPARED.json",
+      "byte_count": 1532,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        54
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/REFERENCE_AUDIT.json",
+      "byte_count": 79916,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        3139
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/REFERENCE_AUDIT_INITIAL_REFERENCE.json",
+      "byte_count": 88942,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        3598
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/REFERENCE_REFINEMENT.json",
+      "byte_count": 79916,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        3139
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/mdn-2610131.json",
+      "byte_count": 1643,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/mdn-2610132.json",
+      "byte_count": 1658,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/mdn-2610133.json",
+      "byte_count": 1638,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/measurement-2610131.json",
+      "byte_count": 1616,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/measurement-2610132.json",
+      "byte_count": 1638,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/measurement-2610133.json",
+      "byte_count": 1660,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/memory-2610131.json",
+      "byte_count": 1632,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/memory-2610132.json",
+      "byte_count": 1645,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/memory-2610133.json",
+      "byte_count": 1643,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/state-2610131.json",
+      "byte_count": 1613,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/state-2610132.json",
+      "byte_count": 1632,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "results/u0/models/state-2610133.json",
+      "byte_count": 1647,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        59
+      ],
+      "complete": true,
+      "parse": "JSON object"
+    },
+    {
+      "path": "src/c1/__init__.py",
+      "byte_count": 83,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        1
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/accounting.py",
+      "byte_count": 3914,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        80
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/data.py",
+      "byte_count": 7839,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        129
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/density.py",
+      "byte_count": 14656,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        318
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/diagnostics.py",
+      "byte_count": 6813,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        90
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/evaluate.py",
+      "byte_count": 14325,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        194
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/material.py",
+      "byte_count": 1686,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        44
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/probability.py",
+      "byte_count": 977,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        22
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/problems.py",
+      "byte_count": 6787,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        134
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/refine_reference.py",
+      "byte_count": 5810,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        73
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/timing.py",
+      "byte_count": 3374,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        50
+      ],
+      "complete": true
+    },
+    {
+      "path": "src/c1/train.py",
+      "byte_count": 5127,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        82
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/finalize.py",
+      "byte_count": 25784,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        246
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/job.py",
+      "byte_count": 4402,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        81
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/plots.py",
+      "byte_count": 23417,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        436
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/qa_and_bundle.py",
+      "byte_count": 7507,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        101
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/run_tests.py",
+      "byte_count": 240,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        8
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/sample_precision.py",
+      "byte_count": 2018,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        34
+      ],
+      "complete": true
+    },
+    {
+      "path": "tools/seal_delivery.py",
+      "byte_count": 4393,
+      "read_mode": "complete UTF-8 file, beginning through EOF",
+      "line_range": [
+        1,
+        61
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/u0/normalization.npz",
+      "read_mode": "complete normalization NPZ; all member headers and float64 values",
+      "members": [
+        "ym",
+        "ys",
+        "sm",
+        "ss"
+      ],
+      "complete": true
+    },
+    {
+      "path": "results/p0/normalization.npz",
+      "read_mode": "complete normalization NPZ; all member headers and float64 values",
+      "members": [
+        "ym",
+        "ys",
+        "sm",
+        "ss"
+      ],
+      "complete": true
+    }
+  ],
+  "files_read": 154,
+  "training_models": 24,
+  "checkpoint_history_records": 216,
+  "existing_parent_metric_rows": 2304,
+  "new_training": false,
+  "new_tests": false,
+  "new_physics": false,
+  "new_gate": false,
+  "new_digest": false,
+  "old_files_written": false,
+  "outputs": "p1/research/delegated/artifact_audit only",
+  "binary_weights_or_data_loaded": false,
+  "binary_normalization_loaded": "Only saved normalization small arrays decoded with stdlib."
+}

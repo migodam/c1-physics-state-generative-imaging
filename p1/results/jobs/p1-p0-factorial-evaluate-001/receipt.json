@@ -1,0 +1,19 @@
+{
+  "id": "p1-p0-factorial-evaluate-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.evaluate",
+    "p0"
+  ],
+  "wall_seconds": 14.832729374989867,
+  "cpu_seconds": 13.506300000000001,
+  "gpu_seconds": 0,
+  "maxrss_raw": 302366720,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 804.62316
+}

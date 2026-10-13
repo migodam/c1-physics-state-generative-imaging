@@ -1,0 +1,69 @@
+{
+  "problem": "u0",
+  "method": "full_distill",
+  "seed": 2610131,
+  "condition": "measurement",
+  "y_dim": 5,
+  "state_dim": 18,
+  "target_parameters": 30000,
+  "parameters": 29966,
+  "updates": 1500,
+  "checkpoint": 1500,
+  "observed_selection_checkpoint": 1500,
+  "validation_expected_NLL_x": -0.7502174296208088,
+  "validation_best_observed_NLL_x": -0.8450528383255005,
+  "history": [
+    {
+      "step": 250,
+      "training_batch_NLL_z": 1.5174282789230347,
+      "validation_expected_NLL_x": -0.2133722053503777,
+      "validation_observed_NLL_x": -0.3487417995929718,
+      "elapsed_cpu": 0.4403769999999998
+    },
+    {
+      "step": 500,
+      "training_batch_NLL_z": 1.368699312210083,
+      "validation_expected_NLL_x": -0.42253261456322816,
+      "validation_observed_NLL_x": -0.5252189040184021,
+      "elapsed_cpu": 0.8939029999999999
+    },
+    {
+      "step": 750,
+      "training_batch_NLL_z": 1.1533228158950806,
+      "validation_expected_NLL_x": -0.50649660846974,
+      "validation_observed_NLL_x": -0.6219030022621155,
+      "elapsed_cpu": 1.3509010000000004
+    },
+    {
+      "step": 1000,
+      "training_batch_NLL_z": 1.4338269233703613,
+      "validation_expected_NLL_x": -0.5914551675931898,
+      "validation_observed_NLL_x": -0.6979943513870239,
+      "elapsed_cpu": 1.7927090000000003
+    },
+    {
+      "step": 1250,
+      "training_batch_NLL_z": 1.1263821125030518,
+      "validation_expected_NLL_x": -0.703480260606972,
+      "validation_observed_NLL_x": -0.7992573976516724,
+      "elapsed_cpu": 2.2414520000000007
+    },
+    {
+      "step": 1500,
+      "training_batch_NLL_z": 1.3445634841918945,
+      "validation_expected_NLL_x": -0.7502174296208088,
+      "validation_observed_NLL_x": -0.8450528383255005,
+      "elapsed_cpu": 2.6824969999999997
+    }
+  ],
+  "training_objective": "continuous posterior quadrature weighted NLL (random nodes)",
+  "validation_selection": "shared expected posterior log score; historical observed selector retained separately",
+  "observations": 4096,
+  "parents": 1024,
+  "topology_input": false,
+  "reference_input_at_inference": false,
+  "physics_calls": 0,
+  "gpu_seconds": 0,
+  "cpu_seconds": 2.6841430000000006,
+  "wall_seconds": 2.7171458329539746
+}

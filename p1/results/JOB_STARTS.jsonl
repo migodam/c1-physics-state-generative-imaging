@@ -1,0 +1,18 @@
+{"id": "p1-density-interface-tests-001", "stage": "tests", "cpu_reservation": 890, "wall_reservation": 1785, "command": ["python3", "tools/run_tests.py", "tests", "-q"]}
+{"id": "p1-reference-prepare-001", "stage": "compute", "cpu_reservation": 887.930116, "wall_reservation": 1781.85166962503, "command": ["python3", "-m", "c1p1.prepare"]}
+{"id": "p1-probability-tools-tests-001", "stage": "tests", "cpu_reservation": 880.107573, "wall_reservation": 1773.867936625029, "command": ["python3", "tools/run_tests.py", "tests/test_probability_tools.py", "-q"]}
+{"id": "p1-reference-numerical-refinement-001", "stage": "compute", "cpu_reservation": 879.498288, "wall_reservation": 1772.9700887500076, "command": ["python3", "-m", "c1p1.refinement"]}
+{"id": "p1-u0-factorial-train-001", "stage": "compute", "cpu_reservation": 872.5925, "wall_reservation": 1765.9683209159411, "command": ["python3", "-m", "c1p1.train", "u0"]}
+{"id": "p1-p0-factorial-train-001", "stage": "compute", "cpu_reservation": 842.946965, "wall_reservation": 1734.9483499579364, "command": ["python3", "-m", "c1p1.train", "p0"]}
+{"id": "p1-p0-factorial-evaluate-001", "stage": "compute", "cpu_reservation": 804.62316, "wall_reservation": 1694.0052792499773, "command": ["python3", "-m", "c1p1.evaluate", "p0"]}
+{"id": "p1-u0-fixed-final-evaluate-001", "stage": "compute", "cpu_reservation": 791.11686, "wall_reservation": 1679.1725498749875, "command": ["python3", "-m", "c1p1.evaluate", "u0"]}
+{"id": "p1-offline-capacity-mechanism-001", "stage": "compute", "cpu_reservation": 673.271689, "wall_reservation": 1559.024652042077, "command": ["python3", "-m", "c1p1.diagnostics"]}
+{"id": "p1-cached-state-ablation-train-001", "stage": "compute", "cpu_reservation": 666.087824, "wall_reservation": 1551.1548050420824, "command": ["python3", "-m", "c1p1.train", "p0", "--ablation"]}
+{"id": "p1-cached-state-ablation-evaluate-001", "stage": "compute", "cpu_reservation": 640.768188, "wall_reservation": 1524.8862205840414, "command": ["python3", "-m", "c1p1.evaluate", "p0", "--ablation"]}
+{"id": "p1-paired-statistics-001", "stage": "compute", "cpu_reservation": 634.259388, "wall_reservation": 1516.9939258340746, "command": ["python3", "-m", "c1p1.statistics"]}
+{"id": "p1-adapter-moment-guard-tests-001", "stage": "tests", "cpu_reservation": 632.6887280000001, "wall_reservation": 1514.7799920000834, "command": ["python3", "tools/run_tests.py", "tests/test_saved_adapter.py", "tests/test_probability_tools.py::test_bounded_material_moments_agree_with_independent_gaussian_integrals", "tests/test_probability_tools.py::test_zero_physics_guard_blocks_before_historical_ledger_creation", "-q"]}
+{"id": "p1-scientific-figures-001", "stage": "compute", "cpu_reservation": 632.047051, "wall_reservation": 1513.8123542499961, "command": ["python3", "-m", "c1p1.plots"]}
+{"id": "p1-report-finalization-001", "stage": "compute", "cpu_reservation": 630.1018369999999, "wall_reservation": 1511.6185439579422, "command": ["python3", "-m", "c1p1.finalize"]}
+{"id": "p1-derivative-cost-interface-test-001", "stage": "tests", "cpu_reservation": 630.0686820000001, "wall_reservation": 1511.569461624953, "command": ["python3", "tools/run_tests.py", "tests/test_saved_adapter.py::test_interface_cost_keeps_derivative_rhs_separate", "-q"]}
+{"id": "p1-delivery-packaging-001", "stage": "compute", "cpu_reservation": 629.63649, "wall_reservation": 1510.9275246249745, "command": ["python3", "tools/seal_delivery.py"]}
+{"id": "p1-tail-evidence-retention-001", "stage": "compute", "cpu_reservation": 628.686573, "wall_reservation": 1509.8525094998768, "command": ["python3", "-m", "c1p1.retain_tail_evidence"]}

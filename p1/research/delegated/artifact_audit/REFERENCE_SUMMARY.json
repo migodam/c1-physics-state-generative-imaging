@@ -1,0 +1,60 @@
+[
+  {
+    "source": "results/p0/REFERENCE_AUDIT.json",
+    "status": "PASS",
+    "orders": [
+      40,
+      64
+    ],
+    "max_event_difference": 0.0017241692769581762,
+    "max_log_evidence_difference": 0.0009929400602759486,
+    "certified": false,
+    "independent_adaptive": "NOT_RUN",
+    "meaning": "empirical integration agreement; all metrics provisional when unresolved"
+  },
+  {
+    "source": "results/u0/REFERENCE_AUDIT.json",
+    "status": "PASS",
+    "orders": [
+      96,
+      128
+    ],
+    "max_event_difference": 2.9167779302952113e-12,
+    "max_log_evidence_difference": 1.3979040147660271e-11,
+    "certified": false,
+    "training_runs": 0,
+    "physical_evaluations": 0,
+    "original_failures_retained": true,
+    "model_selection_changed": false,
+    "adaptive_gate": "PASS"
+  },
+  {
+    "source": "results/u0/REFERENCE_AUDIT_INITIAL_REFERENCE.json",
+    "status": "REFERENCE_UNRESOLVED",
+    "orders": [
+      64,
+      96
+    ],
+    "max_event_difference": 2.3424341588640374e-06,
+    "max_log_evidence_difference": 7.208080898823965e-06,
+    "certified": false,
+    "independent_adaptive": "INDEPENDENT_REFERENCE.json",
+    "meaning": "empirical integration agreement; all metrics provisional when unresolved"
+  },
+  {
+    "source": "results/u0/REFERENCE_REFINEMENT.json",
+    "status": "PASS",
+    "orders": [
+      96,
+      128
+    ],
+    "max_event_difference": 2.9167779302952113e-12,
+    "max_log_evidence_difference": 1.3979040147660271e-11,
+    "certified": false,
+    "training_runs": 0,
+    "physical_evaluations": 0,
+    "original_failures_retained": true,
+    "model_selection_changed": false,
+    "adaptive_gate": "PASS"
+  }
+]

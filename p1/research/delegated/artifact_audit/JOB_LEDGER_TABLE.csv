@@ -1,0 +1,24 @@
+id,stage,status,returncode,error,command,wall_seconds,cpu_seconds,gpu_seconds,maxrss_raw,scope,cpu_limit_at_launch
+u0-prepare-001,u0_train,PASS,0,,"[""python3"", ""-m"", ""src.c1.data"", ""u0""]",3.2072903329972178,2.750788,0,82804736,child process including imports and failures,300
+invariants-001,tests,FAILED_CHARGED,1,,"[""python3"", ""-m"", ""pytest"", ""tests"", ""-q""]",0.03948779194615781,0.023451,0,14745600,child process including imports and failures,55
+test-dependency-001,tests,PASS,0,,"[""python3"", ""-m"", ""pip"", ""install"", ""--disable-pip-version-check"", ""--no-warn-script-location"", ""--target"", ""vendor/test_runtime"", ""pytest==8.4.2""]",5.513486540992744,2.1303159999999997,0,69976064,child process including imports and failures,54.976549
+invariants-002,tests,PASS,0,,"[""python3"", ""tools/run_tests.py"", ""tests"", ""-q""]",4.075662457966246,2.67217,0,419774464,child process including imports and failures,52.846233
+u0-training-001,u0_train,PASS,0,,"[""python3"", ""-m"", ""src.c1.train"", ""u0""]",27.627743290970102,25.9527,0,334610432,child process including imports and failures,297.249212
+u0-evaluation-001,evaluation,PASS,0,,"[""python3"", ""-m"", ""src.c1.evaluate"", ""u0""]",24.74734262493439,23.460178,0,490258432,child process including imports and failures,240
+density-revision-tests-001,tests,PASS,0,,"[""python3"", ""tools/run_tests.py"", ""tests/test_density.py"", ""-q""]",2.394621624960564,1.645662,0,372162560,child process including imports and failures,50.174063000000004
+u0-reference-refine-001,evaluation,PASS,0,,"[""python3"", ""-m"", ""src.c1.refine_reference""]",34.51916520902887,33.418274000000004,0,358694912,child process including imports and failures,216.53982200000002
+operator-actions-tests-001,tests,PASS,0,,"[""python3"", ""tools/run_tests.py"", ""tests/test_physical_actions.py"", ""-q""]",1.364681166014634,1.0908799999999998,0,240173056,child process including imports and failures,48.528401
+p0-prepare-001,p0_prepare,PASS,0,,"[""python3"", ""-m"", ""src.c1.data"", ""p0""]",2.423868166981265,1.657398,0,97992704,child process including imports and failures,180
+p0-training-001,p0_train,PASS,0,,"[""python3"", ""-m"", ""src.c1.train"", ""p0""]",31.530803750036284,30.250051999999997,0,344047616,child process including imports and failures,360
+p0-evaluation-001,evaluation,PASS,0,,"[""python3"", ""-m"", ""src.c1.evaluate"", ""p0""]",3.709738124976866,2.787389,0,342818816,child process including imports and failures,183.121548
+mechanism-cost-diagnostics-001,diagnostics,PASS,0,,"[""python3"", ""-m"", ""src.c1.diagnostics""]",2.8895742499735206,2.1362579999999998,0,278446080,child process including imports and failures,58
+corrected-query-timing-001,diagnostics,PASS,0,,"[""python3"", ""-m"", ""src.c1.timing""]",2.6271159580210224,1.691376,0,267091968,child process including imports and failures,55.863742
+final-invariants-001,tests,PASS,0,,"[""python3"", ""tools/run_tests.py"", ""tests"", ""-q""]",4.381703000050038,2.8100289999999997,0,432504832,child process including imports and failures,47.437521000000004
+source-algebra-001,tests,PASS,0,,"[""python3"", ""inputs/source_package/C1_Research_Package/c1_algebra_checks.py"", ""--out"", ""results/PACKAGE_ALGEBRA_CHECKS.json""]",0.5434711249545217,0.308973,0,74121216,child process including imports and failures,44.627492000000004
+result-plots-001,diagnostics,PASS,0,,"[""python3"", ""tools/plots.py""]",3.4722686669556424,2.8737369999999998,0,446103552,child process including imports and failures,54.172366
+decode-precision-test-001,tests,PASS,0,,"[""python3"", ""tools/run_tests.py"", ""tests/test_sample_precision.py"", ""-q""]",1.2298643329413608,1.161595,0,245104640,child process including imports and failures,44.318519
+decode-precision-diagnostic-001,diagnostics,PASS,0,,"[""python3"", ""tools/sample_precision.py""]",3.878981417044997,3.1696489999999997,0,514228224,child process including imports and failures,51.298629
+result-plots-reviewed-001,diagnostics,PASS,0,,"[""python3"", ""tools/plots.py""]",3.190969166927971,2.649209,0,445300736,child process including imports and failures,48.12898
+documents-finalize-001,diagnostics,FAILED_CHARGED,1,,"[""python3"", ""-m"", ""tools.finalize""]",0.04475820902734995,0.023173,0,17383424,child process including imports and failures,45.479771
+documents-finalize-002,diagnostics,PASS,0,,"[""python3"", ""-m"", ""tools.finalize""]",1.497792916954495,0.967507,0,238993408,child process including imports and failures,45.456598
+delivery-static-qa-001,diagnostics,PASS,0,,"[""python3"", ""-m"", ""tools.qa_and_bundle""]",1.8260121250059456,1.208878,0,240631808,child process including imports and failures,44.489091

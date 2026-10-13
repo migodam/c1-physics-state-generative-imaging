@@ -1,0 +1,17 @@
+claim,source,line,saved_source_excerpt,interpretation
+finite_joint_training,src/c1/data.py,65,"px=prior_sample(rng,n);x=np.repeat(px,reps,axis=0);parents=np.repeat(np.arange(n),reps)","Sample material parents from continuous prior, then repeat each target over noise realizations."
+noise_and_acquisition_inputs,src/c1/data.py,80,"inputs=np.c_[y,np.log(sigma)] if dipole else np.c_[y,kappa,np.log(sigma)]",Full measurements plus log(sigma); U0 also kappa. No sign/topology input.
+train_only_normalization,src/c1/data.py,87,"ym=inputs.mean(axis=0);ys=np.maximum(inputs.std(axis=0),1e-5)",Input mean/std estimated from train split only; floors avoid zero divisors.
+normalization_application,src/c1/data.py,123,d['inputs_norm']=((d['inputs']-n['ym'])/n['ys']).astype(np.float32),Same saved training normalization applied to validation/test; normalized values float32.
+supervised_joint_NLL,src/c1/train.py,38,"loss=-model.log_prob_z(z[ii],y[ii],s[ii]).mean()","Joint prior-noise samples train conditional negative log density, not reference distillation."
+validation_selection,src/c1/train.py,44,if vl<best:best=vl;best_step=step;best_state=copy.deepcopy(model.state_dict()),Lowest full validation NLL_z selects checkpoint; no checkpoint earlier than250 recorded.
+loss_sign,src/c1/evaluate.py,103,"missing_mode_count=int(np.sum(active&~claimed)),truth_log_score=float(-logtruth[i]),","Metric called truth_log_score is negative log density, lower is better."
+conditional_KL,src/c1/evaluate.py,90,kl=float(ref['weights']@(ref['logdensity']-logq)),Quadrature estimates posterior expectation of log p minus log q.
+prior_times_single_likelihood,src/c1/data.py,27,"logdensity=prior_logpdf(x)+gaussian_loglike(pred,y,sigma)",Reference uses continuous prior density and one proper Gaussian likelihood.
+quadrature_prior_measure,src/c1/data.py,28,logZ=logsumexp(logdensity+np.log(w)),Integration weights enter log evidence; nodes are not a discrete prior.
+mixture_covariance,src/c1/density.py,258,"standardized = (z[:, None, :] - means) * (-log_stds).exp()",Eight-component MDN diagonal covariance in unconstrained logit coordinates.
+bounded_jacobian,src/c1/density.py,290,log_jacobian = (math.log(_WIDTH) - lower_distance.log() - upper_distance.log()).sum(dim=-1),"Logit Jacobian included, open support boundaries return minus infinity."
+float64_decode,src/c1/material.py,26,"return 2*BOUND*expit(np.asarray(z,dtype=np.float64))-BOUND",Float64 sigmoid decoding retained; extreme logit tails may still round to boundary.
+mode_definition,src/c1/evaluate.py,91,active=p>=.05;claimed=q>=.05,Reported mode coverage refers to fixed sign events with mass threshold. Not arbitrary topology recovery.
+event_MC,src/c1/evaluate.py,89,"q=np.bincount(event,minlength=4)/draw_count","Event masses estimated with1024 iid q draws per observation, not exact density integrals."
+parent_bootstrap,src/c1/evaluate.py,24,means=np.array([np.mean(diff[parent==p]) for p in np.unique(parent)]),Noise averaged within parent before existing2000 resamples; seeds remain separate.

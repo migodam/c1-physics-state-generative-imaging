@@ -1,0 +1,21 @@
+{
+  "id": "p1-adapter-moment-guard-tests-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests/test_saved_adapter.py",
+    "tests/test_probability_tools.py::test_bounded_material_moments_agree_with_independent_gaussian_integrals",
+    "tests/test_probability_tools.py::test_zero_physics_guard_blocks_before_historical_ledger_creation",
+    "-q"
+  ],
+  "wall_seconds": 0.9676377500873059,
+  "cpu_seconds": 0.641677,
+  "gpu_seconds": 0,
+  "maxrss_raw": 91127808,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 632.6887280000001
+}

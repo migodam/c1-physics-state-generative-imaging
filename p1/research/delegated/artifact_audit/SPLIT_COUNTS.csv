@@ -1,0 +1,7 @@
+problem,split,seed,parents,observations,noise_replicates,first_id,last_id
+u0,train,26101310,1024,4096,4,u0-train-0000,u0-train-1023
+u0,validation,26101311,128,256,2,u0-validation-0000,u0-validation-0127
+u0,test,26101312,128,256,2,u0-test-0000,u0-test-0127
+p0,train,26101320,256,512,2,p0-train-0000,p0-train-0255
+p0,validation,26101321,64,64,1,p0-validation-0000,p0-validation-0063
+p0,test,26101322,64,64,1,p0-test-0000,p0-test-0063

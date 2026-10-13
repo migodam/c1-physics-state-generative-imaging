@@ -1,0 +1,517 @@
+{
+  "identity": "KL(p||q)=KL(region masses)+sum P(region)*conditional KL",
+  "computation": "event masses evaluated independently by mixture CDF, conditional residual from saved total KL",
+  "meaning": "same continuous target/partition, quadrature error can produce tiny negative residual; no clipping",
+  "summaries": [
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 1.0806178373089486,
+      "event_KL": 0.040927723875118185,
+      "within_region_KL_weighted": 1.0396901134338306
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.6928750019526049,
+      "event_KL": 0.021702124522818625,
+      "within_region_KL_weighted": 0.6711728774297863
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.3805934844972315,
+      "event_KL": 0.003670352049575582,
+      "within_region_KL_weighted": 0.3769231324476559
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.11241276167471609,
+      "event_KL": 0.0023087303724853487,
+      "within_region_KL_weighted": 0.11010403130223075
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 1.0806178373089486,
+      "event_KL": 0.040927723875118185,
+      "within_region_KL_weighted": 1.0396901134338306
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 1.0172351808232842,
+      "event_KL": 0.04577640429704389,
+      "within_region_KL_weighted": 0.9714587765262405
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.9273876188438906,
+      "event_KL": 0.02646847843832189,
+      "within_region_KL_weighted": 0.9009191404055688
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.39089121617995154,
+      "event_KL": 0.005239402913058456,
+      "within_region_KL_weighted": 0.385651813266893
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.1582663709123292,
+      "event_KL": 0.004304977540828982,
+      "within_region_KL_weighted": 0.15396139337150025
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 1.0172351808232842,
+      "event_KL": 0.04577640429704389,
+      "within_region_KL_weighted": 0.9714587765262405
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.8924774136124655,
+      "event_KL": 0.04080927308125793,
+      "within_region_KL_weighted": 0.8516681405312075
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.7587457436528843,
+      "event_KL": 0.029833200566459685,
+      "within_region_KL_weighted": 0.7289125430864245
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.38129704300201406,
+      "event_KL": 0.0041883656787833155,
+      "within_region_KL_weighted": 0.3771086773232307
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.12556002292860635,
+      "event_KL": 0.0033759115811145173,
+      "within_region_KL_weighted": 0.12218411134749183
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.8924774136124655,
+      "event_KL": 0.04080927308125793,
+      "within_region_KL_weighted": 0.8516681405312075
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.2817564814959762,
+      "event_KL": 0.06729761446377466,
+      "within_region_KL_weighted": 0.21445886703220157
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.2924618893825982,
+      "event_KL": 0.05903067043148065,
+      "within_region_KL_weighted": 0.23343121895111757
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.18981763855984005,
+      "event_KL": 0.04987292677313584,
+      "within_region_KL_weighted": 0.13994471178670426
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.21394146279018622,
+      "event_KL": 0.05142766399095129,
+      "within_region_KL_weighted": 0.16251379879923494
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.2817564814959762,
+      "event_KL": 0.06729761446377466,
+      "within_region_KL_weighted": 0.21445886703220157
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.289504314298792,
+      "event_KL": 0.06709191403428913,
+      "within_region_KL_weighted": 0.22241240026450285
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.31694855986906845,
+      "event_KL": 0.06568345012368898,
+      "within_region_KL_weighted": 0.2512651097453795
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.18167102950667582,
+      "event_KL": 0.048545711793033686,
+      "within_region_KL_weighted": 0.1331253177136421
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.18211336657448046,
+      "event_KL": 0.04128155064013421,
+      "within_region_KL_weighted": 0.14083181593434627
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.324854603260888,
+      "event_KL": 0.05776959025793553,
+      "within_region_KL_weighted": 0.26708501300295245
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.29346271256692097,
+      "event_KL": 0.06002515420791785,
+      "within_region_KL_weighted": 0.23343755835900315
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.3084042164337344,
+      "event_KL": 0.054787999433886174,
+      "within_region_KL_weighted": 0.25361621699984827
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.16664468626550888,
+      "event_KL": 0.05167400683499781,
+      "within_region_KL_weighted": 0.11497067943051109
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.17288509827987875,
+      "event_KL": 0.04790479324651776,
+      "within_region_KL_weighted": 0.12498030503336097
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.34019258142036657,
+      "event_KL": 0.07033494576506402,
+      "within_region_KL_weighted": 0.2698576356553025
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.27378722859615856,
+      "event_KL": 0.06527554442035273,
+      "within_region_KL_weighted": 0.20851168417580584
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.26269678209216457,
+      "event_KL": 0.061154235440759167,
+      "within_region_KL_weighted": 0.20154254665140542
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.18001831191931852,
+      "event_KL": 0.045986018236073296,
+      "within_region_KL_weighted": 0.13403229368324526
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.19524448248654663,
+      "event_KL": 0.04619124128223543,
+      "within_region_KL_weighted": 0.14905324120431118
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610131,
+      "total_KL": 0.27378722859615856,
+      "event_KL": 0.06527554442035273,
+      "within_region_KL_weighted": 0.20851168417580584
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.26850292341111465,
+      "event_KL": 0.0630982600780342,
+      "within_region_KL_weighted": 0.20540466333308044
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.28599158084064424,
+      "event_KL": 0.05925585910203594,
+      "within_region_KL_weighted": 0.22673572173860826
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.16109092331213695,
+      "event_KL": 0.04568639243696466,
+      "within_region_KL_weighted": 0.1154045308751723
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.1645390248436761,
+      "event_KL": 0.039553279028648615,
+      "within_region_KL_weighted": 0.1249857458150275
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610132,
+      "total_KL": 0.3221596406559034,
+      "event_KL": 0.05196311606577545,
+      "within_region_KL_weighted": 0.27019652459012794
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.27784027681442336,
+      "event_KL": 0.06008284377274514,
+      "within_region_KL_weighted": 0.2177574330416782
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.2908681465261257,
+      "event_KL": 0.05187737958875367,
+      "within_region_KL_weighted": 0.23899076693737203
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.1559996480224208,
+      "event_KL": 0.04490023727616093,
+      "within_region_KL_weighted": 0.11109941074625987
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_distill",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.15422494857583036,
+      "event_KL": 0.04127873117920279,
+      "within_region_KL_weighted": 0.11294621739662758
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "historical_diag",
+      "condition": "measurement",
+      "seed": 2610133,
+      "total_KL": 0.3136764623917693,
+      "event_KL": 0.06521218801070071,
+      "within_region_KL_weighted": 0.24846427438106852
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "state",
+      "seed": 2610131,
+      "total_KL": 0.13142418504211334,
+      "event_KL": 0.00504969425629963,
+      "within_region_KL_weighted": 0.1263744907858137
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "state",
+      "seed": 2610132,
+      "total_KL": 0.13387151266520375,
+      "event_KL": 0.003248808563804695,
+      "within_region_KL_weighted": 0.13062270410139906
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "state",
+      "seed": 2610133,
+      "total_KL": 0.15608490242200396,
+      "event_KL": 0.006420667140203597,
+      "within_region_KL_weighted": 0.14966423528180037
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "memory",
+      "seed": 2610131,
+      "total_KL": 0.1360979364943044,
+      "event_KL": 0.004670718920201068,
+      "within_region_KL_weighted": 0.13142721757410336
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "memory",
+      "seed": 2610132,
+      "total_KL": 0.11439034585068408,
+      "event_KL": 0.003863720515986504,
+      "within_region_KL_weighted": 0.11052662533469756
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "condition": "memory",
+      "seed": 2610133,
+      "total_KL": 0.13230085628955776,
+      "event_KL": 0.006293935798083028,
+      "within_region_KL_weighted": 0.12600692049147472
+    }
+  ]
+}

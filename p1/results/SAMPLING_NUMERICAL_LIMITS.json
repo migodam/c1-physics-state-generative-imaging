@@ -1,0 +1,116 @@
+{
+  "samples_per_observation": 2048,
+  "precision": "float64 model/encoder/logit/density/material decode",
+  "unresolved": "finite logits with abs(z) around37+ may still round to endpoints; no clipping/resampling",
+  "comparisons": "P1 new RNG/draw count; do not compare raw endpoint counts to old156/7 as a matched experiment",
+  "cases": [
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 6,
+      "max_abs_latent": 83.5109758495159,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 6,
+      "max_abs_latent": 66.6186822252377,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 4,
+      "max_abs_latent": 63.50177408087913,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 7,
+      "max_abs_latent": 49.43952557661128,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_joint",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 0,
+      "max_abs_latent": 34.85488876641013,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_joint",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 9,
+      "max_abs_latent": 62.31866235499459,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "diag_distill",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 5,
+      "max_abs_latent": 78.88060733460402,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "u0",
+      "panel": "fresh_final",
+      "method": "full_distill",
+      "draws": 1572864,
+      "endpoint_rounding_draws": 2,
+      "max_abs_latent": 46.449435554990984,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_joint",
+      "draws": 393216,
+      "endpoint_rounding_draws": 0,
+      "max_abs_latent": 25.70826433329846,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_joint",
+      "draws": 393216,
+      "endpoint_rounding_draws": 0,
+      "max_abs_latent": 21.581917308218312,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "diag_distill",
+      "draws": 393216,
+      "endpoint_rounding_draws": 0,
+      "max_abs_latent": 28.07020559860248,
+      "nonfinite_grid_density": 0
+    },
+    {
+      "problem": "p0",
+      "panel": "exposed",
+      "method": "full_distill",
+      "draws": 393216,
+      "endpoint_rounding_draws": 0,
+      "max_abs_latent": 18.279883353000386,
+      "nonfinite_grid_density": 0
+    }
+  ]
+}

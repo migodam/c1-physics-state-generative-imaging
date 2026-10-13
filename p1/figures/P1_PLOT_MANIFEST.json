@@ -1,0 +1,43 @@
+{
+  "source_csv": "C1_PROJECT_ROOT/p1/C1_P1_RESULTS.csv",
+  "source_receipts_root": "C1_PROJECT_ROOT/p1/results",
+  "methods": [
+    "diag_joint",
+    "full_joint",
+    "diag_distill",
+    "full_distill"
+  ],
+  "condition": "measurement",
+  "seeds": [
+    2610131,
+    2610132,
+    2610133
+  ],
+  "panels": [
+    [
+      "u0",
+      "exposed"
+    ],
+    [
+      "p0",
+      "exposed"
+    ],
+    [
+      "u0",
+      "fresh_final"
+    ]
+  ],
+  "artifacts": [
+    "C1_PROJECT_ROOT/p1/figures/P1_DENSITY_EVENT_PAIRED.png",
+    "C1_PROJECT_ROOT/p1/figures/P1_DENSITY_EVENT_PAIRED.pdf",
+    "C1_PROJECT_ROOT/p1/figures/P1_P0_TRAINING_HISTORIES.png",
+    "C1_PROJECT_ROOT/p1/figures/P1_P0_TRAINING_HISTORIES.pdf",
+    "C1_PROJECT_ROOT/p1/figures/P1_PROBABILITY_QUALITY.png",
+    "C1_PROJECT_ROOT/p1/figures/P1_PROBABILITY_QUALITY.pdf"
+  ],
+  "scope": "Saved scalar metrics and JSON histories only; no models or physics executed.",
+  "seed_display": "Every seed plotted individually, paired by method; no seed-averaged CI.",
+  "KL_display": "Original-bank KL plus distinct refined numerical cross-check.",
+  "exposure": "Old panels exposed; independent final U0 is now exposed after evaluation.",
+  "imaging_scope": "Restricted continuous material-coordinate benchmark, not unknown-topology imaging."
+}

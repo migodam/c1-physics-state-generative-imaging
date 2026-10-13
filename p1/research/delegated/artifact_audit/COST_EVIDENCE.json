@@ -1,0 +1,131 @@
+{
+  "historical_resource_snapshot": {
+    "project": "C1",
+    "date": "2026-10-13",
+    "scope": "local registered computational jobs; imports, failures, setup and diagnostics included",
+    "physics": {
+      "cap": 8192,
+      "used": 7961,
+      "forward_rhs": 15922,
+      "derivative_rhs": 5264,
+      "adjoint_rhs": 4,
+      "failures": 0,
+      "by_kind": {
+        "cached_candidate_adjoint": 0,
+        "cached_candidate_jvp": 0,
+        "candidate_pilot": 1308,
+        "gallery_verification": 24,
+        "invariant_fd_minus": 8,
+        "invariant_fd_plus": 8,
+        "invariant_jacobian_base": 4,
+        "invariant_support_corner": 8,
+        "invariant_zero_contrast": 2,
+        "normalization_setup": 5,
+        "operator_action_candidate": 2,
+        "production_sample_check": 512,
+        "reference_40": 1600,
+        "reference_64": 4096,
+        "truth_data_test": 64,
+        "truth_data_train": 256,
+        "truth_data_validation": 64
+      }
+    },
+    "measured_cpu_seconds": 146.839642,
+    "conservative_cpu_reserve_seconds": 10,
+    "charged_cpu_seconds": 156.839642,
+    "measured_job_wall_seconds": 166.7364022496622,
+    "conservative_wall_reserve_seconds": 12,
+    "charged_job_wall_seconds": 178.7364022496622,
+    "cpu_cap": 1200,
+    "wall_cap": 1800,
+    "stage_costs": {
+      "tests": {
+        "measured_cpu_seconds": 11.843075999999998,
+        "reserve_cpu_seconds": 5,
+        "cap": 60
+      },
+      "u0_train": {
+        "measured_cpu_seconds": 28.703488,
+        "reserve_cpu_seconds": 0,
+        "cap": 300
+      },
+      "p0_prepare": {
+        "measured_cpu_seconds": 1.657398,
+        "reserve_cpu_seconds": 0,
+        "cap": 180
+      },
+      "p0_train": {
+        "measured_cpu_seconds": 30.250051999999997,
+        "reserve_cpu_seconds": 0,
+        "cap": 360
+      },
+      "evaluation": {
+        "measured_cpu_seconds": 59.665841,
+        "reserve_cpu_seconds": 0,
+        "cap": 240
+      },
+      "diagnostics": {
+        "measured_cpu_seconds": 14.719786999999998,
+        "reserve_cpu_seconds": 5,
+        "cap": 60
+      }
+    },
+    "local_gpu_seconds": 0,
+    "primary_training_runs": 24,
+    "failed_job_attempts": 2,
+    "original_package_history": {
+      "new_Maxwell_evaluations": 0,
+      "trained_C1_models": 0,
+      "algebra_attempts": 2
+    },
+    "excluded_unmeasured": "interactive/model-service reasoning, worker model-service inference, scholarly network retrieval and reading/visual review are not fully timed; not asserted free or included in total local study elapsed time",
+    "nested_timing": "internal training/physics/context timings are nested within JOB_LEDGER and must not be added again",
+    "cache_scope": "one shared executed context bank; cold method costs reconstruct its use, not charged anew for every seed",
+    "b1_physics_calls": 0,
+    "b1_mutations": 0,
+    "sha256_checks": false,
+    "source_of_truth": "results/JOB_LEDGER.jsonl and results/PHYSICS_LEDGER.jsonl",
+    "snapshot": "after last completed job, including post-job seal reserve"
+  },
+  "historical_reserves": {
+    "scope": "Conservative charge for pre-registration environment imports and static source inspection before the measured job launcher existed",
+    "measured": false,
+    "cpu_seconds": 10,
+    "wall_seconds": 12,
+    "gpu_seconds": 0,
+    "cpu_by_stage": {
+      "tests": 5,
+      "diagnostics": 5
+    },
+    "not_included": "interactive/model-service reasoning and scholarly network calls are unmeasured and separately disclosed, not asserted free",
+    "post_job_seal_charge": {
+      "cpu_seconds": 3,
+      "wall_seconds": 4,
+      "scope": "conservative charge for final metadata refresh and archive sealing after last measured job exits"
+    }
+  },
+  "job_records": 23,
+  "start_journal_records": 17,
+  "job_status_counts": {
+    "PASS": 21,
+    "FAILED_CHARGED": 2
+  },
+  "completed_jobs_without_start_journal_record": [
+    "u0-prepare-001",
+    "invariants-001",
+    "test-dependency-001",
+    "invariants-002",
+    "u0-training-001",
+    "u0-evaluation-001"
+  ],
+  "measured_cpu_sum_of_existing_jobs": 146.83964200000003,
+  "measured_wall_sum_of_existing_jobs": 166.7364022496622,
+  "physics_records": 15934,
+  "physics_charges": 7967,
+  "physics_result_records": 7967,
+  "material_frequency_sum_of_saved_charges": 7961,
+  "forward_rhs_sum_of_saved_charges": 15922,
+  "derivative_rhs_sum_of_saved_charges": 5264,
+  "adjoint_rhs_sum_of_saved_charges": 4,
+  "scope": "Static summation of saved historical ledger records; no execution or ledger change."
+}

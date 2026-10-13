@@ -1,0 +1,27 @@
+{
+  "recorded_at": "after primary measurement-only P0 evaluation; before state or memory training",
+  "problem": "p0",
+  "method": "full_distill",
+  "selection_basis": "minimum mean validation expected material NLL among four primary methods; not best test seed",
+  "trigger_evidence": {
+    "seeds": [2610131,2610132,2610133],
+    "KL_change_from_diag_joint": [-0.9682050756,-0.8589688099,-0.7669173907],
+    "event_MAE_change_from_diag_joint": [-0.0401287361,-0.0381509805,-0.0367022017],
+    "paired_KL_and_event_CI": "negative in all three seeds on exposed P0 regression panel",
+    "KL_quality_target": "still above 0.02; no calibrated full-posterior claim"
+  },
+  "purpose": "test whether existing candidate features retain value after a stronger density and posterior target",
+  "changes": "same full-covariance distill density, same data/teacher/validation criterion; replace conditioning by saved last state or 16-wide GRU over saved two states",
+  "methods": ["measurement (already trained)","state","memory"],
+  "updates": 3000,
+  "seeds": [2610131,2610132,2610133],
+  "expected_cpu_seconds": 45,
+  "expected_wall_seconds": 65,
+  "new_Maxwell": 0,
+  "new_B1": 0,
+  "new_GPU": 0,
+  "features": "unchanged C1 saved candidate states; no truth/reference inputs at inference",
+  "future_cold_setup": "old implementation needs2 material-frequency and12 RHS per uncached query; cache reuse now does not erase that deployment cost",
+  "exposure": "P0 old test is exposed; no new blind-reference claim",
+  "stop": "one small registered ablation, no candidate-specific physical refresh or further state search"
+}

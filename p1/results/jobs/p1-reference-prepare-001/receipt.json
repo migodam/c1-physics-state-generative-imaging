@@ -1,0 +1,18 @@
+{
+  "id": "p1-reference-prepare-001",
+  "stage": "compute",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "c1p1.prepare"
+  ],
+  "wall_seconds": 7.983733000000939,
+  "cpu_seconds": 7.822543,
+  "gpu_seconds": 0,
+  "maxrss_raw": 197951488,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 887.930116
+}

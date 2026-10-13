@@ -1,0 +1,548 @@
+[
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.019011423367397265,
+    "ci95": [
+      0.013949661508866073,
+      0.02443344498546256
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "KL_refined",
+    "mean": 0.01893639874373145,
+    "ci95": [
+      0.013801400413820568,
+      0.024334087814242036
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.006297045310537333,
+    "ci95": [
+      0.0038775438104027954,
+      0.008630375484967699
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "truth_NLL",
+    "mean": -0.01885482664389389,
+    "ci95": [
+      -0.12124941800853334,
+      0.0688614219293479
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.005405369693138306,
+    "ci95": [
+      0.003608180739132252,
+      0.007411744058857881
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": 0.0,
+    "ci95": [
+      -0.03125,
+      0.03125
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": -5.0616402072344024e-05,
+    "ci95": [
+      -0.0015877117932353978,
+      0.0015166979517778265
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": -0.024394858247125464,
+    "ci95": [
+      -0.0343689452404835,
+      -0.015488753115703448
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "KL_refined",
+    "mean": -0.02293261701523546,
+    "ci95": [
+      -0.0328469723167355,
+      -0.014036558811584
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": -0.001918917166951968,
+    "ci95": [
+      -0.004227560189689163,
+      0.00037302530360182036
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "truth_NLL",
+    "mean": -0.16473428336953388,
+    "ci95": [
+      -0.29122679640705906,
+      -0.04110711176815945
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.00019191897357017087,
+    "ci95": [
+      -0.0013509187447033834,
+      0.0017136342608392837
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.015625,
+    "ci95": [
+      0.0,
+      0.0390625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": -0.0013632532955200486,
+    "ci95": [
+      -0.002490246324018788,
+      -8.272653621928656e-05
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.03052487949339763,
+    "ci95": [
+      0.022000415096862236,
+      0.03929216829311298
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "KL_refined",
+    "mean": 0.031801797310159474,
+    "ci95": [
+      0.0230033172483963,
+      0.041028152881911986
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.004927632954687473,
+    "ci95": [
+      0.0027856805740152234,
+      0.007586595221889069
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "truth_NLL",
+    "mean": 0.053046771239609644,
+    "ci95": [
+      -0.10051508097286942,
+      0.2346816379261901
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.003524508201255122,
+    "ci95": [
+      0.0018349914717597,
+      0.005492200197596871
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": -0.0234375,
+    "ci95": [
+      -0.0546875,
+      0.0
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "state",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.003429510726402636,
+    "ci95": [
+      0.001737027132123212,
+      0.005367946227102494
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "KL",
+    "mean": 0.023685174819588307,
+    "ci95": [
+      0.017413720344989843,
+      0.030564354454673388
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "KL_refined",
+    "mean": 0.023719117336214825,
+    "ci95": [
+      0.0176472239890143,
+      0.030442908748514137
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "event_MAE",
+    "mean": 0.003068054916251446,
+    "ci95": [
+      8.593794915067864e-05,
+      0.005955007269521985
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "truth_NLL",
+    "mean": -0.0395416693533522,
+    "ci95": [
+      -0.18613980480906214,
+      0.09099438787670495
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "CDF_MAE",
+    "mean": 0.0038135999583635053,
+    "ci95": [
+      0.001671660313347565,
+      0.00598557559849628
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "coverage90",
+    "mean": -0.0078125,
+    "ci95": [
+      -0.0390625,
+      0.015625
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610131,
+    "metric": "tail_MAE",
+    "mean": 0.00047862785266301455,
+    "ci95": [
+      -0.001011448902119854,
+      0.0021185403686705584
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "KL",
+    "mean": -0.04387602506164513,
+    "ci95": [
+      -0.05565624734736111,
+      -0.03265553297418274
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "KL_refined",
+    "mean": -0.04242573589000992,
+    "ci95": [
+      -0.05377528052602806,
+      -0.03152435577480755
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "event_MAE",
+    "mean": 0.00023632493176135942,
+    "ci95": [
+      -0.001631378430230327,
+      0.002118046273601462
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "truth_NLL",
+    "mean": -0.23392630733167802,
+    "ci95": [
+      -0.4040132322543846,
+      -0.07195905838979547
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "CDF_MAE",
+    "mean": 0.00017443673138688496,
+    "ci95": [
+      -0.0011272164449558778,
+      0.0015588329603831805
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "coverage90",
+    "mean": 0.0078125,
+    "ci95": [
+      0.0,
+      0.0234375
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610132,
+    "metric": "tail_MAE",
+    "mean": -0.0004824945857509963,
+    "ci95": [
+      -0.0014370735433368522,
+      0.0005288687580666584
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "KL",
+    "mean": 0.006740833360951431,
+    "ci95": [
+      0.0022504122724946417,
+      0.011358392442096717
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "KL_refined",
+    "mean": 0.006735626937501812,
+    "ci95": [
+      0.002235254484439725,
+      0.01134876924509105
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "event_MAE",
+    "mean": 0.004251710819897931,
+    "ci95": [
+      0.0026011348836054364,
+      0.006011961767606347
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "truth_NLL",
+    "mean": -0.006539056018552876,
+    "ci95": [
+      -0.05762545046312589,
+      0.048591011193273276
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "CDF_MAE",
+    "mean": 0.003525531516320484,
+    "ci95": [
+      0.0019943006672727727,
+      0.005300485984579363
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "coverage90",
+    "mean": -0.0234375,
+    "ci95": [
+      -0.0625,
+      0.0078125
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  },
+  {
+    "condition": "memory",
+    "seed": 2610133,
+    "metric": "tail_MAE",
+    "mean": 0.003246368376126115,
+    "ci95": [
+      0.0015846903293994588,
+      0.005212029820057907
+    ],
+    "parents": 64,
+    "repeats": 2000,
+    "unit": "parent; noise averaged first"
+  }
+]
