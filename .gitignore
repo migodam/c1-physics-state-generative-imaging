@@ -4,3 +4,11 @@ __pycache__/
 vendor/
 .venv*/
 .queue.lock
+
+# Full P2 evaluation rows and weights are published as Release evidence.
+p2/results/evaluation/
+p2/results/models/*.pt
+p2/results/continuous/CONTINUOUS_COMPARISON.json
+p2/results/continuous_partition/CONTINUOUS_COMPARISON.json
+p2/results/continuous_accepted/CONTINUOUS_COMPARISON.json
+publication_local/

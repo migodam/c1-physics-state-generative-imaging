@@ -1,0 +1,3191 @@
+{
+  "target_identity": "joint-p2-radial-v1:C:tensor-Chebyshev-five-per-physical-axis-radial-v1",
+  "status": "ACTUAL_RAW_PROPOSAL_COMPARISON",
+  "seed_separated": [
+    {
+      "method": "diag_distill",
+      "seed": 26101321,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.01314938644617903,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.272543327896146,
+        "important_event_log_odds_MAE": 0.21733765227392843,
+        "max_latent_CDF_error": 0.21353816986083984,
+        "max_physical_CDF_error": 0.21370697021484375,
+        "proposal_expected_log_score_x": 1.6755780389060022,
+        "reference_KL_to_proposal": 0.26994210288550846,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 5.0234375,
+        "top_k_represented_model_mass": 0.9618721008300781,
+        "top_k_represented_reference_mass": 0.9738683742999616,
+        "truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate1": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate2": 0.90625,
+        "truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "truth_90pct_coverage_physical_coordinate1": 0.953125,
+        "truth_90pct_coverage_physical_coordinate2": 0.90625,
+        "truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.90234375,
+        "truth_90pct_marginal_coverage_physical_mean": 0.92578125,
+        "truth_90pct_simultaneous_coverage_latent": 0.6640625,
+        "truth_90pct_simultaneous_coverage_physical": 0.734375,
+        "truth_continuous_log_score_x": 1.6798949258791067,
+        "truth_event_Brier_score": 0.5817588928621262,
+        "truth_event_log_score_MC_Jeffreys": -1.174707035509721
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "diag_distill",
+      "seed": 26101322,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.013360064179773909,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.282867204151507,
+        "important_event_log_odds_MAE": 0.21586274129237248,
+        "max_latent_CDF_error": 0.21901226043701172,
+        "max_physical_CDF_error": 0.21893310546875,
+        "proposal_expected_log_score_x": 1.6637016519112897,
+        "reference_KL_to_proposal": 0.2818184898802212,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 5.140625,
+        "top_k_represented_model_mass": 0.9616603851318359,
+        "top_k_represented_reference_mass": 0.9754820016944564,
+        "truth_90pct_coverage_latent_coordinate0": 0.8671875,
+        "truth_90pct_coverage_latent_coordinate1": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate2": 0.890625,
+        "truth_90pct_coverage_latent_coordinate3": 0.9140625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9296875,
+        "truth_90pct_coverage_physical_coordinate1": 0.953125,
+        "truth_90pct_coverage_physical_coordinate2": 0.890625,
+        "truth_90pct_coverage_physical_coordinate3": 0.9140625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.896484375,
+        "truth_90pct_marginal_coverage_physical_mean": 0.921875,
+        "truth_90pct_simultaneous_coverage_latent": 0.6640625,
+        "truth_90pct_simultaneous_coverage_physical": 0.734375,
+        "truth_continuous_log_score_x": 1.7572600231481887,
+        "truth_event_Brier_score": 0.5697036916390061,
+        "truth_event_log_score_MC_Jeffreys": -1.1520090140431356
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "diag_distill",
+      "seed": 26101323,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.012586745348390244,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.2744830543253145,
+        "important_event_log_odds_MAE": 0.2077799445048903,
+        "max_latent_CDF_error": 0.21519947052001953,
+        "max_physical_CDF_error": 0.2152385711669922,
+        "proposal_expected_log_score_x": 1.6728077658467997,
+        "reference_KL_to_proposal": 0.27271237594471115,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 4.984375,
+        "top_k_represented_model_mass": 0.9620094299316406,
+        "top_k_represented_reference_mass": 0.9750891682492245,
+        "truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate1": 0.8984375,
+        "truth_90pct_coverage_latent_coordinate2": 0.8671875,
+        "truth_90pct_coverage_latent_coordinate3": 0.9140625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "truth_90pct_coverage_physical_coordinate2": 0.8671875,
+        "truth_90pct_coverage_physical_coordinate3": 0.9140625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.890625,
+        "truth_90pct_marginal_coverage_physical_mean": 0.9140625,
+        "truth_90pct_simultaneous_coverage_latent": 0.6328125,
+        "truth_90pct_simultaneous_coverage_physical": 0.6953125,
+        "truth_continuous_log_score_x": 1.6790506358807276,
+        "truth_event_Brier_score": 0.5785465268418193,
+        "truth_event_log_score_MC_Jeffreys": -1.1708269745541677
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "diag_joint",
+      "seed": 26101321,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.03969729018331291,
+        "false_confidence_rate": 0.0078125,
+        "false_excluded_reference_mass": 0.005662203983884566,
+        "false_exclusion_rate": 0.046875,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.6439976994007744,
+        "important_event_log_odds_MAE": 0.7444699501029012,
+        "max_latent_CDF_error": 0.4513282775878906,
+        "max_physical_CDF_error": 0.4479646682739258,
+        "proposal_expected_log_score_x": -3.389975554418305,
+        "reference_KL_to_proposal": 5.335495696209815,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 0.9720610119047619,
+        "significant_event_mass_recall": 0.9864959433071416,
+        "top_k": 5.0546875,
+        "top_k_represented_model_mass": 0.9667348861694336,
+        "top_k_represented_reference_mass": 0.938544062836963,
+        "truth_90pct_coverage_latent_coordinate0": 0.78125,
+        "truth_90pct_coverage_latent_coordinate1": 0.7890625,
+        "truth_90pct_coverage_latent_coordinate2": 0.7890625,
+        "truth_90pct_coverage_latent_coordinate3": 0.7578125,
+        "truth_90pct_coverage_physical_coordinate0": 0.875,
+        "truth_90pct_coverage_physical_coordinate1": 0.921875,
+        "truth_90pct_coverage_physical_coordinate2": 0.7890625,
+        "truth_90pct_coverage_physical_coordinate3": 0.7578125,
+        "truth_90pct_marginal_coverage_latent_mean": 0.779296875,
+        "truth_90pct_marginal_coverage_physical_mean": 0.8359375,
+        "truth_90pct_simultaneous_coverage_latent": 0.3828125,
+        "truth_90pct_simultaneous_coverage_physical": 0.4765625,
+        "truth_continuous_log_score_x": -4.316402473301638,
+        "truth_event_Brier_score": 0.6497853170149028,
+        "truth_event_log_score_MC_Jeffreys": -1.4225301510981332
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "diag_joint",
+      "seed": 26101322,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.03827478752833134,
+        "false_confidence_rate": 0.0234375,
+        "false_excluded_reference_mass": 0.003354174198993115,
+        "false_exclusion_rate": 0.0234375,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.5762115427852372,
+        "important_event_log_odds_MAE": 0.6672226000397152,
+        "max_latent_CDF_error": 0.42934703826904297,
+        "max_physical_CDF_error": 0.4269399642944336,
+        "proposal_expected_log_score_x": -4.9768440670561445,
+        "reference_KL_to_proposal": 6.922364208847656,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 0.9832589285714286,
+        "significant_event_mass_recall": 0.9931327743643226,
+        "top_k": 5.3671875,
+        "top_k_represented_model_mass": 0.9621362686157227,
+        "top_k_represented_reference_mass": 0.9515013762799889,
+        "truth_90pct_coverage_latent_coordinate0": 0.8046875,
+        "truth_90pct_coverage_latent_coordinate1": 0.8359375,
+        "truth_90pct_coverage_latent_coordinate2": 0.875,
+        "truth_90pct_coverage_latent_coordinate3": 0.7421875,
+        "truth_90pct_coverage_physical_coordinate0": 0.875,
+        "truth_90pct_coverage_physical_coordinate1": 0.9296875,
+        "truth_90pct_coverage_physical_coordinate2": 0.875,
+        "truth_90pct_coverage_physical_coordinate3": 0.7421875,
+        "truth_90pct_marginal_coverage_latent_mean": 0.814453125,
+        "truth_90pct_marginal_coverage_physical_mean": 0.85546875,
+        "truth_90pct_simultaneous_coverage_latent": 0.4765625,
+        "truth_90pct_simultaneous_coverage_physical": 0.546875,
+        "truth_continuous_log_score_x": -6.816646768088802,
+        "truth_event_Brier_score": 0.6523757583927363,
+        "truth_event_log_score_MC_Jeffreys": -1.3874146815283472
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "diag_joint",
+      "seed": 26101323,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.03715101339673074,
+        "false_confidence_rate": 0.03125,
+        "false_excluded_reference_mass": 0.0029348621084576694,
+        "false_exclusion_rate": 0.03125,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.5398035525260839,
+        "important_event_log_odds_MAE": 0.6638043702707193,
+        "max_latent_CDF_error": 0.4080314636230469,
+        "max_physical_CDF_error": 0.4050416946411133,
+        "proposal_expected_log_score_x": -2.9882108248232813,
+        "reference_KL_to_proposal": 4.933730966614792,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 0.988671875,
+        "significant_event_mass_recall": 0.9954751049091305,
+        "top_k": 5.140625,
+        "top_k_represented_model_mass": 0.9640703201293945,
+        "top_k_represented_reference_mass": 0.9512555772295582,
+        "truth_90pct_coverage_latent_coordinate0": 0.8125,
+        "truth_90pct_coverage_latent_coordinate1": 0.7734375,
+        "truth_90pct_coverage_latent_coordinate2": 0.84375,
+        "truth_90pct_coverage_latent_coordinate3": 0.7109375,
+        "truth_90pct_coverage_physical_coordinate0": 0.875,
+        "truth_90pct_coverage_physical_coordinate1": 0.9296875,
+        "truth_90pct_coverage_physical_coordinate2": 0.84375,
+        "truth_90pct_coverage_physical_coordinate3": 0.7109375,
+        "truth_90pct_marginal_coverage_latent_mean": 0.78515625,
+        "truth_90pct_marginal_coverage_physical_mean": 0.83984375,
+        "truth_90pct_simultaneous_coverage_latent": 0.4140625,
+        "truth_90pct_simultaneous_coverage_physical": 0.4921875,
+        "truth_continuous_log_score_x": -4.499028154254981,
+        "truth_event_Brier_score": 0.650823769159615,
+        "truth_event_log_score_MC_Jeffreys": -1.389568095637689
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "full_distill",
+      "seed": 26101321,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.01379677385936558,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.25574966607085675,
+        "important_event_log_odds_MAE": 0.22357881065765173,
+        "max_latent_CDF_error": 0.20594120025634766,
+        "max_physical_CDF_error": 0.20578384399414062,
+        "proposal_expected_log_score_x": 1.7343606587123777,
+        "reference_KL_to_proposal": 0.21115948307913307,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 5.078125,
+        "top_k_represented_model_mass": 0.9611396789550781,
+        "top_k_represented_reference_mass": 0.9759481494030511,
+        "truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate1": 0.8984375,
+        "truth_90pct_coverage_latent_coordinate2": 0.90625,
+        "truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "truth_90pct_coverage_physical_coordinate1": 0.953125,
+        "truth_90pct_coverage_physical_coordinate2": 0.90625,
+        "truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.8984375,
+        "truth_90pct_marginal_coverage_physical_mean": 0.92578125,
+        "truth_90pct_simultaneous_coverage_latent": 0.6484375,
+        "truth_90pct_simultaneous_coverage_physical": 0.734375,
+        "truth_continuous_log_score_x": 1.6742013601372965,
+        "truth_event_Brier_score": 0.5826912592165172,
+        "truth_event_log_score_MC_Jeffreys": -1.170651849057399
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "full_distill",
+      "seed": 26101322,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.012971030466275351,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.2733765861646894,
+        "important_event_log_odds_MAE": 0.19834977451214475,
+        "max_latent_CDF_error": 0.21824169158935547,
+        "max_physical_CDF_error": 0.21798324584960938,
+        "proposal_expected_log_score_x": 1.7209434861227249,
+        "reference_KL_to_proposal": 0.2245766556687859,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 5.3203125,
+        "top_k_represented_model_mass": 0.9618406295776367,
+        "top_k_represented_reference_mass": 0.9800710376977466,
+        "truth_90pct_coverage_latent_coordinate0": 0.859375,
+        "truth_90pct_coverage_latent_coordinate1": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate2": 0.90625,
+        "truth_90pct_coverage_latent_coordinate3": 0.921875,
+        "truth_90pct_coverage_physical_coordinate0": 0.921875,
+        "truth_90pct_coverage_physical_coordinate1": 0.9609375,
+        "truth_90pct_coverage_physical_coordinate2": 0.90625,
+        "truth_90pct_coverage_physical_coordinate3": 0.921875,
+        "truth_90pct_marginal_coverage_latent_mean": 0.900390625,
+        "truth_90pct_marginal_coverage_physical_mean": 0.927734375,
+        "truth_90pct_simultaneous_coverage_latent": 0.65625,
+        "truth_90pct_simultaneous_coverage_physical": 0.7421875,
+        "truth_continuous_log_score_x": 1.696396922969197,
+        "truth_event_Brier_score": 0.5698533253744245,
+        "truth_event_log_score_MC_Jeffreys": -1.1590430688079492
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "full_distill",
+      "seed": 26101323,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.012892480555769971,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.2581480311190045,
+        "important_event_log_odds_MAE": 0.2041185545225169,
+        "max_latent_CDF_error": 0.20354747772216797,
+        "max_physical_CDF_error": 0.20360851287841797,
+        "proposal_expected_log_score_x": 1.7340871405612743,
+        "reference_KL_to_proposal": 0.21143300123023653,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 5.1953125,
+        "top_k_represented_model_mass": 0.9622068405151367,
+        "top_k_represented_reference_mass": 0.976910522217201,
+        "truth_90pct_coverage_latent_coordinate0": 0.875,
+        "truth_90pct_coverage_latent_coordinate1": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate2": 0.8984375,
+        "truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9296875,
+        "truth_90pct_coverage_physical_coordinate1": 0.953125,
+        "truth_90pct_coverage_physical_coordinate2": 0.8984375,
+        "truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.8984375,
+        "truth_90pct_marginal_coverage_physical_mean": 0.921875,
+        "truth_90pct_simultaneous_coverage_latent": 0.6484375,
+        "truth_90pct_simultaneous_coverage_physical": 0.7109375,
+        "truth_continuous_log_score_x": 1.7013273639677395,
+        "truth_event_Brier_score": 0.5775503353215754,
+        "truth_event_log_score_MC_Jeffreys": -1.172342218728919
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "full_joint",
+      "seed": 26101321,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.04601335928247324,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.5721051101749632,
+        "important_event_log_odds_MAE": 0.5996581918385159,
+        "max_latent_CDF_error": 0.48483753204345703,
+        "max_physical_CDF_error": 0.4853048324584961,
+        "proposal_expected_log_score_x": -13.656693761220424,
+        "reference_KL_to_proposal": 15.602213903011934,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 6.9609375,
+        "top_k_represented_model_mass": 0.9612216949462891,
+        "top_k_represented_reference_mass": 0.9732089404067716,
+        "truth_90pct_coverage_latent_coordinate0": 0.84375,
+        "truth_90pct_coverage_latent_coordinate1": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate2": 0.890625,
+        "truth_90pct_coverage_latent_coordinate3": 0.7265625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9140625,
+        "truth_90pct_coverage_physical_coordinate1": 0.953125,
+        "truth_90pct_coverage_physical_coordinate2": 0.890625,
+        "truth_90pct_coverage_physical_coordinate3": 0.7265625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.8359375,
+        "truth_90pct_marginal_coverage_physical_mean": 0.87109375,
+        "truth_90pct_simultaneous_coverage_latent": 0.515625,
+        "truth_90pct_simultaneous_coverage_physical": 0.578125,
+        "truth_continuous_log_score_x": -26.473962502041868,
+        "truth_event_Brier_score": 0.6556001163553447,
+        "truth_event_log_score_MC_Jeffreys": -1.4295614066413127
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "full_joint",
+      "seed": 26101322,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.045328288117866,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.5611393325238181,
+        "important_event_log_odds_MAE": 0.6031472275652008,
+        "max_latent_CDF_error": 0.4635133743286133,
+        "max_physical_CDF_error": 0.463531494140625,
+        "proposal_expected_log_score_x": -17.103924492082612,
+        "reference_KL_to_proposal": 19.049444633874124,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 6.984375,
+        "top_k_represented_model_mass": 0.961700439453125,
+        "top_k_represented_reference_mass": 0.9723630116864251,
+        "truth_90pct_coverage_latent_coordinate0": 0.8359375,
+        "truth_90pct_coverage_latent_coordinate1": 0.875,
+        "truth_90pct_coverage_latent_coordinate2": 0.890625,
+        "truth_90pct_coverage_latent_coordinate3": 0.7265625,
+        "truth_90pct_coverage_physical_coordinate0": 0.890625,
+        "truth_90pct_coverage_physical_coordinate1": 0.9609375,
+        "truth_90pct_coverage_physical_coordinate2": 0.890625,
+        "truth_90pct_coverage_physical_coordinate3": 0.7265625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.83203125,
+        "truth_90pct_marginal_coverage_physical_mean": 0.8671875,
+        "truth_90pct_simultaneous_coverage_latent": 0.4921875,
+        "truth_90pct_simultaneous_coverage_physical": 0.5546875,
+        "truth_continuous_log_score_x": -31.81422539274446,
+        "truth_event_Brier_score": 0.6555732197593898,
+        "truth_event_log_score_MC_Jeffreys": -1.44706195460415
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "full_joint",
+      "seed": 26101323,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.053358658523491545,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.5575193075453122,
+        "important_event_log_odds_MAE": 0.6722564852709876,
+        "max_latent_CDF_error": 0.4867124557495117,
+        "max_physical_CDF_error": 0.4870424270629883,
+        "proposal_expected_log_score_x": -23.4898991104389,
+        "reference_KL_to_proposal": 25.435419252230407,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 0.9984375,
+        "significant_event_mass_recall": 0.9995555830173064,
+        "top_k": 7.375,
+        "top_k_represented_model_mass": 0.9605274200439453,
+        "top_k_represented_reference_mass": 0.9709118862727923,
+        "truth_90pct_coverage_latent_coordinate0": 0.859375,
+        "truth_90pct_coverage_latent_coordinate1": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate2": 0.90625,
+        "truth_90pct_coverage_latent_coordinate3": 0.7421875,
+        "truth_90pct_coverage_physical_coordinate0": 0.921875,
+        "truth_90pct_coverage_physical_coordinate1": 0.953125,
+        "truth_90pct_coverage_physical_coordinate2": 0.90625,
+        "truth_90pct_coverage_physical_coordinate3": 0.7421875,
+        "truth_90pct_marginal_coverage_latent_mean": 0.84765625,
+        "truth_90pct_marginal_coverage_physical_mean": 0.880859375,
+        "truth_90pct_simultaneous_coverage_latent": 0.546875,
+        "truth_90pct_simultaneous_coverage_physical": 0.609375,
+        "truth_continuous_log_score_x": -25.44807171035167,
+        "truth_event_Brier_score": 0.6963661746121943,
+        "truth_event_log_score_MC_Jeffreys": -1.55015114534681
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "gaussian_distill",
+      "seed": 26101321,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.026542540025555676,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.35899567717840664,
+        "important_event_log_odds_MAE": 0.3633777785645949,
+        "max_latent_CDF_error": 0.2590179443359375,
+        "max_physical_CDF_error": 0.259002685546875,
+        "proposal_expected_log_score_x": 1.2738613019189198,
+        "reference_KL_to_proposal": 0.671658839872591,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 6.5625,
+        "top_k_represented_model_mass": 0.9611368179321289,
+        "top_k_represented_reference_mass": 0.9761024194184731,
+        "truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate1": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate2": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate3": 0.921875,
+        "truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "truth_90pct_coverage_physical_coordinate1": 0.984375,
+        "truth_90pct_coverage_physical_coordinate2": 0.9140625,
+        "truth_90pct_coverage_physical_coordinate3": 0.921875,
+        "truth_90pct_marginal_coverage_latent_mean": 0.908203125,
+        "truth_90pct_marginal_coverage_physical_mean": 0.939453125,
+        "truth_90pct_simultaneous_coverage_latent": 0.6796875,
+        "truth_90pct_simultaneous_coverage_physical": 0.7734375,
+        "truth_continuous_log_score_x": 1.0697812861346954,
+        "truth_event_Brier_score": 0.5965319282840937,
+        "truth_event_log_score_MC_Jeffreys": -1.2794713278631766
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "gaussian_distill",
+      "seed": 26101322,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.028372941990854574,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.3742805621642474,
+        "important_event_log_odds_MAE": 0.3900268205907973,
+        "max_latent_CDF_error": 0.26566600799560547,
+        "max_physical_CDF_error": 0.26565074920654297,
+        "proposal_expected_log_score_x": 1.2514090251281105,
+        "reference_KL_to_proposal": 0.6941111166634002,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 6.609375,
+        "top_k_represented_model_mass": 0.9605779647827148,
+        "top_k_represented_reference_mass": 0.9723313217225836,
+        "truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate1": 0.9296875,
+        "truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "truth_90pct_coverage_physical_coordinate1": 0.984375,
+        "truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.900390625,
+        "truth_90pct_marginal_coverage_physical_mean": 0.927734375,
+        "truth_90pct_simultaneous_coverage_latent": 0.6640625,
+        "truth_90pct_simultaneous_coverage_physical": 0.7421875,
+        "truth_continuous_log_score_x": 1.1113769601754524,
+        "truth_event_Brier_score": 0.6017128163948655,
+        "truth_event_log_score_MC_Jeffreys": -1.3000967255114582
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    },
+    {
+      "method": "gaussian_distill",
+      "seed": 26101323,
+      "observations": 128,
+      "parents": 64,
+      "physical_coordinate_names": [
+        "central_radius_over_R",
+        "annular_halfwidth_over_R",
+        "epsilon_real",
+        "epsilon_imag"
+      ],
+      "parent_equal_weight_means": {
+        "event_mass_MAE": 0.027749350037318248,
+        "false_confidence_rate": 0.0,
+        "false_excluded_reference_mass": 0.0,
+        "false_exclusion_rate": 0.0,
+        "important_conditional_CDF_unresolved_reference_mass": 0.0,
+        "important_conditional_physical_CDF_max": 0.36565138129598684,
+        "important_event_log_odds_MAE": 0.3766593597243131,
+        "max_latent_CDF_error": 0.24486541748046875,
+        "max_physical_CDF_error": 0.2447061538696289,
+        "proposal_expected_log_score_x": 1.2959756789740613,
+        "reference_KL_to_proposal": 0.6495444628174493,
+        "reference_truth_90pct_coverage_latent_coordinate0": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate1": 0.859375,
+        "reference_truth_90pct_coverage_latent_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_latent_coordinate3": 0.90625,
+        "reference_truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate1": 0.9375,
+        "reference_truth_90pct_coverage_physical_coordinate2": 0.8828125,
+        "reference_truth_90pct_coverage_physical_coordinate3": 0.90625,
+        "reference_truth_event_Brier_score": 0.5635652377025597,
+        "reference_truth_event_log_score": -1.122982186082101,
+        "sample_hit_event_count_recall": 1.0,
+        "sample_reference_event_mass_MAE": 8.745592094316104e-05,
+        "significant_event_count_recall": 1.0,
+        "significant_event_mass_recall": 1.0,
+        "top_k": 6.7734375,
+        "top_k_represented_model_mass": 0.9612951278686523,
+        "top_k_represented_reference_mass": 0.9762734624254517,
+        "truth_90pct_coverage_latent_coordinate0": 0.875,
+        "truth_90pct_coverage_latent_coordinate1": 0.9140625,
+        "truth_90pct_coverage_latent_coordinate2": 0.890625,
+        "truth_90pct_coverage_latent_coordinate3": 0.890625,
+        "truth_90pct_coverage_physical_coordinate0": 0.9375,
+        "truth_90pct_coverage_physical_coordinate1": 0.984375,
+        "truth_90pct_coverage_physical_coordinate2": 0.890625,
+        "truth_90pct_coverage_physical_coordinate3": 0.890625,
+        "truth_90pct_marginal_coverage_latent_mean": 0.892578125,
+        "truth_90pct_marginal_coverage_physical_mean": 0.92578125,
+        "truth_90pct_simultaneous_coverage_latent": 0.6328125,
+        "truth_90pct_simultaneous_coverage_physical": 0.7265625,
+        "truth_continuous_log_score_x": 1.0644912796863109,
+        "truth_event_Brier_score": 0.6015522156376392,
+        "truth_event_log_score_MC_Jeffreys": -1.2872270279200517
+      },
+      "available_parent_counts": {
+        "event_mass_MAE": 64,
+        "false_confidence_rate": 64,
+        "false_excluded_reference_mass": 64,
+        "false_exclusion_rate": 64,
+        "important_conditional_CDF_unresolved_reference_mass": 64,
+        "important_conditional_physical_CDF_max": 64,
+        "important_event_log_odds_MAE": 64,
+        "max_latent_CDF_error": 64,
+        "max_physical_CDF_error": 64,
+        "proposal_expected_log_score_x": 64,
+        "reference_KL_to_proposal": 64,
+        "reference_truth_90pct_coverage_latent_coordinate0": 64,
+        "reference_truth_90pct_coverage_latent_coordinate1": 64,
+        "reference_truth_90pct_coverage_latent_coordinate2": 64,
+        "reference_truth_90pct_coverage_latent_coordinate3": 64,
+        "reference_truth_90pct_coverage_physical_coordinate0": 64,
+        "reference_truth_90pct_coverage_physical_coordinate1": 64,
+        "reference_truth_90pct_coverage_physical_coordinate2": 64,
+        "reference_truth_90pct_coverage_physical_coordinate3": 64,
+        "reference_truth_event_Brier_score": 64,
+        "reference_truth_event_log_score": 64,
+        "sample_hit_event_count_recall": 64,
+        "sample_reference_event_mass_MAE": 64,
+        "significant_event_count_recall": 64,
+        "significant_event_mass_recall": 64,
+        "top_k": 64,
+        "top_k_represented_model_mass": 64,
+        "top_k_represented_reference_mass": 64,
+        "truth_90pct_coverage_latent_coordinate0": 64,
+        "truth_90pct_coverage_latent_coordinate1": 64,
+        "truth_90pct_coverage_latent_coordinate2": 64,
+        "truth_90pct_coverage_latent_coordinate3": 64,
+        "truth_90pct_coverage_physical_coordinate0": 64,
+        "truth_90pct_coverage_physical_coordinate1": 64,
+        "truth_90pct_coverage_physical_coordinate2": 64,
+        "truth_90pct_coverage_physical_coordinate3": 64,
+        "truth_90pct_marginal_coverage_latent_mean": 64,
+        "truth_90pct_marginal_coverage_physical_mean": 64,
+        "truth_90pct_simultaneous_coverage_latent": 64,
+        "truth_90pct_simultaneous_coverage_physical": 64,
+        "truth_continuous_log_score_x": 64,
+        "truth_event_Brier_score": 64,
+        "truth_event_log_score_MC_Jeffreys": 64
+      },
+      "aggregation": "two noise observations averaged within parent, then equal-weight parents",
+      "raw_zero_count_truth_event_log_scores": 0,
+      "proposal_status": "raw learned proposal versus stated proxy target; not full-Mie corrected",
+      "interval_status": "marginal 90% equal-tail coverage; no nominal claim for joint coordinate box",
+      "conditional_CDF_status": "unresolved important-event mass reported separately; available CDF mean does not hide missing events"
+    }
+  ],
+  "paired_full_vs_diagonal_distillation": [
+    {
+      "seed": 26101321,
+      "metrics": {
+        "event_mass_MAE": {
+          "delta": 0.0006473874131865496,
+          "interval95": [
+            -0.00047150188086389017,
+            0.0017267746677295432
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_confidence_rate": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_excluded_reference_mass": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_exclusion_rate": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_conditional_CDF_unresolved_reference_mass": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_conditional_physical_CDF_max": {
+          "delta": -0.016793661825289213,
+          "interval95": [
+            -0.02869280793787673,
+            -0.006366108290121288
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_event_log_odds_MAE": {
+          "delta": 0.0062411583837233275,
+          "interval95": [
+            -0.009639459261400082,
+            0.02153806450270868
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "max_latent_CDF_error": {
+          "delta": -0.0075969696044921875,
+          "interval95": [
+            -0.017388439178466795,
+            0.0018867015838623029
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "max_physical_CDF_error": {
+          "delta": -0.007923126220703125,
+          "interval95": [
+            -0.017768597602844237,
+            0.0019684076309203994
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "proposal_expected_log_score_x": {
+          "delta": 0.05878261980637542,
+          "interval95": [
+            0.04374451904540138,
+            0.07430221516924192
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_KL_to_proposal": {
+          "delta": -0.05878261980637538,
+          "interval95": [
+            -0.07514245656255218,
+            -0.04383685680987788
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_event_Brier_score": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_event_log_score": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "sample_hit_event_count_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "sample_reference_event_mass_MAE": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "significant_event_count_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "significant_event_mass_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k": {
+          "delta": 0.0546875,
+          "interval95": [
+            -0.0859375,
+            0.1953125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k_represented_model_mass": {
+          "delta": -0.000732421875,
+          "interval95": [
+            -0.0024321317672729493,
+            0.001018571853637695
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k_represented_reference_mass": {
+          "delta": 0.0020797751030894075,
+          "interval95": [
+            -0.0007529606570139983,
+            0.005026561530293154
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate1": {
+          "delta": -0.015625,
+          "interval95": [
+            -0.0625,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            -0.03125,
+            0.03125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            -0.03125,
+            0.03125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_marginal_coverage_latent_mean": {
+          "delta": -0.00390625,
+          "interval95": [
+            -0.015625,
+            0.005859375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_marginal_coverage_physical_mean": {
+          "delta": 0.0,
+          "interval95": [
+            -0.0078125,
+            0.0078125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_simultaneous_coverage_latent": {
+          "delta": -0.015625,
+          "interval95": [
+            -0.0625,
+            0.0234375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_simultaneous_coverage_physical": {
+          "delta": 0.0,
+          "interval95": [
+            -0.03125,
+            0.03125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_continuous_log_score_x": {
+          "delta": -0.0056935657418102845,
+          "interval95": [
+            -0.1740351450129489,
+            0.16454469929348534
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_event_Brier_score": {
+          "delta": 0.0009323663543909788,
+          "interval95": [
+            -0.010987227380974218,
+            0.012867605604697014
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_event_log_score_MC_Jeffreys": {
+          "delta": 0.004055186452322255,
+          "interval95": [
+            -0.022159373057562045,
+            0.033429033620450965
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        }
+      }
+    },
+    {
+      "seed": 26101322,
+      "metrics": {
+        "event_mass_MAE": {
+          "delta": -0.00038903371349855673,
+          "interval95": [
+            -0.0013660665799001342,
+            0.0005150456076390047
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_confidence_rate": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_excluded_reference_mass": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_exclusion_rate": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_conditional_CDF_unresolved_reference_mass": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_conditional_physical_CDF_max": {
+          "delta": -0.009490617986817588,
+          "interval95": [
+            -0.016279717355301596,
+            -0.0025857931126036064
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_event_log_odds_MAE": {
+          "delta": -0.017512966780227752,
+          "interval95": [
+            -0.03451170509799001,
+            -0.0006626598548994468
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "max_latent_CDF_error": {
+          "delta": -0.00077056884765625,
+          "interval95": [
+            -0.006231498718261719,
+            0.0043955564498901365
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "max_physical_CDF_error": {
+          "delta": -0.000949859619140625,
+          "interval95": [
+            -0.006199312210083008,
+            0.00446760654449462
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "proposal_expected_log_score_x": {
+          "delta": 0.057241834211435264,
+          "interval95": [
+            0.049135623878093566,
+            0.06564937549205496
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_KL_to_proposal": {
+          "delta": -0.057241834211435264,
+          "interval95": [
+            -0.06502313858098846,
+            -0.0490354661653352
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_event_Brier_score": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_event_log_score": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "sample_hit_event_count_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "sample_reference_event_mass_MAE": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "significant_event_count_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "significant_event_mass_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k": {
+          "delta": 0.1796875,
+          "interval95": [
+            0.078125,
+            0.28125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k_represented_model_mass": {
+          "delta": 0.00018024444580078125,
+          "interval95": [
+            -0.0013411998748779296,
+            0.001715898513793944
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k_represented_reference_mass": {
+          "delta": 0.004589036003290147,
+          "interval95": [
+            0.0024195103149291914,
+            0.00664890617012403
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate0": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0234375,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            -0.0234375,
+            0.0234375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate2": {
+          "delta": 0.015625,
+          "interval95": [
+            0.0,
+            0.0390625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate3": {
+          "delta": 0.0078125,
+          "interval95": [
+            0.0,
+            0.0234375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate0": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0234375,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate1": {
+          "delta": 0.0078125,
+          "interval95": [
+            0.0,
+            0.0234375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate2": {
+          "delta": 0.015625,
+          "interval95": [
+            0.0,
+            0.0390625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate3": {
+          "delta": 0.0078125,
+          "interval95": [
+            0.0,
+            0.0234375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_marginal_coverage_latent_mean": {
+          "delta": 0.00390625,
+          "interval95": [
+            -0.005859375,
+            0.013671875
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_marginal_coverage_physical_mean": {
+          "delta": 0.005859375,
+          "interval95": [
+            -0.001953125,
+            0.015625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_simultaneous_coverage_latent": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0390625,
+            0.015625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_simultaneous_coverage_physical": {
+          "delta": 0.0078125,
+          "interval95": [
+            -0.015625,
+            0.03125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_continuous_log_score_x": {
+          "delta": -0.06086310017899178,
+          "interval95": [
+            -0.2812608711793161,
+            0.11318137161987203
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_event_Brier_score": {
+          "delta": 0.0001496337354183197,
+          "interval95": [
+            -0.009277517686132341,
+            0.009707779972814022
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_event_log_score_MC_Jeffreys": {
+          "delta": -0.007034054764813603,
+          "interval95": [
+            -0.02238517673797214,
+            0.008635018743698425
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        }
+      }
+    },
+    {
+      "seed": 26101323,
+      "metrics": {
+        "event_mass_MAE": {
+          "delta": 0.00030573520737972744,
+          "interval95": [
+            -0.0005770686537937996,
+            0.0012237204885355156
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_confidence_rate": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_excluded_reference_mass": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "false_exclusion_rate": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_conditional_CDF_unresolved_reference_mass": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_conditional_physical_CDF_max": {
+          "delta": -0.01633502320631003,
+          "interval95": [
+            -0.024531286080895387,
+            -0.008091587013019397
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "important_event_log_odds_MAE": {
+          "delta": -0.003661389982373417,
+          "interval95": [
+            -0.01918956001733105,
+            0.012388489677941742
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "max_latent_CDF_error": {
+          "delta": -0.011651992797851562,
+          "interval95": [
+            -0.018923068046569826,
+            -0.004503417015075688
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "max_physical_CDF_error": {
+          "delta": -0.011630058288574219,
+          "interval95": [
+            -0.018098998069763183,
+            -0.004799747467041016
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "proposal_expected_log_score_x": {
+          "delta": 0.06127937471447453,
+          "interval95": [
+            0.048973338145716985,
+            0.07371286397714047
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_KL_to_proposal": {
+          "delta": -0.06127937471447456,
+          "interval95": [
+            -0.0736502506789764,
+            -0.04881270175776138
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_latent_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate0": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate1": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate2": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_90pct_coverage_physical_coordinate3": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_event_Brier_score": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "reference_truth_event_log_score": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "sample_hit_event_count_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "sample_reference_event_mass_MAE": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "significant_event_count_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "significant_event_mass_recall": {
+          "delta": 0.0,
+          "interval95": [
+            0.0,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k": {
+          "delta": 0.2109375,
+          "interval95": [
+            0.0859375,
+            0.3359375
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k_represented_model_mass": {
+          "delta": 0.00019741058349609375,
+          "interval95": [
+            -0.0015261411666870118,
+            0.0019916534423828104
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "top_k_represented_reference_mass": {
+          "delta": 0.0018213539679764884,
+          "interval95": [
+            -0.001248518790579241,
+            0.00491806308098086
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate0": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0234375,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate1": {
+          "delta": 0.015625,
+          "interval95": [
+            0.0,
+            0.0390625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate2": {
+          "delta": 0.03125,
+          "interval95": [
+            0.0078125,
+            0.0625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_latent_coordinate3": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0390625,
+            0.015625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate0": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0234375,
+            0.0
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate1": {
+          "delta": 0.015625,
+          "interval95": [
+            0.0,
+            0.0390625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate2": {
+          "delta": 0.03125,
+          "interval95": [
+            0.0078125,
+            0.0625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_coverage_physical_coordinate3": {
+          "delta": -0.0078125,
+          "interval95": [
+            -0.0390625,
+            0.015625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_marginal_coverage_latent_mean": {
+          "delta": 0.0078125,
+          "interval95": [
+            -0.00390625,
+            0.01953125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_marginal_coverage_physical_mean": {
+          "delta": 0.0078125,
+          "interval95": [
+            -0.00390625,
+            0.01953125
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_simultaneous_coverage_latent": {
+          "delta": 0.015625,
+          "interval95": [
+            -0.0234375,
+            0.0625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_90pct_simultaneous_coverage_physical": {
+          "delta": 0.015625,
+          "interval95": [
+            -0.03125,
+            0.0625
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_continuous_log_score_x": {
+          "delta": 0.022276728087011775,
+          "interval95": [
+            -0.13513458668874415,
+            0.17231224004849366
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_event_Brier_score": {
+          "delta": -0.0009961915202438831,
+          "interval95": [
+            -0.011829630052670837,
+            0.010200677544344214
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        },
+        "truth_event_log_score_MC_Jeffreys": {
+          "delta": -0.0015152441747512697,
+          "interval95": [
+            -0.022355082751651125,
+            0.01906683658874031
+          ],
+          "parents": 64,
+          "sign": "full_distill minus diag_distill"
+        }
+      }
+    }
+  ],
+  "paired_seed_mean_parent_bootstrap": {
+    "event_mass_MAE": {
+      "delta": 0.0001880296356892402,
+      "interval95": [
+        -0.0005430233557586802,
+        0.0008735174412043121
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "false_confidence_rate": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "false_excluded_reference_mass": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "false_exclusion_rate": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "important_conditional_CDF_unresolved_reference_mass": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "important_conditional_physical_CDF_max": {
+      "delta": -0.014206434339472275,
+      "interval95": [
+        -0.019732262150219948,
+        -0.008798165673010679
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "important_event_log_odds_MAE": {
+      "delta": -0.0049777327929592784,
+      "interval95": [
+        -0.015945350919679493,
+        0.00555394234844277
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "max_latent_CDF_error": {
+      "delta": -0.006673177083333332,
+      "interval95": [
+        -0.011379901568094888,
+        -0.0019051154454549223
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "max_physical_CDF_error": {
+      "delta": -0.00683434804280599,
+      "interval95": [
+        -0.011615053812662762,
+        -0.00194536844889323
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "proposal_expected_log_score_x": {
+      "delta": 0.05910127624409507,
+      "interval95": [
+        0.05088453361760746,
+        0.06721898966458667
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_KL_to_proposal": {
+      "delta": -0.05910127624409507,
+      "interval95": [
+        -0.06710835052351867,
+        -0.050940192773032036
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_latent_coordinate0": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_latent_coordinate1": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_latent_coordinate2": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_latent_coordinate3": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_physical_coordinate0": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_physical_coordinate1": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_physical_coordinate2": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_90pct_coverage_physical_coordinate3": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_event_Brier_score": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "reference_truth_event_log_score": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "sample_hit_event_count_recall": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "sample_reference_event_mass_MAE": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "significant_event_count_recall": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "significant_event_mass_recall": {
+      "delta": 0.0,
+      "interval95": [
+        0.0,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "top_k": {
+      "delta": 0.1484375,
+      "interval95": [
+        0.0625,
+        0.23183593749999967
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "top_k_represented_model_mass": {
+      "delta": -0.000118255615234375,
+      "interval95": [
+        -0.0010075728098551432,
+        0.0007604916890462235
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "top_k_represented_reference_mass": {
+      "delta": 0.002830055024785347,
+      "interval95": [
+        0.0011307990211173557,
+        0.004576433222369003
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_latent_coordinate0": {
+      "delta": -0.005208333333333333,
+      "interval95": [
+        -0.013020833333333332,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_latent_coordinate1": {
+      "delta": 0.0,
+      "interval95": [
+        -0.020833333333333336,
+        0.015625
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_latent_coordinate2": {
+      "delta": 0.015625,
+      "interval95": [
+        -0.0026041666666666665,
+        0.03645833333333333
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_latent_coordinate3": {
+      "delta": 0.0,
+      "interval95": [
+        -0.010416666666666666,
+        0.010416666666666666
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_physical_coordinate0": {
+      "delta": -0.005208333333333333,
+      "interval95": [
+        -0.013020833333333332,
+        0.0
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_physical_coordinate1": {
+      "delta": 0.0078125,
+      "interval95": [
+        0.0,
+        0.018229166666666664
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_physical_coordinate2": {
+      "delta": 0.015625,
+      "interval95": [
+        -0.0026041666666666665,
+        0.03645833333333333
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_coverage_physical_coordinate3": {
+      "delta": 0.0,
+      "interval95": [
+        -0.010416666666666666,
+        0.010416666666666666
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_marginal_coverage_latent_mean": {
+      "delta": 0.0026041666666666665,
+      "interval95": [
+        -0.005208333333333333,
+        0.010416666666666664
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_marginal_coverage_physical_mean": {
+      "delta": 0.004557291666666667,
+      "interval95": [
+        -0.0013020833333333335,
+        0.01171875
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_simultaneous_coverage_latent": {
+      "delta": -0.0026041666666666665,
+      "interval95": [
+        -0.028645833333333332,
+        0.0234375
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_90pct_simultaneous_coverage_physical": {
+      "delta": 0.0078125,
+      "interval95": [
+        -0.013020833333333332,
+        0.03125
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_continuous_log_score_x": {
+      "delta": -0.014759979277930099,
+      "interval95": [
+        -0.1256449044864562,
+        0.10519948608080373
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_event_Brier_score": {
+      "delta": 2.860285652180484e-05,
+      "interval95": [
+        -0.008041930561497187,
+        0.007503940702493612
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    },
+    "truth_event_log_score_MC_Jeffreys": {
+      "delta": -0.0014980374957475392,
+      "interval95": [
+        -0.017856244068123594,
+        0.0165984079604796
+      ],
+      "parents": 64,
+      "sign": "full_distill minus diag_distill"
+    }
+  },
+  "bootstrap": {
+    "seed": 26101329,
+    "replicates": 2000,
+    "unit": "parent",
+    "independent_seed_claim": false,
+    "uncertainty_scope": "conditional on saved reference and fixed proposal MC draws; excludes reference/solver error"
+  },
+  "scope": "same stated numerical proxy target and same teacher supervision for the paired distillation comparison",
+  "calibration_status": "not a continuum/full-Mie/real-data calibration claim",
+  "source": "/Volumes/migodam's-external-brain/Research/Inv_SLAM/Gaussian/C1/c1-joint-p2/p2/results/evaluation/EVALUATION_SUMMARY.json",
+  "material_frequency_evaluations": 0,
+  "wall_seconds": 0.8533927919343114,
+  "cpu_seconds": 0.7584090000000001
+}

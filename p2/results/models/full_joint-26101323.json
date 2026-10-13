@@ -1,0 +1,90 @@
+{
+  "method": "full_joint",
+  "seed": 26101323,
+  "updates": 3000,
+  "common_completed_updates": 3000,
+  "selected_checkpoint": 250,
+  "validation_expected_NLL_x": 21.6378015061616,
+  "selection": "common posterior-expected validation log score",
+  "objective": "joint truth NLL",
+  "observations": 256,
+  "validation_observations": 64,
+  "teacher_draws_per_observation": 512,
+  "parent_counts": {
+    "train_parent": 128,
+    "validation_parent": 32
+  },
+  "parameters": 24312,
+  "history": [
+    {
+      "step": 250,
+      "validation_expected_NLL_x": 21.6378015061616,
+      "batch_training_NLL_x": -3.9360185752809667
+    },
+    {
+      "step": 500,
+      "validation_expected_NLL_x": 66.75581112955726,
+      "batch_training_NLL_x": -4.806017768741068
+    },
+    {
+      "step": 750,
+      "validation_expected_NLL_x": 138.88129719448781,
+      "batch_training_NLL_x": -5.927070580542077
+    },
+    {
+      "step": 1000,
+      "validation_expected_NLL_x": 139.96287039793856,
+      "batch_training_NLL_x": -6.376337163678786
+    },
+    {
+      "step": 1250,
+      "validation_expected_NLL_x": 193.73992812783467,
+      "batch_training_NLL_x": -6.440827257777419
+    },
+    {
+      "step": 1500,
+      "validation_expected_NLL_x": 247.64195078315583,
+      "batch_training_NLL_x": -7.176357091974545
+    },
+    {
+      "step": 1750,
+      "validation_expected_NLL_x": 259.51885382396677,
+      "batch_training_NLL_x": -7.728896717614102
+    },
+    {
+      "step": 2000,
+      "validation_expected_NLL_x": 251.16799231373966,
+      "batch_training_NLL_x": -7.902502467356768
+    },
+    {
+      "step": 2250,
+      "validation_expected_NLL_x": 316.07921575597834,
+      "batch_training_NLL_x": -8.460737064606327
+    },
+    {
+      "step": 2500,
+      "validation_expected_NLL_x": 397.89773712445526,
+      "batch_training_NLL_x": -8.460367666209645
+    },
+    {
+      "step": 2750,
+      "validation_expected_NLL_x": 306.44440405456703,
+      "batch_training_NLL_x": -8.397261607367192
+    },
+    {
+      "step": 3000,
+      "validation_expected_NLL_x": 433.6926827983923,
+      "batch_training_NLL_x": -8.646922160362422
+    }
+  ],
+  "training_wall_seconds": 2.378639914561063,
+  "training_cpu_seconds": 2.3461330000001146,
+  "material_frequency_evaluations": 0,
+  "topology_input": false,
+  "state_input": false,
+  "memory_input": false,
+  "normalization": "train observations only",
+  "target_identity": "joint-p2-radial-v1:C:tensor-Chebyshev-five-per-physical-axis-radial-v1",
+  "teacher_cost": "paid B1 bank; setup/amortized cost is in the shared B1 ledger",
+  "failed_job": false
+}

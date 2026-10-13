@@ -1,6 +1,12 @@
+# 最新：B1 × C1 Joint P2
+
+[共同图库](https://migodam.github.io/b1-probabilistic-maxwell-imaging/research/joint_p2/) · [C1独立报告](p2/C1_P2_RESEARCH_REPORT_ZH.md) · [裁决](p2/C1_P2_DECISION.md) · [权重与原始记录](https://github.com/migodam/c1-physics-state-generative-imaging/releases/tag/joint-p2-20261014)
+
+共同四维vector-Mie posterior上，小型蒸馏MDN的事件MAE约.0132；完整协方差并未稳定胜出事件质量，连续条件CDF约.142，完整posterior目标未达到。下面P1等原结果保留。
+
 # C1 阅读入口
 
-最新：[C1-P1 密度修复报告](p1/C1_P1_RESEARCH_REPORT_ZH.md)，[决定](p1/C1_P1_DECISION.md)，[结果](p1/C1_P1_RESULTS.csv)。旧C1报告与失败证据保留。
+历史：[C1-P1 密度修复报告](p1/C1_P1_RESEARCH_REPORT_ZH.md)，[决定](p1/C1_P1_DECISION.md)，[结果](p1/C1_P1_RESULTS.csv)。旧C1报告与失败证据保留。
 
 这是 2026-10-13 完成的研究与最小实验公开记录。无需预定义 topology 类别，直接生成连续材料分布；当前 physics-state/memory 未显示稳定增益。
 
