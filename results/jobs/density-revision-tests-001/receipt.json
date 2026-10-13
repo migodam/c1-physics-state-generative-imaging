@@ -1,0 +1,19 @@
+{
+  "id": "density-revision-tests-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests/test_density.py",
+    "-q"
+  ],
+  "wall_seconds": 2.394621624960564,
+  "cpu_seconds": 1.645662,
+  "gpu_seconds": 0,
+  "maxrss_raw": 372162560,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 50.174063000000004
+}

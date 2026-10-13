@@ -1,0 +1,54 @@
+{
+  "problem": "u0",
+  "prior_id": "connected-exponential-tilt-v1",
+  "solver_id": "square-plus-weak-linear-v1",
+  "truth_fields_stored": false,
+  "context_function_accepts_truth": false,
+  "topology_input": false,
+  "baseline_inputs": "full measurement and noise/acquisition metadata",
+  "times": {
+    "train": {
+      "truth_generation": {
+        "wall": 0.0024496669648215175,
+        "cpu": 0.0006829999999999892
+      },
+      "candidate_context_generation": {
+        "wall": 0.12676545896101743,
+        "cpu": 0.12620499999999996,
+        "material_frequency_calls": 0
+      }
+    },
+    "validation": {
+      "truth_generation": {
+        "wall": 4.7459034249186516e-05,
+        "cpu": 4.700000000001925e-05
+      },
+      "candidate_context_generation": {
+        "wall": 0.007886875071562827,
+        "cpu": 0.007886999999999977,
+        "material_frequency_calls": 0
+      }
+    },
+    "test": {
+      "truth_generation": {
+        "wall": 3.912497777491808e-05,
+        "cpu": 3.900000000001125e-05
+      },
+      "candidate_context_generation": {
+        "wall": 0.007676208042539656,
+        "cpu": 0.007665999999999951,
+        "material_frequency_calls": 0
+      }
+    },
+    "reference_preparation": {
+      "wall": 0.008598665939643979,
+      "cpu": 0.006274000000000002
+    }
+  },
+  "wall_seconds": 2.382383209071122,
+  "cpu_seconds": 2.365008,
+  "cpu_nested_in_job": true,
+  "sha256_checks": false,
+  "support": "restricted continuous two-coordinate prior, not full voxel posterior",
+  "source_count": null
+}

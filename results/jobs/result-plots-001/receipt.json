@@ -1,0 +1,17 @@
+{
+  "id": "result-plots-001",
+  "stage": "diagnostics",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/plots.py"
+  ],
+  "wall_seconds": 3.4722686669556424,
+  "cpu_seconds": 2.8737369999999998,
+  "gpu_seconds": 0,
+  "maxrss_raw": 446103552,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 54.172366
+}

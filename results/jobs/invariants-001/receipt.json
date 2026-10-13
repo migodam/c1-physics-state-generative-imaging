@@ -1,0 +1,20 @@
+{
+  "id": "invariants-001",
+  "stage": "tests",
+  "status": "FAILED_CHARGED",
+  "returncode": 1,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "pytest",
+    "tests",
+    "-q"
+  ],
+  "wall_seconds": 0.03948779194615781,
+  "cpu_seconds": 0.023451,
+  "gpu_seconds": 0,
+  "maxrss_raw": 14745600,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 55
+}

@@ -1,0 +1,19 @@
+{
+  "id": "decode-precision-test-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests/test_sample_precision.py",
+    "-q"
+  ],
+  "wall_seconds": 1.2298643329413608,
+  "cpu_seconds": 1.161595,
+  "gpu_seconds": 0,
+  "maxrss_raw": 245104640,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 44.318519
+}

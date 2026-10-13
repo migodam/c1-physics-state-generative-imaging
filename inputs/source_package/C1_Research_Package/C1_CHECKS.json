@@ -1,0 +1,89 @@
+{
+  "schema": "C1-algebra-v1",
+  "date": "2026-10-13",
+  "seed": 261013,
+  "scope": "Deterministic algebra and one-dimensional quadrature only; no C1 architecture was trained or benchmarked.",
+  "new_maxwell_evaluations": 0,
+  "gpu_hours": 0,
+  "checks": {
+    "finite_gaussian_contrast_sufficiency": {
+      "passed": true,
+      "max_mass_error": 7.771561172376096e-16,
+      "measurement_dimension": 11,
+      "retained_dimension": 3
+    },
+    "affine_branch_offset_and_tangent_sufficiency": {
+      "passed": true,
+      "max_mass_error": 6.106226635438361e-16
+    },
+    "dropping_offsets_counterexample": {
+      "passed": true,
+      "true_second_branch_mass": 0.7685247834990176,
+      "jacobian_only_mass": 0.5
+    },
+    "stratified_allocation_invariance": {
+      "passed": true,
+      "allocations": [
+        3,
+        21
+      ],
+      "correct_first_mass": 0.4,
+      "naive_first_mass": 0.08695652173913045
+    },
+    "split_merge_mass_conservation": {
+      "passed": true,
+      "before": [
+        0.35,
+        0.65
+      ],
+      "after_split": [
+        0.35,
+        0.13,
+        0.52
+      ]
+    },
+    "tempering_telescope_not_data_reuse": {
+      "passed": true,
+      "correct_probability": 0.75,
+      "tempered_probability": 0.75,
+      "wrong_repeated_probability": 0.9642857142857143
+    },
+    "bounded_tilt_tv": {
+      "passed": true,
+      "TV": 0.2682711820216015,
+      "bound": 0.2682711820216014
+    },
+    "proper_log_score_identity": {
+      "passed": true,
+      "excess_log_score": 0.02069786144608532,
+      "KL": 0.020697861446085472
+    },
+    "reverse_markov_gaussian_example": {
+      "passed": true,
+      "conditional_covariance_X0_X2_given_X1": 1.1102230246251565e-16
+    },
+    "sign_ambiguity_reference": {
+      "passed": true,
+      "posterior_sign_masses": [
+        0.3,
+        0.7000000000000001
+      ],
+      "unnormalized_common_evidence": 0.22276321094990972
+    },
+    "physics_conditioning_logdet_counterexample": {
+      "passed": true,
+      "naive_logdet": 0.16000000000000003,
+      "actual_logdet": 0.30842000511827333,
+      "masked_conditioning_logdet": 0.12
+    },
+    "rare_mode_finite_sample_limit": {
+      "passed": true,
+      "mode_mass": 0.01,
+      "miss_probability_K64": 0.525596487525562,
+      "K_for_95_percent_hit_probability": 299
+    }
+  },
+  "check_count": 12,
+  "status": "PASS",
+  "elapsed_seconds": 0.001698562999990827
+}

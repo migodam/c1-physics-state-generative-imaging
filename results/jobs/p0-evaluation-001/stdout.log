@@ -1,0 +1,12 @@
+{"problem": "p0", "model": "mdn-2610131", "KL": 1.080617781815608, "mass_MAE": 0.05138520087189842, "reference": "PASS"}
+{"problem": "p0", "model": "measurement-2610131", "KL": 1.6593781339592373, "mass_MAE": 0.05421783607978976, "reference": "PASS"}
+{"problem": "p0", "model": "mdn_state-2610131", "KL": 1.0772560360173804, "mass_MAE": 0.05526561478630679, "reference": "PASS"}
+{"problem": "p0", "model": "mdn_memory-2610131", "KL": 1.0034925074851062, "mass_MAE": 0.04791870182154945, "reference": "PASS"}
+{"problem": "p0", "model": "mdn-2610132", "KL": 1.0172350737637108, "mass_MAE": 0.05264369312037939, "reference": "PASS"}
+{"problem": "p0", "model": "measurement-2610132", "KL": 12.405703464581054, "mass_MAE": 0.052311801931874125, "reference": "PASS"}
+{"problem": "p0", "model": "mdn_state-2610132", "KL": 0.9967921855969889, "mass_MAE": 0.053212667298255585, "reference": "PASS"}
+{"problem": "p0", "model": "mdn_memory-2610132", "KL": 0.8723623243906206, "mass_MAE": 0.05099240278282116, "reference": "PASS"}
+{"problem": "p0", "model": "mdn-2610133", "KL": 0.8924773562248709, "mass_MAE": 0.050270384250055755, "reference": "PASS"}
+{"problem": "p0", "model": "measurement-2610133", "KL": 12.320666046499273, "mass_MAE": 0.057036645668954424, "reference": "PASS"}
+{"problem": "p0", "model": "mdn_state-2610133", "KL": 0.975025813076309, "mass_MAE": 0.04947832519900867, "reference": "PASS"}
+{"problem": "p0", "model": "mdn_memory-2610133", "KL": 0.9965729538461623, "mass_MAE": 0.05207053661427534, "reference": "PASS"}

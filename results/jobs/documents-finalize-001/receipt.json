@@ -1,0 +1,18 @@
+{
+  "id": "documents-finalize-001",
+  "stage": "diagnostics",
+  "status": "FAILED_CHARGED",
+  "returncode": 1,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "tools.finalize"
+  ],
+  "wall_seconds": 0.04475820902734995,
+  "cpu_seconds": 0.023173,
+  "gpu_seconds": 0,
+  "maxrss_raw": 17383424,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 45.479771
+}

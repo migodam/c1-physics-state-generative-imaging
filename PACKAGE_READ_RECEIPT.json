@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-13",
+  "complete_read": [
+    "README.md",
+    "C1_CODEX_FIRST.md",
+    "C1_THEORY_AND_ARCHITECTURE.md",
+    "C1_LITERATURE_AUDIT.md",
+    "C1_PROTOCOL.json",
+    "C1_CHECKS.json",
+    "C1_RESOURCE_LEDGER.json",
+    "c1_algebra_checks.py",
+    "MANIFEST.json"
+  ],
+  "sha256_checks": false,
+  "archive_members": 9,
+  "instruction_priority": "User direction V2 supersedes attachment architecture/execution recommendations",
+  "b1_modifications": 0,
+  "b1_payloads_used_for_training": 0
+}

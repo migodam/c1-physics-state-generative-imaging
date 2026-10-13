@@ -1,0 +1,13 @@
+# Static plotting script delivery
+
+Status: **CODE_READY; NOT_RUN**. Added `tools/plots.py`; no plotting, tests, physics, or training executed. No network, SHA256, or B1 access. Parent must run it under the diagnostics budget after evaluation artifacts exist. Required plotting dependencies are Matplotlib/Agg, NumPy, and existing CPU PyTorch/SciPy modules; no dependency installation performed.
+
+- Writes five PNG/PDF pairs under `figures`: `U0_REFERENCE_Q_SAMPLES`, `MODEL_METRICS`, `P0_MATERIAL_GALLERY`, `P0_EVENT_MASSES`, and `PAIRED_KL_DIFFERENCES`, plus runtime `PLOT_MANIFEST.json`.
+- Model names come from each problem's freeze metadata, then per-problem config. Original U0 flow-state names and adjusted P0 `mdn_state`/`mdn_memory` names are supported; P0 labels are M-MDN-S/M-MDN-R. No model is chosen or renamed from locked scores.
+- U0 uses cached fine-grid `reference(...)` density and new iid diagnostic q draws from each frozen first-seed checkpoint for observation 0. Draw count defaults to the declared 1024 and cannot exceed it. No residual selection, density refitting, or recomputed evaluation score.
+- Metrics and paired confidence intervals read recorded `EVALUATION.json` only. Three training seeds remain separate; missing/nonfinite metrics are not replaced with zero. P0 non-PASS references are explicitly `REFERENCE_UNRESOLVED`; unresolved-reference metrics/CIs stay provisional.
+- P0 gallery preserves the six cached iid draws per model in original order. Its exact fixed 13-cell core/shell geometry maps to a 5x5 planar pixel display, with exterior real permittivity 2, active-cell loss 0.02, and a common real-permittivity scale. Every exact continuous image is labelled as having point mass zero.
+- Separate P0 event-mass bars come only from `OBSERVATION_METRICS.jsonl`, observation 0, first training seed. Binomial MC error bars use all 1024 evaluation draws; gallery count is not used as probability evidence. Labels identify offline coordinate-sign events, not hole classes.
+- Runtime test-array access is guarded by `MODELS_FROZEN.json` with `FROZEN_BEFORE_TEST`; only measurement, metadata, and frozen context arrays are read. The script does not directly import or instantiate the physical problem, call a solver, or alter physical/job ledgers. A before/after canonical-physics charge check detects concurrent changes.
+
+All labels use English and DejaVu Sans. Figure footnotes preserve the restricted two-region material support and real intensity observation task, with no general topology-recovery or scientific-advantage claim. Missing artifacts produce explicit NOT_RUN placeholders and a PARTIAL manifest. Rendering/layout and runtime compatibility remain unverified until the parent runs the script.

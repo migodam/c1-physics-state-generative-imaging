@@ -1,0 +1,73 @@
+{
+  "means": {
+    "u0": {
+      "mdn": {
+        "KL_reference": 0.3156013503747162,
+        "event_mass_MAE": 0.05497311825878467,
+        "mode_weighted_recall": 0.9964465755318591,
+        "mode_precision": 0.9712992141367156,
+        "coordinate_90_coverage": 0.8828125,
+        "truth_log_score": -0.5916812030676132
+      },
+      "measurement": {
+        "KL_reference": 1.2699903218939925,
+        "event_mass_MAE": 0.053400711539550005,
+        "mode_weighted_recall": 0.9941812292398361,
+        "mode_precision": 0.9753793207456338,
+        "coordinate_90_coverage": 0.9231770833333334,
+        "truth_log_score": 0.4725755016164233
+      },
+      "state": {
+        "KL_reference": 1.0082996418248102,
+        "event_mass_MAE": 0.051525441816536954,
+        "mode_weighted_recall": 0.9939407406447089,
+        "mode_precision": 0.9797655245740402,
+        "coordinate_90_coverage": 0.9108072916666666,
+        "truth_log_score": 0.9167927184607834
+      },
+      "memory": {
+        "KL_reference": 6.135275958328741,
+        "event_mass_MAE": 0.055987393469373,
+        "mode_weighted_recall": 0.9968176020852919,
+        "mode_precision": 0.970376428909467,
+        "coordinate_90_coverage": 0.9055989583333334,
+        "truth_log_score": 1.803432577289641
+      }
+    },
+    "p0": {
+      "mdn": {
+        "KL_reference": 0.9967767372680633,
+        "event_mass_MAE": 0.05143309274744453,
+        "mode_weighted_recall": 0.9848415707095207,
+        "mode_precision": 0.9938052392420261,
+        "coordinate_90_coverage": 0.8333333333333334,
+        "truth_log_score": 1.7950088721700013
+      },
+      "measurement": {
+        "KL_reference": 8.795249215013188,
+        "event_mass_MAE": 0.0545220945602061,
+        "mode_weighted_recall": 0.9843632879057472,
+        "mode_precision": 0.9888439503290796,
+        "coordinate_90_coverage": 0.8567708333333334,
+        "truth_log_score": 5.307437160673241
+      },
+      "mdn_state": {
+        "KL_reference": 1.0163580115635595,
+        "event_mass_MAE": 0.05265220242785701,
+        "mode_weighted_recall": 0.9906014180926391,
+        "mode_precision": 0.9875880283523234,
+        "coordinate_90_coverage": 0.84375,
+        "truth_log_score": 1.7230115834002693
+      },
+      "mdn_memory": {
+        "KL_reference": 0.9574759285739631,
+        "event_mass_MAE": 0.05032721373954865,
+        "mode_weighted_recall": 0.9886149323996863,
+        "mode_precision": 0.9924784067892481,
+        "coordinate_90_coverage": 0.8463541666666666,
+        "truth_log_score": 1.695193429167072
+      }
+    }
+  },
+  "scope": "mean across three seed-specific means; no pooled seed confidence claim"
+}

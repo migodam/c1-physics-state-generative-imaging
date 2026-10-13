@@ -1,0 +1,27 @@
+{
+  "cap": 8192,
+  "used": 7941,
+  "forward_rhs": 15882,
+  "derivative_rhs": 5240,
+  "adjoint_rhs": 2,
+  "failures": 0,
+  "by_kind": {
+    "cached_candidate_adjoint": 0,
+    "cached_candidate_jvp": 0,
+    "candidate_pilot": 1306,
+    "gallery_verification": 24,
+    "invariant_fd_minus": 4,
+    "invariant_fd_plus": 4,
+    "invariant_jacobian_base": 2,
+    "invariant_support_corner": 4,
+    "invariant_zero_contrast": 1,
+    "normalization_setup": 3,
+    "operator_action_candidate": 1,
+    "production_sample_check": 512,
+    "reference_40": 1600,
+    "reference_64": 4096,
+    "truth_data_test": 64,
+    "truth_data_train": 256,
+    "truth_data_validation": 64
+  }
+}

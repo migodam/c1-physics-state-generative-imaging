@@ -1,0 +1,18 @@
+{
+  "id": "mechanism-cost-diagnostics-001",
+  "stage": "diagnostics",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.diagnostics"
+  ],
+  "wall_seconds": 2.8895742499735206,
+  "cpu_seconds": 2.1362579999999998,
+  "gpu_seconds": 0,
+  "maxrss_raw": 278446080,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 58
+}

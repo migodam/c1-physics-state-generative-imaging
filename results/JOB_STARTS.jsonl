@@ -1,0 +1,17 @@
+{"id": "density-revision-tests-001", "stage": "tests", "cpu_reservation": 50.174063000000004, "wall_reservation": 1726.7889869601931, "command": ["python3", "tools/run_tests.py", "tests/test_density.py", "-q"]}
+{"id": "u0-reference-refine-001", "stage": "evaluation", "cpu_reservation": 216.53982200000002, "wall_reservation": 1724.3943653352326, "command": ["python3", "-m", "src.c1.refine_reference"]}
+{"id": "operator-actions-tests-001", "stage": "tests", "cpu_reservation": 48.528401, "wall_reservation": 1689.8752001262037, "command": ["python3", "tools/run_tests.py", "tests/test_physical_actions.py", "-q"]}
+{"id": "p0-prepare-001", "stage": "p0_prepare", "cpu_reservation": 180, "wall_reservation": 1688.510518960189, "command": ["python3", "-m", "src.c1.data", "p0"]}
+{"id": "p0-training-001", "stage": "p0_train", "cpu_reservation": 360, "wall_reservation": 1686.0866507932078, "command": ["python3", "-m", "src.c1.train", "p0"]}
+{"id": "p0-evaluation-001", "stage": "evaluation", "cpu_reservation": 183.121548, "wall_reservation": 1654.5558470431715, "command": ["python3", "-m", "src.c1.evaluate", "p0"]}
+{"id": "mechanism-cost-diagnostics-001", "stage": "diagnostics", "cpu_reservation": 58, "wall_reservation": 1650.8461089181947, "command": ["python3", "-m", "src.c1.diagnostics"]}
+{"id": "corrected-query-timing-001", "stage": "diagnostics", "cpu_reservation": 55.863742, "wall_reservation": 1647.9565346682211, "command": ["python3", "-m", "src.c1.timing"]}
+{"id": "final-invariants-001", "stage": "tests", "cpu_reservation": 47.437521000000004, "wall_reservation": 1645.3294187102001, "command": ["python3", "tools/run_tests.py", "tests", "-q"]}
+{"id": "source-algebra-001", "stage": "tests", "cpu_reservation": 44.627492000000004, "wall_reservation": 1640.94771571015, "command": ["python3", "inputs/source_package/C1_Research_Package/c1_algebra_checks.py", "--out", "results/PACKAGE_ALGEBRA_CHECKS.json"]}
+{"id": "result-plots-001", "stage": "diagnostics", "cpu_reservation": 54.172366, "wall_reservation": 1640.4042445851956, "command": ["python3", "tools/plots.py"]}
+{"id": "decode-precision-test-001", "stage": "tests", "cpu_reservation": 44.318519, "wall_reservation": 1636.93197591824, "command": ["python3", "tools/run_tests.py", "tests/test_sample_precision.py", "-q"]}
+{"id": "decode-precision-diagnostic-001", "stage": "diagnostics", "cpu_reservation": 51.298629, "wall_reservation": 1635.7021115852986, "command": ["python3", "tools/sample_precision.py"]}
+{"id": "result-plots-reviewed-001", "stage": "diagnostics", "cpu_reservation": 48.12898, "wall_reservation": 1631.8231301682536, "command": ["python3", "tools/plots.py"]}
+{"id": "documents-finalize-001", "stage": "diagnostics", "cpu_reservation": 45.479771, "wall_reservation": 1628.6321610013256, "command": ["python3", "-m", "tools.finalize"]}
+{"id": "documents-finalize-002", "stage": "diagnostics", "cpu_reservation": 45.456598, "wall_reservation": 1628.5874027922982, "command": ["python3", "-m", "tools.finalize"]}
+{"id": "delivery-static-qa-001", "stage": "diagnostics", "cpu_reservation": 44.489091, "wall_reservation": 1627.0896098753437, "command": ["python3", "-m", "tools.qa_and_bundle"]}

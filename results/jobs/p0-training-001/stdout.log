@@ -1,0 +1,13 @@
+{"problem": "p0", "kind": "mdn", "seed": 2610131, "trainable_parameters": 30042, "validation_score_x": 1.5818066596984863, "cpu_seconds": 1.546384}
+{"problem": "p0", "kind": "measurement", "seed": 2610131, "trainable_parameters": 29996, "validation_score_x": 1.2887330055236816, "cpu_seconds": 4.576406}
+{"problem": "p0", "kind": "mdn_state", "seed": 2610131, "trainable_parameters": 29972, "validation_score_x": 1.573763370513916, "cpu_seconds": 1.4489159999999996}
+{"problem": "p0", "kind": "mdn_memory", "seed": 2610131, "trainable_parameters": 30016, "validation_score_x": 1.47273588180542, "cpu_seconds": 2.090045}
+{"problem": "p0", "kind": "mdn", "seed": 2610132, "trainable_parameters": 30042, "validation_score_x": 1.4760483503341675, "cpu_seconds": 1.4557950000000002}
+{"problem": "p0", "kind": "measurement", "seed": 2610132, "trainable_parameters": 29996, "validation_score_x": 1.294328212738037, "cpu_seconds": 4.501937}
+{"problem": "p0", "kind": "mdn_state", "seed": 2610132, "trainable_parameters": 29972, "validation_score_x": 1.4902669191360474, "cpu_seconds": 1.4605829999999997}
+{"problem": "p0", "kind": "mdn_memory", "seed": 2610132, "trainable_parameters": 30016, "validation_score_x": 1.3500655889511108, "cpu_seconds": 2.070734999999999}
+{"problem": "p0", "kind": "mdn", "seed": 2610133, "trainable_parameters": 30042, "validation_score_x": 1.5274673700332642, "cpu_seconds": 1.4582279999999983}
+{"problem": "p0", "kind": "measurement", "seed": 2610133, "trainable_parameters": 29996, "validation_score_x": 1.2821205854415894, "cpu_seconds": 4.351338999999999}
+{"problem": "p0", "kind": "mdn_state", "seed": 2610133, "trainable_parameters": 29972, "validation_score_x": 1.4594935178756714, "cpu_seconds": 1.4639269999999982}
+{"problem": "p0", "kind": "mdn_memory", "seed": 2610133, "trainable_parameters": 30016, "validation_score_x": 1.4043282270431519, "cpu_seconds": 2.156022}
+{"problem": "p0", "freeze": "PASS", "baseline": {"2610131": "measurement", "2610132": "measurement", "2610133": "measurement"}}

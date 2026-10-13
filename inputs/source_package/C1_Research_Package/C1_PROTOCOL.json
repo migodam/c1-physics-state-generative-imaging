@@ -1,0 +1,389 @@
+{
+  "project": "C1",
+  "schema": "C1-protocol-v1",
+  "date": "2026-10-13",
+  "status": "PROPOSED_NOT_EXECUTED",
+  "main_decision": "Topology-stratified, branch-contrast recurrent conditional generation; MDN before flow; GRU before history attention.",
+  "hardware_target": {
+    "gpu": "RTX 4060",
+    "vram_gb": 8,
+    "actual_training_in_this_turn": false
+  },
+  "execution_scope_for_next_handoff": [
+    "E0",
+    "E1"
+  ],
+  "later_stages_require_a_recorded_new_decision": true,
+  "cumulative_initial_GPU_cap_hours_E0_to_E3": 8.0,
+  "global_rules": [
+    "Do not modify or reset B1/A17/upstream ledgers or locked datasets.",
+    "All new material-frequency, RHS, adjoint, JVP, setup and rejected evaluations are charged.",
+    "Separate finite-state target correctness from continuous posterior and general-geometry claims.",
+    "Split by material parent before noise replication when claiming geometry generalization.",
+    "Use three training seeds for decisive small-model comparisons; no test-set hyperparameter tuning.",
+    "Report parameter/data matched and total-cost matched comparisons separately.",
+    "No OPM/current selection; no large diffusion/Transformer training; no global certificate sweep.",
+    "Never invent missing modes or a probability for an unmodeled other class.",
+    "Only a held-out reproducible gate result can authorize promotion to a later stage."
+  ],
+  "probability_output_schema": {
+    "required_fields": [
+      "target_kind",
+      "prior_id",
+      "material_representation_id",
+      "noise_model_id",
+      "nuisance_policy",
+      "solver_id",
+      "display_count",
+      "integration_count",
+      "mode_partition_id",
+      "candidate_samples",
+      "mode_masses",
+      "weight_type",
+      "ESS_by_mode",
+      "reference_error_status",
+      "sampling_error_status",
+      "shift_status",
+      "resource_ledger_id"
+    ],
+    "target_kind": [
+      "finite_prior_posterior",
+      "declared_continuous_prior_posterior",
+      "calibrated_event_probability",
+      "finite_set_closest_candidate_probability"
+    ],
+    "weight_type": [
+      "exact_finite_state_mass",
+      "calibrated_mode_mass",
+      "self_normalized_importance_weight",
+      "empirical_cluster_mass",
+      "relative_score_not_probability"
+    ],
+    "unresolved_flags": [
+      "REFERENCE_UNRESOLVED",
+      "PROBABILITY_UNRESOLVED",
+      "OBSERVATION_AMBIGUOUS",
+      "PRIOR_SENSITIVE",
+      "COVERAGE_UNRESOLVED",
+      "NUMERICAL_UNRESOLVED",
+      "OOD_UNRESOLVED"
+    ]
+  },
+  "preferred_architecture": {
+    "initial_branches": 2,
+    "later_branch_examples": [
+      "solid",
+      "one_cavity",
+      "two_cavities",
+      "explicit_other_prior_if_defined"
+    ],
+    "pilot_rounds": 2,
+    "maximum_initial_pilot_rounds": 3,
+    "memory": "GRU",
+    "memory_hidden_options": [
+      64,
+      128
+    ],
+    "normalized_generator": "MDN first; conditional affine/spline coupling flow if needed",
+    "flow_coupling_blocks": [
+      4,
+      6
+    ],
+    "bounded_log_scales": true,
+    "first_continuous_coordinates_per_branch": [
+      2,
+      4
+    ],
+    "later_material_coordinates": [
+      16,
+      32,
+      64
+    ],
+    "later_parameter_target": [
+      200000,
+      1000000
+    ],
+    "measurement_encoder": "complex realification; source/receiver/frequency/polarization/noise/mask tokens",
+    "first_physics_features": [
+      "branch_response_contrasts",
+      "candidate_residual",
+      "candidate_material_gradient"
+    ],
+    "conditional_later_features": [
+      "two_JVP_probes",
+      "forward_adjoint_patch_products",
+      "GRU_history",
+      "small_history_attention"
+    ],
+    "production_context": "freeze independent pilot states before generating fresh production samples",
+    "display_K": [
+      8,
+      16,
+      32,
+      64
+    ],
+    "integration_N_options": [
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "defensive_prior_mixture_epsilon_options": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "default_first_epsilon": 0.1,
+    "corrected_weight_formula": "p0(h)*p0(z,gamma|h)*L(y|h,z,gamma)/(n_h*q_def_h(z,gamma|y)) for fixed stratified allocations",
+    "alternative_random_mixture_weight_formula": "p0(h,z,gamma)*L(y|h,z,gamma)/(alpha_h(y)*q_h(z,gamma|y))",
+    "fast_mode": "calibrated event head plus conditional samples",
+    "corrected_mode": "full likelihood and density-corrected stratified integration; finite-N error reported"
+  },
+  "experiments": [
+    {
+      "id": "E0",
+      "purpose": "Known-posterior multimodal probability semantics",
+      "model": "H in {-1,+1}, P(H=+1)=0.7; a~Uniform(0.5,1.5); x=H*a; y1=a^2+N(0,sigma1^2); optional y2=kappa*H*a+N(0,sigma2^2)",
+      "kappa_options": [
+        0.0,
+        0.15,
+        0.5
+      ],
+      "reference": "Independent scipy.quad and refined Gauss-Legendre quadrature; sign prior exactly unchanged at kappa=0",
+      "train_joint_draws": 4096,
+      "validation_draws": 1024,
+      "locked_test_draws": 2048,
+      "model_order": [
+        "single_squared_loss_regressor",
+        "two_branch_MDN",
+        "four_block_conditional_flow_only_if_MDN_misses_conditional_shape"
+      ],
+      "max_train_parameters": 100000,
+      "max_training_steps_per_configuration": 3000,
+      "GPU_cap_hours": 0.5,
+      "new_Maxwell_evaluation_cap": 0,
+      "gate": {
+        "reference_mode_mass_disagreement_max": 1e-08,
+        "mean_mode_mass_absolute_error_max": 0.02,
+        "mode_mass_error_95th_percentile_max": 0.05,
+        "mean_excess_log_score_nats_max": 0.02,
+        "duplicate_mass_invariance_absolute_tolerance": 1e-12
+      },
+      "stop": "If reference or probability semantics fail, debug here; do not move to EM."
+    },
+    {
+      "id": "E1",
+      "purpose": "B1 finite material hypothesis benchmark; implementation/calibration not algorithm superiority",
+      "model": "The exact 18 B1 analytic scalar TM states: solid/fixed cavity x 9 real permittivities, common declared loss and geometry",
+      "reference": "Exact logsumexp finite prior with stored full-wave responses; replicate B1 conventions before changing them",
+      "train_noise_draws": 4096,
+      "calibration_noise_draws": 1024,
+      "test_noise_draws": 4096,
+      "baselines": [
+        "exact_finite_posterior",
+        "minimum_residual_or_MAP_single_image",
+        "small_finite_state_classifier",
+        "hierarchical_2_branch_9_state_classifier"
+      ],
+      "max_train_parameters": 50000,
+      "GPU_cap_hours": 1.0,
+      "new_analytic_material_frequency_cap": 64,
+      "controls": [
+        "vacuum",
+        "truncation",
+        "interface_residual",
+        "real_complex_noise_convention",
+        "prior_masses",
+        "independent_noise_seeds"
+      ],
+      "gate": {
+        "mean_topology_mass_absolute_error_max": 0.02,
+        "mean_finite_posterior_KL_nats_max": 0.02,
+        "mean_excess_Brier_vs_reference_max": 0.01,
+        "duplicate_invariance_absolute_tolerance": 1e-12
+      },
+      "required_hard_cases": "Predefined high-noise/single-frequency ambiguous subset with non-extreme reference probabilities; label any post-hoc difficulty adjustment exploratory",
+      "stop": "No claim of continuous posterior, geometry generalization, vector Maxwell or learned speedup over enumeration."
+    },
+    {
+      "id": "E2",
+      "purpose": "Physical-state information and cost ablation",
+      "requires": [
+        "E0_PASS",
+        "E1_PASS",
+        "recorded_E2_authorization"
+      ],
+      "levels": [
+        "finite_bank_input_ablation",
+        "small_continuous_TM_reference_if_discrete_problem_saturates"
+      ],
+      "feature_order": [
+        "measurements_and_metadata",
+        "plus_backprojection",
+        "plus_branch_response_contrasts",
+        "plus_candidate_gradient",
+        "plus_two_operator_probes",
+        "plus_fields_currents",
+        "plus_history"
+      ],
+      "controls": [
+        "truth_fields_forbidden",
+        "exact_enumeration_on_finite_target",
+        "parameter_matched",
+        "wall_time_matched",
+        "solver_budget_matched",
+        "geometry_parent_holdout",
+        "noise_replication_grouping"
+      ],
+      "GPU_cap_hours": 2.0,
+      "analytic_TM_material_frequency_cap_including_reference": 8192,
+      "minimum_decisive_parent_count": 32,
+      "training_seeds": 3,
+      "reference_gate": {
+        "continuous_mass_refinement_difference_max": 0.01,
+        "log_Bayes_factor_refinement_difference_max": 0.05,
+        "meaning": "empirical integration agreement, not a rigorous certificate"
+      },
+      "promotion_alternatives": [
+        "At least 10 percent reduction of mean reference excess log score with paired-parent confidence interval excluding zero and no worse calibration/support, at matched total cost.",
+        "At least 25 percent reduction in total charged solver/wall cost at mode mass MAE <=0.02, with no material-coverage degradation."
+      ],
+      "stop": "If only raw neural FLOPs improve, if oracle fields are required, or if state features never beat the simple conditional generator, reject the physics-state architecture claim."
+    },
+    {
+      "id": "E3",
+      "purpose": "Sequential architecture elimination, not a large model zoo",
+      "requires": [
+        "E2_REFERENCE_PASS",
+        "E2_FEATURE_DECISION",
+        "recorded_E3_authorization"
+      ],
+      "order": [
+        "single_step_conditional_density",
+        "deterministic_unrolling_as_reconstruction_only",
+        "two_round_GRU_conditional_density",
+        "two_layer_small_history_attention",
+        "small_conditional_diffusion",
+        "same_diffusion_plus_verified_physics_features",
+        "explicit_branching_if_not_already_used"
+      ],
+      "data_policy": "Reuse identical approved training/reference data and already charged physics-state traces where mathematically valid.",
+      "parameter_target": [
+        200000,
+        1000000
+      ],
+      "attention_history_limit": 4,
+      "diffusion_step_options": [
+        8,
+        16,
+        32
+      ],
+      "GPU_cap_hours": 4.5,
+      "additional_material_frequency_cap": 1024,
+      "gate": "Promote a more complex model only on held-out proper-score/mode-coverage versus total-cost Pareto improvement, never best-of-K alone.",
+      "stop": "At most two architectures survive to E4; GRU winning means drop the Transformer; MDN/flow winning means drop diffusion."
+    },
+    {
+      "id": "E4",
+      "purpose": "Difficult material ambiguity and prior/solver/nuisance shift",
+      "requires": [
+        "E3_survivors",
+        "new_budget_and_test_preregistration"
+      ],
+      "execute_by_default": false,
+      "cases": [
+        "solid_vs_cavity",
+        "two_or_more_cavities",
+        "near_equal_fullwave_responses",
+        "permittivity_loss_tradeoff",
+        "unseen_outline",
+        "SNR_shift",
+        "gain_uncertainty",
+        "calibration_mismatch",
+        "unseen_topology",
+        "higher_contrast",
+        "frequency_shift"
+      ],
+      "mandatory_negative_controls": [
+        "true_topology_outside_model_support",
+        "unseen_topology_observationally_indistinguishable_from_known_topology",
+        "same_prior_but_changed_noise",
+        "changed_topology_prior_only",
+        "independent_forward_discretization"
+      ],
+      "gate": "Report mode precision/recall, event probability error, calibrated rejection and missing-mode risk by stratum. Do not average away the hard cases.",
+      "budget": "Separate approval required; no implied authorization from E0-E3."
+    },
+    {
+      "id": "E5",
+      "purpose": "Small genuine vector-Maxwell validation",
+      "requires": [
+        "B1_or_independent_trustworthy_vector_reference",
+        "E0_to_E4_probability_and_support_gates",
+        "separate_budget_decision"
+      ],
+      "execute_by_default": false,
+      "first_physics": "3-D concentric layered dielectric sphere with full vector Mie electric/magnetic multipoles and declared polarizations; solid versus finite-size cavity",
+      "first_continuous_parameters": "Two material variables per branch, with proper priors; widen only after reference convergence",
+      "initial_new_material_frequency_cap_including_reference": 384,
+      "reference_gate": {
+        "mode_mass_refinement_disagreement_max": 0.02,
+        "log_Bayes_factor_refinement_disagreement_max": 0.1,
+        "meaning": "research tolerance, not certified mathematical error"
+      },
+      "next_physics_if_approved": "A small independently checked vector VIE/DDA family with nonspherical shape and physical polarizability derivatives",
+      "stop": "REFERENCE_UNRESOLVED at cap; spherical vector validation is not evidence for arbitrary complex 3-D topology."
+    }
+  ],
+  "metrics": {
+    "reconstruction": [
+      "material_relative_L2",
+      "boundary_distance",
+      "finite_scale_topology_correctness",
+      "fullwave_residual",
+      "passivity_violation"
+    ],
+    "hypotheses": [
+      "mode_mass_weighted_recall",
+      "missing_mode_rate",
+      "mode_precision",
+      "within_mode_diversity",
+      "best_of_K_secondary_only",
+      "duplicate_fraction"
+    ],
+    "probability": [
+      "reference_KL_where_defined",
+      "negative_log_score",
+      "Brier",
+      "reliability_with_intervals",
+      "ECE_secondary_only",
+      "topology_mass_MAE",
+      "mass_error_95th_percentile",
+      "conditional_coverage",
+      "SBC_or_TARP_with_scope_caveats"
+    ],
+    "efficiency": [
+      "training_GPU_hours",
+      "truth_data_generation",
+      "reference_generation",
+      "pilot_context_generation",
+      "forward_material_frequency_evaluations",
+      "RHS_solves",
+      "adjoint_solves",
+      "JVP_actions",
+      "setup_and_cache_cost",
+      "inference_wall_latency",
+      "peak_VRAM",
+      "per_candidate_marginal_cost"
+    ],
+    "uncertainty": [
+      "measurement_ambiguity",
+      "topology",
+      "within_topology_parameters",
+      "generative_model",
+      "numerical_and_sampling",
+      "prior_or_training_shift"
+    ]
+  }
+}

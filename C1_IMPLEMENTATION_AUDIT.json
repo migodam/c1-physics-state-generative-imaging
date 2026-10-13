@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-13",
+  "user_priority": "V2 topology-agnostic/material-first overrides originalResearchPack",
+  "preserved": "Maxwell operator/probability/state-information/error analysis/literature limits",
+  "terminated": "default topology branches and mandatoryfinitecategoricalE1/B1replay",
+  "support": "restricted2-coordinate continuous target; fullgridhole tests are representation only",
+  "inference_states": "computedfromcandidate+y;truth field forbidden; field/current definitions anddensityJacobian explicit",
+  "tests": "separate implementation evidence, never generativeacceptance",
+  "numerical_reference": "empirical, notcertificate",
+  "source_audit_dispositions": {
+    "A1": "serialized lock, pre-launch journal, process-group termination, launch failures charged; inherited per-processCPU limit is not a general hostile descendant aggregate monitor; actual numeric jobs launch no workers",
+    "A2": "P0 draft separated from complete result; partial/evaluated outputs refuse silent rerun; explicit resume needed after interruption",
+    "A3": "adaptive U0 gate enforced; original64/96 failure retained;96/128 numerical refinement and score checks; flow tail score remains unresolved",
+    "A4": "post-freeze training refused; frozen status/receipt/checkpoint existence checked; changes registered beforeP0; no adversarial filesystem isolation claimed",
+    "A5": "full observed/expected Brier in per-observation records; weighted precision definition explicit, no count-precision substitution",
+    "A6": "24display,1024q-draws,4096reference-nodes separate",
+    "A7": "no promotion from relative ratios; absolute same-family differences and seed disagreement authoritative; finite raw KL preserved",
+    "A8": "exact interior logit implemented; float64 materialdecode improves rounding;7extreme U0 samples remain numerical unresolved; originalfrozen outputs retained",
+    "A9": "shared actual context preparation and cold query costs included; original incorrecttiming retained, correctedtiming separately charged; iso-wall matched accuracy not established"
+  },
+  "strong_state_advantage": "notestablished",
+  "B1": "notmodified/reexecuted,reference targetmismatch",
+  "budget": "originalregistered1200CPU/1800jobwall/8192MF,localGPU0; noexpansion",
+  "evidence": [
+    "C1_RESEARCH_REPORT_ZH.md",
+    "C1_GATE_DECISION.json",
+    "results/p0/DIAGNOSTICS.json",
+    "C1_RESOURCE_LEDGER.json"
+  ]
+}

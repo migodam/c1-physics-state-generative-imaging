@@ -1,0 +1,18 @@
+{
+  "id": "delivery-static-qa-001",
+  "stage": "diagnostics",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "tools.qa_and_bundle"
+  ],
+  "wall_seconds": 1.8260121250059456,
+  "cpu_seconds": 1.208878,
+  "gpu_seconds": 0,
+  "maxrss_raw": 240631808,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 44.489091
+}

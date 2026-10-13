@@ -1,0 +1,34 @@
+{
+  "C1_CHECKS.json": {
+    "bytes": 2418,
+    "sha256": "e1088c58282195238037e4b57b3e28257ef129fab80daace4a971e96c0710f5e"
+  },
+  "C1_CODEX_FIRST.md": {
+    "bytes": 5744,
+    "sha256": "dea31533d90b4278907d0ffd0ec584dc364506025d74b839840d59282d1335bc"
+  },
+  "C1_LITERATURE_AUDIT.md": {
+    "bytes": 13320,
+    "sha256": "dd0145350253cf49af8a302e94ccfb74ccd756ebe8e25be33930b547313be045"
+  },
+  "C1_PROTOCOL.json": {
+    "bytes": 14037,
+    "sha256": "139982445da6ee55e07d06c8165031e3ff58111af8389a3e9f8d0b8d48bef1d9"
+  },
+  "C1_RESOURCE_LEDGER.json": {
+    "bytes": 1201,
+    "sha256": "c66fee13cf6aa5872c9bae1023b959b1752dcb0b0c981bbf3f0c1ee19c5b7677"
+  },
+  "C1_THEORY_AND_ARCHITECTURE.md": {
+    "bytes": 30341,
+    "sha256": "d3ff80b8b1bb4c3ce8178e692cf28be186986dadc7d2a13136b3d0bad2e4afec"
+  },
+  "README.md": {
+    "bytes": 1183,
+    "sha256": "fb90d415365dafce6f9f92a58e5e6c11b40da56899ca07fed679ea0ce7a3ccb5"
+  },
+  "c1_algebra_checks.py": {
+    "bytes": 7593,
+    "sha256": "29a862d220a49279304c8d7741cbfaa3b24d2e16aba321e333e5a32cad357d3a"
+  }
+}

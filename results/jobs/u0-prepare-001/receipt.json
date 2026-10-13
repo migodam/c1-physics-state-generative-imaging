@@ -1,0 +1,19 @@
+{
+  "id": "u0-prepare-001",
+  "stage": "u0_train",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.data",
+    "u0"
+  ],
+  "wall_seconds": 3.2072903329972178,
+  "cpu_seconds": 2.750788,
+  "gpu_seconds": 0,
+  "maxrss_raw": 82804736,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 300
+}

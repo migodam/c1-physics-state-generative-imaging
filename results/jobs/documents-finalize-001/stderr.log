@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 189, in _run_module_as_main
+  File "<frozen runpy>", line 159, in _get_module_details
+  File "<frozen importlib._bootstrap_external>", line 1157, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1087, in source_to_code
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C1_PROJECT_ROOT/tools/finalize.py", line 76
+    gates=dict(overall='NO_GO_SCALE_PHYSICS_STATE_MEMORY',continue='GO_LIMITED_UNIFIED_DENSITY_AND_REFERENCE_REPAIR',
+                                                          ^^^^^^^^
+SyntaxError: invalid syntax

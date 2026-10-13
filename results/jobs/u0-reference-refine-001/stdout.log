@@ -1,0 +1,13 @@
+{"model": "mdn-2610131", "refined_KL": 0.2817565303013483, "mean_delta": -0.0001884313235020661}
+{"model": "measurement-2610131", "refined_KL": 1.3951263343692297, "mean_delta": 0.06940294808480982}
+{"model": "state-2610131", "refined_KL": 0.9448722531301501, "mean_delta": 0.006909973861975491}
+{"model": "memory-2610131", "refined_KL": 14.935224140157581, "mean_delta": 1.7007921544439075}
+{"model": "mdn-2610132", "refined_KL": 0.32485472827719, "mean_delta": 4.836421386679156e-05}
+{"model": "measurement-2610132", "refined_KL": 1.039060174581561, "mean_delta": 0.0035159318163692724}
+{"model": "state-2610132", "refined_KL": 0.8583143208410424, "mean_delta": 0.015479972065700915}
+{"model": "memory-2610132", "refined_KL": 1.0008988862343244, "mean_delta": 0.019974462993261267}
+{"model": "mdn-2610133", "refined_KL": 0.3401927925456104, "mean_delta": 0.0003222210992990732}
+{"model": "measurement-2610133", "refined_KL": 1.3757844567311865, "mean_delta": 0.010132993147849836}
+{"model": "state-2610133", "refined_KL": 1.2217123515032382, "mean_delta": 0.034182202689983586}
+{"model": "memory-2610133", "refined_KL": 2.469704848594318, "mean_delta": 1.0212586293185613}
+{"status": "PASS", "max_event_difference": 2.9167779302952113e-12}

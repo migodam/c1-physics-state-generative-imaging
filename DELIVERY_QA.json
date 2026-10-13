@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "counts": {
+    "python": 23,
+    "json": 80,
+    "jsonl": 6,
+    "markdown_local_links": 38
+  },
+  "errors": [],
+  "phy_charge_events": 7967,
+  "phy_result_events": 7967,
+  "new_physical_evaluations": 0,
+  "training_reruns": 0,
+  "sha256_checks": false,
+  "tests": "77 full suite +1 new precision test,12 original algebra",
+  "source_review": "independent mechanical audit reconciled by parent, with numerical/scientific limitations preserved",
+  "visual_review": "parent inspected all five static scientific figures; layout/probability labels reviewed, no scientific acceptance implied"
+}

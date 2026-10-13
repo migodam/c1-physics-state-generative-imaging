@@ -1,0 +1,19 @@
+{
+  "id": "p0-evaluation-001",
+  "stage": "evaluation",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.evaluate",
+    "p0"
+  ],
+  "wall_seconds": 3.709738124976866,
+  "cpu_seconds": 2.787389,
+  "gpu_seconds": 0,
+  "maxrss_raw": 342818816,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 183.121548
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-13",
+  "repository": "https://github.com/migodam/c1-physics-state-generative-imaging",
+  "scope": "existing completed C1 research only",
+  "selected_directories": [
+    "src",
+    "tools",
+    "tests",
+    "configs",
+    "results",
+    "figures",
+    "inputs/source_package/C1_Research_Package",
+    "research/delegated"
+  ],
+  "selected_root_files": [
+    "B1_REFERENCE_COMPATIBILITY.md",
+    "C1_ARCHITECTURE_EXPERIMENT_SPEC_V2.md",
+    "C1_DELIVERY_RECEIPT.json",
+    "C1_DIRECTION_V2.md",
+    "C1_GATE_DECISION.json",
+    "C1_IMPLEMENTATION_AUDIT.json",
+    "C1_NEXT_DECISION.md",
+    "C1_RESEARCH_REPORT_ZH.md",
+    "C1_RESOURCE_LEDGER.json",
+    "CHANGELOG.md",
+    "DELIVERY_QA.json",
+    "PACKAGE_READ_RECEIPT.json",
+    "README.md",
+    "RUN_COMMANDS.md",
+    "SOURCE_MANIFEST.json"
+  ],
+  "path_redactions": [
+    "known C1 project root -> C1_PROJECT_ROOT",
+    "known shared Python interpreter -> python3"
+  ],
+  "additional_experiments": 0,
+  "sha256_checks": false,
+  "additional_gate_workflow": false,
+  "smoke_tests": false,
+  "scientific_results": "unchanged; negative evidence and unrun scope retained"
+}

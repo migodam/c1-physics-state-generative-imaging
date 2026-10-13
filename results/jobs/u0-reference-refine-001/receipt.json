@@ -1,0 +1,18 @@
+{
+  "id": "u0-reference-refine-001",
+  "stage": "evaluation",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.refine_reference"
+  ],
+  "wall_seconds": 34.51916520902887,
+  "cpu_seconds": 33.418274000000004,
+  "gpu_seconds": 0,
+  "maxrss_raw": 358694912,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 216.53982200000002
+}

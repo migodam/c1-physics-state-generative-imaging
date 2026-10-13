@@ -1,0 +1,18 @@
+{
+  "id": "documents-finalize-002",
+  "stage": "diagnostics",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "tools.finalize"
+  ],
+  "wall_seconds": 1.497792916954495,
+  "cpu_seconds": 0.967507,
+  "gpu_seconds": 0,
+  "maxrss_raw": 238993408,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 45.456598
+}

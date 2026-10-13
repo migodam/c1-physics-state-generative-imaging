@@ -1,0 +1,17 @@
+{
+  "scope": "Conservative charge for pre-registration environment imports and static source inspection before the measured job launcher existed",
+  "measured": false,
+  "cpu_seconds": 10,
+  "wall_seconds": 12,
+  "gpu_seconds": 0,
+  "cpu_by_stage": {
+    "tests": 5,
+    "diagnostics": 5
+  },
+  "not_included": "interactive/model-service reasoning and scholarly network calls are unmeasured and separately disclosed, not asserted free",
+  "post_job_seal_charge": {
+    "cpu_seconds": 3,
+    "wall_seconds": 4,
+    "scope": "conservative charge for final metadata refresh and archive sealing after last measured job exits"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "decode-precision-diagnostic-001",
+  "stage": "diagnostics",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/sample_precision.py"
+  ],
+  "wall_seconds": 3.878981417044997,
+  "cpu_seconds": 3.1696489999999997,
+  "gpu_seconds": 0,
+  "maxrss_raw": 514228224,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 51.298629
+}

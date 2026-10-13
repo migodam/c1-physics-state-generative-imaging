@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-13",
+  "scope": "This research turn only",
+  "GPU_hours": 0,
+  "new_Maxwell_evaluations": 0,
+  "network_training_runs": 0,
+  "algebra_script_attempts": 2,
+  "final_algebra_checks": 12,
+  "final_status": "PASS",
+  "first_attempt_issue": "JSON serialization of numpy boolean scalars; mathematical checks ran, serialization was fixed and rerun.",
+  "retrieved_B1_archive": "A32_Research_Package(1).zip",
+  "B1_files_read_completely": [
+    "A32_THEORY_REPORT_ZH.md",
+    "A32_NEXT_DECISION_ZH.md",
+    "A32_CHECKS.json"
+  ],
+  "upstream_scope": "Relevant A12/A17/A23/A24/A30/A31 findings incorporated through the B1 source-backed audit and retrieved A31 context; not every historical repository re-audited.",
+  "literature_limits": [
+    "DiffusionEMIS full text unavailable",
+    "EDMA full text unavailable",
+    "PhyDiff full text unavailable",
+    "Several web PDF screenshots failed",
+    "No large comprehensive-search job or training job was launched"
+  ],
+  "not_claimed": [
+    "trained C1 performance",
+    "3-D C1 imaging",
+    "continuous material posterior benchmark",
+    "certified nonlinear global probability error",
+    "Transformer or diffusion superiority"
+  ]
+}

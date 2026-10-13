@@ -1,0 +1,19 @@
+{
+  "id": "final-invariants-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests",
+    "-q"
+  ],
+  "wall_seconds": 4.381703000050038,
+  "cpu_seconds": 2.8100289999999997,
+  "gpu_seconds": 0,
+  "maxrss_raw": 432504832,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 47.437521000000004
+}

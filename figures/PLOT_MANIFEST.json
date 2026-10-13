@@ -1,0 +1,119 @@
+{
+  "status": "COMPLETE",
+  "figures": {
+    "U0_REFERENCE_Q_SAMPLES": {
+      "status": "WRITTEN",
+      "paths": [
+        "figures/U0_REFERENCE_Q_SAMPLES.png",
+        "figures/U0_REFERENCE_Q_SAMPLES.pdf"
+      ],
+      "observation": 0,
+      "training_seed": 2610131,
+      "scatter_seed": 263624031,
+      "draws_per_model": 1024,
+      "reference_grid": "results/u0/grid_128.npz",
+      "sample_scope": "new diagnostic iid q draws; evaluation metrics are not recomputed"
+    },
+    "MODEL_METRICS": {
+      "status": "WRITTEN",
+      "paths": [
+        "figures/MODEL_METRICS.png",
+        "figures/MODEL_METRICS.pdf"
+      ],
+      "missing_entries": []
+    },
+    "P0_MATERIAL_GALLERY": {
+      "status": "WRITTEN",
+      "paths": [
+        "figures/P0_MATERIAL_GALLERY.png",
+        "figures/P0_MATERIAL_GALLERY.pdf"
+      ],
+      "source": "results/p0/GALLERY_SAMPLES.npz",
+      "observation": 0,
+      "training_seed": 2610131,
+      "draw_order": "stored first six iid draws; unchanged",
+      "point_mass": 0,
+      "physical_geometry": "13 dipoles; spacing 0.08; core 5 cells and shell 8 cells"
+    },
+    "P0_EVENT_MASSES": {
+      "status": "WRITTEN",
+      "paths": [
+        "figures/P0_EVENT_MASSES.png",
+        "figures/P0_EVENT_MASSES.pdf"
+      ],
+      "source": "results/p0/OBSERVATION_METRICS.jsonl",
+      "observation": 0,
+      "training_seed": 2610131,
+      "evaluation_draws": 1024,
+      "q_event_masses": {
+        "mdn": [
+          0.1953125,
+          0.0126953125,
+          0.341796875,
+          0.4501953125
+        ],
+        "measurement": [
+          0.267578125,
+          0.0,
+          0.376953125,
+          0.35546875
+        ],
+        "mdn_state": [
+          0.1630859375,
+          0.0185546875,
+          0.3017578125,
+          0.5166015625
+        ],
+        "mdn_memory": [
+          0.2724609375,
+          0.00390625,
+          0.3369140625,
+          0.38671875
+        ]
+      }
+    },
+    "PAIRED_KL_DIFFERENCES": {
+      "status": "WRITTEN",
+      "paths": [
+        "figures/PAIRED_KL_DIFFERENCES.png",
+        "figures/PAIRED_KL_DIFFERENCES.pdf"
+      ],
+      "missing_entries": []
+    }
+  },
+  "reference_status": {
+    "u0": "PASS (empirical)",
+    "p0": "PASS (empirical)"
+  },
+  "primary_models": {
+    "u0": [
+      "mdn",
+      "measurement",
+      "state",
+      "memory"
+    ],
+    "p0": [
+      "mdn",
+      "measurement",
+      "mdn_state",
+      "mdn_memory"
+    ]
+  },
+  "physics_before": {
+    "material_frequency": 7961,
+    "forward_rhs": 15922,
+    "derivative_rhs": 5264,
+    "adjoint_rhs": 4
+  },
+  "physics_after": {
+    "material_frequency": 7961,
+    "forward_rhs": 15922,
+    "derivative_rhs": 5264,
+    "adjoint_rhs": 4
+  },
+  "new_physical_evaluations": 0,
+  "source_schema": "src/c1/evaluate.py V2",
+  "figures_are": "visualizations of recorded or frozen-model outputs, not scientific acceptance",
+  "p0_scope": "restricted continuous core/shell material; real intensity readout; no general topology recovery",
+  "missing_values": "explicit NOT_RUN; no invented metrics, samples, or confidence intervals"
+}

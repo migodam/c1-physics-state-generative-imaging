@@ -1,0 +1,35 @@
+{
+  "status": "FROZEN_BEFORE_TEST",
+  "seeds": [
+    2610131,
+    2610132,
+    2610133
+  ],
+  "models": [
+    "mdn",
+    "measurement",
+    "mdn_state",
+    "mdn_memory"
+  ],
+  "baseline_selected_by_validation": {
+    "2610131": "measurement",
+    "2610132": "measurement",
+    "2610133": "measurement"
+  },
+  "selection_rule": "minimum validation continuous material log score between MDN and measurement flow",
+  "test_read": false,
+  "receipt_paths": [
+    "models/mdn-2610131.json",
+    "models/measurement-2610131.json",
+    "models/mdn_state-2610131.json",
+    "models/mdn_memory-2610131.json",
+    "models/mdn-2610132.json",
+    "models/measurement-2610132.json",
+    "models/mdn_state-2610132.json",
+    "models/mdn_memory-2610132.json",
+    "models/mdn-2610133.json",
+    "models/measurement-2610133.json",
+    "models/mdn_state-2610133.json",
+    "models/mdn_memory-2610133.json"
+  ]
+}

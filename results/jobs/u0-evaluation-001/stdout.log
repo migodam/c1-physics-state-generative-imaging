@@ -1,0 +1,12 @@
+{"problem": "u0", "model": "mdn-2610131", "KL": 0.2819449616248504, "mass_MAE": 0.05542086628802268, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "measurement-2610131", "KL": 1.3257233862844198, "mass_MAE": 0.05634167282346818, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "state-2610131", "KL": 0.9379622792681745, "mass_MAE": 0.05777237030984919, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "memory-2610131", "KL": 13.234431985713673, "mass_MAE": 0.05034521751745691, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "mdn-2610132", "KL": 0.3248063640633232, "mass_MAE": 0.05172250454449185, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "measurement-2610132", "KL": 1.0355442427651917, "mass_MAE": 0.05195267401869368, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "state-2610132", "KL": 0.8428343487753416, "mass_MAE": 0.04880245227104332, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "memory-2610132", "KL": 0.9809244232410631, "mass_MAE": 0.059974584385577664, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "mdn-2610133", "KL": 0.3398705714463113, "mass_MAE": 0.05777598394383602, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "measurement-2610133", "KL": 1.3656514635833368, "mass_MAE": 0.05190778777646346, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "state-2610133", "KL": 1.1875301488132548, "mass_MAE": 0.048001502868738596, "reference": "REFERENCE_UNRESOLVED"}
+{"problem": "u0", "model": "memory-2610133", "KL": 1.4484462192757568, "mass_MAE": 0.05764237850508616, "reference": "REFERENCE_UNRESOLVED"}

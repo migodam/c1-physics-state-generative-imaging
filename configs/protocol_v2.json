@@ -1,0 +1,17 @@
+{
+  "project": "C1", "version": "V2", "date": "2026-10-13", "status": "PREREGISTERED_BEFORE_RUN",
+  "priority": "User topology-agnostic material-first request supersedes original attachment recommendations",
+  "device": "cpu", "blas_threads": 1, "workers": 1, "gpu_seconds_cap": 0,
+  "cpu_seconds_cap": 1200, "wall_seconds_cap": 1800, "material_frequency_evaluation_cap": 8192,
+  "cpu_stage_caps": {"tests": 60, "u0_train": 300, "p0_prepare": 180, "p0_train": 360, "evaluation": 240, "diagnostics": 60},
+  "models": ["mdn", "measurement", "state", "memory"], "training_seeds": [2610131,2610132,2610133],
+  "target_parameters": 30000, "parameter_relative_tolerance": 0.05, "max_parameters": 100000,
+  "updates": 1500, "batch_size": 128, "learning_rate": 0.001,
+  "checkpoint_every": 250, "max_diagnostic_configurations": 2,
+  "u0": {"parents": {"train": 1024,"validation":128,"test":128}, "noise_replicates": {"train":4,"validation":2,"test":2},"kappa":[0.0,0.25,0.6], "sigma":[0.12,0.25], "seeds":{"train":26101310,"validation":26101311,"test":26101312}, "quadrature_orders":[64,96]},
+  "p0": {"updates":3000,"models":["mdn","measurement","mdn_state","mdn_memory"],"parents": {"train":256,"validation":64,"test":64},"noise_replicates":{"train":2,"validation":1,"test":1},"sigma":[0.12,0.25],"seeds":{"train":26101320,"validation":26101321,"test":26101322},"quadrature_orders":[40,64],"full_sample_checks":{"observations":16,"draws":8},"gallery_draws":24},
+  "prior": {"id":"connected-exponential-tilt-v1","bounds":[-1.5,1.5],"tilt":[0.4,-0.2]},
+  "pilot": {"rounds":2,"initial":[0.65,-0.45],"gn_ridge":1.0,"step_norm_cap":0.5},
+  "evaluation_draws":1024,"bootstrap_repeats":2000,"bootstrap_seed":26101399,
+  "sha256_checks":false,"b1_read_training_payload":false,"b1_modification":false,"large_gpu_training":false
+}

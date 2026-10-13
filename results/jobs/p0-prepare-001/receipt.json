@@ -1,0 +1,19 @@
+{
+  "id": "p0-prepare-001",
+  "stage": "p0_prepare",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.data",
+    "p0"
+  ],
+  "wall_seconds": 2.423868166981265,
+  "cpu_seconds": 1.657398,
+  "gpu_seconds": 0,
+  "maxrss_raw": 97992704,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 180
+}

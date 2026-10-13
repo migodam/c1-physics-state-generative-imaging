@@ -1,0 +1,59 @@
+{
+  "problem": "u0",
+  "kind": "measurement",
+  "seed": 2610133,
+  "tag": "primary",
+  "updates_executed": 1500,
+  "checkpoint_step": 1500,
+  "trainable_parameters": 29996,
+  "validation_score_x": -0.11753243207931519,
+  "validation_score_z": 1.9784454107284546,
+  "history": [
+    {
+      "step": 250,
+      "train_loss": 2.3432462215423584,
+      "validation_log_score_z": 2.7694573402404785,
+      "elapsed_cpu": 0.3699869999999983
+    },
+    {
+      "step": 500,
+      "train_loss": 2.16367769241333,
+      "validation_log_score_z": 2.566638946533203,
+      "elapsed_cpu": 0.7522959999999976
+    },
+    {
+      "step": 750,
+      "train_loss": 1.9214364290237427,
+      "validation_log_score_z": 2.248269557952881,
+      "elapsed_cpu": 1.1692289999999979
+    },
+    {
+      "step": 1000,
+      "train_loss": 1.8940762281417847,
+      "validation_log_score_z": 2.0986597537994385,
+      "elapsed_cpu": 1.5297599999999996
+    },
+    {
+      "step": 1250,
+      "train_loss": 1.8612265586853027,
+      "validation_log_score_z": 2.028082847595215,
+      "elapsed_cpu": 1.8943099999999973
+    },
+    {
+      "step": 1500,
+      "train_loss": 1.9886794090270996,
+      "validation_log_score_z": 1.9784454107284546,
+      "elapsed_cpu": 2.2565419999999996
+    }
+  ],
+  "wall_seconds": 2.2970215840032324,
+  "cpu_seconds": 2.2589229999999993,
+  "device": "cpu",
+  "gpu_seconds": 0,
+  "topology_labels_used": false,
+  "truth_fields_used": false,
+  "test_read": false,
+  "physics_calls_inside_training": 0,
+  "context": "precomputed at candidate, frozen for generation",
+  "timing_scope": "optimization + validation + model save; imports/preparation in outer job"
+}

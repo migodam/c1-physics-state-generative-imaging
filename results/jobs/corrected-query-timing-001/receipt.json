@@ -1,0 +1,18 @@
+{
+  "id": "corrected-query-timing-001",
+  "stage": "diagnostics",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.timing"
+  ],
+  "wall_seconds": 2.6271159580210224,
+  "cpu_seconds": 1.691376,
+  "gpu_seconds": 0,
+  "maxrss_raw": 267091968,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 55.863742
+}

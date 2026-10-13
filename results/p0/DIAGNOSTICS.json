@@ -1,0 +1,830 @@
+{
+  "score_refinement": {
+    "mdn-2610131": {
+      "mean_KL_coarse": 1.0789073136925307,
+      "mean_KL_fine": 1.080617781815608,
+      "mean_fine_minus_coarse": 0.0017104681230772404,
+      "max_abs_observation_difference": 0.02743331629994028,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "measurement-2610131": {
+      "mean_KL_coarse": 1.5977736746529605,
+      "mean_KL_fine": 1.6593781339592373,
+      "mean_fine_minus_coarse": 0.061604459306277,
+      "max_abs_observation_difference": 0.16623099628755922,
+      "warning": "Score integration is unstable at the desired0.02 scale"
+    },
+    "mdn_state-2610131": {
+      "mean_KL_coarse": 1.0755982003725246,
+      "mean_KL_fine": 1.0772560360173804,
+      "mean_fine_minus_coarse": 0.0016578356448558413,
+      "max_abs_observation_difference": 0.017691493131766656,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "mdn_memory-2610131": {
+      "mean_KL_coarse": 1.0004715077026094,
+      "mean_KL_fine": 1.0034925074851062,
+      "mean_fine_minus_coarse": 0.0030209997824966325,
+      "max_abs_observation_difference": 0.023651438889678467,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "mdn-2610132": {
+      "mean_KL_coarse": 1.0168848067200584,
+      "mean_KL_fine": 1.0172350737637108,
+      "mean_fine_minus_coarse": 0.0003502670436522203,
+      "max_abs_observation_difference": 0.021222957383457253,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "measurement-2610132": {
+      "mean_KL_coarse": 6.514857797405002,
+      "mean_KL_fine": 12.405703464581054,
+      "mean_fine_minus_coarse": 5.890845667176052,
+      "max_abs_observation_difference": 94.72198686487303,
+      "warning": "Score integration is unstable at the desired0.02 scale"
+    },
+    "mdn_state-2610132": {
+      "mean_KL_coarse": 0.994488638817534,
+      "mean_KL_fine": 0.9967921855969889,
+      "mean_fine_minus_coarse": 0.002303546779455012,
+      "max_abs_observation_difference": 0.03098848964565626,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "mdn_memory-2610132": {
+      "mean_KL_coarse": 0.8729559832038067,
+      "mean_KL_fine": 0.8723623243906206,
+      "mean_fine_minus_coarse": -0.000593658813186234,
+      "max_abs_observation_difference": 0.015196845223584221,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "mdn-2610133": {
+      "mean_KL_coarse": 0.8914813151657628,
+      "mean_KL_fine": 0.8924773562248709,
+      "mean_fine_minus_coarse": 0.0009960410591080947,
+      "max_abs_observation_difference": 0.023887676720734774,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "measurement-2610133": {
+      "mean_KL_coarse": 9.208656141515139,
+      "mean_KL_fine": 12.320666046499273,
+      "mean_fine_minus_coarse": 3.1120099049841348,
+      "max_abs_observation_difference": 46.45132508264406,
+      "warning": "Score integration is unstable at the desired0.02 scale"
+    },
+    "mdn_state-2610133": {
+      "mean_KL_coarse": 0.9736691650925173,
+      "mean_KL_fine": 0.975025813076309,
+      "mean_fine_minus_coarse": 0.0013566479837915715,
+      "max_abs_observation_difference": 0.03227407052232811,
+      "warning": "mean refinement within0.02; empirical only"
+    },
+    "mdn_memory-2610133": {
+      "mean_KL_coarse": 0.9929030873005226,
+      "mean_KL_fine": 0.9965729538461623,
+      "mean_fine_minus_coarse": 0.0036698665456396514,
+      "max_abs_observation_difference": 0.021123781747465653,
+      "warning": "mean refinement within0.02; empirical only"
+    }
+  },
+  "validation_state_reliance": {
+    "mdn_state-2610131": {
+      "validation_log_score_original": 1.573763370513916,
+      "validation_log_score_zero_state": 2.330493927001953,
+      "validation_log_score_permuted_state": 2.37208890914917,
+      "scope": "post-freeze reliance diagnostic, not newly trained ablation or independent likelihood"
+    },
+    "mdn_memory-2610131": {
+      "validation_log_score_original": 1.47273588180542,
+      "validation_log_score_zero_state": 1.6562657356262207,
+      "validation_log_score_permuted_state": 1.6948248147964478,
+      "scope": "post-freeze reliance diagnostic, not newly trained ablation or independent likelihood"
+    },
+    "mdn_state-2610132": {
+      "validation_log_score_original": 1.4902669191360474,
+      "validation_log_score_zero_state": 2.2212204933166504,
+      "validation_log_score_permuted_state": 2.6389362812042236,
+      "scope": "post-freeze reliance diagnostic, not newly trained ablation or independent likelihood"
+    },
+    "mdn_memory-2610132": {
+      "validation_log_score_original": 1.3500655889511108,
+      "validation_log_score_zero_state": 1.6988648176193237,
+      "validation_log_score_permuted_state": 1.5826655626296997,
+      "scope": "post-freeze reliance diagnostic, not newly trained ablation or independent likelihood"
+    },
+    "mdn_state-2610133": {
+      "validation_log_score_original": 1.4594935178756714,
+      "validation_log_score_zero_state": 2.096834182739258,
+      "validation_log_score_permuted_state": 2.4510555267333984,
+      "scope": "post-freeze reliance diagnostic, not newly trained ablation or independent likelihood"
+    },
+    "mdn_memory-2610133": {
+      "validation_log_score_original": 1.4043282270431519,
+      "validation_log_score_zero_state": 1.5265083312988281,
+      "validation_log_score_permuted_state": 1.8139290809631348,
+      "scope": "post-freeze reliance diagnostic, not newly trained ablation or independent likelihood"
+    }
+  },
+  "paired_comparisons": {
+    "mdn_state-vs-mdn-2610131-truth_log_score": {
+      "mean": -0.0914933574385941,
+      "ci95": [
+        -0.4308178804814815,
+        0.2028387456783092
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-truth_log_score": {
+      "mean": -0.15980240143835545,
+      "ci95": [
+        -1.0335193604929374,
+        0.5081214119214563
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610131-KL_reference": {
+      "mean": -0.0033617457982276855,
+      "ci95": [
+        -0.03889335078471486,
+        0.034534033246914154
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-KL_reference": {
+      "mean": -0.5821220979418571,
+      "ci95": [
+        -0.7771966603204776,
+        -0.4015467816095653
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610131-event_mass_MAE": {
+      "mean": 0.0038804139144083677,
+      "ci95": [
+        -0.001266274659294123,
+        0.009128000558782231
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-event_mass_MAE": {
+      "mean": 0.0010477787065170281,
+      "ci95": [
+        -0.004726247772076502,
+        0.006654834579664042
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610131-expected_Brier_excess": {
+      "mean": 0.003665766071921803,
+      "ci95": [
+        5.365418468143077e-05,
+        0.007529614162384335
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610131-expected_Brier_excess": {
+      "mean": -0.0009373882812872674,
+      "ci95": [
+        -0.005297716364796207,
+        0.003415173828247104
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-truth_log_score": {
+      "mean": -0.20996863534674048,
+      "ci95": [
+        -0.4602459236746654,
+        0.03823954670224338
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-truth_log_score": {
+      "mean": -0.2782776793465018,
+      "ci95": [
+        -1.169343623658642,
+        0.3876281583914533
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-KL_reference": {
+      "mean": -0.07712527433050183,
+      "ci95": [
+        -0.127676323281724,
+        -0.022480074245750183
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-KL_reference": {
+      "mean": -0.6558856264741311,
+      "ci95": [
+        -0.8457034714009305,
+        -0.4819362582301688
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-event_mass_MAE": {
+      "mean": -0.0034664990503489685,
+      "ci95": [
+        -0.009238692266761293,
+        0.002543860281455325
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-event_mass_MAE": {
+      "mean": -0.006299134258240308,
+      "ci95": [
+        -0.011957449913446857,
+        -0.0003706789466180596
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610131-expected_Brier_excess": {
+      "mean": 0.00031840379579195196,
+      "ci95": [
+        -0.0031749783883144134,
+        0.004362960643472378
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610131-expected_Brier_excess": {
+      "mean": -0.004284750557417118,
+      "ci95": [
+        -0.009097734865097167,
+        0.0005258816735901262
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-truth_log_score": {
+      "mean": -0.12994831055402756,
+      "ci95": [
+        -0.37334729672875255,
+        0.1208721121307462
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-truth_log_score": {
+      "mean": -4.126285957172513,
+      "ci95": [
+        -11.301837068749592,
+        0.09972531676758079
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-KL_reference": {
+      "mean": -0.02044288816672172,
+      "ci95": [
+        -0.06224465040479163,
+        0.020215257638785566
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-KL_reference": {
+      "mean": -11.408911278984064,
+      "ci95": [
+        -18.039877893990024,
+        -5.7726409315639415
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-event_mass_MAE": {
+      "mean": 0.0005689741778761931,
+      "ci95": [
+        -0.004846788061103007,
+        0.006456523319244792
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-event_mass_MAE": {
+      "mean": 0.0009008653663814602,
+      "ci95": [
+        -0.007065392274806742,
+        0.009027334710872203
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610132-expected_Brier_excess": {
+      "mean": -0.0004849600140437731,
+      "ci95": [
+        -0.004459300430892558,
+        0.0034176678669136248
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610132-expected_Brier_excess": {
+      "mean": -0.000829843805921676,
+      "ci95": [
+        -0.00581912833474144,
+        0.0043894876481835555
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-truth_log_score": {
+      "mean": -0.08050348050892353,
+      "ci95": [
+        -0.3062477570027113,
+        0.12929485947824992
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-truth_log_score": {
+      "mean": -4.076841127127409,
+      "ci95": [
+        -11.441579417954198,
+        0.20058990546967825
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-KL_reference": {
+      "mean": -0.14487274937309014,
+      "ci95": [
+        -0.17923932232571047,
+        -0.11442734312904587
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-KL_reference": {
+      "mean": -11.533341140190434,
+      "ci95": [
+        -18.14942206357496,
+        -5.908592412435084
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-event_mass_MAE": {
+      "mean": -0.0016512903375582283,
+      "ci95": [
+        -0.007699472357973466,
+        0.0041786058073750385
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-event_mass_MAE": {
+      "mean": -0.00131939914905296,
+      "ci95": [
+        -0.008072390757189147,
+        0.00610805080412337
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610132-expected_Brier_excess": {
+      "mean": -0.0014993741115261765,
+      "ci95": [
+        -0.005692569312915016,
+        0.002381517695395943
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610132-expected_Brier_excess": {
+      "mean": -0.0018442579034040792,
+      "ci95": [
+        -0.006761051446491355,
+        0.003737368038962724
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-truth_log_score": {
+      "mean": 0.005449801683425903,
+      "ci95": [
+        -0.29916904936544597,
+        0.3569073396502061
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-truth_log_score": {
+      "mean": -6.467188373208046,
+      "ci95": [
+        -16.44963684717659,
+        0.34468746632337505
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-KL_reference": {
+      "mean": 0.08254845685143797,
+      "ci95": [
+        0.003988433112757716,
+        0.16388621137902049
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-KL_reference": {
+      "mean": -11.345640233422964,
+      "ci95": [
+        -17.65360757246582,
+        -6.276916622514966
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-event_mass_MAE": {
+      "mean": -0.0007920590510470847,
+      "ci95": [
+        -0.00521705343028722,
+        0.003479189150243444
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-event_mass_MAE": {
+      "mean": -0.007558320469945753,
+      "ci95": [
+        -0.01635137129639264,
+        0.0004218022521810123
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-mdn-2610133-expected_Brier_excess": {
+      "mean": -0.002220943152381533,
+      "ci95": [
+        -0.005518174760481537,
+        0.0008645683547059618
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-vs-measurement-2610133-expected_Brier_excess": {
+      "mean": -0.008329592899378081,
+      "ci95": [
+        -0.016084388694737595,
+        -0.0017312911719250545
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-truth_log_score": {
+      "mean": -0.008974213153123856,
+      "ci95": [
+        -0.45409772181883457,
+        0.4602132455445824
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-truth_log_score": {
+      "mean": -6.481612388044596,
+      "ci95": [
+        -16.652451548585667,
+        0.4313930270727722
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-KL_reference": {
+      "mean": 0.10409559762129131,
+      "ci95": [
+        0.014620213109545458,
+        0.194517461444934
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-KL_reference": {
+      "mean": -11.324093092653111,
+      "ci95": [
+        -17.634727990716033,
+        -6.261640916321269
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-event_mass_MAE": {
+      "mean": 0.001800152364219586,
+      "ci95": [
+        -0.004727676450876639,
+        0.00831617789128341
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-event_mass_MAE": {
+      "mean": -0.004966109054679081,
+      "ci95": [
+        -0.014082827751248125,
+        0.003881890789332072
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-mdn-2610133-expected_Brier_excess": {
+      "mean": 0.0004179860628710063,
+      "ci95": [
+        -0.003669140605814927,
+        0.004543274033605976
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_memory-vs-measurement-2610133-expected_Brier_excess": {
+      "mean": -0.005690663684125543,
+      "ci95": [
+        -0.013728809658525487,
+        0.0014959461435358873
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    }
+  },
+  "cold_query_timing": [
+    {
+      "model": "mdn",
+      "repeat": 0,
+      "wall_seconds": 0.030364542035385966,
+      "cpu_seconds": 0.025580999999999854,
+      "physics_context_cpu": 0.0,
+      "charged_material_frequency": 0,
+      "charged_forward_rhs": 0,
+      "charged_derivative_rhs": 0,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "measurement",
+      "repeat": 0,
+      "wall_seconds": 0.025120249949395657,
+      "cpu_seconds": 0.02506800000000009,
+      "physics_context_cpu": 0.0,
+      "charged_material_frequency": 0,
+      "charged_forward_rhs": 0,
+      "charged_derivative_rhs": 0,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn_state",
+      "repeat": 0,
+      "wall_seconds": 0.0447709170402959,
+      "cpu_seconds": 0.044262000000000024,
+      "physics_context_cpu": 0.020191999999999988,
+      "charged_material_frequency": 2,
+      "charged_forward_rhs": 4,
+      "charged_derivative_rhs": 8,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn_memory",
+      "repeat": 0,
+      "wall_seconds": 0.024909624946303666,
+      "cpu_seconds": 0.024896999999999947,
+      "physics_context_cpu": 0.0008960000000000079,
+      "charged_material_frequency": 2,
+      "charged_forward_rhs": 4,
+      "charged_derivative_rhs": 8,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "measurement",
+      "repeat": 1,
+      "wall_seconds": 0.025272166007198393,
+      "cpu_seconds": 0.02524700000000002,
+      "physics_context_cpu": 0.0,
+      "charged_material_frequency": 0,
+      "charged_forward_rhs": 0,
+      "charged_derivative_rhs": 0,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn_state",
+      "repeat": 1,
+      "wall_seconds": 0.025722292019054294,
+      "cpu_seconds": 0.025700000000000056,
+      "physics_context_cpu": 0.0010479999999999379,
+      "charged_material_frequency": 2,
+      "charged_forward_rhs": 4,
+      "charged_derivative_rhs": 8,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn_memory",
+      "repeat": 1,
+      "wall_seconds": 0.024328207946382463,
+      "cpu_seconds": 0.024304000000000103,
+      "physics_context_cpu": 0.0008360000000000589,
+      "charged_material_frequency": 2,
+      "charged_forward_rhs": 4,
+      "charged_derivative_rhs": 8,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn",
+      "repeat": 1,
+      "wall_seconds": 0.02320437494199723,
+      "cpu_seconds": 0.02318599999999993,
+      "physics_context_cpu": 0.0,
+      "charged_material_frequency": 0,
+      "charged_forward_rhs": 0,
+      "charged_derivative_rhs": 0,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn_state",
+      "repeat": 2,
+      "wall_seconds": 0.02480583405122161,
+      "cpu_seconds": 0.024760000000000115,
+      "physics_context_cpu": 0.0008860000000001644,
+      "charged_material_frequency": 2,
+      "charged_forward_rhs": 4,
+      "charged_derivative_rhs": 8,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn_memory",
+      "repeat": 2,
+      "wall_seconds": 0.02540425001643598,
+      "cpu_seconds": 0.025376000000000065,
+      "physics_context_cpu": 0.0008310000000000262,
+      "charged_material_frequency": 2,
+      "charged_forward_rhs": 4,
+      "charged_derivative_rhs": 8,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "mdn",
+      "repeat": 2,
+      "wall_seconds": 0.024420375004410744,
+      "cpu_seconds": 0.024407000000000068,
+      "physics_context_cpu": 0.0,
+      "charged_material_frequency": 0,
+      "charged_forward_rhs": 0,
+      "charged_derivative_rhs": 0,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    },
+    {
+      "model": "measurement",
+      "repeat": 2,
+      "wall_seconds": 0.02576333296019584,
+      "cpu_seconds": 0.025727000000000055,
+      "physics_context_cpu": 0.0,
+      "charged_material_frequency": 0,
+      "charged_forward_rhs": 0,
+      "charged_derivative_rhs": 0,
+      "samples": 1024,
+      "scope": "model in memory, uncached candidate contexts for physical models"
+    }
+  ],
+  "wrong_rule_controls": {
+    "correct_events": [
+      0.07918569258205319,
+      0.8099704534711122,
+      0.11078863685078606,
+      5.5217096044520376e-05
+    ],
+    "repeated_likelihood_wrong_events": [
+      0.0002695096863329498,
+      0.9995159368614724,
+      0.00021455345217469992,
+      1.658459029830545e-14
+    ],
+    "five_copies_without_mass_split_wrong_events": [
+      0.018676391479295798,
+      0.9551804614207459,
+      0.026130123836938995,
+      1.3023263022025638e-05
+    ],
+    "repeat_max_mass_error": 0.18954548339036026,
+    "duplicate_max_mass_error": 0.14521000794963368,
+    "meaning": "intentional invalid controls; never used by the trained generator"
+  },
+  "iso_parameter_iso_data": true,
+  "wall_cost_matching": "not established: actual costs and quality differ; no Pareto promotion",
+  "local_gpu_seconds": 0,
+  "additional_training_runs": 0,
+  "additional_material_frequency": 12
+}

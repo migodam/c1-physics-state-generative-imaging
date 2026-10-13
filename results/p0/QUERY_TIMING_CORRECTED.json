@@ -1,0 +1,180 @@
+{
+  "rows": [
+    {
+      "model": "mdn",
+      "repeat": 0,
+      "wall_seconds": 0.01955316704697907,
+      "cpu_seconds": 0.003958999999999935,
+      "context_cpu": 0.0,
+      "material_frequency": 0,
+      "forward_rhs": 0,
+      "derivative_rhs": 0,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "measurement",
+      "repeat": 0,
+      "wall_seconds": 0.005297000054270029,
+      "cpu_seconds": 0.0021650000000000835,
+      "context_cpu": 0.0,
+      "material_frequency": 0,
+      "forward_rhs": 0,
+      "derivative_rhs": 0,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn_state",
+      "repeat": 0,
+      "wall_seconds": 0.02364529191982001,
+      "cpu_seconds": 0.022316000000000003,
+      "context_cpu": 0.021857999999999933,
+      "material_frequency": 2,
+      "forward_rhs": 4,
+      "derivative_rhs": 8,
+      "samples": 1024,
+      "first_backend_use": true
+    },
+    {
+      "model": "mdn_memory",
+      "repeat": 0,
+      "wall_seconds": 0.005510499933734536,
+      "cpu_seconds": 0.0022440000000001348,
+      "context_cpu": 0.0009509999999999241,
+      "material_frequency": 2,
+      "forward_rhs": 4,
+      "derivative_rhs": 8,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "measurement",
+      "repeat": 1,
+      "wall_seconds": 0.0013441250193864107,
+      "cpu_seconds": 0.0013430000000000941,
+      "context_cpu": 0.0,
+      "material_frequency": 0,
+      "forward_rhs": 0,
+      "derivative_rhs": 0,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn_state",
+      "repeat": 1,
+      "wall_seconds": 0.0012359169777482748,
+      "cpu_seconds": 0.001234999999999875,
+      "context_cpu": 0.0008859999999999424,
+      "material_frequency": 2,
+      "forward_rhs": 4,
+      "derivative_rhs": 8,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn_memory",
+      "repeat": 1,
+      "wall_seconds": 0.0011951669584959745,
+      "cpu_seconds": 0.001182999999999934,
+      "context_cpu": 0.0008060000000000844,
+      "material_frequency": 2,
+      "forward_rhs": 4,
+      "derivative_rhs": 8,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn",
+      "repeat": 1,
+      "wall_seconds": 0.00028554198797792196,
+      "cpu_seconds": 0.0002849999999998687,
+      "context_cpu": 0.0,
+      "material_frequency": 0,
+      "forward_rhs": 0,
+      "derivative_rhs": 0,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn_state",
+      "repeat": 2,
+      "wall_seconds": 0.0013589169830083847,
+      "cpu_seconds": 0.001358999999999888,
+      "context_cpu": 0.0009660000000000224,
+      "material_frequency": 2,
+      "forward_rhs": 4,
+      "derivative_rhs": 8,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn_memory",
+      "repeat": 2,
+      "wall_seconds": 0.001334457891061902,
+      "cpu_seconds": 0.0013339999999999463,
+      "context_cpu": 0.0008950000000000902,
+      "material_frequency": 2,
+      "forward_rhs": 4,
+      "derivative_rhs": 8,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "mdn",
+      "repeat": 2,
+      "wall_seconds": 0.00029349990654736757,
+      "cpu_seconds": 0.000292000000000181,
+      "context_cpu": 0.0,
+      "material_frequency": 0,
+      "forward_rhs": 0,
+      "derivative_rhs": 0,
+      "samples": 1024,
+      "first_backend_use": false
+    },
+    {
+      "model": "measurement",
+      "repeat": 2,
+      "wall_seconds": 0.0013254170771688223,
+      "cpu_seconds": 0.0013250000000000206,
+      "context_cpu": 0.0,
+      "material_frequency": 0,
+      "forward_rhs": 0,
+      "derivative_rhs": 0,
+      "samples": 1024,
+      "first_backend_use": false
+    }
+  ],
+  "summary": {
+    "mdn": {
+      "median_cpu_seconds": 0.000292000000000181,
+      "median_wall_seconds": 0.00029349990654736757,
+      "mf_per_new_query": 0,
+      "RHS_per_new_query": 0
+    },
+    "measurement": {
+      "median_cpu_seconds": 0.0013430000000000941,
+      "median_wall_seconds": 0.0013441250193864107,
+      "mf_per_new_query": 0,
+      "RHS_per_new_query": 0
+    },
+    "mdn_state": {
+      "median_cpu_seconds": 0.001358999999999888,
+      "median_wall_seconds": 0.0013589169830083847,
+      "mf_per_new_query": 2,
+      "RHS_per_new_query": 12
+    },
+    "mdn_memory": {
+      "median_cpu_seconds": 0.0013339999999999463,
+      "median_wall_seconds": 0.001334457891061902,
+      "mf_per_new_query": 2,
+      "RHS_per_new_query": 12
+    }
+  },
+  "new_material_frequency": 12,
+  "reason": "original DIAGNOSTICS timing includes post-query ledger aggregation; retain original as failed timing receipt",
+  "scope": "in-memory model and preassembled fixed geometry; candidate contexts not cached; decode included; interpreter/model setup outside query median",
+  "full_pipeline_cost": "C1_RESOURCE_LEDGER.json; setup, reference, states, training and both timing attempts remain charged",
+  "quality_at_required_tolerance": "FAIL; no cost-advantage promotion",
+  "gpu_seconds": 0
+}

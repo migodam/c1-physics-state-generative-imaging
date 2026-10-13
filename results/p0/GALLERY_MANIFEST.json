@@ -1,0 +1,587 @@
+{
+  "display_count": 24,
+  "integration_count": 4096,
+  "q_mass_estimation_draws": 1024,
+  "target_kind": "declared_continuous_prior_posterior_approximation",
+  "prior_id": "connected-exponential-tilt-v1",
+  "material_representation_id": "continuous-two-region-dipole-permittivity-v1",
+  "noise_model_id": "real-intensity-Gaussian",
+  "nuisance_policy": "fixed calibrated geometry; no nuisance parameter",
+  "solver_id": "c1-vector-dipole13-rr-v1",
+  "point_probability_statement": "Each exact continuous image has zero point mass",
+  "mode_mass_location": "OBSERVATION_METRICS.jsonl observation0, first training seed, same model",
+  "mode_partition_id": "contrast-sign-quadrants-v1",
+  "reference_error_status": "REFERENCE_AUDIT.json",
+  "sampling_error_status": "1024 q samples, finite binomial error",
+  "shift_status": "not tested",
+  "resource_ledger_id": "results/PHYSICS_LEDGER.jsonl",
+  "candidate_samples": [
+    {
+      "model": "mdn",
+      "draw": 0,
+      "x": [
+        -1.233039379119873,
+        -0.8621894717216492
+      ],
+      "prediction": [
+        1.3336303052537888,
+        1.3315238771440563,
+        1.3336303052537888,
+        1.3474046041603707
+      ],
+      "whitened_residual_norm": 5.6359757742098315,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 0,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn",
+      "draw": 1,
+      "x": [
+        0.8323512077331543,
+        1.097714900970459
+      ],
+      "prediction": [
+        0.96877975172866,
+        0.9744850890019475,
+        0.96877975172866,
+        0.9656683968461366
+      ],
+      "whitened_residual_norm": 2.4091830842286908,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn",
+      "draw": 2,
+      "x": [
+        0.6365251541137695,
+        -1.4035069942474365
+      ],
+      "prediction": [
+        0.8652037118451715,
+        0.929076219440544,
+        0.8652037118451713,
+        0.831310793722902
+      ],
+      "whitened_residual_norm": 3.64715068091902,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn",
+      "draw": 3,
+      "x": [
+        0.5935730934143066,
+        -1.4614838361740112
+      ],
+      "prediction": [
+        1.006749173695471,
+        1.0777951278186615,
+        1.006749173695471,
+        0.9694405223797452
+      ],
+      "whitened_residual_norm": 2.6993361976109327,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn",
+      "draw": 4,
+      "x": [
+        1.1696550846099854,
+        1.0481183528900146
+      ],
+      "prediction": [
+        1.193974320484015,
+        1.190829847900318,
+        1.1939743204840145,
+        1.1953860673238592
+      ],
+      "whitened_residual_norm": 3.5753679183606413,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn",
+      "draw": 5,
+      "x": [
+        1.0529685020446777,
+        1.019057273864746
+      ],
+      "prediction": [
+        1.0635814937044301,
+        1.0627283700608927,
+        1.0635814937044301,
+        1.0639544312044458
+      ],
+      "whitened_residual_norm": 2.2913749145278857,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "measurement",
+      "draw": 0,
+      "x": [
+        0.3688216209411621,
+        -1.39030921459198
+      ],
+      "prediction": [
+        0.9874208421250394,
+        1.0495517968922556,
+        0.9874208421250398,
+        0.9557571796914243
+      ],
+      "whitened_residual_norm": 2.667194268943045,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "measurement",
+      "draw": 1,
+      "x": [
+        0.807471752166748,
+        -1.3142743110656738
+      ],
+      "prediction": [
+        0.6241693601775097,
+        0.6776519333865176,
+        0.6241693601775097,
+        0.5950502240833082
+      ],
+      "whitened_residual_norm": 7.039025349022987,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "measurement",
+      "draw": 2,
+      "x": [
+        0.948570728302002,
+        1.238032341003418
+      ],
+      "prediction": [
+        1.220788854890954,
+        1.2271289355428945,
+        1.220788854890954,
+        1.216916088015101
+      ],
+      "whitened_residual_norm": 3.9887428108909417,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "measurement",
+      "draw": 3,
+      "x": [
+        0.8455584049224854,
+        -1.4513486623764038
+      ],
+      "prediction": [
+        0.8538624260146586,
+        0.9233927516416104,
+        0.8538624260146594,
+        0.8162054772218296
+      ],
+      "whitened_residual_norm": 3.80651519492068,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "measurement",
+      "draw": 4,
+      "x": [
+        1.2037923336029053,
+        -1.0409300327301025
+      ],
+      "prediction": [
+        0.16734002736286416,
+        0.19348780198949736,
+        0.16734002736286413,
+        0.15269392502222748
+      ],
+      "whitened_residual_norm": 14.41726375153074,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "measurement",
+      "draw": 5,
+      "x": [
+        0.5688066482543945,
+        -1.4447355270385742
+      ],
+      "prediction": [
+        0.9850927198336694,
+        1.0540068116739327,
+        0.9850927198336701,
+        0.948979923856709
+      ],
+      "whitened_residual_norm": 2.726182078977049,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_state",
+      "draw": 0,
+      "x": [
+        0.10039567947387695,
+        -0.6525208950042725
+      ],
+      "prediction": [
+        0.17896734771350517,
+        0.18917614652499,
+        0.1789673477135051,
+        0.17378442951507891
+      ],
+      "whitened_residual_norm": 14.234352759513271,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_state",
+      "draw": 1,
+      "x": [
+        -1.1237303018569946,
+        -0.809745192527771
+      ],
+      "prediction": [
+        1.1287711008529333,
+        1.1276592060942792,
+        1.1287711008529329,
+        1.1393710896561122
+      ],
+      "whitened_residual_norm": 2.7978212400327287,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 0,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_state",
+      "draw": 2,
+      "x": [
+        0.5392463207244873,
+        0.17571651935577393
+      ],
+      "prediction": [
+        0.11042119360198974,
+        0.10773685929804934,
+        0.1104211936019898,
+        0.1122460705505659
+      ],
+      "whitened_residual_norm": 15.375302580879733,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_state",
+      "draw": 3,
+      "x": [
+        0.49765098094940186,
+        -1.3719274997711182
+      ],
+      "prediction": [
+        0.8780701137592022,
+        0.9382721884254566,
+        0.878070113759202,
+        0.8466659658123136
+      ],
+      "whitened_residual_norm": 3.4837056234594477,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_state",
+      "draw": 4,
+      "x": [
+        1.4100112915039062,
+        -0.7025511264801025
+      ],
+      "prediction": [
+        0.002076104629510073,
+        0.004849707444514852,
+        0.0020761046295100566,
+        0.0010714952328464895
+      ],
+      "whitened_residual_norm": 17.15836572915004,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_state",
+      "draw": 5,
+      "x": [
+        1.0703439712524414,
+        0.9059937000274658
+      ],
+      "prediction": [
+        0.9520417007972655,
+        0.9486650977314013,
+        0.9520417007972652,
+        0.9540009538332753
+      ],
+      "whitened_residual_norm": 2.4816799530851164,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_memory",
+      "draw": 0,
+      "x": [
+        0.05732882022857666,
+        -1.4171987771987915
+      ],
+      "prediction": [
+        1.2460825623055622,
+        1.3101110432836414,
+        1.2460825623055622,
+        1.2157892542653876
+      ],
+      "whitened_residual_norm": 4.662503084292235,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_memory",
+      "draw": 1,
+      "x": [
+        -1.0867213010787964,
+        -0.8455780148506165
+      ],
+      "prediction": [
+        1.1456645197135995,
+        1.14735345835758,
+        1.1456645197135995,
+        1.1546856196409487
+      ],
+      "whitened_residual_norm": 3.0030414564213994,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 0,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_memory",
+      "draw": 2,
+      "x": [
+        0.9714791774749756,
+        1.3650131225585938
+      ],
+      "prediction": [
+        1.3890050536807055,
+        1.3978671349090124,
+        1.3890050536807048,
+        1.3834194046586574
+      ],
+      "whitened_residual_norm": 6.511268280886436,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_memory",
+      "draw": 3,
+      "x": [
+        0.9328017234802246,
+        1.256734848022461
+      ],
+      "prediction": [
+        1.22755430542699,
+        1.23470351202981,
+        1.22755430542699,
+        1.2232267171828652
+      ],
+      "whitened_residual_norm": 4.086746781115598,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 3,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_memory",
+      "draw": 4,
+      "x": [
+        -0.7155745625495911,
+        -0.9202249050140381
+      ],
+      "prediction": [
+        0.91754002432459,
+        0.9317969147510273,
+        0.91754002432459,
+        0.9160090802435504
+      ],
+      "whitened_residual_norm": 2.8381302197253864,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 0,
+      "sample_generation": "normalized conditional density; no GN projection"
+    },
+    {
+      "model": "mdn_memory",
+      "draw": 5,
+      "x": [
+        0.2686793804168701,
+        -1.430403232574463
+      ],
+      "prediction": [
+        1.1335547278010185,
+        1.2001366150219865,
+        1.1335547278010185,
+        1.1004026912768214
+      ],
+      "whitened_residual_norm": 3.307973160412137,
+      "passive": true,
+      "weight_type": "unweighted iid q sample",
+      "point_probability": 0,
+      "region_partition": "contrast sign quadrants",
+      "event": 2,
+      "sample_generation": "normalized conditional density; no GN projection"
+    }
+  ],
+  "mode_masses": {
+    "mdn": {
+      "q_estimate": [
+        0.1953125,
+        0.0126953125,
+        0.341796875,
+        0.4501953125
+      ],
+      "reference": [
+        0.35325967757173643,
+        2.2150356063940065e-13,
+        0.09126420541922918,
+        0.555476117008813
+      ]
+    },
+    "measurement": {
+      "q_estimate": [
+        0.267578125,
+        0.0,
+        0.376953125,
+        0.35546875
+      ],
+      "reference": [
+        0.35325967757173643,
+        2.2150356063940065e-13,
+        0.09126420541922918,
+        0.555476117008813
+      ]
+    },
+    "mdn_state": {
+      "q_estimate": [
+        0.1630859375,
+        0.0185546875,
+        0.3017578125,
+        0.5166015625
+      ],
+      "reference": [
+        0.35325967757173643,
+        2.2150356063940065e-13,
+        0.09126420541922918,
+        0.555476117008813
+      ]
+    },
+    "mdn_memory": {
+      "q_estimate": [
+        0.2724609375,
+        0.00390625,
+        0.3369140625,
+        0.38671875
+      ],
+      "reference": [
+        0.35325967757173643,
+        2.2150356063940065e-13,
+        0.09126420541922918,
+        0.555476117008813
+      ]
+    }
+  },
+  "probability_quality": "UNCALIBRATED; all primary models miss registered quality tolerance",
+  "reference_quadrature_nodes": 4096,
+  "ESS_by_mode": null,
+  "ESS_scope": "iid q MC, no importance weights or corrected posterior ESS",
+  "original_sample_dtype": "float32-derived material coordinates, retained at their verified values"
+}

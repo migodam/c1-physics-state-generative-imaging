@@ -1,0 +1,19 @@
+{
+  "id": "source-algebra-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "inputs/source_package/C1_Research_Package/c1_algebra_checks.py",
+    "--out",
+    "results/PACKAGE_ALGEBRA_CHECKS.json"
+  ],
+  "wall_seconds": 0.5434711249545217,
+  "cpu_seconds": 0.308973,
+  "gpu_seconds": 0,
+  "maxrss_raw": 74121216,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 44.627492000000004
+}

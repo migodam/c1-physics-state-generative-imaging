@@ -1,0 +1,13 @@
+{"problem": "u0", "kind": "mdn", "seed": 2610131, "trainable_parameters": 30042, "validation_score_x": -0.820650041103363, "cpu_seconds": 0.7422390000000001}
+{"problem": "u0", "kind": "measurement", "seed": 2610131, "trainable_parameters": 29996, "validation_score_x": -0.1427944451570511, "cpu_seconds": 2.2238629999999997}
+{"problem": "u0", "kind": "state", "seed": 2610131, "trainable_parameters": 30032, "validation_score_x": -0.18299521505832672, "cpu_seconds": 2.247083}
+{"problem": "u0", "kind": "memory", "seed": 2610131, "trainable_parameters": 30052, "validation_score_x": -0.26520320773124695, "cpu_seconds": 2.810523}
+{"problem": "u0", "kind": "mdn", "seed": 2610132, "trainable_parameters": 30042, "validation_score_x": -0.8157079219818115, "cpu_seconds": 0.7266310000000011}
+{"problem": "u0", "kind": "measurement", "seed": 2610132, "trainable_parameters": 29996, "validation_score_x": -0.043855879455804825, "cpu_seconds": 2.403511}
+{"problem": "u0", "kind": "state", "seed": 2610132, "trainable_parameters": 30032, "validation_score_x": -0.3654133677482605, "cpu_seconds": 2.4143679999999996}
+{"problem": "u0", "kind": "memory", "seed": 2610132, "trainable_parameters": 30052, "validation_score_x": -0.35717520117759705, "cpu_seconds": 2.825386}
+{"problem": "u0", "kind": "mdn", "seed": 2610133, "trainable_parameters": 30042, "validation_score_x": -0.7815682291984558, "cpu_seconds": 0.7335560000000001}
+{"problem": "u0", "kind": "measurement", "seed": 2610133, "trainable_parameters": 29996, "validation_score_x": -0.11753243207931519, "cpu_seconds": 2.2589229999999993}
+{"problem": "u0", "kind": "state", "seed": 2610133, "trainable_parameters": 30032, "validation_score_x": -0.21859148144721985, "cpu_seconds": 2.2341789999999975}
+{"problem": "u0", "kind": "memory", "seed": 2610133, "trainable_parameters": 30052, "validation_score_x": -0.2494342029094696, "cpu_seconds": 2.5420289999999994}
+{"problem": "u0", "freeze": "PASS", "baseline": {"2610131": "mdn", "2610132": "mdn", "2610133": "mdn"}}

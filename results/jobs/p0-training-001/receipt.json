@@ -1,0 +1,19 @@
+{
+  "id": "p0-training-001",
+  "stage": "p0_train",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.train",
+    "p0"
+  ],
+  "wall_seconds": 31.530803750036284,
+  "cpu_seconds": 30.250051999999997,
+  "gpu_seconds": 0,
+  "maxrss_raw": 344047616,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 360
+}

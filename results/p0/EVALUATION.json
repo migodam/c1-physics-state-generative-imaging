@@ -1,0 +1,473 @@
+{
+  "problem": "p0",
+  "reference_status": "PASS",
+  "models": {
+    "mdn-2610131": {
+      "KL_reference": 1.080617781815608,
+      "event_mass_MAE": 0.05138520087189842,
+      "event_mass_max_error": 0.09302898555175071,
+      "expected_Brier_excess": 0.01845050052307711,
+      "mode_weighted_recall": 0.9831032311742032,
+      "mode_precision": 0.9965328288243385,
+      "truth_log_score": 1.9713006424717605,
+      "coordinate_90_coverage": 0.8203125,
+      "reference_interval_content_error": 0.06652800111654539,
+      "best_of_16_l2": 0.3046173110804202,
+      "boundary_sample_fraction": 7.62939453125e-05,
+      "event_mass_max_error_p95": 0.16254073557713955,
+      "mode_missing_fraction": 0.234375,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "measurement-2610131": {
+      "KL_reference": 1.6593781339592373,
+      "event_mass_MAE": 0.05421783607978976,
+      "event_mass_max_error": 0.10021822842282373,
+      "expected_Brier_excess": 0.023053654876286182,
+      "mode_weighted_recall": 0.9815761591753428,
+      "mode_precision": 0.9887781517743344,
+      "truth_log_score": 2.039609686471522,
+      "coordinate_90_coverage": 0.890625,
+      "reference_interval_content_error": 0.0392851377806177,
+      "best_of_16_l2": 0.3107107673115369,
+      "boundary_sample_fraction": 1.52587890625e-05,
+      "event_mass_max_error_p95": 0.21686121154829488,
+      "mode_missing_fraction": 0.21875,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn_state-2610131": {
+      "KL_reference": 1.0772560360173804,
+      "event_mass_MAE": 0.05526561478630679,
+      "event_mass_max_error": 0.10306243318585823,
+      "expected_Brier_excess": 0.022116266594998914,
+      "mode_weighted_recall": 0.9981938814724671,
+      "mode_precision": 0.9874676333095903,
+      "truth_log_score": 1.8798072850331664,
+      "coordinate_90_coverage": 0.8359375,
+      "reference_interval_content_error": 0.05610093247295571,
+      "best_of_16_l2": 0.2817247852673101,
+      "boundary_sample_fraction": 0.0001220703125,
+      "event_mass_max_error_p95": 0.20910535591082882,
+      "mode_missing_fraction": 0.03125,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn_memory-2610131": {
+      "KL_reference": 1.0034925074851062,
+      "event_mass_MAE": 0.04791870182154945,
+      "event_mass_max_error": 0.09133430325643563,
+      "expected_Brier_excess": 0.018768904318869063,
+      "mode_weighted_recall": 0.9911337906715297,
+      "mode_precision": 0.9970529953405655,
+      "truth_log_score": 1.76133200712502,
+      "coordinate_90_coverage": 0.8515625,
+      "reference_interval_content_error": 0.04051401370392754,
+      "best_of_16_l2": 0.3054644796455497,
+      "boundary_sample_fraction": 4.57763671875e-05,
+      "event_mass_max_error_p95": 0.22948737825103596,
+      "mode_missing_fraction": 0.125,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn-2610132": {
+      "KL_reference": 1.0172350737637108,
+      "event_mass_MAE": 0.05264369312037939,
+      "event_mass_max_error": 0.09535960407308741,
+      "expected_Brier_excess": 0.019876048293233663,
+      "mode_weighted_recall": 0.9864531369987705,
+      "mode_precision": 0.9935208729505813,
+      "truth_log_score": 1.7436780417338014,
+      "coordinate_90_coverage": 0.84375,
+      "reference_interval_content_error": 0.04684747786871814,
+      "best_of_16_l2": 0.2617944522784661,
+      "boundary_sample_fraction": 3.0517578125e-05,
+      "event_mass_max_error_p95": 0.20721007894420632,
+      "mode_missing_fraction": 0.171875,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "measurement-2610132": {
+      "KL_reference": 12.405703464581054,
+      "event_mass_MAE": 0.052311801931874125,
+      "event_mass_max_error": 0.09790547174072256,
+      "expected_Brier_excess": 0.020220932085111568,
+      "mode_weighted_recall": 0.981684753300611,
+      "mode_precision": 0.9965489247843318,
+      "truth_log_score": 5.740015688352287,
+      "coordinate_90_coverage": 0.828125,
+      "reference_interval_content_error": 0.07464212456629099,
+      "best_of_16_l2": 0.2758194537930486,
+      "boundary_sample_fraction": 0.0,
+      "event_mass_max_error_p95": 0.20510294880198973,
+      "mode_missing_fraction": 0.21875,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn_state-2610132": {
+      "KL_reference": 0.9967921855969889,
+      "event_mass_MAE": 0.053212667298255585,
+      "event_mass_max_error": 0.09463984844676661,
+      "expected_Brier_excess": 0.01939108827918989,
+      "mode_weighted_recall": 0.9905311686169309,
+      "mode_precision": 0.9855346265864011,
+      "truth_log_score": 1.6137297311797738,
+      "coordinate_90_coverage": 0.8515625,
+      "reference_interval_content_error": 0.042825488775948925,
+      "best_of_16_l2": 0.2674576926521274,
+      "boundary_sample_fraction": 3.0517578125e-05,
+      "event_mass_max_error_p95": 0.19767957466082872,
+      "mode_missing_fraction": 0.125,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn_memory-2610132": {
+      "KL_reference": 0.8723623243906206,
+      "event_mass_MAE": 0.05099240278282116,
+      "event_mass_max_error": 0.09422092045611859,
+      "expected_Brier_excess": 0.01837667418170749,
+      "mode_weighted_recall": 0.9796722670031655,
+      "mode_precision": 0.9859528017145416,
+      "truth_log_score": 1.6631745612248778,
+      "coordinate_90_coverage": 0.828125,
+      "reference_interval_content_error": 0.05211104532862241,
+      "best_of_16_l2": 0.31791778170763874,
+      "boundary_sample_fraction": 0.0001068115234375,
+      "event_mass_max_error_p95": 0.18119639641795682,
+      "mode_missing_fraction": 0.21875,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn-2610133": {
+      "KL_reference": 0.8924773562248709,
+      "event_mass_MAE": 0.050270384250055755,
+      "event_mass_max_error": 0.09144573480397106,
+      "expected_Brier_excess": 0.019300748682984765,
+      "mode_weighted_recall": 0.9849683439555882,
+      "mode_precision": 0.9913620159511585,
+      "truth_log_score": 1.670047932304442,
+      "coordinate_90_coverage": 0.8359375,
+      "reference_interval_content_error": 0.054592910161505415,
+      "best_of_16_l2": 0.33284602695953835,
+      "boundary_sample_fraction": 4.57763671875e-05,
+      "event_mass_max_error_p95": 0.20037616056037413,
+      "mode_missing_fraction": 0.21875,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "measurement-2610133": {
+      "KL_reference": 12.320666046499273,
+      "event_mass_MAE": 0.057036645668954424,
+      "event_mass_max_error": 0.09688536256221462,
+      "expected_Brier_excess": 0.025409398429981314,
+      "mode_weighted_recall": 0.9898289512412876,
+      "mode_precision": 0.9812047744285723,
+      "truth_log_score": 8.142686107195914,
+      "coordinate_90_coverage": 0.8515625,
+      "reference_interval_content_error": 0.05826404791054592,
+      "best_of_16_l2": 0.30619067322684135,
+      "boundary_sample_fraction": 4.57763671875e-05,
+      "event_mass_max_error_p95": 0.2657088172123183,
+      "mode_missing_fraction": 0.125,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn_state-2610133": {
+      "KL_reference": 0.975025813076309,
+      "event_mass_MAE": 0.04947832519900867,
+      "event_mass_max_error": 0.08816734907862306,
+      "expected_Brier_excess": 0.01707980553060323,
+      "mode_weighted_recall": 0.9830792041885192,
+      "mode_precision": 0.9897618251609789,
+      "truth_log_score": 1.6754977339878678,
+      "coordinate_90_coverage": 0.84375,
+      "reference_interval_content_error": 0.04901727303230448,
+      "best_of_16_l2": 0.3056985232914814,
+      "boundary_sample_fraction": 0.0,
+      "event_mass_max_error_p95": 0.2044572807903539,
+      "mode_missing_fraction": 0.1875,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    },
+    "mdn_memory-2610133": {
+      "KL_reference": 0.9965729538461623,
+      "event_mass_MAE": 0.05207053661427534,
+      "event_mass_max_error": 0.0985796892100291,
+      "expected_Brier_excess": 0.01971873474585577,
+      "mode_weighted_recall": 0.9950387395243637,
+      "mode_precision": 0.9944294233126374,
+      "truth_log_score": 1.661073719151318,
+      "coordinate_90_coverage": 0.859375,
+      "reference_interval_content_error": 0.04410160160168035,
+      "best_of_16_l2": 0.2745264597392507,
+      "boundary_sample_fraction": 1.52587890625e-05,
+      "event_mass_max_error_p95": 0.18725735837478064,
+      "mode_missing_fraction": 0.0625,
+      "observations": 64,
+      "quality_gate": "FAIL"
+    }
+  },
+  "paired_comparisons": {
+    "mdn_state-2610131": {
+      "mean": -0.5821220979418571,
+      "ci95": [
+        -0.7771966603204776,
+        -0.4015467816095653
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.3508073814091591,
+      "event_MAE_difference": 0.0010477787065170316,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "mdn_memory-2610131": {
+      "mean": -0.6558856264741311,
+      "ci95": [
+        -0.8457034714009305,
+        -0.4819362582301688
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.3952598946866941,
+      "event_MAE_difference": -0.006299134258240309,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "memory-vs-state-2610131": {
+      "mean": -0.07376352853227414,
+      "ci95": [
+        -0.1252781025158647,
+        -0.02322485978594496
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-2610132": {
+      "mean": -11.408911278984064,
+      "ci95": [
+        -18.039877893990024,
+        -5.7726409315639415
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9196504907244571,
+      "event_MAE_difference": 0.0009008653663814606,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "mdn_memory-2610132": {
+      "mean": -11.533341140190434,
+      "ci95": [
+        -18.14942206357496,
+        -5.908592412435084
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9296805435595602,
+      "event_MAE_difference": -0.0013193991490529633,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "memory-vs-state-2610132": {
+      "mean": -0.12442986120636843,
+      "ci95": [
+        -0.15454581958991317,
+        -0.09533481050425553
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    },
+    "mdn_state-2610133": {
+      "mean": -11.345640233422964,
+      "ci95": [
+        -17.65360757246582,
+        -6.276916622514966
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9208625727378312,
+      "event_MAE_difference": -0.007558320469945756,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "mdn_memory-2610133": {
+      "mean": -11.324093092653111,
+      "ci95": [
+        -17.634727990716033,
+        -6.261640916321269
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately",
+      "baseline": "measurement",
+      "relative_KL_improvement": 0.9191137110538499,
+      "event_MAE_difference": -0.004966109054679084,
+      "scope": "iso-data and near-iso-parameters; cold physical costs must be included separately"
+    },
+    "memory-vs-state-2610133": {
+      "mean": 0.021547140769853354,
+      "ci95": [
+        -0.043506439141116106,
+        0.08802704214617309
+      ],
+      "parents": 64,
+      "bootstrap_repeats": 2000,
+      "seed": 26101399,
+      "hierarchy": "noise averaged within parent; training seeds reported separately"
+    }
+  },
+  "timing": {
+    "mdn-2610131": {
+      "sample_generation": {
+        "wall": 0.020370000042021275,
+        "cpu": 0.006320000000000103,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.09319187502842396,
+      "total_evaluation_cpu": 0.07111099999999992
+    },
+    "measurement-2610131": {
+      "sample_generation": {
+        "wall": 0.06261704093776643,
+        "cpu": 0.05997499999999989,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.2708615829469636,
+      "total_evaluation_cpu": 0.2657379999999998
+    },
+    "mdn_state-2610131": {
+      "sample_generation": {
+        "wall": 0.0019962090300396085,
+        "cpu": 0.0019919999999999938,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.06442954204976559,
+      "total_evaluation_cpu": 0.06381800000000015
+    },
+    "mdn_memory-2610131": {
+      "sample_generation": {
+        "wall": 0.006175083923153579,
+        "cpu": 0.003462999999999994,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.07283208391163498,
+      "total_evaluation_cpu": 0.06919800000000009
+    },
+    "mdn-2610132": {
+      "sample_generation": {
+        "wall": 0.0021869170013815165,
+        "cpu": 0.0021860000000000213,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.06406633299775422,
+      "total_evaluation_cpu": 0.06382699999999986
+    },
+    "measurement-2610132": {
+      "sample_generation": {
+        "wall": 0.05321345804259181,
+        "cpu": 0.052783000000000024,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.2654919170308858,
+      "total_evaluation_cpu": 0.26278100000000015
+    },
+    "mdn_state-2610132": {
+      "sample_generation": {
+        "wall": 0.0024467080365866423,
+        "cpu": 0.0023490000000001565,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.07094725000206381,
+      "total_evaluation_cpu": 0.06963200000000014
+    },
+    "mdn_memory-2610132": {
+      "sample_generation": {
+        "wall": 0.002336833975277841,
+        "cpu": 0.002330999999999861,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.07025587500538677,
+      "total_evaluation_cpu": 0.06911500000000004
+    },
+    "mdn-2610133": {
+      "sample_generation": {
+        "wall": 0.002215125015936792,
+        "cpu": 0.002215000000000078,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.07074208301492035,
+      "total_evaluation_cpu": 0.06966799999999984
+    },
+    "measurement-2610133": {
+      "sample_generation": {
+        "wall": 0.06032941699959338,
+        "cpu": 0.05923999999999996,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.3019545000279322,
+      "total_evaluation_cpu": 0.2900389999999997
+    },
+    "mdn_state-2610133": {
+      "sample_generation": {
+        "wall": 0.0029650829965248704,
+        "cpu": 0.002877999999999936,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.06475816702004522,
+      "total_evaluation_cpu": 0.06455499999999992
+    },
+    "mdn_memory-2610133": {
+      "sample_generation": {
+        "wall": 0.0021252500591799617,
+        "cpu": 0.0021249999999999325,
+        "draws": 65536,
+        "cached_context": true
+      },
+      "total_evaluation_wall": 0.06343229196500033,
+      "total_evaluation_cpu": 0.0633250000000003
+    }
+  },
+  "prior_id": "connected-exponential-tilt-v1",
+  "probability_target": "learned normalized q approximation to declared continuous prior posterior",
+  "event_partition": "four coordinate-sign regions; analysis only, not topology or generator branches",
+  "sampling_error": "1024 iid q draws; binomial MC uncertainty reported; no exact gallery probability",
+  "topology_input": false,
+  "gpu_seconds": 0,
+  "baseline_selection": {
+    "2610131": "measurement",
+    "2610132": "measurement",
+    "2610133": "measurement"
+  },
+  "metric_definitions": {
+    "mode_precision": "q mass in true-active claimed regions / q mass in claimed regions; mass-weighted, not count precision",
+    "mode_active": "reference event mass>=0.05; events are not automatically local density peaks"
+  },
+  "completion": "GENERATIVE_METRICS_AND_REGISTERED_PHYSICAL_DIAGNOSTICS_COMPLETE"
+}

@@ -1,0 +1,54 @@
+{
+  "problem": "p0",
+  "prior_id": "connected-exponential-tilt-v1",
+  "solver_id": "c1-vector-dipole13-rr-v1",
+  "truth_fields_stored": false,
+  "context_function_accepts_truth": false,
+  "topology_input": false,
+  "baseline_inputs": "full measurement and noise/acquisition metadata",
+  "times": {
+    "train": {
+      "truth_generation": {
+        "wall": 0.06262037495616823,
+        "cpu": 0.042885000000000006
+      },
+      "candidate_context_generation": {
+        "wall": 0.2631954160751775,
+        "cpu": 0.237873,
+        "material_frequency_calls": 1024
+      }
+    },
+    "validation": {
+      "truth_generation": {
+        "wall": 0.014286958961747587,
+        "cpu": 0.009857000000000005
+      },
+      "candidate_context_generation": {
+        "wall": 0.03617874998599291,
+        "cpu": 0.032582,
+        "material_frequency_calls": 128
+      }
+    },
+    "test": {
+      "truth_generation": {
+        "wall": 0.015054999967105687,
+        "cpu": 0.009568999999999939
+      },
+      "candidate_context_generation": {
+        "wall": 0.0572140000294894,
+        "cpu": 0.041879,
+        "material_frequency_calls": 128
+      }
+    },
+    "reference_preparation": {
+      "wall": 1.3921635830774903,
+      "cpu": 0.905686
+    }
+  },
+  "wall_seconds": 1.8524311250075698,
+  "cpu_seconds": 1.290099,
+  "cpu_nested_in_job": true,
+  "sha256_checks": false,
+  "support": "restricted continuous two-coordinate prior, not full voxel posterior",
+  "source_count": 2
+}

@@ -1,0 +1,129 @@
+{
+  "project": "C1",
+  "date": "2026-10-13",
+  "source_package": "C1_Research_Package.zip",
+  "input_archive_bytes": 33498,
+  "original_members": 9,
+  "original_manifest_digests": "historical only; not checked",
+  "new_hashes": false,
+  "source_files": [
+    {
+      "path": "src/c1/__init__.py",
+      "bytes": 83
+    },
+    {
+      "path": "src/c1/accounting.py",
+      "bytes": 3914
+    },
+    {
+      "path": "src/c1/data.py",
+      "bytes": 7839
+    },
+    {
+      "path": "src/c1/density.py",
+      "bytes": 14656
+    },
+    {
+      "path": "src/c1/diagnostics.py",
+      "bytes": 6813
+    },
+    {
+      "path": "src/c1/evaluate.py",
+      "bytes": 14325
+    },
+    {
+      "path": "src/c1/material.py",
+      "bytes": 1686
+    },
+    {
+      "path": "src/c1/probability.py",
+      "bytes": 977
+    },
+    {
+      "path": "src/c1/problems.py",
+      "bytes": 6787
+    },
+    {
+      "path": "src/c1/refine_reference.py",
+      "bytes": 5810
+    },
+    {
+      "path": "src/c1/timing.py",
+      "bytes": 3374
+    },
+    {
+      "path": "src/c1/train.py",
+      "bytes": 5127
+    },
+    {
+      "path": "tools/finalize.py",
+      "bytes": 25784
+    },
+    {
+      "path": "tools/job.py",
+      "bytes": 4402
+    },
+    {
+      "path": "tools/plots.py",
+      "bytes": 23417
+    },
+    {
+      "path": "tools/qa_and_bundle.py",
+      "bytes": 7507
+    },
+    {
+      "path": "tools/run_tests.py",
+      "bytes": 240
+    },
+    {
+      "path": "tools/sample_precision.py",
+      "bytes": 2018
+    },
+    {
+      "path": "tools/seal_delivery.py",
+      "bytes": 4393
+    },
+    {
+      "path": "tests/conftest.py",
+      "bytes": 174
+    },
+    {
+      "path": "tests/test_density.py",
+      "bytes": 12838
+    },
+    {
+      "path": "tests/test_invariants.py",
+      "bytes": 18799
+    },
+    {
+      "path": "tests/test_physical_actions.py",
+      "bytes": 1105
+    },
+    {
+      "path": "tests/test_sample_precision.py",
+      "bytes": 329
+    },
+    {
+      "path": "configs/protocol_v2.json",
+      "bytes": 1816
+    }
+  ],
+  "solver": "c1-vector-dipole13-rr-v1, independently coded known DDA equations; not B1 re-execution",
+  "literature": "original targeted audit retained;3 primary generative/SBC metadata and DDA overview checked",
+  "runtime": {
+    "python": "3.13.13",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "torch": "2.14.0",
+    "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+    "python_executable": "Gaussian/.venv_nn/bin/python, reused read-only",
+    "local_test_dependencies": "vendor/test_runtime",
+    "test_framework": "pytest8.4.2"
+  },
+  "agents": "2 native Codex workers for known coding/tests/plot preparation and source audit; no worker executed physics/training",
+  "default_provider_or_model_changed": false,
+  "b1_changed": false,
+  "locked_upstream_arrays_opened": false,
+  "source_fields": "known candidate only; no unknown true fields at inference",
+  "publication": "LOCAL_UNPUBLISHED"
+}

@@ -1,0 +1,95 @@
+{
+  "problem": "p0",
+  "kind": "mdn",
+  "seed": 2610131,
+  "tag": "primary",
+  "updates_executed": 3000,
+  "checkpoint_step": 250,
+  "trainable_parameters": 30042,
+  "validation_score_x": 1.5818066596984863,
+  "validation_score_z": 3.3062117099761963,
+  "history": [
+    {
+      "step": 250,
+      "train_loss": 2.7006843090057373,
+      "validation_log_score_z": 3.3062117099761963,
+      "elapsed_cpu": 0.13789099999999999
+    },
+    {
+      "step": 500,
+      "train_loss": 2.386119842529297,
+      "validation_log_score_z": 3.4947011470794678,
+      "elapsed_cpu": 0.28672999999999993
+    },
+    {
+      "step": 750,
+      "train_loss": 2.1472456455230713,
+      "validation_log_score_z": 3.4751241207122803,
+      "elapsed_cpu": 0.42052200000000006
+    },
+    {
+      "step": 1000,
+      "train_loss": 2.2952446937561035,
+      "validation_log_score_z": 3.912947177886963,
+      "elapsed_cpu": 0.5442259999999999
+    },
+    {
+      "step": 1250,
+      "train_loss": 1.785022258758545,
+      "validation_log_score_z": 5.406437873840332,
+      "elapsed_cpu": 0.661322
+    },
+    {
+      "step": 1500,
+      "train_loss": 2.0872015953063965,
+      "validation_log_score_z": 6.557854175567627,
+      "elapsed_cpu": 0.7761709999999999
+    },
+    {
+      "step": 1750,
+      "train_loss": 1.6643157005310059,
+      "validation_log_score_z": 8.908409118652344,
+      "elapsed_cpu": 0.898693
+    },
+    {
+      "step": 2000,
+      "train_loss": 1.8095502853393555,
+      "validation_log_score_z": 11.982430458068848,
+      "elapsed_cpu": 1.0264520000000001
+    },
+    {
+      "step": 2250,
+      "train_loss": 1.1636408567428589,
+      "validation_log_score_z": 14.030956268310547,
+      "elapsed_cpu": 1.149802
+    },
+    {
+      "step": 2500,
+      "train_loss": 1.283254861831665,
+      "validation_log_score_z": 20.41250228881836,
+      "elapsed_cpu": 1.2755539999999999
+    },
+    {
+      "step": 2750,
+      "train_loss": 0.7342188358306885,
+      "validation_log_score_z": 24.69446563720703,
+      "elapsed_cpu": 1.414398
+    },
+    {
+      "step": 3000,
+      "train_loss": 0.5779359936714172,
+      "validation_log_score_z": 32.95979690551758,
+      "elapsed_cpu": 1.5434629999999998
+    }
+  ],
+  "wall_seconds": 1.6437040000455454,
+  "cpu_seconds": 1.546384,
+  "device": "cpu",
+  "gpu_seconds": 0,
+  "topology_labels_used": false,
+  "truth_fields_used": false,
+  "test_read": false,
+  "physics_calls_inside_training": 0,
+  "context": "precomputed at candidate, frozen for generation",
+  "timing_scope": "optimization + validation + model save; imports/preparation in outer job"
+}

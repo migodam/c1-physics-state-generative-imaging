@@ -1,0 +1,19 @@
+{
+  "id": "operator-actions-tests-001",
+  "stage": "tests",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "tools/run_tests.py",
+    "tests/test_physical_actions.py",
+    "-q"
+  ],
+  "wall_seconds": 1.364681166014634,
+  "cpu_seconds": 1.0908799999999998,
+  "gpu_seconds": 0,
+  "maxrss_raw": 240173056,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 48.528401
+}

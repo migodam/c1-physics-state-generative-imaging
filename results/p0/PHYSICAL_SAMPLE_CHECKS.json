@@ -1,0 +1,6684 @@
+{
+  "scope": "first seed, fixed first16 observations x8 iid draws per model",
+  "all_sample_checks": "NOT_RUN",
+  "rows": [
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 0,
+      "x": [
+        -1.233039379119873,
+        -0.8621894717216492
+      ],
+      "whitened_residual_norm": 5.6359757742098315,
+      "passive": true,
+      "constitutive_residual": 3.5626857181844886e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 1,
+      "x": [
+        0.8323512077331543,
+        1.097714900970459
+      ],
+      "whitened_residual_norm": 2.4091830842286908,
+      "passive": true,
+      "constitutive_residual": 2.7312038419222563e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 2,
+      "x": [
+        0.6365251541137695,
+        -1.4035069942474365
+      ],
+      "whitened_residual_norm": 3.64715068091902,
+      "passive": true,
+      "constitutive_residual": 3.229157928394437e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 3,
+      "x": [
+        0.5935730934143066,
+        -1.4614838361740112
+      ],
+      "whitened_residual_norm": 2.6993361976109327,
+      "passive": true,
+      "constitutive_residual": 2.647081075417516e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 4,
+      "x": [
+        1.1696550846099854,
+        1.0481183528900146
+      ],
+      "whitened_residual_norm": 3.5753679183606413,
+      "passive": true,
+      "constitutive_residual": 3.01283699249331e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 5,
+      "x": [
+        1.0529685020446777,
+        1.019057273864746
+      ],
+      "whitened_residual_norm": 2.2913749145278857,
+      "passive": true,
+      "constitutive_residual": 2.696233742589341e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 6,
+      "x": [
+        0.3760263919830322,
+        -1.475104808807373
+      ],
+      "whitened_residual_norm": 3.6908409678124885,
+      "passive": true,
+      "constitutive_residual": 2.68144688166477e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 0,
+      "draw": 7,
+      "x": [
+        1.4104480743408203,
+        1.001063346862793
+      ],
+      "whitened_residual_norm": 5.675311351609299,
+      "passive": true,
+      "constitutive_residual": 2.5015981641687237e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 0,
+      "x": [
+        -0.02497875690460205,
+        -0.7744283080101013
+      ],
+      "whitened_residual_norm": 1.7176186501143886,
+      "passive": true,
+      "constitutive_residual": 2.0525297691508196e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 1,
+      "x": [
+        1.4547030925750732,
+        0.03345441818237305
+      ],
+      "whitened_residual_norm": 1.8311121719185997,
+      "passive": true,
+      "constitutive_residual": 3.3347205771593953e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 2,
+      "x": [
+        0.7567803859710693,
+        0.11371350288391113
+      ],
+      "whitened_residual_norm": 2.6444677299815766,
+      "passive": true,
+      "constitutive_residual": 2.54554588860728e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 3,
+      "x": [
+        -0.014027833938598633,
+        -0.4471825361251831
+      ],
+      "whitened_residual_norm": 2.895621116446206,
+      "passive": true,
+      "constitutive_residual": 2.477545591430898e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 4,
+      "x": [
+        -0.24734878540039062,
+        -0.9050324559211731
+      ],
+      "whitened_residual_norm": 2.1461225818848,
+      "passive": true,
+      "constitutive_residual": 3.3313809111274966e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 5,
+      "x": [
+        -0.4777796268463135,
+        1.0213427543640137
+      ],
+      "whitened_residual_norm": 2.801387071390192,
+      "passive": true,
+      "constitutive_residual": 2.5092827828883017e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 6,
+      "x": [
+        -0.49909746646881104,
+        0.08058822154998779
+      ],
+      "whitened_residual_norm": 3.3579136169129815,
+      "passive": true,
+      "constitutive_residual": 4.3957861406785073e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 1,
+      "draw": 7,
+      "x": [
+        -0.27796173095703125,
+        1.4765937328338623
+      ],
+      "whitened_residual_norm": 1.5882014646225298,
+      "passive": true,
+      "constitutive_residual": 2.0602652679706355e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 0,
+      "x": [
+        -0.03650474548339844,
+        -0.21333670616149902
+      ],
+      "whitened_residual_norm": 9.186357048006967,
+      "passive": true,
+      "constitutive_residual": 2.2425253858254434e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 1,
+      "x": [
+        0.9710693359375,
+        0.8982164859771729
+      ],
+      "whitened_residual_norm": 5.10264138680758,
+      "passive": true,
+      "constitutive_residual": 2.9891848468911806e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 2,
+      "x": [
+        1.4071073532104492,
+        1.4912405014038086
+      ],
+      "whitened_residual_norm": 23.96067693917207,
+      "passive": true,
+      "constitutive_residual": 2.519273480920332e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 3,
+      "x": [
+        0.5111880302429199,
+        1.0439903736114502
+      ],
+      "whitened_residual_norm": 2.0982548976580526,
+      "passive": true,
+      "constitutive_residual": 2.578173972874456e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 4,
+      "x": [
+        -0.5179343223571777,
+        -0.7620841264724731
+      ],
+      "whitened_residual_norm": 1.222471349615408,
+      "passive": true,
+      "constitutive_residual": 2.358991397775161e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 5,
+      "x": [
+        0.7576985359191895,
+        0.443355917930603
+      ],
+      "whitened_residual_norm": 4.006292461324849,
+      "passive": true,
+      "constitutive_residual": 2.3649524331807643e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 6,
+      "x": [
+        1.1516194343566895,
+        -1.346603274345398
+      ],
+      "whitened_residual_norm": 1.63028068768995,
+      "passive": true,
+      "constitutive_residual": 2.76317314604931e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 2,
+      "draw": 7,
+      "x": [
+        0.6199398040771484,
+        1.1159193515777588
+      ],
+      "whitened_residual_norm": 4.295263195574695,
+      "passive": true,
+      "constitutive_residual": 2.6057449777317325e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 0,
+      "x": [
+        0.262462854385376,
+        -1.3583189249038696
+      ],
+      "whitened_residual_norm": 1.7214925897423818,
+      "passive": true,
+      "constitutive_residual": 3.0660303454592884e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 1,
+      "x": [
+        1.0425913333892822,
+        0.9468836784362793
+      ],
+      "whitened_residual_norm": 1.9559667610727358,
+      "passive": true,
+      "constitutive_residual": 1.9525689046813736e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 2,
+      "x": [
+        0.46477603912353516,
+        -1.425757884979248
+      ],
+      "whitened_residual_norm": 1.5245736588185677,
+      "passive": true,
+      "constitutive_residual": 2.565646226127302e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 3,
+      "x": [
+        0.41405189037323,
+        -1.3884743452072144
+      ],
+      "whitened_residual_norm": 2.116217610310997,
+      "passive": true,
+      "constitutive_residual": 2.8943501330326668e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 4,
+      "x": [
+        1.182715892791748,
+        0.8340682983398438
+      ],
+      "whitened_residual_norm": 2.239675996013994,
+      "passive": true,
+      "constitutive_residual": 2.92199016454368e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 5,
+      "x": [
+        -1.0711033344268799,
+        -0.8977245092391968
+      ],
+      "whitened_residual_norm": 2.6652739092086235,
+      "passive": true,
+      "constitutive_residual": 2.602915460872228e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 6,
+      "x": [
+        1.2987289428710938,
+        1.2469263076782227
+      ],
+      "whitened_residual_norm": 8.21939698182781,
+      "passive": true,
+      "constitutive_residual": 3.2360005037133646e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 3,
+      "draw": 7,
+      "x": [
+        0.42169511318206787,
+        -1.4783095121383667
+      ],
+      "whitened_residual_norm": 1.809738589427272,
+      "passive": true,
+      "constitutive_residual": 3.298280304722475e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 0,
+      "x": [
+        1.2550973892211914,
+        0.20223498344421387
+      ],
+      "whitened_residual_norm": 3.5998174479993077,
+      "passive": true,
+      "constitutive_residual": 2.3265144355886155e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 1,
+      "x": [
+        -0.783622682094574,
+        -0.9544504880905151
+      ],
+      "whitened_residual_norm": 3.204659695998829,
+      "passive": true,
+      "constitutive_residual": 2.961445519414586e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 2,
+      "x": [
+        0.6987190246582031,
+        0.809424877166748
+      ],
+      "whitened_residual_norm": 2.3705288420178947,
+      "passive": true,
+      "constitutive_residual": 2.285896600443119e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 3,
+      "x": [
+        -0.8058016300201416,
+        -1.0549969673156738
+      ],
+      "whitened_residual_norm": 4.471661550811931,
+      "passive": true,
+      "constitutive_residual": 2.711308662871217e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 4,
+      "x": [
+        -0.5444763898849487,
+        -0.8655650019645691
+      ],
+      "whitened_residual_norm": 2.1131794585849373,
+      "passive": true,
+      "constitutive_residual": 2.730621336877927e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 5,
+      "x": [
+        -0.9200234413146973,
+        -0.8216708898544312
+      ],
+      "whitened_residual_norm": 2.764233742862858,
+      "passive": true,
+      "constitutive_residual": 2.85982808177259e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 6,
+      "x": [
+        0.7906792163848877,
+        0.9373135566711426
+      ],
+      "whitened_residual_norm": 2.1531839364834666,
+      "passive": true,
+      "constitutive_residual": 2.0611563837742857e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 4,
+      "draw": 7,
+      "x": [
+        -0.5946395397186279,
+        -0.8519728183746338
+      ],
+      "whitened_residual_norm": 2.1116927096942777,
+      "passive": true,
+      "constitutive_residual": 2.450172385808043e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 0,
+      "x": [
+        0.24292778968811035,
+        -0.6703746318817139
+      ],
+      "whitened_residual_norm": 2.5149555841648783,
+      "passive": true,
+      "constitutive_residual": 2.6355658433002133e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 1,
+      "x": [
+        1.0286448001861572,
+        -0.5681681632995605
+      ],
+      "whitened_residual_norm": 3.0966541103903737,
+      "passive": true,
+      "constitutive_residual": 3.008141852810447e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 2,
+      "x": [
+        1.3868484497070312,
+        -0.07432198524475098
+      ],
+      "whitened_residual_norm": 2.3889428994433977,
+      "passive": true,
+      "constitutive_residual": 4.0194844176084324e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 3,
+      "x": [
+        -0.6286976337432861,
+        0.9910955429077148
+      ],
+      "whitened_residual_norm": 2.8471927958873042,
+      "passive": true,
+      "constitutive_residual": 2.7906550055049257e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 4,
+      "x": [
+        -0.44059526920318604,
+        -0.5218026638031006
+      ],
+      "whitened_residual_norm": 2.4023411525702456,
+      "passive": true,
+      "constitutive_residual": 3.129166466410226e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 5,
+      "x": [
+        -0.4427053928375244,
+        0.01767706871032715
+      ],
+      "whitened_residual_norm": 2.9326411030476263,
+      "passive": true,
+      "constitutive_residual": 2.654623010781444e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 6,
+      "x": [
+        -0.24416136741638184,
+        -0.9859972596168518
+      ],
+      "whitened_residual_norm": 4.187106701983819,
+      "passive": true,
+      "constitutive_residual": 3.5121504520717136e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 5,
+      "draw": 7,
+      "x": [
+        0.27410268783569336,
+        -0.5780845284461975
+      ],
+      "whitened_residual_norm": 2.6974864823059814,
+      "passive": true,
+      "constitutive_residual": 2.6425187510501485e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 0,
+      "x": [
+        0.5064504146575928,
+        1.0544641017913818
+      ],
+      "whitened_residual_norm": 2.2814012989168484,
+      "passive": true,
+      "constitutive_residual": 2.3771270507991627e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 1,
+      "x": [
+        0.49035608768463135,
+        0.41040754318237305
+      ],
+      "whitened_residual_norm": 5.881279761189811,
+      "passive": true,
+      "constitutive_residual": 2.585141553181818e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 2,
+      "x": [
+        0.38808751106262207,
+        0.9621059894561768
+      ],
+      "whitened_residual_norm": 1.2088068509324308,
+      "passive": true,
+      "constitutive_residual": 2.724212035375789e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 3,
+      "x": [
+        0.05340719223022461,
+        0.59027099609375
+      ],
+      "whitened_residual_norm": 7.030378975113887,
+      "passive": true,
+      "constitutive_residual": 2.5973183683282237e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 4,
+      "x": [
+        0.6498491764068604,
+        0.6610488891601562
+      ],
+      "whitened_residual_norm": 2.0686845333952677,
+      "passive": true,
+      "constitutive_residual": 2.400215376712941e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 5,
+      "x": [
+        -1.318140983581543,
+        -0.6928054690361023
+      ],
+      "whitened_residual_norm": 10.237921551058388,
+      "passive": true,
+      "constitutive_residual": 2.2792901040116853e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 6,
+      "x": [
+        0.8351163864135742,
+        0.8914394378662109
+      ],
+      "whitened_residual_norm": 3.594513135083588,
+      "passive": true,
+      "constitutive_residual": 2.3484428884653774e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 6,
+      "draw": 7,
+      "x": [
+        1.062781810760498,
+        0.7126219272613525
+      ],
+      "whitened_residual_norm": 3.2190293895585596,
+      "passive": true,
+      "constitutive_residual": 3.018033924038798e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 0,
+      "x": [
+        1.00101900100708,
+        -1.388932228088379
+      ],
+      "whitened_residual_norm": 3.395007870775855,
+      "passive": true,
+      "constitutive_residual": 2.711793519054737e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 1,
+      "x": [
+        -0.27468132972717285,
+        -0.08371102809906006
+      ],
+      "whitened_residual_norm": 3.0410017048761273,
+      "passive": true,
+      "constitutive_residual": 5.369823426343227e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 2,
+      "x": [
+        1.404116153717041,
+        -0.4605741500854492
+      ],
+      "whitened_residual_norm": 3.0458583306541573,
+      "passive": true,
+      "constitutive_residual": 3.2780651881344816e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 3,
+      "x": [
+        -0.39492666721343994,
+        -0.6388591527938843
+      ],
+      "whitened_residual_norm": 1.8486712542043497,
+      "passive": true,
+      "constitutive_residual": 3.1132415523851213e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 4,
+      "x": [
+        0.24014246463775635,
+        0.02150559425354004
+      ],
+      "whitened_residual_norm": 3.1528251232535736,
+      "passive": true,
+      "constitutive_residual": 2.1311447103892743e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 5,
+      "x": [
+        0.4513554573059082,
+        1.2800326347351074
+      ],
+      "whitened_residual_norm": 4.386477132989743,
+      "passive": true,
+      "constitutive_residual": 2.792827580117288e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 6,
+      "x": [
+        0.1618187427520752,
+        -0.48309969902038574
+      ],
+      "whitened_residual_norm": 2.785213423238046,
+      "passive": true,
+      "constitutive_residual": 3.6894472080993485e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 7,
+      "draw": 7,
+      "x": [
+        0.4257018566131592,
+        -0.8930823802947998
+      ],
+      "whitened_residual_norm": 1.9906033374345051,
+      "passive": true,
+      "constitutive_residual": 3.206712409459734e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 0,
+      "x": [
+        0.011511683464050293,
+        -1.4357869625091553
+      ],
+      "whitened_residual_norm": 2.6945595622472944,
+      "passive": true,
+      "constitutive_residual": 1.8088328612753602e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 1,
+      "x": [
+        -0.9467892646789551,
+        -0.6626603603363037
+      ],
+      "whitened_residual_norm": 9.86520304407258,
+      "passive": true,
+      "constitutive_residual": 2.864383379156445e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 2,
+      "x": [
+        -0.6103379726409912,
+        -1.1079391241073608
+      ],
+      "whitened_residual_norm": 4.0277601030542565,
+      "passive": true,
+      "constitutive_residual": 2.222891914923239e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 3,
+      "x": [
+        -0.8768264055252075,
+        -1.349090814590454
+      ],
+      "whitened_residual_norm": 10.161785701193466,
+      "passive": true,
+      "constitutive_residual": 2.404911228582865e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 4,
+      "x": [
+        -0.2758350372314453,
+        -1.4762952327728271
+      ],
+      "whitened_residual_norm": 5.996200333632084,
+      "passive": true,
+      "constitutive_residual": 2.5257748379222276e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 5,
+      "x": [
+        -0.9421705007553101,
+        -1.287556529045105
+      ],
+      "whitened_residual_norm": 8.926433355834213,
+      "passive": true,
+      "constitutive_residual": 2.3985866559801007e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 6,
+      "x": [
+        0.03597986698150635,
+        -1.4733822345733643
+      ],
+      "whitened_residual_norm": 2.9305354543932416,
+      "passive": true,
+      "constitutive_residual": 2.7017594375521045e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 8,
+      "draw": 7,
+      "x": [
+        -0.049896836280822754,
+        -1.3981033563613892
+      ],
+      "whitened_residual_norm": 2.7785501016066387,
+      "passive": true,
+      "constitutive_residual": 1.767164446695703e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 0,
+      "x": [
+        0.24489665031433105,
+        -0.00013625621795654297
+      ],
+      "whitened_residual_norm": 2.3700841641868173,
+      "passive": true,
+      "constitutive_residual": 2.424056809115533e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 1,
+      "x": [
+        0.33258986473083496,
+        -0.7730657458305359
+      ],
+      "whitened_residual_norm": 1.2929879870872325,
+      "passive": true,
+      "constitutive_residual": 2.7351941291729727e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 2,
+      "x": [
+        0.15011239051818848,
+        -0.7583370208740234
+      ],
+      "whitened_residual_norm": 1.172994917659088,
+      "passive": true,
+      "constitutive_residual": 1.7904625098039286e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 3,
+      "x": [
+        0.03843808174133301,
+        -1.0465997457504272
+      ],
+      "whitened_residual_norm": 2.9051802649135556,
+      "passive": true,
+      "constitutive_residual": 2.272384376521911e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 4,
+      "x": [
+        0.17438888549804688,
+        -0.08596456050872803
+      ],
+      "whitened_residual_norm": 2.4378708930295483,
+      "passive": true,
+      "constitutive_residual": 2.299121329497728e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 5,
+      "x": [
+        0.8324291706085205,
+        -0.4391218423843384
+      ],
+      "whitened_residual_norm": 2.438558790553637,
+      "passive": true,
+      "constitutive_residual": 3.523415269798116e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 6,
+      "x": [
+        1.1100952625274658,
+        -0.3249858617782593
+      ],
+      "whitened_residual_norm": 2.2299039561419893,
+      "passive": true,
+      "constitutive_residual": 3.2698745050662524e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 9,
+      "draw": 7,
+      "x": [
+        0.7720365524291992,
+        0.2244243621826172
+      ],
+      "whitened_residual_norm": 1.3156322754579,
+      "passive": true,
+      "constitutive_residual": 2.9745197593422023e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 0,
+      "x": [
+        -0.7092005014419556,
+        0.4764808416366577
+      ],
+      "whitened_residual_norm": 1.2788644291205702,
+      "passive": true,
+      "constitutive_residual": 2.519196302436254e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 1,
+      "x": [
+        0.8016476631164551,
+        0.22958815097808838
+      ],
+      "whitened_residual_norm": 2.6557020898186123,
+      "passive": true,
+      "constitutive_residual": 2.8133802910076775e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 2,
+      "x": [
+        0.5751059055328369,
+        -0.25699377059936523
+      ],
+      "whitened_residual_norm": 1.3020517131993856,
+      "passive": true,
+      "constitutive_residual": 3.547096832241679e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 3,
+      "x": [
+        1.3342549800872803,
+        -0.6173499226570129
+      ],
+      "whitened_residual_norm": 1.3324389807678507,
+      "passive": true,
+      "constitutive_residual": 3.1962404041182367e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 4,
+      "x": [
+        1.3306427001953125,
+        -0.6811786890029907
+      ],
+      "whitened_residual_norm": 1.3186521685293235,
+      "passive": true,
+      "constitutive_residual": 2.9348780020216115e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 5,
+      "x": [
+        1.4302558898925781,
+        -0.2254927158355713
+      ],
+      "whitened_residual_norm": 1.2728958906016277,
+      "passive": true,
+      "constitutive_residual": 3.276680482672381e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 6,
+      "x": [
+        0.8439021110534668,
+        -0.3960074186325073
+      ],
+      "whitened_residual_norm": 1.3137026717918074,
+      "passive": true,
+      "constitutive_residual": 2.8005154095537983e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 10,
+      "draw": 7,
+      "x": [
+        0.5501766204833984,
+        -0.5212095379829407
+      ],
+      "whitened_residual_norm": 1.0558673726583685,
+      "passive": true,
+      "constitutive_residual": 3.4458319143965216e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 0,
+      "x": [
+        0.9796342849731445,
+        1.1194744110107422
+      ],
+      "whitened_residual_norm": 2.457227769832479,
+      "passive": true,
+      "constitutive_residual": 3.131213981210513e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 1,
+      "x": [
+        -0.8493327498435974,
+        -0.9080964922904968
+      ],
+      "whitened_residual_norm": 1.809003460103927,
+      "passive": true,
+      "constitutive_residual": 2.766343218545036e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 2,
+      "x": [
+        -0.9953842163085938,
+        -0.9646620750427246
+      ],
+      "whitened_residual_norm": 3.4268530589009485,
+      "passive": true,
+      "constitutive_residual": 3.3602828237890484e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 3,
+      "x": [
+        0.7601170539855957,
+        -1.3105279207229614
+      ],
+      "whitened_residual_norm": 2.02006639411054,
+      "passive": true,
+      "constitutive_residual": 2.958500660192947e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 4,
+      "x": [
+        0.7032792568206787,
+        1.1006031036376953
+      ],
+      "whitened_residual_norm": 1.248406796945463,
+      "passive": true,
+      "constitutive_residual": 2.733334534658157e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 5,
+      "x": [
+        0.8905856609344482,
+        -1.4997572898864746
+      ],
+      "whitened_residual_norm": 1.354129084828099,
+      "passive": true,
+      "constitutive_residual": 3.9598112722260177e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 6,
+      "x": [
+        0.7251284122467041,
+        -1.3141008615493774
+      ],
+      "whitened_residual_norm": 1.8803227093134978,
+      "passive": true,
+      "constitutive_residual": 2.7733399928290604e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 11,
+      "draw": 7,
+      "x": [
+        0.7682702541351318,
+        1.0719163417816162
+      ],
+      "whitened_residual_norm": 1.2865667734247819,
+      "passive": true,
+      "constitutive_residual": 2.216604488428269e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 0,
+      "x": [
+        0.7660558223724365,
+        1.276024341583252
+      ],
+      "whitened_residual_norm": 2.87231332149131,
+      "passive": true,
+      "constitutive_residual": 3.2894805879297518e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 1,
+      "x": [
+        0.9529497623443604,
+        1.3368139266967773
+      ],
+      "whitened_residual_norm": 4.511463515803141,
+      "passive": true,
+      "constitutive_residual": 3.1244635735866043e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 2,
+      "x": [
+        1.0245072841644287,
+        1.2963650226593018
+      ],
+      "whitened_residual_norm": 4.661090167904855,
+      "passive": true,
+      "constitutive_residual": 3.397318515888366e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 3,
+      "x": [
+        0.296550989151001,
+        -0.9653229117393494
+      ],
+      "whitened_residual_norm": 4.024545621827542,
+      "passive": true,
+      "constitutive_residual": 2.7747579461859245e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 4,
+      "x": [
+        -0.9447722434997559,
+        -0.7832762002944946
+      ],
+      "whitened_residual_norm": 1.9709844216189474,
+      "passive": true,
+      "constitutive_residual": 2.5284499687090933e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 5,
+      "x": [
+        0.5694983005523682,
+        1.1599466800689697
+      ],
+      "whitened_residual_norm": 1.855967178964293,
+      "passive": true,
+      "constitutive_residual": 3.1602899104551134e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 6,
+      "x": [
+        0.8332061767578125,
+        -1.3364951610565186
+      ],
+      "whitened_residual_norm": 2.354290639560722,
+      "passive": true,
+      "constitutive_residual": 2.78473617244545e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 12,
+      "draw": 7,
+      "x": [
+        0.8985204696655273,
+        0.8282942771911621
+      ],
+      "whitened_residual_norm": 1.936994139191566,
+      "passive": true,
+      "constitutive_residual": 3.659560257994928e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 0,
+      "x": [
+        0.7440915107727051,
+        0.14658808708190918
+      ],
+      "whitened_residual_norm": 2.00369591586465,
+      "passive": true,
+      "constitutive_residual": 3.1429284478941876e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 1,
+      "x": [
+        0.5830307006835938,
+        -0.1110379695892334
+      ],
+      "whitened_residual_norm": 1.9727783780688402,
+      "passive": true,
+      "constitutive_residual": 4.2206656218783403e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 2,
+      "x": [
+        0.19867825508117676,
+        -0.3012334108352661
+      ],
+      "whitened_residual_norm": 1.999766064494093,
+      "passive": true,
+      "constitutive_residual": 3.2222026947331735e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 3,
+      "x": [
+        0.4492567777633667,
+        -0.14235973358154297
+      ],
+      "whitened_residual_norm": 2.0109085298505995,
+      "passive": true,
+      "constitutive_residual": 3.061432086353082e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 4,
+      "x": [
+        0.13184237480163574,
+        -0.25137412548065186
+      ],
+      "whitened_residual_norm": 2.003117540709572,
+      "passive": true,
+      "constitutive_residual": 3.6419671881437276e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 5,
+      "x": [
+        0.14145946502685547,
+        0.09792459011077881
+      ],
+      "whitened_residual_norm": 1.9964632256005672,
+      "passive": true,
+      "constitutive_residual": 3.312151538756146e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 6,
+      "x": [
+        0.07526373863220215,
+        -0.35656142234802246
+      ],
+      "whitened_residual_norm": 1.9554201947299046,
+      "passive": true,
+      "constitutive_residual": 2.717486827895308e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 13,
+      "draw": 7,
+      "x": [
+        -0.6170262694358826,
+        0.6511797904968262
+      ],
+      "whitened_residual_norm": 2.0227426430012856,
+      "passive": true,
+      "constitutive_residual": 3.2616631439794166e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 0,
+      "x": [
+        0.44708311557769775,
+        -0.13936924934387207
+      ],
+      "whitened_residual_norm": 2.521448617208962,
+      "passive": true,
+      "constitutive_residual": 2.762802870292863e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 1,
+      "x": [
+        0.4378523826599121,
+        0.09044694900512695
+      ],
+      "whitened_residual_norm": 2.612532723203274,
+      "passive": true,
+      "constitutive_residual": 1.9356273628643993e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 2,
+      "x": [
+        -0.29452812671661377,
+        0.15087580680847168
+      ],
+      "whitened_residual_norm": 2.5167109057881563,
+      "passive": true,
+      "constitutive_residual": 4.0521743532521405e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 3,
+      "x": [
+        0.25696277618408203,
+        -0.02434408664703369
+      ],
+      "whitened_residual_norm": 2.5245470568009067,
+      "passive": true,
+      "constitutive_residual": 2.617953796297048e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 4,
+      "x": [
+        0.47134876251220703,
+        -0.15780150890350342
+      ],
+      "whitened_residual_norm": 2.520507959186852,
+      "passive": true,
+      "constitutive_residual": 3.4866302451687e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 5,
+      "x": [
+        -1.0136240720748901,
+        0.9273111820220947
+      ],
+      "whitened_residual_norm": 2.5136341190794527,
+      "passive": true,
+      "constitutive_residual": 2.9006383443420763e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 6,
+      "x": [
+        0.5618572235107422,
+        -0.2216026782989502
+      ],
+      "whitened_residual_norm": 2.5179000574215116,
+      "passive": true,
+      "constitutive_residual": 2.553373679603362e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 14,
+      "draw": 7,
+      "x": [
+        0.17602205276489258,
+        -0.07471334934234619
+      ],
+      "whitened_residual_norm": 2.5167262936105317,
+      "passive": true,
+      "constitutive_residual": 3.123646636834103e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 0,
+      "x": [
+        1.2409119606018066,
+        0.9602129459381104
+      ],
+      "whitened_residual_norm": 1.2206927779187022,
+      "passive": true,
+      "constitutive_residual": 3.7117734560216133e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 1,
+      "x": [
+        -0.7041204571723938,
+        -0.49131977558135986
+      ],
+      "whitened_residual_norm": 5.4199629286682995,
+      "passive": true,
+      "constitutive_residual": 1.8272511744849422e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 2,
+      "x": [
+        1.0977234840393066,
+        1.1232528686523438
+      ],
+      "whitened_residual_norm": 1.608164348276123,
+      "passive": true,
+      "constitutive_residual": 2.550493838870406e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 3,
+      "x": [
+        1.0427558422088623,
+        0.8880057334899902
+      ],
+      "whitened_residual_norm": 1.6685236247353894,
+      "passive": true,
+      "constitutive_residual": 3.0507104150556836e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 4,
+      "x": [
+        -1.0869251489639282,
+        -0.9494855403900146
+      ],
+      "whitened_residual_norm": 2.281874481412291,
+      "passive": true,
+      "constitutive_residual": 2.8413452544163734e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 5,
+      "x": [
+        0.7743968963623047,
+        0.8750462532043457
+      ],
+      "whitened_residual_norm": 3.1069933358288093,
+      "passive": true,
+      "constitutive_residual": 2.2475643275536836e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 6,
+      "x": [
+        -0.9808412194252014,
+        -1.0692203044891357
+      ],
+      "whitened_residual_norm": 3.055933651618794,
+      "passive": true,
+      "constitutive_residual": 2.5268139754462176e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn",
+      "observation": 15,
+      "draw": 7,
+      "x": [
+        0.7695188522338867,
+        1.1803834438323975
+      ],
+      "whitened_residual_norm": 1.22856263152832,
+      "passive": true,
+      "constitutive_residual": 2.8756485782808005e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 0,
+      "x": [
+        0.3688216209411621,
+        -1.39030921459198
+      ],
+      "whitened_residual_norm": 2.667194268943045,
+      "passive": true,
+      "constitutive_residual": 1.8288361347067822e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 1,
+      "x": [
+        0.807471752166748,
+        -1.3142743110656738
+      ],
+      "whitened_residual_norm": 7.039025349022987,
+      "passive": true,
+      "constitutive_residual": 3.035088084424007e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 2,
+      "x": [
+        0.948570728302002,
+        1.238032341003418
+      ],
+      "whitened_residual_norm": 3.9887428108909417,
+      "passive": true,
+      "constitutive_residual": 2.8141994121943145e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 3,
+      "x": [
+        0.8455584049224854,
+        -1.4513486623764038
+      ],
+      "whitened_residual_norm": 3.80651519492068,
+      "passive": true,
+      "constitutive_residual": 2.9754612626462576e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 4,
+      "x": [
+        1.2037923336029053,
+        -1.0409300327301025
+      ],
+      "whitened_residual_norm": 14.41726375153074,
+      "passive": true,
+      "constitutive_residual": 3.0540134765806e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 5,
+      "x": [
+        0.5688066482543945,
+        -1.4447355270385742
+      ],
+      "whitened_residual_norm": 2.726182078977049,
+      "passive": true,
+      "constitutive_residual": 2.2025409656502941e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 6,
+      "x": [
+        -0.17467665672302246,
+        -1.286981225013733
+      ],
+      "whitened_residual_norm": 3.204277073933012,
+      "passive": true,
+      "constitutive_residual": 2.4079770421951636e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 0,
+      "draw": 7,
+      "x": [
+        1.4609763622283936,
+        0.9229178428649902
+      ],
+      "whitened_residual_norm": 4.762214949735643,
+      "passive": true,
+      "constitutive_residual": 2.0760587703187994e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 0,
+      "x": [
+        1.0151104927062988,
+        -0.9473985433578491
+      ],
+      "whitened_residual_norm": 2.583689694432706,
+      "passive": true,
+      "constitutive_residual": 2.377324757637851e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 1,
+      "x": [
+        0.2798440456390381,
+        1.348184585571289
+      ],
+      "whitened_residual_norm": 3.247592351810749,
+      "passive": true,
+      "constitutive_residual": 2.275303908413919e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 2,
+      "x": [
+        0.9335908889770508,
+        0.04688119888305664
+      ],
+      "whitened_residual_norm": 2.5622120522571383,
+      "passive": true,
+      "constitutive_residual": 2.7386433143469185e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 3,
+      "x": [
+        0.10100555419921875,
+        -0.8079034090042114
+      ],
+      "whitened_residual_norm": 1.7774925921774263,
+      "passive": true,
+      "constitutive_residual": 2.6009626808793247e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 4,
+      "x": [
+        -0.6036770343780518,
+        -0.6540772914886475
+      ],
+      "whitened_residual_norm": 1.8457820535802798,
+      "passive": true,
+      "constitutive_residual": 2.6615395968169085e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 5,
+      "x": [
+        0.13769924640655518,
+        0.4025847911834717
+      ],
+      "whitened_residual_norm": 2.9250534136488793,
+      "passive": true,
+      "constitutive_residual": 3.238352642019008e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 6,
+      "x": [
+        -1.4685068130493164,
+        0.2299865484237671
+      ],
+      "whitened_residual_norm": 1.739216724878263,
+      "passive": true,
+      "constitutive_residual": 3.0103399213226554e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 1,
+      "draw": 7,
+      "x": [
+        -0.3632965087890625,
+        1.4082376956939697
+      ],
+      "whitened_residual_norm": 1.6958458651952348,
+      "passive": true,
+      "constitutive_residual": 2.613054749455891e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 0,
+      "x": [
+        -0.1181342601776123,
+        -1.1332159042358398
+      ],
+      "whitened_residual_norm": 4.424461238350292,
+      "passive": true,
+      "constitutive_residual": 2.9120774738133827e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 1,
+      "x": [
+        0.7329323291778564,
+        1.0409789085388184
+      ],
+      "whitened_residual_norm": 4.547102843433536,
+      "passive": true,
+      "constitutive_residual": 2.4813707559089095e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 2,
+      "x": [
+        -0.1953589916229248,
+        1.46134614944458
+      ],
+      "whitened_residual_norm": 2.2560088857801697,
+      "passive": true,
+      "constitutive_residual": 3.538445854371568e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 3,
+      "x": [
+        0.3016979694366455,
+        1.1490721702575684
+      ],
+      "whitened_residual_norm": 1.4071770302464084,
+      "passive": true,
+      "constitutive_residual": 2.0097980278762426e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 4,
+      "x": [
+        1.0268001556396484,
+        0.6707932949066162
+      ],
+      "whitened_residual_norm": 2.11001841920541,
+      "passive": true,
+      "constitutive_residual": 2.596558868785515e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 5,
+      "x": [
+        0.45928895473480225,
+        -1.315254807472229
+      ],
+      "whitened_residual_norm": 4.106628022229895,
+      "passive": true,
+      "constitutive_residual": 2.762232094555094e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 6,
+      "x": [
+        1.4446568489074707,
+        -0.25292539596557617
+      ],
+      "whitened_residual_norm": 7.665423612401825,
+      "passive": true,
+      "constitutive_residual": 3.272712469000868e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 2,
+      "draw": 7,
+      "x": [
+        0.080413818359375,
+        1.3424220085144043
+      ],
+      "whitened_residual_norm": 1.343342009542856,
+      "passive": true,
+      "constitutive_residual": 2.9186624962229353e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 0,
+      "x": [
+        0.9590435028076172,
+        1.0302045345306396
+      ],
+      "whitened_residual_norm": 1.6286168391478846,
+      "passive": true,
+      "constitutive_residual": 2.491254531192138e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 1,
+      "x": [
+        -0.02926349639892578,
+        -1.3579347133636475
+      ],
+      "whitened_residual_norm": 2.21516143874668,
+      "passive": true,
+      "constitutive_residual": 3.184509499047594e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 2,
+      "x": [
+        1.3499586582183838,
+        0.8827447891235352
+      ],
+      "whitened_residual_norm": 1.6119379880137685,
+      "passive": true,
+      "constitutive_residual": 2.935846643252807e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 3,
+      "x": [
+        0.9719753265380859,
+        1.1077790260314941
+      ],
+      "whitened_residual_norm": 1.1841695722918508,
+      "passive": true,
+      "constitutive_residual": 2.2205609796931713e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 4,
+      "x": [
+        -0.1396239995956421,
+        -1.340915322303772
+      ],
+      "whitened_residual_norm": 2.8650863765509156,
+      "passive": true,
+      "constitutive_residual": 1.7882196419714256e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 5,
+      "x": [
+        0.7862827777862549,
+        -1.352854609489441
+      ],
+      "whitened_residual_norm": 6.210865329677746,
+      "passive": true,
+      "constitutive_residual": 2.837385227536619e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 6,
+      "x": [
+        0.7094669342041016,
+        1.3297767639160156
+      ],
+      "whitened_residual_norm": 1.2263501958360883,
+      "passive": true,
+      "constitutive_residual": 3.184925187320544e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 3,
+      "draw": 7,
+      "x": [
+        -0.050440311431884766,
+        -1.3782168626785278
+      ],
+      "whitened_residual_norm": 3.1062254815697417,
+      "passive": true,
+      "constitutive_residual": 2.0510726333203213e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 0,
+      "x": [
+        0.9321489334106445,
+        0.9545078277587891
+      ],
+      "whitened_residual_norm": 2.515034050534161,
+      "passive": true,
+      "constitutive_residual": 2.40511050628727e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 1,
+      "x": [
+        0.4513932466506958,
+        -1.2481803894042969
+      ],
+      "whitened_residual_norm": 2.0660498087203605,
+      "passive": true,
+      "constitutive_residual": 2.546045004484465e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 2,
+      "x": [
+        0.43434810638427734,
+        -1.3197243213653564
+      ],
+      "whitened_residual_norm": 2.152735846391422,
+      "passive": true,
+      "constitutive_residual": 2.805542795304395e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 3,
+      "x": [
+        -0.4750630855560303,
+        -1.0643984079360962
+      ],
+      "whitened_residual_norm": 2.7716460294308956,
+      "passive": true,
+      "constitutive_residual": 2.860840138339585e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 4,
+      "x": [
+        1.3088641166687012,
+        0.5100831985473633
+      ],
+      "whitened_residual_norm": 2.18809842549705,
+      "passive": true,
+      "constitutive_residual": 3.30850885765737e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 5,
+      "x": [
+        1.1528429985046387,
+        -0.027442574501037598
+      ],
+      "whitened_residual_norm": 4.961961264804011,
+      "passive": true,
+      "constitutive_residual": 3.2440662136945937e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 6,
+      "x": [
+        1.029932975769043,
+        -0.8281021118164062
+      ],
+      "whitened_residual_norm": 5.689082304829009,
+      "passive": true,
+      "constitutive_residual": 2.6849892074807953e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 4,
+      "draw": 7,
+      "x": [
+        1.2728815078735352,
+        0.5433752536773682
+      ],
+      "whitened_residual_norm": 2.1706011742406983,
+      "passive": true,
+      "constitutive_residual": 2.571784436778503e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 0,
+      "x": [
+        -0.5605343580245972,
+        -0.27252960205078125
+      ],
+      "whitened_residual_norm": 2.4378493990845755,
+      "passive": true,
+      "constitutive_residual": 2.8244196872344137e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 1,
+      "x": [
+        0.5793793201446533,
+        -0.14892077445983887
+      ],
+      "whitened_residual_norm": 3.0217119106642745,
+      "passive": true,
+      "constitutive_residual": 3.709886287939054e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 2,
+      "x": [
+        1.2921547889709473,
+        -0.4414200782775879
+      ],
+      "whitened_residual_norm": 2.9972590879633345,
+      "passive": true,
+      "constitutive_residual": 2.757302599383966e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 3,
+      "x": [
+        0.1748340129852295,
+        0.6258268356323242
+      ],
+      "whitened_residual_norm": 2.409505643734348,
+      "passive": true,
+      "constitutive_residual": 2.7468917180059147e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 4,
+      "x": [
+        0.46686887741088867,
+        -0.7466248273849487
+      ],
+      "whitened_residual_norm": 2.5478778681818057,
+      "passive": true,
+      "constitutive_residual": 2.1291761230526375e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 5,
+      "x": [
+        0.6455118656158447,
+        -0.430392861366272
+      ],
+      "whitened_residual_norm": 3.089053245677224,
+      "passive": true,
+      "constitutive_residual": 3.24662729915433e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 6,
+      "x": [
+        -1.4264166355133057,
+        0.44712889194488525
+      ],
+      "whitened_residual_norm": 2.3617245662569766,
+      "passive": true,
+      "constitutive_residual": 2.475484076177186e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 5,
+      "draw": 7,
+      "x": [
+        0.30272388458251953,
+        -0.5056525468826294
+      ],
+      "whitened_residual_norm": 2.8418499961932366,
+      "passive": true,
+      "constitutive_residual": 3.7167739970384124e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 0,
+      "x": [
+        0.2103288173675537,
+        1.2156994342803955
+      ],
+      "whitened_residual_norm": 1.2723276093594025,
+      "passive": true,
+      "constitutive_residual": 2.0652351457141854e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 1,
+      "x": [
+        0.8663661479949951,
+        0.4361826181411743
+      ],
+      "whitened_residual_norm": 3.026162105726601,
+      "passive": true,
+      "constitutive_residual": 2.1006761293022693e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 2,
+      "x": [
+        0.6828975677490234,
+        0.6986682415008545
+      ],
+      "whitened_residual_norm": 1.4225995834333134,
+      "passive": true,
+      "constitutive_residual": 2.710252179965643e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 3,
+      "x": [
+        -1.484024167060852,
+        -0.0069692134857177734
+      ],
+      "whitened_residual_norm": 0.9276447316946457,
+      "passive": true,
+      "constitutive_residual": 2.792015473423632e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 4,
+      "x": [
+        0.9689474105834961,
+        -1.1487646102905273
+      ],
+      "whitened_residual_norm": 3.8677922438831747,
+      "passive": true,
+      "constitutive_residual": 2.621133815063807e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 5,
+      "x": [
+        -1.4875743389129639,
+        -0.14139199256896973
+      ],
+      "whitened_residual_norm": 2.6321706837123275,
+      "passive": true,
+      "constitutive_residual": 2.1479437710878217e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 6,
+      "x": [
+        0.7564742565155029,
+        0.9225237369537354
+      ],
+      "whitened_residual_norm": 3.18802530116701,
+      "passive": true,
+      "constitutive_residual": 2.0889558142323655e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 6,
+      "draw": 7,
+      "x": [
+        1.4260976314544678,
+        0.566225528717041
+      ],
+      "whitened_residual_norm": 4.4305952074214,
+      "passive": true,
+      "constitutive_residual": 3.135369241891077e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 0,
+      "x": [
+        -1.3885767459869385,
+        0.022492647171020508
+      ],
+      "whitened_residual_norm": 2.016492702202309,
+      "passive": true,
+      "constitutive_residual": 2.2117615193543765e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 1,
+      "x": [
+        1.127077579498291,
+        -0.6028573513031006
+      ],
+      "whitened_residual_norm": 3.2317485581154233,
+      "passive": true,
+      "constitutive_residual": 2.887257303130536e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 2,
+      "x": [
+        1.3142046928405762,
+        0.39036333560943604
+      ],
+      "whitened_residual_norm": 2.540989679921251,
+      "passive": true,
+      "constitutive_residual": 3.10934288527639e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 3,
+      "x": [
+        -0.7023956775665283,
+        -0.1177527904510498
+      ],
+      "whitened_residual_norm": 2.289372139808733,
+      "passive": true,
+      "constitutive_residual": 2.5999026200921607e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 4,
+      "x": [
+        1.4601540565490723,
+        -0.10238242149353027
+      ],
+      "whitened_residual_norm": 1.9991293014000049,
+      "passive": true,
+      "constitutive_residual": 2.615079622949805e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 5,
+      "x": [
+        0.3535541296005249,
+        1.0693182945251465
+      ],
+      "whitened_residual_norm": 2.711247241243929,
+      "passive": true,
+      "constitutive_residual": 2.233386580867784e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 6,
+      "x": [
+        -1.3585104942321777,
+        0.18918228149414062
+      ],
+      "whitened_residual_norm": 1.681705752727601,
+      "passive": true,
+      "constitutive_residual": 2.1545146649229494e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 7,
+      "draw": 7,
+      "x": [
+        -0.6178590059280396,
+        -0.9812546372413635
+      ],
+      "whitened_residual_norm": 5.146543738942495,
+      "passive": true,
+      "constitutive_residual": 3.1983400629352893e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 0,
+      "x": [
+        0.7990121841430664,
+        -1.31062650680542
+      ],
+      "whitened_residual_norm": 12.107549782865888,
+      "passive": true,
+      "constitutive_residual": 2.534830035511158e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 1,
+      "x": [
+        0.8707976341247559,
+        1.3707091808319092
+      ],
+      "whitened_residual_norm": 2.46733198792863,
+      "passive": true,
+      "constitutive_residual": 2.6277802878975673e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 2,
+      "x": [
+        0.30478978157043457,
+        -1.4947662353515625
+      ],
+      "whitened_residual_norm": 3.005199113718727,
+      "passive": true,
+      "constitutive_residual": 2.823744655445371e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 3,
+      "x": [
+        -1.0845935344696045,
+        -1.0468621253967285
+      ],
+      "whitened_residual_norm": 3.543837971032801,
+      "passive": true,
+      "constitutive_residual": 2.9111299379788205e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 4,
+      "x": [
+        -1.3605177402496338,
+        -0.7359839677810669
+      ],
+      "whitened_residual_norm": 2.3387930214410773,
+      "passive": true,
+      "constitutive_residual": 2.5533241339670486e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 5,
+      "x": [
+        -0.9782500267028809,
+        -1.084872841835022
+      ],
+      "whitened_residual_norm": 3.059740535098707,
+      "passive": true,
+      "constitutive_residual": 2.866347334821773e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 6,
+      "x": [
+        -0.23914790153503418,
+        -1.4427831172943115
+      ],
+      "whitened_residual_norm": 4.344861697647585,
+      "passive": true,
+      "constitutive_residual": 2.9226601411605384e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 8,
+      "draw": 7,
+      "x": [
+        1.2982044219970703,
+        1.0898528099060059
+      ],
+      "whitened_residual_norm": 2.3114596643083845,
+      "passive": true,
+      "constitutive_residual": 3.4656857533681135e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 0,
+      "x": [
+        -0.5683282613754272,
+        0.09442973136901855
+      ],
+      "whitened_residual_norm": 2.1713201597825607,
+      "passive": true,
+      "constitutive_residual": 3.160294738893069e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 1,
+      "x": [
+        -0.2427530288696289,
+        -0.7904510498046875
+      ],
+      "whitened_residual_norm": 1.815888543445778,
+      "passive": true,
+      "constitutive_residual": 2.496625249287391e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 2,
+      "x": [
+        0.8012435436248779,
+        -0.418176531791687
+      ],
+      "whitened_residual_norm": 2.438701193098708,
+      "passive": true,
+      "constitutive_residual": 3.374584258916613e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 3,
+      "x": [
+        -1.4387619495391846,
+        0.598029375076294
+      ],
+      "whitened_residual_norm": 1.4150352703464506,
+      "passive": true,
+      "constitutive_residual": 4.264281312486015e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 4,
+      "x": [
+        0.10454630851745605,
+        -0.12347042560577393
+      ],
+      "whitened_residual_norm": 2.429010177118185,
+      "passive": true,
+      "constitutive_residual": 3.2629341778020665e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 5,
+      "x": [
+        0.5761148929595947,
+        -0.5021717548370361
+      ],
+      "whitened_residual_norm": 2.3038957905377835,
+      "passive": true,
+      "constitutive_residual": 3.2616924453856816e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 6,
+      "x": [
+        1.1228992938995361,
+        -0.3089205026626587
+      ],
+      "whitened_residual_norm": 2.1896385349897813,
+      "passive": true,
+      "constitutive_residual": 2.0882008647519405e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 9,
+      "draw": 7,
+      "x": [
+        0.9863424301147461,
+        0.2470870018005371
+      ],
+      "whitened_residual_norm": 1.255603815619434,
+      "passive": true,
+      "constitutive_residual": 2.4939314770061465e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 0,
+      "x": [
+        -1.4829853773117065,
+        1.0388941764831543
+      ],
+      "whitened_residual_norm": 0.7228077950841779,
+      "passive": true,
+      "constitutive_residual": 3.792487359996093e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 1,
+      "x": [
+        0.01991093158721924,
+        0.41548871994018555
+      ],
+      "whitened_residual_norm": 0.8265719555886882,
+      "passive": true,
+      "constitutive_residual": 2.225488300653291e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 2,
+      "x": [
+        -0.8098987936973572,
+        0.49802470207214355
+      ],
+      "whitened_residual_norm": 1.1771498332024286,
+      "passive": true,
+      "constitutive_residual": 3.7150107843948953e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 3,
+      "x": [
+        1.4156854152679443,
+        -0.7657566070556641
+      ],
+      "whitened_residual_norm": 1.2420267644121314,
+      "passive": true,
+      "constitutive_residual": 3.603856211924329e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 4,
+      "x": [
+        1.4216504096984863,
+        -0.8657786846160889
+      ],
+      "whitened_residual_norm": 1.013905440250834,
+      "passive": true,
+      "constitutive_residual": 2.7256337281201615e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 5,
+      "x": [
+        0.967231273651123,
+        0.051837921142578125
+      ],
+      "whitened_residual_norm": 1.841533962525042,
+      "passive": true,
+      "constitutive_residual": 1.7997035589995032e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 6,
+      "x": [
+        0.807741641998291,
+        -0.5002813339233398
+      ],
+      "whitened_residual_norm": 1.303490605474739,
+      "passive": true,
+      "constitutive_residual": 2.67369579889616e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 10,
+      "draw": 7,
+      "x": [
+        -0.9219898581504822,
+        0.4163930416107178
+      ],
+      "whitened_residual_norm": 0.8212510494840258,
+      "passive": true,
+      "constitutive_residual": 2.717760140607354e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 0,
+      "x": [
+        1.4030828475952148,
+        0.5386831760406494
+      ],
+      "whitened_residual_norm": 1.4273422833893215,
+      "passive": true,
+      "constitutive_residual": 3.250659020823139e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 1,
+      "x": [
+        1.0229296684265137,
+        -1.0327115058898926
+      ],
+      "whitened_residual_norm": 5.289414140388712,
+      "passive": true,
+      "constitutive_residual": 3.298062267765097e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 2,
+      "x": [
+        -0.05920684337615967,
+        -1.1611865758895874
+      ],
+      "whitened_residual_norm": 1.1959459430570394,
+      "passive": true,
+      "constitutive_residual": 2.5812269961811017e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 3,
+      "x": [
+        0.824063777923584,
+        1.151038646697998
+      ],
+      "whitened_residual_norm": 1.8260543826520212,
+      "passive": true,
+      "constitutive_residual": 2.4722236884183206e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 4,
+      "x": [
+        0.9623734951019287,
+        -1.075348973274231
+      ],
+      "whitened_residual_norm": 4.852616924040208,
+      "passive": true,
+      "constitutive_residual": 2.849961365570368e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 5,
+      "x": [
+        1.282731533050537,
+        -1.4960901737213135
+      ],
+      "whitened_residual_norm": 1.3970702791695964,
+      "passive": true,
+      "constitutive_residual": 3.0748194103154846e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 6,
+      "x": [
+        0.870147705078125,
+        1.1036262512207031
+      ],
+      "whitened_residual_norm": 1.7620150178648262,
+      "passive": true,
+      "constitutive_residual": 3.5990240113544103e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 11,
+      "draw": 7,
+      "x": [
+        0.8877902030944824,
+        -1.1800875663757324
+      ],
+      "whitened_residual_norm": 3.7623116970887964,
+      "passive": true,
+      "constitutive_residual": 2.7629113812416306e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 0,
+      "x": [
+        0.849482536315918,
+        0.9747574329376221
+      ],
+      "whitened_residual_norm": 1.861177247250246,
+      "passive": true,
+      "constitutive_residual": 2.128452710830614e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 1,
+      "x": [
+        0.4708263874053955,
+        1.3089962005615234
+      ],
+      "whitened_residual_norm": 1.9053816485360682,
+      "passive": true,
+      "constitutive_residual": 2.583016845459406e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 2,
+      "x": [
+        0.6176052093505859,
+        1.2474958896636963
+      ],
+      "whitened_residual_norm": 2.077867342715426,
+      "passive": true,
+      "constitutive_residual": 2.8432894527249935e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 3,
+      "x": [
+        -1.0850799083709717,
+        -0.719982385635376
+      ],
+      "whitened_residual_norm": 2.11587256052462,
+      "passive": true,
+      "constitutive_residual": 3.549392168903565e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 4,
+      "x": [
+        1.2667107582092285,
+        0.4904909133911133
+      ],
+      "whitened_residual_norm": 2.333990337408371,
+      "passive": true,
+      "constitutive_residual": 3.791414708939271e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 5,
+      "x": [
+        1.0832946300506592,
+        -0.8922105431556702
+      ],
+      "whitened_residual_norm": 6.1337450087067,
+      "passive": true,
+      "constitutive_residual": 3.0754450885440263e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 6,
+      "x": [
+        1.332871913909912,
+        0.8317604064941406
+      ],
+      "whitened_residual_norm": 2.647997317704549,
+      "passive": true,
+      "constitutive_residual": 2.9553338926473137e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 12,
+      "draw": 7,
+      "x": [
+        0.269073486328125,
+        -1.328453540802002
+      ],
+      "whitened_residual_norm": 2.1011306411467374,
+      "passive": true,
+      "constitutive_residual": 2.9047650112869743e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 0,
+      "x": [
+        0.7172808647155762,
+        0.04147744178771973
+      ],
+      "whitened_residual_norm": 1.9225867622292492,
+      "passive": true,
+      "constitutive_residual": 3.051664611317237e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 1,
+      "x": [
+        0.30753350257873535,
+        -0.14161622524261475
+      ],
+      "whitened_residual_norm": 2.027461743766149,
+      "passive": true,
+      "constitutive_residual": 4.179567841767111e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 2,
+      "x": [
+        -1.0780467987060547,
+        0.6520340442657471
+      ],
+      "whitened_residual_norm": 1.9430105154609516,
+      "passive": true,
+      "constitutive_residual": 4.0273768754579134e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 3,
+      "x": [
+        0.8958697319030762,
+        -0.43957197666168213
+      ],
+      "whitened_residual_norm": 2.028254242629663,
+      "passive": true,
+      "constitutive_residual": 2.8080277778160386e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 4,
+      "x": [
+        -1.1424893140792847,
+        0.7570130825042725
+      ],
+      "whitened_residual_norm": 1.9472781938172399,
+      "passive": true,
+      "constitutive_residual": 3.909697815293968e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 5,
+      "x": [
+        -0.7839621305465698,
+        0.8230159282684326
+      ],
+      "whitened_residual_norm": 2.026697189701827,
+      "passive": true,
+      "constitutive_residual": 2.8574287054943833e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 6,
+      "x": [
+        -0.6432982683181763,
+        0.7645254135131836
+      ],
+      "whitened_residual_norm": 2.009162338375309,
+      "passive": true,
+      "constitutive_residual": 3.492973965058107e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 13,
+      "draw": 7,
+      "x": [
+        1.1890983581542969,
+        -0.4245392084121704
+      ],
+      "whitened_residual_norm": 1.9838883837748662,
+      "passive": true,
+      "constitutive_residual": 2.688670446027606e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 0,
+      "x": [
+        -0.4673197269439697,
+        0.32547497749328613
+      ],
+      "whitened_residual_norm": 2.5156494593641896,
+      "passive": true,
+      "constitutive_residual": 2.95243875056087e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 1,
+      "x": [
+        0.9702284336090088,
+        -0.49271416664123535
+      ],
+      "whitened_residual_norm": 2.5163004004647753,
+      "passive": true,
+      "constitutive_residual": 2.348567990290019e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 2,
+      "x": [
+        -1.4512070417404175,
+        1.1937851905822754
+      ],
+      "whitened_residual_norm": 2.5353491258798075,
+      "passive": true,
+      "constitutive_residual": 2.7623139542710113e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 3,
+      "x": [
+        -1.1606132984161377,
+        1.0715279579162598
+      ],
+      "whitened_residual_norm": 2.509697331864128,
+      "passive": true,
+      "constitutive_residual": 3.219324447498964e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 4,
+      "x": [
+        0.8312950134277344,
+        -0.04308950901031494
+      ],
+      "whitened_residual_norm": 2.6832173881237105,
+      "passive": true,
+      "constitutive_residual": 4.2293523964151197e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 5,
+      "x": [
+        1.1116507053375244,
+        -0.5810925364494324
+      ],
+      "whitened_residual_norm": 2.5209669593907207,
+      "passive": true,
+      "constitutive_residual": 3.0705800142168105e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 6,
+      "x": [
+        0.3211677074432373,
+        -0.3091357946395874
+      ],
+      "whitened_residual_norm": 2.529610861130437,
+      "passive": true,
+      "constitutive_residual": 3.4417480257215504e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 14,
+      "draw": 7,
+      "x": [
+        -0.4724947214126587,
+        0.1437222957611084
+      ],
+      "whitened_residual_norm": 2.5308219800700993,
+      "passive": true,
+      "constitutive_residual": 3.3990371106637604e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 0,
+      "x": [
+        0.24897384643554688,
+        -1.4492104053497314
+      ],
+      "whitened_residual_norm": 1.6105905075620837,
+      "passive": true,
+      "constitutive_residual": 2.0465226745057478e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 1,
+      "x": [
+        0.26138973236083984,
+        1.4411921501159668
+      ],
+      "whitened_residual_norm": 2.379068510092797,
+      "passive": true,
+      "constitutive_residual": 3.6098542691220506e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 2,
+      "x": [
+        0.6029798984527588,
+        -1.3057057857513428
+      ],
+      "whitened_residual_norm": 3.1351159386813343,
+      "passive": true,
+      "constitutive_residual": 2.9373488669744762e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 3,
+      "x": [
+        -0.5216675996780396,
+        -1.1290011405944824
+      ],
+      "whitened_residual_norm": 1.1943909800856767,
+      "passive": true,
+      "constitutive_residual": 3.6628837487056664e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 4,
+      "x": [
+        0.20262622833251953,
+        -1.361870288848877
+      ],
+      "whitened_residual_norm": 1.2598827003244244,
+      "passive": true,
+      "constitutive_residual": 3.755351357995746e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 5,
+      "x": [
+        -1.1016569137573242,
+        -0.7725751399993896
+      ],
+      "whitened_residual_norm": 1.0915083336635307,
+      "passive": true,
+      "constitutive_residual": 1.9173003188786697e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 6,
+      "x": [
+        -0.22430157661437988,
+        -1.2882084846496582
+      ],
+      "whitened_residual_norm": 1.4938889273497615,
+      "passive": true,
+      "constitutive_residual": 1.9830925885509957e-16,
+      "source_count": 2
+    },
+    {
+      "model": "measurement",
+      "observation": 15,
+      "draw": 7,
+      "x": [
+        0.5096652507781982,
+        -1.249880313873291
+      ],
+      "whitened_residual_norm": 3.480249415390954,
+      "passive": true,
+      "constitutive_residual": 2.2244319942619035e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 0,
+      "x": [
+        0.10039567947387695,
+        -0.6525208950042725
+      ],
+      "whitened_residual_norm": 14.234352759513271,
+      "passive": true,
+      "constitutive_residual": 3.0796854960489277e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 1,
+      "x": [
+        -1.1237303018569946,
+        -0.809745192527771
+      ],
+      "whitened_residual_norm": 2.7978212400327287,
+      "passive": true,
+      "constitutive_residual": 3.076625043350358e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 2,
+      "x": [
+        0.5392463207244873,
+        0.17571651935577393
+      ],
+      "whitened_residual_norm": 15.375302580879733,
+      "passive": true,
+      "constitutive_residual": 2.53057764050664e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 3,
+      "x": [
+        0.49765098094940186,
+        -1.3719274997711182
+      ],
+      "whitened_residual_norm": 3.4837056234594477,
+      "passive": true,
+      "constitutive_residual": 2.61837129051352e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 4,
+      "x": [
+        1.4100112915039062,
+        -0.7025511264801025
+      ],
+      "whitened_residual_norm": 17.15836572915004,
+      "passive": true,
+      "constitutive_residual": 2.996632682477026e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 5,
+      "x": [
+        1.0703439712524414,
+        0.9059937000274658
+      ],
+      "whitened_residual_norm": 2.4816799530851164,
+      "passive": true,
+      "constitutive_residual": 2.9178163215027936e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 6,
+      "x": [
+        0.5863189697265625,
+        1.0356764793395996
+      ],
+      "whitened_residual_norm": 5.530550754916823,
+      "passive": true,
+      "constitutive_residual": 2.7157173460993607e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 0,
+      "draw": 7,
+      "x": [
+        0.30884289741516113,
+        -0.9626481533050537
+      ],
+      "whitened_residual_norm": 11.117310822933492,
+      "passive": true,
+      "constitutive_residual": 3.2374239092318383e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 0,
+      "x": [
+        1.228414535522461,
+        -0.9078657627105713
+      ],
+      "whitened_residual_norm": 3.007715403919575,
+      "passive": true,
+      "constitutive_residual": 2.8145874945829525e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 1,
+      "x": [
+        1.4961845874786377,
+        0.5194504261016846
+      ],
+      "whitened_residual_norm": 3.717331124375312,
+      "passive": true,
+      "constitutive_residual": 4.321522265178265e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 2,
+      "x": [
+        0.49684858322143555,
+        0.7476029396057129
+      ],
+      "whitened_residual_norm": 1.663744819575119,
+      "passive": true,
+      "constitutive_residual": 2.5728016316984756e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 3,
+      "x": [
+        -0.24036955833435059,
+        -0.8105241656303406
+      ],
+      "whitened_residual_norm": 1.693265071514295,
+      "passive": true,
+      "constitutive_residual": 2.4006982237794883e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 4,
+      "x": [
+        -0.26921701431274414,
+        -1.1055763959884644
+      ],
+      "whitened_residual_norm": 4.164140130446279,
+      "passive": true,
+      "constitutive_residual": 2.4214953469075833e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 5,
+      "x": [
+        0.29174208641052246,
+        0.8430910110473633
+      ],
+      "whitened_residual_norm": 1.6332117815427443,
+      "passive": true,
+      "constitutive_residual": 2.7184794465546746e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 6,
+      "x": [
+        -0.7023569941520691,
+        0.05620169639587402
+      ],
+      "whitened_residual_norm": 2.998804526190706,
+      "passive": true,
+      "constitutive_residual": 2.4294232420265375e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 1,
+      "draw": 7,
+      "x": [
+        -0.17700839042663574,
+        1.4359192848205566
+      ],
+      "whitened_residual_norm": 1.6671336147005764,
+      "passive": true,
+      "constitutive_residual": 3.2238368460781475e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 0,
+      "x": [
+        -0.6039588451385498,
+        -0.96009361743927
+      ],
+      "whitened_residual_norm": 5.490110809469327,
+      "passive": true,
+      "constitutive_residual": 2.684867588282576e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 1,
+      "x": [
+        1.2551164627075195,
+        0.6296436786651611
+      ],
+      "whitened_residual_norm": 3.6486926705391824,
+      "passive": true,
+      "constitutive_residual": 3.187533109112275e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 2,
+      "x": [
+        0.6527647972106934,
+        1.27396559715271
+      ],
+      "whitened_residual_norm": 7.202025420102901,
+      "passive": true,
+      "constitutive_residual": 3.1517206525220896e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 3,
+      "x": [
+        0.7782711982727051,
+        0.7196462154388428
+      ],
+      "whitened_residual_norm": 1.1662798594261516,
+      "passive": true,
+      "constitutive_residual": 2.86427482148331e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 4,
+      "x": [
+        0.6818392276763916,
+        0.5048563480377197
+      ],
+      "whitened_residual_norm": 3.8667009249849205,
+      "passive": true,
+      "constitutive_residual": 2.4089928464708193e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 5,
+      "x": [
+        1.0613064765930176,
+        0.4015313386917114
+      ],
+      "whitened_residual_norm": 2.2967202700067064,
+      "passive": true,
+      "constitutive_residual": 2.1088383143625764e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 6,
+      "x": [
+        1.2229208946228027,
+        -1.4324097633361816
+      ],
+      "whitened_residual_norm": 2.1731427771444114,
+      "passive": true,
+      "constitutive_residual": 2.1450492317699812e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 2,
+      "draw": 7,
+      "x": [
+        1.0963923931121826,
+        1.108858585357666
+      ],
+      "whitened_residual_norm": 10.588786073952987,
+      "passive": true,
+      "constitutive_residual": 3.367774480650809e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 0,
+      "x": [
+        0.5201723575592041,
+        1.3777942657470703
+      ],
+      "whitened_residual_norm": 1.8642730767966604,
+      "passive": true,
+      "constitutive_residual": 3.131142214401799e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 1,
+      "x": [
+        1.080941915512085,
+        0.8985879421234131
+      ],
+      "whitened_residual_norm": 2.2925783765152334,
+      "passive": true,
+      "constitutive_residual": 2.0836739698351928e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 2,
+      "x": [
+        0.5352497100830078,
+        1.3842928409576416
+      ],
+      "whitened_residual_norm": 1.6106683321886914,
+      "passive": true,
+      "constitutive_residual": 3.296503118196467e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 3,
+      "x": [
+        0.31096935272216797,
+        0.760411262512207
+      ],
+      "whitened_residual_norm": 12.238721668816662,
+      "passive": true,
+      "constitutive_residual": 2.471229234308415e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 4,
+      "x": [
+        1.1486713886260986,
+        0.8506627082824707
+      ],
+      "whitened_residual_norm": 2.33209919613785,
+      "passive": true,
+      "constitutive_residual": 2.569389641527485e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 5,
+      "x": [
+        0.2152407169342041,
+        -0.604363739490509
+      ],
+      "whitened_residual_norm": 15.914145326055745,
+      "passive": true,
+      "constitutive_residual": 2.354397740991845e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 6,
+      "x": [
+        -0.3164215087890625,
+        -0.520285964012146
+      ],
+      "whitened_residual_norm": 13.924047278712917,
+      "passive": true,
+      "constitutive_residual": 3.058324145931856e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 3,
+      "draw": 7,
+      "x": [
+        0.6457991600036621,
+        1.056802749633789
+      ],
+      "whitened_residual_norm": 4.923745408560363,
+      "passive": true,
+      "constitutive_residual": 2.864799017667149e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 0,
+      "x": [
+        0.3246603012084961,
+        0.07276320457458496
+      ],
+      "whitened_residual_norm": 5.977494316555579,
+      "passive": true,
+      "constitutive_residual": 2.7022935039389804e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 1,
+      "x": [
+        0.11924552917480469,
+        -1.136842966079712
+      ],
+      "whitened_residual_norm": 2.0875772694366375,
+      "passive": true,
+      "constitutive_residual": 2.9022750337232494e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 2,
+      "x": [
+        -0.6859067678451538,
+        -0.9393513798713684
+      ],
+      "whitened_residual_norm": 2.62124641765953,
+      "passive": true,
+      "constitutive_residual": 3.772489409098202e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 3,
+      "x": [
+        0.10398459434509277,
+        -1.427769660949707
+      ],
+      "whitened_residual_norm": 4.584722514238323,
+      "passive": true,
+      "constitutive_residual": 3.2282116523600093e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 4,
+      "x": [
+        0.2654775381088257,
+        -0.4764326810836792
+      ],
+      "whitened_residual_norm": 5.829959473824813,
+      "passive": true,
+      "constitutive_residual": 3.010235168067307e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 5,
+      "x": [
+        0.019005298614501953,
+        -0.04062461853027344
+      ],
+      "whitened_residual_norm": 6.217841603579868,
+      "passive": true,
+      "constitutive_residual": 2.5346019855492805e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 6,
+      "x": [
+        1.2875566482543945,
+        -1.07683265209198
+      ],
+      "whitened_residual_norm": 4.867116993580375,
+      "passive": true,
+      "constitutive_residual": 2.614168388611002e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 4,
+      "draw": 7,
+      "x": [
+        0.23712193965911865,
+        -0.34464919567108154
+      ],
+      "whitened_residual_norm": 6.070803544959569,
+      "passive": true,
+      "constitutive_residual": 3.217381088707294e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 0,
+      "x": [
+        -0.07554888725280762,
+        -0.8286643028259277
+      ],
+      "whitened_residual_norm": 2.6621846296129235,
+      "passive": true,
+      "constitutive_residual": 2.3747498982774505e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 1,
+      "x": [
+        0.441524863243103,
+        0.4182853698730469
+      ],
+      "whitened_residual_norm": 2.4132694837949082,
+      "passive": true,
+      "constitutive_residual": 2.162283980010863e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 2,
+      "x": [
+        1.454857587814331,
+        -0.0922234058380127
+      ],
+      "whitened_residual_norm": 2.380723092386038,
+      "passive": true,
+      "constitutive_residual": 3.278094190899406e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 3,
+      "x": [
+        0.9972472190856934,
+        0.2345656156539917
+      ],
+      "whitened_residual_norm": 2.392490803503837,
+      "passive": true,
+      "constitutive_residual": 1.9529988791397814e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 4,
+      "x": [
+        0.4843858480453491,
+        0.08353996276855469
+      ],
+      "whitened_residual_norm": 2.807627513825108,
+      "passive": true,
+      "constitutive_residual": 1.7220083124092316e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 5,
+      "x": [
+        0.4829235076904297,
+        0.29277968406677246
+      ],
+      "whitened_residual_norm": 2.513247079238053,
+      "passive": true,
+      "constitutive_residual": 2.7495683067756793e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 6,
+      "x": [
+        0.7007133960723877,
+        -1.388279676437378
+      ],
+      "whitened_residual_norm": 5.096899173190563,
+      "passive": true,
+      "constitutive_residual": 2.250945042167962e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 5,
+      "draw": 7,
+      "x": [
+        0.20289695262908936,
+        -0.17161691188812256
+      ],
+      "whitened_residual_norm": 3.1001251475063047,
+      "passive": true,
+      "constitutive_residual": 3.099690176301602e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 0,
+      "x": [
+        -0.13337087631225586,
+        1.340865135192871
+      ],
+      "whitened_residual_norm": 2.3718205077732963,
+      "passive": true,
+      "constitutive_residual": 3.2766848055433693e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 1,
+      "x": [
+        0.19202971458435059,
+        1.0800971984863281
+      ],
+      "whitened_residual_norm": 1.6688619023270084,
+      "passive": true,
+      "constitutive_residual": 2.7453197249706577e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 2,
+      "x": [
+        -0.9041734933853149,
+        -0.5754492282867432
+      ],
+      "whitened_residual_norm": 1.4833834355387103,
+      "passive": true,
+      "constitutive_residual": 3.14005513180208e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 3,
+      "x": [
+        -1.0316123962402344,
+        -1.3847883939743042
+      ],
+      "whitened_residual_norm": 27.472430760064157,
+      "passive": true,
+      "constitutive_residual": 2.954935536475296e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 4,
+      "x": [
+        0.9515457153320312,
+        0.4897458553314209
+      ],
+      "whitened_residual_norm": 1.7360575197388517,
+      "passive": true,
+      "constitutive_residual": 1.8068863466082919e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 5,
+      "x": [
+        -0.7846043705940247,
+        -1.103452205657959
+      ],
+      "whitened_residual_norm": 12.316182027434532,
+      "passive": true,
+      "constitutive_residual": 1.581240867548955e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 6,
+      "x": [
+        1.15272855758667,
+        0.6167640686035156
+      ],
+      "whitened_residual_norm": 2.5793680127544314,
+      "passive": true,
+      "constitutive_residual": 2.6585685717478136e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 6,
+      "draw": 7,
+      "x": [
+        0.5647225379943848,
+        -0.8933587074279785
+      ],
+      "whitened_residual_norm": 5.80981321836467,
+      "passive": true,
+      "constitutive_residual": 2.2378554564070627e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 0,
+      "x": [
+        0.4225127696990967,
+        -0.07969188690185547
+      ],
+      "whitened_residual_norm": 3.14465910927785,
+      "passive": true,
+      "constitutive_residual": 1.927947185443372e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 1,
+      "x": [
+        0.6456730365753174,
+        0.4275171756744385
+      ],
+      "whitened_residual_norm": 1.8455184098223913,
+      "passive": true,
+      "constitutive_residual": 2.578132354963211e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 2,
+      "x": [
+        0.788048267364502,
+        0.643768310546875
+      ],
+      "whitened_residual_norm": 2.2780050308315993,
+      "passive": true,
+      "constitutive_residual": 2.3070911682251237e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 3,
+      "x": [
+        -0.7141374349594116,
+        0.24059629440307617
+      ],
+      "whitened_residual_norm": 2.9870134913316466,
+      "passive": true,
+      "constitutive_residual": 2.608366814202804e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 4,
+      "x": [
+        0.897068977355957,
+        0.4571843147277832
+      ],
+      "whitened_residual_norm": 1.8884167354533676,
+      "passive": true,
+      "constitutive_residual": 2.3016842798533246e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 5,
+      "x": [
+        1.225221872329712,
+        0.5102481842041016
+      ],
+      "whitened_residual_norm": 2.9805603097543965,
+      "passive": true,
+      "constitutive_residual": 3.084857484985045e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 6,
+      "x": [
+        -0.3330049514770508,
+        -0.7884142994880676
+      ],
+      "whitened_residual_norm": 2.209521542994835,
+      "passive": true,
+      "constitutive_residual": 2.3548445889960034e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 7,
+      "draw": 7,
+      "x": [
+        1.181645154953003,
+        -0.36599600315093994
+      ],
+      "whitened_residual_norm": 3.031683064008824,
+      "passive": true,
+      "constitutive_residual": 3.222246384521193e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 0,
+      "x": [
+        0.1441650390625,
+        -1.0574358701705933
+      ],
+      "whitened_residual_norm": 13.16944635313288,
+      "passive": true,
+      "constitutive_residual": 2.852338137092812e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 1,
+      "x": [
+        1.1981630325317383,
+        1.189955711364746
+      ],
+      "whitened_residual_norm": 2.491153115301661,
+      "passive": true,
+      "constitutive_residual": 2.929518979026309e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 2,
+      "x": [
+        1.257331371307373,
+        1.0257940292358398
+      ],
+      "whitened_residual_norm": 2.797359699948102,
+      "passive": true,
+      "constitutive_residual": 3.292996770271345e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 3,
+      "x": [
+        1.2132935523986816,
+        0.7701008319854736
+      ],
+      "whitened_residual_norm": 7.535083906629822,
+      "passive": true,
+      "constitutive_residual": 2.757629197780026e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 4,
+      "x": [
+        -0.1302703619003296,
+        -1.4768106937408447
+      ],
+      "whitened_residual_norm": 4.31493606344899,
+      "passive": true,
+      "constitutive_residual": 3.0384700963994194e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 5,
+      "x": [
+        1.1992278099060059,
+        0.8686978816986084
+      ],
+      "whitened_residual_norm": 5.952204528664632,
+      "passive": true,
+      "constitutive_residual": 2.8524753352327896e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 6,
+      "x": [
+        0.1670999526977539,
+        -1.4669138193130493
+      ],
+      "whitened_residual_norm": 2.8276401151368358,
+      "passive": true,
+      "constitutive_residual": 2.605641568637825e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 8,
+      "draw": 7,
+      "x": [
+        0.7094464302062988,
+        1.3883366584777832
+      ],
+      "whitened_residual_norm": 3.744359259412942,
+      "passive": true,
+      "constitutive_residual": 2.2655077066244635e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 0,
+      "x": [
+        -1.276485562324524,
+        -0.004857540130615234
+      ],
+      "whitened_residual_norm": 1.7167953454831941,
+      "passive": true,
+      "constitutive_residual": 1.9532376833765686e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 1,
+      "x": [
+        0.1812204122543335,
+        -0.8915414810180664
+      ],
+      "whitened_residual_norm": 1.3189652810527142,
+      "passive": true,
+      "constitutive_residual": 2.530034140204561e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 2,
+      "x": [
+        -0.2676485776901245,
+        0.2703084945678711
+      ],
+      "whitened_residual_norm": 2.4235955427897173,
+      "passive": true,
+      "constitutive_residual": 2.970868690224241e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 3,
+      "x": [
+        0.13595128059387207,
+        0.3070768117904663
+      ],
+      "whitened_residual_norm": 2.022080539287701,
+      "passive": true,
+      "constitutive_residual": 2.661697131872711e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 4,
+      "x": [
+        0.06327462196350098,
+        -0.6993893384933472
+      ],
+      "whitened_residual_norm": 1.2074420872140499,
+      "passive": true,
+      "constitutive_residual": 2.724072480258669e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 5,
+      "x": [
+        1.111138105392456,
+        -0.8257056474685669
+      ],
+      "whitened_residual_norm": 2.0335442204914713,
+      "passive": true,
+      "constitutive_residual": 2.975667196522063e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 6,
+      "x": [
+        1.2877211570739746,
+        -0.6968881487846375
+      ],
+      "whitened_residual_norm": 2.3954510343577797,
+      "passive": true,
+      "constitutive_residual": 2.5180146422658973e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 9,
+      "draw": 7,
+      "x": [
+        0.5333523750305176,
+        -0.6112006902694702
+      ],
+      "whitened_residual_norm": 2.043903372664215,
+      "passive": true,
+      "constitutive_residual": 4.0051808668203535e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 0,
+      "x": [
+        0.9777092933654785,
+        -0.9736522436141968
+      ],
+      "whitened_residual_norm": 2.012177211072996,
+      "passive": true,
+      "constitutive_residual": 3.4947935584070813e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 1,
+      "x": [
+        0.8389711380004883,
+        -0.3361598253250122
+      ],
+      "whitened_residual_norm": 1.2397268576126974,
+      "passive": true,
+      "constitutive_residual": 2.8933106909175956e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 2,
+      "x": [
+        -1.2261879444122314,
+        0.8890554904937744
+      ],
+      "whitened_residual_norm": 0.939075273788824,
+      "passive": true,
+      "constitutive_residual": 2.859070313457416e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 3,
+      "x": [
+        -0.014556288719177246,
+        0.6628842353820801
+      ],
+      "whitened_residual_norm": 1.6201954560167247,
+      "passive": true,
+      "constitutive_residual": 3.19769620463719e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 4,
+      "x": [
+        -0.03316187858581543,
+        0.5756669044494629
+      ],
+      "whitened_residual_norm": 1.1040988260545608,
+      "passive": true,
+      "constitutive_residual": 3.5264524026640197e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 5,
+      "x": [
+        1.1125812530517578,
+        0.3430835008621216
+      ],
+      "whitened_residual_norm": 6.065504427197199,
+      "passive": true,
+      "constitutive_residual": 3.1371441205288214e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 6,
+      "x": [
+        0.8957750797271729,
+        -0.6177245378494263
+      ],
+      "whitened_residual_norm": 1.169579565084037,
+      "passive": true,
+      "constitutive_residual": 3.0853466453868356e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 10,
+      "draw": 7,
+      "x": [
+        -1.2186901569366455,
+        0.7784693241119385
+      ],
+      "whitened_residual_norm": 0.7832600952432265,
+      "passive": true,
+      "constitutive_residual": 2.626681600341407e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 0,
+      "x": [
+        1.1662242412567139,
+        0.7951374053955078
+      ],
+      "whitened_residual_norm": 1.3301190825626565,
+      "passive": true,
+      "constitutive_residual": 2.9259149931887246e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 1,
+      "x": [
+        0.18824458122253418,
+        -0.7766945362091064
+      ],
+      "whitened_residual_norm": 5.017401280891838,
+      "passive": true,
+      "constitutive_residual": 2.749310103009424e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 2,
+      "x": [
+        0.0814218521118164,
+        -1.2194501161575317
+      ],
+      "whitened_residual_norm": 1.180802946878822,
+      "passive": true,
+      "constitutive_residual": 2.8010965595068225e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 3,
+      "x": [
+        0.657930850982666,
+        1.2286558151245117
+      ],
+      "whitened_residual_norm": 1.4969268893247891,
+      "passive": true,
+      "constitutive_residual": 2.8540440056949807e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 4,
+      "x": [
+        1.0019128322601318,
+        0.7862982749938965
+      ],
+      "whitened_residual_norm": 1.3943576342051347,
+      "passive": true,
+      "constitutive_residual": 3.4034820725897063e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 5,
+      "x": [
+        0.4972876310348511,
+        -1.4932106733322144
+      ],
+      "whitened_residual_norm": 2.594048446991366,
+      "passive": true,
+      "constitutive_residual": 2.4702860849731084e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 6,
+      "x": [
+        0.6412827968597412,
+        1.2243399620056152
+      ],
+      "whitened_residual_norm": 1.418984063425983,
+      "passive": true,
+      "constitutive_residual": 3.654483370729221e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 11,
+      "draw": 7,
+      "x": [
+        1.0410408973693848,
+        0.7733807563781738
+      ],
+      "whitened_residual_norm": 1.354219078016824,
+      "passive": true,
+      "constitutive_residual": 2.2643889114605194e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 0,
+      "x": [
+        -0.8032600283622742,
+        -0.6172175407409668
+      ],
+      "whitened_residual_norm": 2.5836689294674593,
+      "passive": true,
+      "constitutive_residual": 3.22852587862888e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 1,
+      "x": [
+        1.142261266708374,
+        0.8884024620056152
+      ],
+      "whitened_residual_norm": 2.242784816831362,
+      "passive": true,
+      "constitutive_residual": 2.6567789535494086e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 2,
+      "x": [
+        -0.47933053970336914,
+        -0.5792746543884277
+      ],
+      "whitened_residual_norm": 4.146075633453683,
+      "passive": true,
+      "constitutive_residual": 2.5819765313721893e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 3,
+      "x": [
+        -0.6068805456161499,
+        -1.1876192092895508
+      ],
+      "whitened_residual_norm": 4.188663552604202,
+      "passive": true,
+      "constitutive_residual": 2.9302518244945076e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 4,
+      "x": [
+        0.03472745418548584,
+        0.7228679656982422
+      ],
+      "whitened_residual_norm": 5.3858178968587245,
+      "passive": true,
+      "constitutive_residual": 2.919656809660444e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 5,
+      "x": [
+        -0.9609166383743286,
+        -0.7757517695426941
+      ],
+      "whitened_residual_norm": 1.9822861031762116,
+      "passive": true,
+      "constitutive_residual": 2.578307157637344e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 6,
+      "x": [
+        1.1495232582092285,
+        -1.4145878553390503
+      ],
+      "whitened_residual_norm": 2.3680563349994284,
+      "passive": true,
+      "constitutive_residual": 2.76525368578302e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 12,
+      "draw": 7,
+      "x": [
+        -0.659679651260376,
+        -1.0054714679718018
+      ],
+      "whitened_residual_norm": 2.365481357908889,
+      "passive": true,
+      "constitutive_residual": 2.3024096631079607e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 0,
+      "x": [
+        0.5316855907440186,
+        0.15440583229064941
+      ],
+      "whitened_residual_norm": 1.9294737384317044,
+      "passive": true,
+      "constitutive_residual": 3.502034660515984e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 1,
+      "x": [
+        0.9504256248474121,
+        -0.6043281555175781
+      ],
+      "whitened_residual_norm": 2.0184384197341183,
+      "passive": true,
+      "constitutive_residual": 2.693804803939214e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 2,
+      "x": [
+        0.49454712867736816,
+        -0.7475236654281616
+      ],
+      "whitened_residual_norm": 2.005911687009248,
+      "passive": true,
+      "constitutive_residual": 2.6567836083637593e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 3,
+      "x": [
+        0.8158342838287354,
+        -0.22455716133117676
+      ],
+      "whitened_residual_norm": 1.9689573332902042,
+      "passive": true,
+      "constitutive_residual": 2.5610299435853836e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 4,
+      "x": [
+        0.4045543670654297,
+        -0.7109783887863159
+      ],
+      "whitened_residual_norm": 2.0030911714234185,
+      "passive": true,
+      "constitutive_residual": 2.4781061928563834e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 5,
+      "x": [
+        -0.21163320541381836,
+        0.10159313678741455
+      ],
+      "whitened_residual_norm": 2.0279447780373654,
+      "passive": true,
+      "constitutive_residual": 2.379113723029124e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 6,
+      "x": [
+        1.1048321723937988,
+        -0.5598040223121643
+      ],
+      "whitened_residual_norm": 2.0317466289059785,
+      "passive": true,
+      "constitutive_residual": 3.4151722314243963e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 13,
+      "draw": 7,
+      "x": [
+        0.9632987976074219,
+        -0.2754998207092285
+      ],
+      "whitened_residual_norm": 1.959861037016378,
+      "passive": true,
+      "constitutive_residual": 1.7932516534702255e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 0,
+      "x": [
+        -0.17627298831939697,
+        0.14885294437408447
+      ],
+      "whitened_residual_norm": 2.5173020648267537,
+      "passive": true,
+      "constitutive_residual": 3.305999490860181e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 1,
+      "x": [
+        0.5216882228851318,
+        0.050576090812683105
+      ],
+      "whitened_residual_norm": 2.617455161711853,
+      "passive": true,
+      "constitutive_residual": 2.0418576444099006e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 2,
+      "x": [
+        -0.6160078048706055,
+        0.1015172004699707
+      ],
+      "whitened_residual_norm": 2.5869968426515855,
+      "passive": true,
+      "constitutive_residual": 4.1015419393053984e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 3,
+      "x": [
+        -1.365241527557373,
+        1.0380864143371582
+      ],
+      "whitened_residual_norm": 2.5403154264165635,
+      "passive": true,
+      "constitutive_residual": 3.1824214270460506e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 4,
+      "x": [
+        1.0432963371276855,
+        0.05514800548553467
+      ],
+      "whitened_residual_norm": 3.0936427986502153,
+      "passive": true,
+      "constitutive_residual": 2.896585323206845e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 5,
+      "x": [
+        1.0425670146942139,
+        -0.29321420192718506
+      ],
+      "whitened_residual_norm": 2.5491809008878894,
+      "passive": true,
+      "constitutive_residual": 3.519272023078059e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 6,
+      "x": [
+        -1.190857172012329,
+        0.7840580940246582
+      ],
+      "whitened_residual_norm": 2.5433149562113107,
+      "passive": true,
+      "constitutive_residual": 2.176953160207788e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 14,
+      "draw": 7,
+      "x": [
+        0.10560154914855957,
+        -0.08812546730041504
+      ],
+      "whitened_residual_norm": 2.517031606123005,
+      "passive": true,
+      "constitutive_residual": 2.2513880243389973e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 0,
+      "x": [
+        -0.6690629720687866,
+        -1.115840196609497
+      ],
+      "whitened_residual_norm": 1.5980313396982024,
+      "passive": true,
+      "constitutive_residual": 2.7350321959428067e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 1,
+      "x": [
+        1.2457332611083984,
+        1.1105051040649414
+      ],
+      "whitened_residual_norm": 2.3654896979531745,
+      "passive": true,
+      "constitutive_residual": 3.0617921427999795e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 2,
+      "x": [
+        -0.903895378112793,
+        -0.9557758569717407
+      ],
+      "whitened_residual_norm": 1.2573992263274796,
+      "passive": true,
+      "constitutive_residual": 3.5547643853431213e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 3,
+      "x": [
+        1.1178240776062012,
+        0.8111362457275391
+      ],
+      "whitened_residual_norm": 1.844364272687062,
+      "passive": true,
+      "constitutive_residual": 2.7305880955373287e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 4,
+      "x": [
+        1.0934913158416748,
+        0.9109020233154297
+      ],
+      "whitened_residual_norm": 1.3204498404823528,
+      "passive": true,
+      "constitutive_residual": 2.426317351237107e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 5,
+      "x": [
+        -1.1521246433258057,
+        -1.1711701154708862
+      ],
+      "whitened_residual_norm": 6.218896147239676,
+      "passive": true,
+      "constitutive_residual": 2.726560903650416e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 6,
+      "x": [
+        1.1509900093078613,
+        0.8221468925476074
+      ],
+      "whitened_residual_norm": 1.617812155915696,
+      "passive": true,
+      "constitutive_residual": 2.37334653294848e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_state",
+      "observation": 15,
+      "draw": 7,
+      "x": [
+        1.0128405094146729,
+        0.9600167274475098
+      ],
+      "whitened_residual_norm": 1.3639104825267259,
+      "passive": true,
+      "constitutive_residual": 2.873761530875374e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 0,
+      "x": [
+        0.05732882022857666,
+        -1.4171987771987915
+      ],
+      "whitened_residual_norm": 4.662503084292235,
+      "passive": true,
+      "constitutive_residual": 2.5088565493869906e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 1,
+      "x": [
+        -1.0867213010787964,
+        -0.8455780148506165
+      ],
+      "whitened_residual_norm": 3.0030414564213994,
+      "passive": true,
+      "constitutive_residual": 2.5495743503348894e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 2,
+      "x": [
+        0.9714791774749756,
+        1.3650131225585938
+      ],
+      "whitened_residual_norm": 6.511268280886436,
+      "passive": true,
+      "constitutive_residual": 3.1636524110118166e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 3,
+      "x": [
+        0.9328017234802246,
+        1.256734848022461
+      ],
+      "whitened_residual_norm": 4.086746781115598,
+      "passive": true,
+      "constitutive_residual": 3.415352409147953e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 4,
+      "x": [
+        -0.7155745625495911,
+        -0.9202249050140381
+      ],
+      "whitened_residual_norm": 2.8381302197253864,
+      "passive": true,
+      "constitutive_residual": 3.3120430957178806e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 5,
+      "x": [
+        0.2686793804168701,
+        -1.430403232574463
+      ],
+      "whitened_residual_norm": 3.307973160412137,
+      "passive": true,
+      "constitutive_residual": 2.0671100613835602e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 6,
+      "x": [
+        1.1766281127929688,
+        0.8553824424743652
+      ],
+      "whitened_residual_norm": 2.29913224995449,
+      "passive": true,
+      "constitutive_residual": 2.4630886174866394e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 0,
+      "draw": 7,
+      "x": [
+        0.21013033390045166,
+        -0.9796426296234131
+      ],
+      "whitened_residual_norm": 10.12971611289752,
+      "passive": true,
+      "constitutive_residual": 3.655664961000259e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 0,
+      "x": [
+        0.9655954837799072,
+        0.3329792022705078
+      ],
+      "whitened_residual_norm": 1.7112979104042485,
+      "passive": true,
+      "constitutive_residual": 1.7824909787605796e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 1,
+      "x": [
+        1.4670374393463135,
+        0.8822846412658691
+      ],
+      "whitened_residual_norm": 6.895220173469656,
+      "passive": true,
+      "constitutive_residual": 2.783363052889516e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 2,
+      "x": [
+        0.8953535556793213,
+        0.446209192276001
+      ],
+      "whitened_residual_norm": 1.6710862352759839,
+      "passive": true,
+      "constitutive_residual": 2.4386596657217197e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 3,
+      "x": [
+        -0.5065981149673462,
+        -0.8055747747421265
+      ],
+      "whitened_residual_norm": 2.3616610487191747,
+      "passive": true,
+      "constitutive_residual": 2.7560763775396557e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 4,
+      "x": [
+        -0.24816608428955078,
+        1.054154396057129
+      ],
+      "whitened_residual_norm": 2.1471125263957602,
+      "passive": true,
+      "constitutive_residual": 2.754048308077278e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 5,
+      "x": [
+        0.7080163955688477,
+        0.4948854446411133
+      ],
+      "whitened_residual_norm": 1.6907218363118897,
+      "passive": true,
+      "constitutive_residual": 2.7198353410288424e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 6,
+      "x": [
+        -0.7576819658279419,
+        -0.9503579139709473
+      ],
+      "whitened_residual_norm": 5.114603274183188,
+      "passive": true,
+      "constitutive_residual": 2.489169177762617e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 1,
+      "draw": 7,
+      "x": [
+        -0.19652485847473145,
+        1.4248604774475098
+      ],
+      "whitened_residual_norm": 1.6250210421214615,
+      "passive": true,
+      "constitutive_residual": 2.9947966282545807e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 0,
+      "x": [
+        1.3792705535888672,
+        -1.4785610437393188
+      ],
+      "whitened_residual_norm": 2.4610086469936214,
+      "passive": true,
+      "constitutive_residual": 2.90027536566307e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 1,
+      "x": [
+        1.1035728454589844,
+        -1.2734262943267822
+      ],
+      "whitened_residual_norm": 2.5006062581817354,
+      "passive": true,
+      "constitutive_residual": 2.541610639294293e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 2,
+      "x": [
+        1.0875821113586426,
+        0.9396700859069824
+      ],
+      "whitened_residual_norm": 7.26651196913102,
+      "passive": true,
+      "constitutive_residual": 2.5645490867514865e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 3,
+      "x": [
+        -0.7508317828178406,
+        -0.5709211826324463
+      ],
+      "whitened_residual_norm": 1.52641116133718,
+      "passive": true,
+      "constitutive_residual": 2.2417864537837617e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 4,
+      "x": [
+        0.9820652008056641,
+        0.7406940460205078
+      ],
+      "whitened_residual_norm": 2.6978887601138446,
+      "passive": true,
+      "constitutive_residual": 2.1505044743709414e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 5,
+      "x": [
+        -0.46627962589263916,
+        -0.9965396523475647
+      ],
+      "whitened_residual_norm": 4.727251380305341,
+      "passive": true,
+      "constitutive_residual": 3.036546047380373e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 6,
+      "x": [
+        1.1720666885375977,
+        0.6446805000305176
+      ],
+      "whitened_residual_norm": 3.0718147569596126,
+      "passive": true,
+      "constitutive_residual": 2.303208736714873e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 2,
+      "draw": 7,
+      "x": [
+        -0.6377097368240356,
+        -0.476276159286499
+      ],
+      "whitened_residual_norm": 3.7572222550730396,
+      "passive": true,
+      "constitutive_residual": 2.937868041023734e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 0,
+      "x": [
+        1.0507028102874756,
+        1.09144926071167
+      ],
+      "whitened_residual_norm": 1.6431449098008906,
+      "passive": true,
+      "constitutive_residual": 2.97425852256198e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 1,
+      "x": [
+        0.2590674161911011,
+        -1.4594284296035767
+      ],
+      "whitened_residual_norm": 2.644156529979015,
+      "passive": true,
+      "constitutive_residual": 2.376576840464865e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 2,
+      "x": [
+        1.2561445236206055,
+        1.0274858474731445
+      ],
+      "whitened_residual_norm": 3.0519508133567648,
+      "passive": true,
+      "constitutive_residual": 2.7343183414485683e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 3,
+      "x": [
+        0.7832074165344238,
+        1.3925580978393555
+      ],
+      "whitened_residual_norm": 3.0057443249841618,
+      "passive": true,
+      "constitutive_residual": 3.6626089490501794e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 4,
+      "x": [
+        0.37208712100982666,
+        -1.4716145992279053
+      ],
+      "whitened_residual_norm": 2.010030710678883,
+      "passive": true,
+      "constitutive_residual": 2.055142478576447e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 5,
+      "x": [
+        0.22251176834106445,
+        -1.420818567276001
+      ],
+      "whitened_residual_norm": 1.7580383759361895,
+      "passive": true,
+      "constitutive_residual": 2.7621796060697813e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 6,
+      "x": [
+        -0.3821784257888794,
+        -0.5691919326782227
+      ],
+      "whitened_residual_norm": 12.833826762517207,
+      "passive": true,
+      "constitutive_residual": 2.731640698296542e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 3,
+      "draw": 7,
+      "x": [
+        1.2201251983642578,
+        0.8868682384490967
+      ],
+      "whitened_residual_norm": 1.2219990849324214,
+      "passive": true,
+      "constitutive_residual": 2.606126039319298e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 0,
+      "x": [
+        1.1345932483673096,
+        0.7527263164520264
+      ],
+      "whitened_residual_norm": 2.2907597415076597,
+      "passive": true,
+      "constitutive_residual": 3.2287075303420326e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 1,
+      "x": [
+        0.3178056478500366,
+        1.1533865928649902
+      ],
+      "whitened_residual_norm": 2.266438743900309,
+      "passive": true,
+      "constitutive_residual": 2.984485448940273e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 2,
+      "x": [
+        -0.6930643916130066,
+        -0.9380983114242554
+      ],
+      "whitened_residual_norm": 2.640413163398101,
+      "passive": true,
+      "constitutive_residual": 2.1903409684050327e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 3,
+      "x": [
+        0.30173349380493164,
+        0.9877314567565918
+      ],
+      "whitened_residual_norm": 2.862698954260955,
+      "passive": true,
+      "constitutive_residual": 2.4985966440514227e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 4,
+      "x": [
+        0.46921324729919434,
+        1.2472407817840576
+      ],
+      "whitened_residual_norm": 2.2065888149007744,
+      "passive": true,
+      "constitutive_residual": 3.114362967503954e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 5,
+      "x": [
+        0.21134185791015625,
+        1.281855821609497
+      ],
+      "whitened_residual_norm": 2.2023957425495015,
+      "passive": true,
+      "constitutive_residual": 3.0836528799510935e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 6,
+      "x": [
+        -0.5849152207374573,
+        -0.8555057644844055
+      ],
+      "whitened_residual_norm": 2.111058754262529,
+      "passive": true,
+      "constitutive_residual": 3.0239364530787097e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 4,
+      "draw": 7,
+      "x": [
+        0.44023025035858154,
+        1.2586455345153809
+      ],
+      "whitened_residual_norm": 2.1738189691296577,
+      "passive": true,
+      "constitutive_residual": 3.480973929713627e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 0,
+      "x": [
+        0.08075213432312012,
+        0.2545309066772461
+      ],
+      "whitened_residual_norm": 2.9224058195220146,
+      "passive": true,
+      "constitutive_residual": 2.776020563886952e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 1,
+      "x": [
+        0.6909220218658447,
+        0.14444804191589355
+      ],
+      "whitened_residual_norm": 2.541380513981003,
+      "passive": true,
+      "constitutive_residual": 2.578139008792749e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 2,
+      "x": [
+        1.2850463390350342,
+        -0.6280469298362732
+      ],
+      "whitened_residual_norm": 3.1035852281922662,
+      "passive": true,
+      "constitutive_residual": 2.551350691063107e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 3,
+      "x": [
+        -0.3762166500091553,
+        1.1868808269500732
+      ],
+      "whitened_residual_norm": 2.4058865004727186,
+      "passive": true,
+      "constitutive_residual": 3.4030602500707754e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 4,
+      "x": [
+        -0.1903524398803711,
+        0.6424610614776611
+      ],
+      "whitened_residual_norm": 2.726341333685081,
+      "passive": true,
+      "constitutive_residual": 2.857149578840487e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 5,
+      "x": [
+        -0.19238340854644775,
+        0.8652043342590332
+      ],
+      "whitened_residual_norm": 2.4832189982749595,
+      "passive": true,
+      "constitutive_residual": 2.8419648362485053e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 6,
+      "x": [
+        -0.4605393409729004,
+        -0.9775484800338745
+      ],
+      "whitened_residual_norm": 5.085204734360559,
+      "passive": true,
+      "constitutive_residual": 3.0855794499171943e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 5,
+      "draw": 7,
+      "x": [
+        0.819307804107666,
+        -0.7744926810264587
+      ],
+      "whitened_residual_norm": 2.749016646161099,
+      "passive": true,
+      "constitutive_residual": 3.199997488601995e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 0,
+      "x": [
+        0.03994584083557129,
+        1.3970956802368164
+      ],
+      "whitened_residual_norm": 1.342771180581932,
+      "passive": true,
+      "constitutive_residual": 3.4218650504589276e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 1,
+      "x": [
+        0.6830291748046875,
+        0.7670378684997559
+      ],
+      "whitened_residual_norm": 1.0122402761823193,
+      "passive": true,
+      "constitutive_residual": 2.5260725081266156e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 2,
+      "x": [
+        -0.8340957164764404,
+        -0.6376016736030579
+      ],
+      "whitened_residual_norm": 1.7109004015896163,
+      "passive": true,
+      "constitutive_residual": 2.3161622669754105e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 3,
+      "x": [
+        -1.0683016777038574,
+        -0.9142230153083801
+      ],
+      "whitened_residual_norm": 11.423946663461603,
+      "passive": true,
+      "constitutive_residual": 2.6142115772407585e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 4,
+      "x": [
+        -0.5663577318191528,
+        -0.8734503388404846
+      ],
+      "whitened_residual_norm": 3.2068470657318686,
+      "passive": true,
+      "constitutive_residual": 2.9599114043192018e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 5,
+      "x": [
+        1.2619845867156982,
+        -1.49860680103302
+      ],
+      "whitened_residual_norm": 3.8177450606051253,
+      "passive": true,
+      "constitutive_residual": 2.8444022383054255e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 6,
+      "x": [
+        0.9181828498840332,
+        -1.258004069328308
+      ],
+      "whitened_residual_norm": 1.6953888321120651,
+      "passive": true,
+      "constitutive_residual": 3.0527181732698135e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 6,
+      "draw": 7,
+      "x": [
+        0.48691844940185547,
+        1.2277441024780273
+      ],
+      "whitened_residual_norm": 4.418613396721425,
+      "passive": true,
+      "constitutive_residual": 2.5798733066363354e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 0,
+      "x": [
+        0.7084012031555176,
+        -0.16273021697998047
+      ],
+      "whitened_residual_norm": 3.0523975419569354,
+      "passive": true,
+      "constitutive_residual": 2.1572179590127978e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 1,
+      "x": [
+        0.982841968536377,
+        0.12239885330200195
+      ],
+      "whitened_residual_norm": 2.024624931222146,
+      "passive": true,
+      "constitutive_residual": 2.692887098616972e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 2,
+      "x": [
+        1.1296865940093994,
+        0.25702786445617676
+      ],
+      "whitened_residual_norm": 1.7639680064261711,
+      "passive": true,
+      "constitutive_residual": 2.940240520357928e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 3,
+      "x": [
+        -0.5642662048339844,
+        1.1198606491088867
+      ],
+      "whitened_residual_norm": 2.609081085932343,
+      "passive": true,
+      "constitutive_residual": 2.9137903159886475e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 4,
+      "x": [
+        1.226151943206787,
+        0.14015483856201172
+      ],
+      "whitened_residual_norm": 1.755797683308541,
+      "passive": true,
+      "constitutive_residual": 4.0825437774131746e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 5,
+      "x": [
+        0.002094268798828125,
+        -0.30129551887512207
+      ],
+      "whitened_residual_norm": 2.9798210168147925,
+      "passive": true,
+      "constitutive_residual": 3.0073261759787874e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 6,
+      "x": [
+        0.8259141445159912,
+        -1.1367647647857666
+      ],
+      "whitened_residual_norm": 1.9852724369920054,
+      "passive": true,
+      "constitutive_residual": 2.7368637019605726e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 7,
+      "draw": 7,
+      "x": [
+        -0.021427512168884277,
+        -1.0290133953094482
+      ],
+      "whitened_residual_norm": 2.9101819816391266,
+      "passive": true,
+      "constitutive_residual": 3.324105351364209e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 0,
+      "x": [
+        -0.008478760719299316,
+        -1.4510645866394043
+      ],
+      "whitened_residual_norm": 2.7995448196145456,
+      "passive": true,
+      "constitutive_residual": 1.7969233915347592e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 1,
+      "x": [
+        -0.023918986320495605,
+        -1.4071754217147827
+      ],
+      "whitened_residual_norm": 2.780045886294555,
+      "passive": true,
+      "constitutive_residual": 2.9367564617607833e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 2,
+      "x": [
+        0.0677633285522461,
+        -1.472487449645996
+      ],
+      "whitened_residual_norm": 2.8039657044684705,
+      "passive": true,
+      "constitutive_residual": 2.800071796052366e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 3,
+      "x": [
+        -0.7625758647918701,
+        -1.434279441833496
+      ],
+      "whitened_residual_norm": 11.698096602824055,
+      "passive": true,
+      "constitutive_residual": 2.050155658347741e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 4,
+      "x": [
+        0.5838730335235596,
+        1.2538414001464844
+      ],
+      "whitened_residual_norm": 7.3728082338016465,
+      "passive": true,
+      "constitutive_residual": 2.8868019584898986e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 5,
+      "x": [
+        -0.02241683006286621,
+        -1.4886314868927002
+      ],
+      "whitened_residual_norm": 3.663679509596779,
+      "passive": true,
+      "constitutive_residual": 2.9375077218415375e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 6,
+      "x": [
+        0.0167924165725708,
+        -1.4776109457015991
+      ],
+      "whitened_residual_norm": 3.1067989085441865,
+      "passive": true,
+      "constitutive_residual": 2.335564790591999e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 8,
+      "draw": 7,
+      "x": [
+        1.2742769718170166,
+        1.1647155284881592
+      ],
+      "whitened_residual_norm": 2.7759950378952514,
+      "passive": true,
+      "constitutive_residual": 3.4262749566269524e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 0,
+      "x": [
+        0.4405019283294678,
+        -0.4185349941253662
+      ],
+      "whitened_residual_norm": 2.335105071399106,
+      "passive": true,
+      "constitutive_residual": 1.910831568748113e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 1,
+      "x": [
+        0.2782750129699707,
+        0.4563699960708618
+      ],
+      "whitened_residual_norm": 1.4713528891145438,
+      "passive": true,
+      "constitutive_residual": 2.647983192525828e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 2,
+      "x": [
+        -0.27215611934661865,
+        1.1037170886993408
+      ],
+      "whitened_residual_norm": 1.1855284309241498,
+      "passive": true,
+      "constitutive_residual": 2.4226584205024195e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 3,
+      "x": [
+        0.2583904266357422,
+        0.10724222660064697
+      ],
+      "whitened_residual_norm": 2.228525780805259,
+      "passive": true,
+      "constitutive_residual": 3.0680331101035847e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 4,
+      "x": [
+        1.1462137699127197,
+        -0.8343068361282349
+      ],
+      "whitened_residual_norm": 2.040952405055654,
+      "passive": true,
+      "constitutive_residual": 3.0391115066159243e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 5,
+      "x": [
+        -0.1985708475112915,
+        -0.6548885107040405
+      ],
+      "whitened_residual_norm": 1.1930967171986788,
+      "passive": true,
+      "constitutive_residual": 2.28876616582443e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 6,
+      "x": [
+        0.012025952339172363,
+        -0.6094582080841064
+      ],
+      "whitened_residual_norm": 1.3606462780288082,
+      "passive": true,
+      "constitutive_residual": 2.72976633904475e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 9,
+      "draw": 7,
+      "x": [
+        0.45186710357666016,
+        0.7621312141418457
+      ],
+      "whitened_residual_norm": 1.6863082186657916,
+      "passive": true,
+      "constitutive_residual": 2.8685784880763436e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 0,
+      "x": [
+        -0.3525456190109253,
+        -0.5032833814620972
+      ],
+      "whitened_residual_norm": 3.060970198825846,
+      "passive": true,
+      "constitutive_residual": 3.2241204960292723e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 1,
+      "x": [
+        -0.17058682441711426,
+        0.5847923755645752
+      ],
+      "whitened_residual_norm": 0.8520427600890305,
+      "passive": true,
+      "constitutive_residual": 2.6307185855313687e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 2,
+      "x": [
+        0.9438378810882568,
+        -0.6323775053024292
+      ],
+      "whitened_residual_norm": 1.178217883287932,
+      "passive": true,
+      "constitutive_residual": 2.9463539270726125e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 3,
+      "x": [
+        0.5453219413757324,
+        -0.6040644645690918
+      ],
+      "whitened_residual_norm": 0.8825430594083387,
+      "passive": true,
+      "constitutive_residual": 3.267975352915359e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 4,
+      "x": [
+        1.416412353515625,
+        -1.0020649433135986
+      ],
+      "whitened_residual_norm": 1.1385196895117475,
+      "passive": true,
+      "constitutive_residual": 3.3398268325863675e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 5,
+      "x": [
+        0.8765919208526611,
+        0.27664196491241455
+      ],
+      "whitened_residual_norm": 3.5840667519296296,
+      "passive": true,
+      "constitutive_residual": 2.1656717142220937e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 6,
+      "x": [
+        -0.11381912231445312,
+        0.3625967502593994
+      ],
+      "whitened_residual_norm": 1.0074929764528069,
+      "passive": true,
+      "constitutive_residual": 2.7110074726246074e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 10,
+      "draw": 7,
+      "x": [
+        -0.03252112865447998,
+        -0.5108007192611694
+      ],
+      "whitened_residual_norm": 1.439623477227198,
+      "passive": true,
+      "constitutive_residual": 3.124989422263015e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 0,
+      "x": [
+        0.6561775207519531,
+        -1.3806393146514893
+      ],
+      "whitened_residual_norm": 1.191029233493128,
+      "passive": true,
+      "constitutive_residual": 2.5410421464116286e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 1,
+      "x": [
+        0.36218810081481934,
+        1.335205078125
+      ],
+      "whitened_residual_norm": 1.270092458447021,
+      "passive": true,
+      "constitutive_residual": 3.3008955805039707e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 2,
+      "x": [
+        0.2614535093307495,
+        1.2957406044006348
+      ],
+      "whitened_residual_norm": 1.7562260387555553,
+      "passive": true,
+      "constitutive_residual": 2.68805705700804e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 3,
+      "x": [
+        1.2200262546539307,
+        0.8501381874084473
+      ],
+      "whitened_residual_norm": 1.7515380724011222,
+      "passive": true,
+      "constitutive_residual": 3.1724167779256617e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 4,
+      "x": [
+        0.3518505096435547,
+        -1.3869200944900513
+      ],
+      "whitened_residual_norm": 1.6540397129110989,
+      "passive": true,
+      "constitutive_residual": 2.6760447503069703e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 5,
+      "x": [
+        1.2674851417541504,
+        0.597841739654541
+      ],
+      "whitened_residual_norm": 1.4950489114939056,
+      "passive": true,
+      "constitutive_residual": 2.6572955452347497e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 6,
+      "x": [
+        1.2069978713989258,
+        0.8473129272460938
+      ],
+      "whitened_residual_norm": 1.6814476963128409,
+      "passive": true,
+      "constitutive_residual": 3.1000345660295814e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 11,
+      "draw": 7,
+      "x": [
+        0.4194507598876953,
+        -1.3954445123672485
+      ],
+      "whitened_residual_norm": 1.5317333902628905,
+      "passive": true,
+      "constitutive_residual": 3.5246468464575053e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 0,
+      "x": [
+        -0.7861530780792236,
+        -0.6952434778213501
+      ],
+      "whitened_residual_norm": 2.1964528385511914,
+      "passive": true,
+      "constitutive_residual": 2.613495642643857e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 1,
+      "x": [
+        0.6076598167419434,
+        -1.2232226133346558
+      ],
+      "whitened_residual_norm": 2.7541909736892736,
+      "passive": true,
+      "constitutive_residual": 3.4135002709666884e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 2,
+      "x": [
+        -0.47897839546203613,
+        -0.6641941666603088
+      ],
+      "whitened_residual_norm": 3.594647839612202,
+      "passive": true,
+      "constitutive_residual": 2.423682461581494e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 3,
+      "x": [
+        1.408660888671875,
+        -1.4984205961227417
+      ],
+      "whitened_residual_norm": 2.1841233260981356,
+      "passive": true,
+      "constitutive_residual": 2.841310528586773e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 4,
+      "x": [
+        0.20100784301757812,
+        1.3931310176849365
+      ],
+      "whitened_residual_norm": 2.047115823215573,
+      "passive": true,
+      "constitutive_residual": 2.809378778487734e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 5,
+      "x": [
+        -0.938184380531311,
+        -0.8253587484359741
+      ],
+      "whitened_residual_norm": 2.1752103884639755,
+      "passive": true,
+      "constitutive_residual": 2.7272661003262494e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 6,
+      "x": [
+        1.243004322052002,
+        0.7425200939178467
+      ],
+      "whitened_residual_norm": 1.9123405513646772,
+      "passive": true,
+      "constitutive_residual": 3.241257644220778e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 12,
+      "draw": 7,
+      "x": [
+        -0.6493626832962036,
+        -1.0171239376068115
+      ],
+      "whitened_residual_norm": 2.4204273512093817,
+      "passive": true,
+      "constitutive_residual": 2.850899072458446e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 0,
+      "x": [
+        1.2647149562835693,
+        -0.37189245223999023
+      ],
+      "whitened_residual_norm": 1.9424231227976645,
+      "passive": true,
+      "constitutive_residual": 2.2857195542682786e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 1,
+      "x": [
+        1.1391501426696777,
+        -0.6243225336074829
+      ],
+      "whitened_residual_norm": 2.0295312717234584,
+      "passive": true,
+      "constitutive_residual": 2.983569569402335e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 2,
+      "x": [
+        0.6980013847351074,
+        -0.7903441190719604
+      ],
+      "whitened_residual_norm": 1.980301806862479,
+      "passive": true,
+      "constitutive_residual": 2.681561359260478e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 3,
+      "x": [
+        0.9050538539886475,
+        -0.44762909412384033
+      ],
+      "whitened_residual_norm": 2.0288116532989022,
+      "passive": true,
+      "constitutive_residual": 3.3379247377923626e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 4,
+      "x": [
+        -0.48999857902526855,
+        0.17403674125671387
+      ],
+      "whitened_residual_norm": 1.9949695961679903,
+      "passive": true,
+      "constitutive_residual": 4.1032451303964466e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 5,
+      "x": [
+        0.6150217056274414,
+        -0.4221305847167969
+      ],
+      "whitened_residual_norm": 2.0254644483385453,
+      "passive": true,
+      "constitutive_residual": 3.0371191749847174e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 6,
+      "x": [
+        -1.4246398210525513,
+        0.9769449234008789
+      ],
+      "whitened_residual_norm": 1.89054458763387,
+      "passive": true,
+      "constitutive_residual": 2.6598575532688393e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 13,
+      "draw": 7,
+      "x": [
+        -0.33894777297973633,
+        0.6934335231781006
+      ],
+      "whitened_residual_norm": 1.9523983034835009,
+      "passive": true,
+      "constitutive_residual": 2.813022398157248e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 0,
+      "x": [
+        1.2987079620361328,
+        -0.7044820189476013
+      ],
+      "whitened_residual_norm": 2.53613617408359,
+      "passive": true,
+      "constitutive_residual": 3.3285211439863845e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 1,
+      "x": [
+        1.1134696006774902,
+        -0.4221975803375244
+      ],
+      "whitened_residual_norm": 2.517694881173054,
+      "passive": true,
+      "constitutive_residual": 2.9666831912274432e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 2,
+      "x": [
+        0.24972891807556152,
+        -0.3844912052154541
+      ],
+      "whitened_residual_norm": 2.566018635865366,
+      "passive": true,
+      "constitutive_residual": 3.489317159898531e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 3,
+      "x": [
+        -0.0793449878692627,
+        0.14747464656829834
+      ],
+      "whitened_residual_norm": 2.521746162106347,
+      "passive": true,
+      "constitutive_residual": 4.021841228614894e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 4,
+      "x": [
+        -0.9811004400253296,
+        1.1457834243774414
+      ],
+      "whitened_residual_norm": 2.5451776452768744,
+      "passive": true,
+      "constitutive_residual": 2.928401923231686e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 5,
+      "x": [
+        0.3752371072769165,
+        -0.1128237247467041
+      ],
+      "whitened_residual_norm": 2.5205922066028332,
+      "passive": true,
+      "constitutive_residual": 1.7237641027003422e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 6,
+      "x": [
+        1.3741369247436523,
+        -0.7886326313018799
+      ],
+      "whitened_residual_norm": 2.562436088466115,
+      "passive": true,
+      "constitutive_residual": 3.3165133098743443e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 14,
+      "draw": 7,
+      "x": [
+        0.8750112056732178,
+        -0.5216808915138245
+      ],
+      "whitened_residual_norm": 2.5258769558417304,
+      "passive": true,
+      "constitutive_residual": 3.5034052182716515e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 0,
+      "x": [
+        -0.6223878860473633,
+        -1.1071430444717407
+      ],
+      "whitened_residual_norm": 1.322541605981638,
+      "passive": true,
+      "constitutive_residual": 2.779005673353211e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 1,
+      "x": [
+        0.39039158821105957,
+        -1.188480019569397
+      ],
+      "whitened_residual_norm": 3.759061876471416,
+      "passive": true,
+      "constitutive_residual": 2.750356520063639e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 2,
+      "x": [
+        -0.8768879175186157,
+        -0.9538859128952026
+      ],
+      "whitened_residual_norm": 1.1688879642236456,
+      "passive": true,
+      "constitutive_residual": 3.554135375583772e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 3,
+      "x": [
+        0.12728238105773926,
+        -1.4556963443756104
+      ],
+      "whitened_residual_norm": 2.18179036295488,
+      "passive": true,
+      "constitutive_residual": 2.1362238725339175e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 4,
+      "x": [
+        0.0850362777709961,
+        -1.4212231636047363
+      ],
+      "whitened_residual_norm": 1.8618027400554245,
+      "passive": true,
+      "constitutive_residual": 2.867218174459004e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 5,
+      "x": [
+        -1.1443121433258057,
+        -1.1608028411865234
+      ],
+      "whitened_residual_norm": 5.9627954375532255,
+      "passive": true,
+      "constitutive_residual": 3.229960221207008e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 6,
+      "x": [
+        0.1883552074432373,
+        -1.4529224634170532
+      ],
+      "whitened_residual_norm": 1.8790553943667405,
+      "passive": true,
+      "constitutive_residual": 1.9361514701741707e-16,
+      "source_count": 2
+    },
+    {
+      "model": "mdn_memory",
+      "observation": 15,
+      "draw": 7,
+      "x": [
+        -0.04188096523284912,
+        -1.3929002285003662
+      ],
+      "whitened_residual_norm": 2.0192422953801756,
+      "passive": true,
+      "constitutive_residual": 2.4204510108492336e-16,
+      "source_count": 2
+    }
+  ],
+  "summary": {
+    "mdn": {
+      "calls": 128,
+      "median_whitened_residual": 2.485430944455966,
+      "passive_violations": 0
+    },
+    "measurement": {
+      "calls": 128,
+      "median_whitened_residual": 2.3502587938490267,
+      "passive_violations": 0
+    },
+    "mdn_state": {
+      "calls": 128,
+      "median_whitened_residual": 2.4864165341933884,
+      "passive_violations": 0
+    },
+    "mdn_memory": {
+      "calls": 128,
+      "median_whitened_residual": 2.2949459957310747,
+      "passive_violations": 0
+    }
+  }
+}

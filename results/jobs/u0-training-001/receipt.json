@@ -1,0 +1,19 @@
+{
+  "id": "u0-training-001",
+  "stage": "u0_train",
+  "status": "PASS",
+  "returncode": 0,
+  "error": null,
+  "command": [
+    "python3",
+    "-m",
+    "src.c1.train",
+    "u0"
+  ],
+  "wall_seconds": 27.627743290970102,
+  "cpu_seconds": 25.9527,
+  "gpu_seconds": 0,
+  "maxrss_raw": 334610432,
+  "scope": "child process including imports and failures",
+  "cpu_limit_at_launch": 297.249212
+}
